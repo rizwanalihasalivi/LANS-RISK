@@ -1,8 +1,8 @@
 {
-  "time": "2026-10-22T12:29:26.326306+00:00",
+  "time": "2026-10-22T12:29:58.816338+00:00",
   "counts": {
     "extended_baselines/confirmation": 440,
-    "stress_study/confirmation": 185,
+    "stress_study/confirmation": 187,
     "observation_delay_study/evaluation": 0
   },
   "sha256": {
@@ -978,8 +978,12 @@
     "working/stress_study/confirmation/denser_traffic_intersection_lans_42_5.jsonl": "4882fc81da7952bf4e74f517eb7ce7e4adfc0e91e81aadf6433a87f87ac342c0",
     "working/stress_study/confirmation/denser_traffic_intersection_lans_43_0.json": "cb7ff4512f9e5ce4c34572c0edf6f8dbbda287ec8904aa187873b16c9e505b11",
     "working/stress_study/confirmation/denser_traffic_intersection_lans_43_0.jsonl": "205b9819784a469a8d8108a325b42f8b01d39be0ea60624c1e0d20f441e69f94",
+    "working/stress_study/confirmation/denser_traffic_intersection_lans_43_10.json": "fcdd7292cd0b2e5b93156ddfc8aa29a0e42e3a092797d67a5db71b48872ba9e6",
+    "working/stress_study/confirmation/denser_traffic_intersection_lans_43_10.jsonl": "33c73992b534d352f99463aa541c358d20834f9c06820643947c1fd99fd66682",
     "working/stress_study/confirmation/denser_traffic_intersection_lans_43_5.json": "dd40d87829c2c143ed911c2bef96a2c489f33de682bbd162c21f888800ca53f1",
     "working/stress_study/confirmation/denser_traffic_intersection_lans_43_5.jsonl": "b9312646031adea21913770f98f9ef346200b4e9a1b48b65293f10123721b0c1",
+    "working/stress_study/confirmation/denser_traffic_intersection_lans_44_0.json": "57dc9d52ed1ba98137bedbd42b056d803c7aa9baaac381bdd45674255a2beade",
+    "working/stress_study/confirmation/denser_traffic_intersection_lans_44_0.jsonl": "241e0f05eb883b40881b1805dac1e354f6356c2dd554e2295b783ddf518d4a80",
     "working/stress_study/confirmation/denser_traffic_intersection_predictor_lqr_0_0.json": "b945465938e06e257334d2827f1b525cb8b15cb639659653c27408a5890063ac",
     "working/stress_study/confirmation/denser_traffic_intersection_predictor_lqr_0_0.jsonl": "9a034403758bab87d585865f7fba284e4cb7407c43c3aec518535fd83eb19650",
     "working/stress_study/confirmation/denser_traffic_intersection_predictor_lqr_0_10.json": "d8cef738c955bb80a8f45e0985d54ddbbe0f4d3c76b549eda82c318f361926f5",
