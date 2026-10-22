@@ -1,0 +1,14 @@
+{
+  "created_utc": "20261022T095112Z",
+  "archive": "/workspace/lans_backups/20261022T095112Z/LANS_RISK_26100_verified.zip",
+  "archive_bytes": 399346696,
+  "archive_sha256": "1a6f4c4133b52f93e27dffb2242aa82881b6391fa9c619bd9a74a5d90ce0643e",
+  "files": 10182,
+  "figures": 259,
+  "frozen_files_verified": 51,
+  "completed_batches": 261,
+  "completed_episodes": 26100,
+  "remaining_episodes": 17900,
+  "verified_archive_contents": true,
+  "remote_verified": false
+}
