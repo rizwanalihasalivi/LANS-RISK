@@ -1,0 +1,14 @@
+{
+  "profile": "weaker_actuation",
+  "scenario": "merge",
+  "controller": "robust_mpc",
+  "actor_seed": 0,
+  "delay_ms": 1000,
+  "count": 50,
+  "first": 161000,
+  "source_hash": "d12640874e71e62de7b3b36caedc203c61d2e56a75154025f3a08a6bfd7b4d4e",
+  "raw_sha256": "3bb78ad93b9dcab05bbf719c594040602a235f161e8a6f9bda0b89f984b33c45",
+  "collision": 2.0,
+  "completion": 98.0,
+  "corridor_completion": 28.000000000000004
+}

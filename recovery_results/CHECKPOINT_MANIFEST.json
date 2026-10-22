@@ -1,8 +1,8 @@
 {
-  "time": "2026-10-22T12:08:07.553450+00:00",
+  "time": "2026-10-22T12:08:39.667913+00:00",
   "counts": {
     "extended_baselines/confirmation": 440,
-    "stress_study/confirmation": 48,
+    "stress_study/confirmation": 49,
     "observation_delay_study/evaluation": 0
   },
   "sha256": {
@@ -980,6 +980,8 @@
     "working/stress_study/confirmation/weaker_actuation_merge_predictor_lqr_0_5.jsonl": "af04965ed0034b5df0ea568d9cf2d0a077493816fcbb822b1c0c17afb9dbe1b4",
     "working/stress_study/confirmation/weaker_actuation_merge_robust_mpc_0_0.json": "16a38c68733850680cb3ab0336010daeca939ce992c13161b7cda80067795e7c",
     "working/stress_study/confirmation/weaker_actuation_merge_robust_mpc_0_0.jsonl": "d6db9c9ffd944c92a9b66c15e3399711825325f6eff21d15b958f45163924594",
+    "working/stress_study/confirmation/weaker_actuation_merge_robust_mpc_0_10.json": "256363b4f479e7ad4d993f46292d8120902679e3d3f5c6d1c8ac2b623b158e98",
+    "working/stress_study/confirmation/weaker_actuation_merge_robust_mpc_0_10.jsonl": "3bb78ad93b9dcab05bbf719c594040602a235f161e8a6f9bda0b89f984b33c45",
     "working/stress_study/confirmation/weaker_actuation_merge_robust_mpc_0_5.json": "a63834a46b12f0257c47f627d6b14c09b1be2f8e3c80e446b328540bc5babc2e",
     "working/stress_study/confirmation/weaker_actuation_merge_robust_mpc_0_5.jsonl": "d79f54f776b68a6247bbaedf75f2096cf78b5a4dbd07b18c35b1ddf9732a534f"
   },
