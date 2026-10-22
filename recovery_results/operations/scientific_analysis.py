@@ -157,3 +157,40 @@ All condition-level estimates retain scenario, delay/profile and actor seed. Tra
 - `descriptive_metrics.csv`: Per condition and metric, count, sample SD, observed extrema/quantiles, mean and marginal95% interval. Binary quantities use fractions, not percentages. No actor-seed pooling is used for inference. `paired_tests.csv` reports paired LANS-minus-baseline effects, bootstrap intervals, raw p values and Holm p values within each study. `lans_mpc_summary.csv` averages actor-seed condition means only for display.
 ''')
  print('COMPLETE figures/runtime validation',flush=True)
+ # Publication tables retain every LANS actor separately beside the actor-free MPC baseline.
+ from matplotlib.backends.backend_pdf import PdfPages
+ import csv
+ for folder in ['extended_baselines','stress_study','observation_delay_study']:
+  with (OUT/folder/'descriptive_metrics.csv').open() as f:descriptive=list(csv.DictReader(f))
+  selected=[x for x in descriptive if x['controller'] in ['lans','mpc_nominal']]
+  lookup={(x['profile'],x['scenario'],x['controller'],x['actor_seed'],int(x['delay_ms']),x['metric']):x for x in selected}
+  rowkeys=sorted({k[:-1] for k in lookup})
+  has_rmse=any(x['metric']=='rmse' for x in selected)
+  columns=['Profile / FIFO (ms)','Controller / actor','Collision % [95% CI]','Corridor completion % [95% CI]']+(['RMSE m: mean (SD)'] if has_rmse else [])
+  tex=['% Requires booktabs and longtable. Rates and confidence intervals in percent; n per condition shown in caption.',r'\begin{longtable}{llcc'+('c' if has_rmse else '')+'}',r'\caption{'+folder.replace('_',' ')+': paired-case LANS and nominal MPC, per actor seed. Wilson95\% intervals; RMSE reports sample SD.}'+r'\\',r'\toprule',' & '.join(x.replace('%',r'\%') for x in columns)+r' \\',r'\midrule']
+  with PdfPages(OUT/folder/'publication_tables.pdf') as pdf:
+   for scenario in ['highway','merge','intersection','roundabout']:
+    table=[]
+    for profile,s,c,k,d in rowkeys:
+     if s!=scenario:continue
+     metric=lambda m:lookup[profile,s,c,k,d,m]
+     rate=lambda m:f"{100*float(metric(m)['mean']):.1f} [{100*float(metric(m)['ci95_low']):.1f}, {100*float(metric(m)['ci95_high']):.1f}]"
+     row=[profile.replace('_',' ')+f' / {d}',('LANS / '+k) if c=='lans' else 'MPC / actor-free',rate('collision'),rate('corridor_completion')]
+     if has_rmse:
+      rmse=metric('rmse');row.append(f"{float(rmse['mean']):.3f} ({float(rmse['sample_sd']):.3f})")
+     table.append(row);tex.append(' & '.join(row)+r' \\')
+    fig,ax=plt.subplots(figsize=(13,8));ax.axis('off')
+    ax.set_title(folder.replace('_',' ')+' — '+scenario+'; per-seed estimates',fontsize=13,pad=18)
+    t=ax.table(cellText=table,colLabels=columns,cellLoc='center',loc='center',colWidths=([.22,.17,.23,.25,.18] if has_rmse else [.27,.22,.25,.3]))
+    t.auto_set_font_size(False);t.set_fontsize(8);t.scale(1,1.65)
+    for (row,col),cell in t.get_celld().items():
+     cell.set_linewidth(.25)
+     if row==0:cell.set_facecolor('#e7edf3');cell.set_text_props(weight='bold')
+     elif row%2==0:cell.set_facecolor('#f4f6f8')
+    n=100 if folder=='extended_baselines' else (50 if folder=='stress_study' else 20)
+    fig.text(.5,.04,f'n={n} paired traffic cases per condition. Repeated actor seeds share traffic cases; intervals are marginal Wilson95%.\nMPC is run once per condition. RMSE SD describes episode variability; paired tests are in paired_tests.csv.',ha='center',fontsize=9)
+    fig.tight_layout(rect=(.02,.09,.98,.96));pdf.savefig(fig);plt.close(fig)
+  tex.extend([r'\bottomrule',r'\end{longtable}'])
+  (OUT/folder/'publication_tables.tex').write_text('\n'.join(tex)+'\n')
+ with (OUT/'FIGURE_CAPTIONS.md').open('a') as f:f.write('\n- `publication_tables.pdf`/`.tex` in each study: per-scenario LANS actors42/43/44 and actor-free nominal MPC tables. Each row retains its own paired traffic sample, n=100/50/20 for main/robustness/observation studies. Binary rates use marginal Wilson95% intervals. RMSE is mean (sample SD) when present; no RMSE is invented for observation delay. LaTeX requires booktabs/longtable. Tables preserve failures and do not pool actor repetitions.\n')
+ print('COMPLETE publication tables',flush=True)

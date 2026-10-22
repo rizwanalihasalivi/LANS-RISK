@@ -1,7 +1,7 @@
 {
-  "time": "2026-10-22T10:45:29.255482+00:00",
+  "time": "2026-10-22T10:46:01.832085+00:00",
   "counts": {
-    "extended_baselines/confirmation": 336,
+    "extended_baselines/confirmation": 340,
     "stress_study/confirmation": 0,
     "observation_delay_study/evaluation": 0
   },
@@ -608,6 +608,14 @@
     "working/extended_baselines/confirmation/roundabout_lans_seed44_delay700.jsonl": "35d0d2e631db914599c96b6aa167fe62144af0efeb1f8e9b90f236d5d9dd893c",
     "working/extended_baselines/confirmation/roundabout_lqr_acc_seed0_delay0.json": "940e6c9d6271a69041a09c96120df7e68c5b25701e8d83985a46dcd71ce73379",
     "working/extended_baselines/confirmation/roundabout_lqr_acc_seed0_delay0.jsonl": "c503e1288f06bd8d154e246e56d95747846a2e378952ab95f062f2db72612b66",
+    "working/extended_baselines/confirmation/roundabout_lqr_acc_seed0_delay1000.json": "69429c01c076174dbd0a4cc5fb5a77234cda1c8ccd775fdfbf7a8802924067ee",
+    "working/extended_baselines/confirmation/roundabout_lqr_acc_seed0_delay1000.jsonl": "25adc6a5706d6497bf9b660e37518462271e4cc12f1d5050b58dd07dd9b7e8fd",
+    "working/extended_baselines/confirmation/roundabout_lqr_acc_seed0_delay200.json": "de8d7e5956469e38010aea2bded2a01c9ae067c9720284a75a922124a521a5ea",
+    "working/extended_baselines/confirmation/roundabout_lqr_acc_seed0_delay200.jsonl": "b3bc0ff0b4bb44f5d244f1371031e1ddd4899be649609e9d521d92a5817a7d23",
+    "working/extended_baselines/confirmation/roundabout_lqr_acc_seed0_delay500.json": "d0fff62dc6956d66a08d687f0ee67265e42119f6ce1b795251a1130728915592",
+    "working/extended_baselines/confirmation/roundabout_lqr_acc_seed0_delay500.jsonl": "54d7bde54a5eed2424faa134827eb1999fb648c8e612aa7fff5157da3907ae04",
+    "working/extended_baselines/confirmation/roundabout_lqr_acc_seed0_delay700.json": "86f30da63d7bd23e0ebfad7bfc71153f0b1ff03216a943ba62a67b625c501d78",
+    "working/extended_baselines/confirmation/roundabout_lqr_acc_seed0_delay700.jsonl": "b2fb8c84a5cf9182c0844a888ff3531050cb7dd8bcb73717cb506b822ad09a05",
     "working/extended_baselines/confirmation/roundabout_lqr_seed0_delay0.json": "5fd7fe3e5721f43a0fe16fe3be812dbc0e386711119b7705b7bdb0444585bf1f",
     "working/extended_baselines/confirmation/roundabout_lqr_seed0_delay0.jsonl": "380fc92741b95657a5e295ac4ca6932a998a4296bcd5d977ff665caf5bc4375e",
     "working/extended_baselines/confirmation/roundabout_lqr_seed0_delay1000.json": "17cdc3b478fde3931049bf89d5485a6bab4661a88e8e82b8296b60174d4fa91e",
