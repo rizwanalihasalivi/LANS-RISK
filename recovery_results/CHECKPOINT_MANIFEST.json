@@ -1,7 +1,7 @@
 {
-  "time": "2026-10-22T11:58:33.909018+00:00",
+  "time": "2026-10-22T11:59:06.223013+00:00",
   "counts": {
-    "extended_baselines/confirmation": 436,
+    "extended_baselines/confirmation": 439,
     "stress_study/confirmation": 0,
     "observation_delay_study/evaluation": 0
   },
@@ -698,6 +698,12 @@
     "working/extended_baselines/confirmation/roundabout_cbf_seed44_delay700.jsonl": "e0c311e711eef7c4c39df5a5c7d9df2001326f647863455fa18fb12b56172f84",
     "working/extended_baselines/confirmation/roundabout_lans_no_actor_seed0_delay0.json": "3e4fdd00717cac2d6e3dd2ee96cfba0c789f1c2a826c4c4bda419c083cb38470",
     "working/extended_baselines/confirmation/roundabout_lans_no_actor_seed0_delay0.jsonl": "a83457379edd014a4b3548801bd9492346af467d343b30dde0ad1649fe6d4bf2",
+    "working/extended_baselines/confirmation/roundabout_lans_no_actor_seed0_delay200.json": "655d7e3503f856dc925e9b7a5056bff46f4826ceee4b8dbeff00dec37cedf59a",
+    "working/extended_baselines/confirmation/roundabout_lans_no_actor_seed0_delay200.jsonl": "e736686ecfe4f9e5fa1168c96710d75d8cbcd992e4ff704a01418f0b42976ffa",
+    "working/extended_baselines/confirmation/roundabout_lans_no_actor_seed0_delay500.json": "1e8f6abeaf370ee014ad2deb0f7aaf813c4d52a1efa2acb90bc98a4d67020d7c",
+    "working/extended_baselines/confirmation/roundabout_lans_no_actor_seed0_delay500.jsonl": "22bfd5d8b50273a5625b140d7bb51a6951164efff21b532e83826e38d935f57b",
+    "working/extended_baselines/confirmation/roundabout_lans_no_actor_seed0_delay700.json": "bafbfff4a7316a240ed1d5b5c12034c0e19214331a0e72180e91714d539b23fe",
+    "working/extended_baselines/confirmation/roundabout_lans_no_actor_seed0_delay700.jsonl": "58665de98d6e7dc20de87e9afa247558fc4a09375c8feb2095f927cdde976e33",
     "working/extended_baselines/confirmation/roundabout_lans_no_prediction_seed42_delay0.json": "ee09ca9fc36a3fcc1b853e9b22c9e3a55d6c1bfdfba8d640d9b14750c0633713",
     "working/extended_baselines/confirmation/roundabout_lans_no_prediction_seed42_delay0.jsonl": "a7cfb77b90487152e60c9e9c1a176d674a5c7eaffdff2980c9a03f76fbae4b83",
     "working/extended_baselines/confirmation/roundabout_lans_no_prediction_seed42_delay1000.json": "b1d57af07bdb1b2ac8ff6001b7f093191ad2fc916e37d6d41286cc01469ec6be",
