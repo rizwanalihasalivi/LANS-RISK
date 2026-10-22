@@ -1,0 +1,500 @@
+{"extended_baselines/confirmation": 269, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T10:25:05.027624+00:00", "conditions": 269, "counts": {"extended_baselines/confirmation": 269, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}, "commit": "b9eb757427b926349d758ba67431865807d21816", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 269, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"extended_baselines/confirmation": 269, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"extended_baselines/confirmation": 269, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"extended_baselines/confirmation": 269, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"extended_baselines/confirmation": 273, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"extended_baselines/confirmation": 273, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"extended_baselines/confirmation": 273, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"extended_baselines/confirmation": 273, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"extended_baselines/confirmation": 273, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"extended_baselines/confirmation": 273, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"extended_baselines/confirmation": 277, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"extended_baselines/confirmation": 277, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"extended_baselines/confirmation": 277, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"extended_baselines/confirmation": 277, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"extended_baselines/confirmation": 278, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T10:32:25.468126+00:00", "conditions": 278, "counts": {"extended_baselines/confirmation": 278, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}, "commit": "9ceb3f3dd97836b0981652f5032993e251b830eb", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 278, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"extended_baselines/confirmation": 278, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"extended_baselines/confirmation": 281, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T10:33:58.002084+00:00", "conditions": 281, "counts": {"extended_baselines/confirmation": 281, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}, "commit": "c4c77c7f0ed1c73d35a2853db72a292ead02abe4", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 282, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T10:34:30.271454+00:00", "conditions": 282, "counts": {"extended_baselines/confirmation": 282, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}, "commit": "fb35823b99249494ad171bc1571dd51439a4d862", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 282, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"extended_baselines/confirmation": 285, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T10:35:33.007035+00:00", "conditions": 285, "counts": {"extended_baselines/confirmation": 285, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}, "commit": "9fed6e89faa0d4034925a6f3c8ecf2bfe34203d1", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 285, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"extended_baselines/confirmation": 285, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"extended_baselines/confirmation": 286, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T10:37:05.550819+00:00", "conditions": 286, "counts": {"extended_baselines/confirmation": 286, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}, "commit": "d0dd113cce456e8d7db7f645411f0fee5ed5b059", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 286, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"extended_baselines/confirmation": 289, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T10:38:08.048739+00:00", "conditions": 289, "counts": {"extended_baselines/confirmation": 289, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}, "commit": "ba55c021db45faa8c00bd172196228df3ea5e04e", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 289, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"extended_baselines/confirmation": 290, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T10:39:10.209011+00:00", "conditions": 290, "counts": {"extended_baselines/confirmation": 290, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}, "commit": "18eb47135b66aecc448b3bebda01198a0773cb4e", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 293, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T10:39:42.777680+00:00", "conditions": 293, "counts": {"extended_baselines/confirmation": 293, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}, "commit": "8f6a2f4c2d1df3b6f2a9560d03e664f586764302", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 293, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"extended_baselines/confirmation": 294, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T10:40:45.301873+00:00", "conditions": 294, "counts": {"extended_baselines/confirmation": 294, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}, "commit": "16bbea9238f64dec9a224df1848c1a9f5fb9d453", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 295, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T10:41:17.626734+00:00", "conditions": 295, "counts": {"extended_baselines/confirmation": 295, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}, "commit": "fc1ea0f662ffd169dddfa5b751612ce84995d807", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 295, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"extended_baselines/confirmation": 295, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"extended_baselines/confirmation": 302, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T10:42:50.310726+00:00", "conditions": 302, "counts": {"extended_baselines/confirmation": 302, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}, "commit": "2709f3bc9ef855cb513c8cd63cc7382f3b756fb5", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 304, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T10:43:22.726690+00:00", "conditions": 304, "counts": {"extended_baselines/confirmation": 304, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}, "commit": "5f70d621a9f4a665f312b33ab0d19e353288a8f7", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 307, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T10:43:54.839490+00:00", "conditions": 307, "counts": {"extended_baselines/confirmation": 307, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}, "commit": "e4b0d5bf1da72d26b5da0ff2f1dc22e5dbb4735c", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 322, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T10:44:26.933706+00:00", "conditions": 322, "counts": {"extended_baselines/confirmation": 322, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}, "commit": "20a838bbcde0ddfea85055f663766e261437e022", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 325, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T10:44:59.125057+00:00", "conditions": 325, "counts": {"extended_baselines/confirmation": 325, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}, "commit": "f8f0d58dd5a838b025324fa5b1c9908efc0a6381", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 336, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T10:45:31.689704+00:00", "conditions": 336, "counts": {"extended_baselines/confirmation": 336, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}, "commit": "10c2738c836bbb033d7dc538f8db7972d255fb40", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 340, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T10:46:04.068558+00:00", "conditions": 340, "counts": {"extended_baselines/confirmation": 340, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}, "commit": "029814d4f9e98f539b4461f9ce87c5ae0d46d819", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 340, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"extended_baselines/confirmation": 340, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"extended_baselines/confirmation": 340, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"extended_baselines/confirmation": 340, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"extended_baselines/confirmation": 344, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T10:48:37.213261+00:00", "conditions": 344, "counts": {"extended_baselines/confirmation": 344, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}, "commit": "322fc0a8b79980bea0c53896a135bd4daee64d8c", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 344, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"extended_baselines/confirmation": 344, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"extended_baselines/confirmation": 344, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"extended_baselines/confirmation": 344, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"extended_baselines/confirmation": 348, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T10:51:09.997862+00:00", "conditions": 348, "counts": {"extended_baselines/confirmation": 348, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}, "commit": "c322cb3323631bfc69d8ce53744661ea8ce058e3", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 348, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"extended_baselines/confirmation": 348, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"extended_baselines/confirmation": 348, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"extended_baselines/confirmation": 348, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"extended_baselines/confirmation": 348, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"extended_baselines/confirmation": 352, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T10:54:13.050514+00:00", "conditions": 352, "counts": {"extended_baselines/confirmation": 352, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}, "commit": "eeaf69377189580f2e041bc713efcaf0dc68c7f9", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 352, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"extended_baselines/confirmation": 352, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"extended_baselines/confirmation": 352, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"extended_baselines/confirmation": 352, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"extended_baselines/confirmation": 355, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T10:56:45.870029+00:00", "conditions": 355, "counts": {"extended_baselines/confirmation": 355, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}, "commit": "2fdc96dd9f1397b646fb33e7d994e86d43455d74", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 356, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T10:57:18.640229+00:00", "conditions": 356, "counts": {"extended_baselines/confirmation": 356, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}, "commit": "69c52bab17a3b58b04368bb355184f9dc5b04e01", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 356, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"extended_baselines/confirmation": 356, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"extended_baselines/confirmation": 356, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"extended_baselines/confirmation": 356, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"extended_baselines/confirmation": 359, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T10:59:51.436574+00:00", "conditions": 359, "counts": {"extended_baselines/confirmation": 359, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}, "commit": "382556a86cb86fb28fa4529998ed462e58e356b1", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 359, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"extended_baselines/confirmation": 360, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T11:00:53.755793+00:00", "conditions": 360, "counts": {"extended_baselines/confirmation": 360, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}, "commit": "b495eb71c513161ac55d54c1cacfd16f1671f69f", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 360, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"extended_baselines/confirmation": 360, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"extended_baselines/confirmation": 360, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"extended_baselines/confirmation": 360, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"extended_baselines/confirmation": 363, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T11:03:26.472752+00:00", "conditions": 363, "counts": {"extended_baselines/confirmation": 363, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}, "commit": "7021dc93ee45de3ded05a29746267be7b9aade33", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 363, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"extended_baselines/confirmation": 364, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T11:04:28.872598+00:00", "conditions": 364, "counts": {"extended_baselines/confirmation": 364, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}, "commit": "99277d920192f9d327b755922a228b19c33c7de2", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 364, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"extended_baselines/confirmation": 364, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"extended_baselines/confirmation": 364, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"extended_baselines/confirmation": 364, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"extended_baselines/confirmation": 367, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T11:07:01.796022+00:00", "conditions": 367, "counts": {"extended_baselines/confirmation": 367, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}, "commit": "d84fb47b186a28bfbec1efa2157c2e524ca14986", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 368, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T11:07:33.971166+00:00", "conditions": 368, "counts": {"extended_baselines/confirmation": 368, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}, "commit": "dc01f3c478ed451e8fd7fd25d02e50777ed4a78c", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 368, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"extended_baselines/confirmation": 368, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"extended_baselines/confirmation": 369, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T11:09:06.545810+00:00", "conditions": 369, "counts": {"extended_baselines/confirmation": 369, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}, "commit": "44e1c290f08ec43e40f5cb671db6c7c9e421c026", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 370, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T11:09:38.690410+00:00", "conditions": 370, "counts": {"extended_baselines/confirmation": 370, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}, "commit": "3c4b7d5b790ebf35b44d81e43360603c315947c2", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 372, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T11:10:10.985951+00:00", "conditions": 372, "counts": {"extended_baselines/confirmation": 372, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}, "commit": "57a6e3d095bf205d7017317f7324075f3e6a4c35", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 372, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"extended_baselines/confirmation": 373, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T11:11:13.609638+00:00", "conditions": 373, "counts": {"extended_baselines/confirmation": 373, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}, "commit": "ba2d1f85b85e0f84dab18d3156131f9b1675fb9c", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 374, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T11:11:46.227481+00:00", "conditions": 374, "counts": {"extended_baselines/confirmation": 374, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}, "commit": "6c0e54612bf9660273f5faf602804a477ef81386", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 376, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T11:12:18.431240+00:00", "conditions": 376, "counts": {"extended_baselines/confirmation": 376, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}, "commit": "7ce7da6463426abd836e143a7063a380306b7c64", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 376, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"extended_baselines/confirmation": 377, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T11:13:20.568936+00:00", "conditions": 377, "counts": {"extended_baselines/confirmation": 377, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}, "commit": "d9a7764d5c04ebefaa36dfb7d8407835d9763667", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 378, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T11:13:52.928280+00:00", "conditions": 378, "counts": {"extended_baselines/confirmation": 378, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}, "commit": "9e9fbb0c25a528917325856393c42c0679dd4ed5", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 380, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T11:14:25.252696+00:00", "conditions": 380, "counts": {"extended_baselines/confirmation": 380, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}, "commit": "685f8a8702f83158253ad76b79d71345826755bc", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 380, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"extended_baselines/confirmation": 381, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T11:15:27.782402+00:00", "conditions": 381, "counts": {"extended_baselines/confirmation": 381, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}, "commit": "75ccd821d250df7389ad46cbd07d5edbf35287ba", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 382, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T11:16:00.069626+00:00", "conditions": 382, "counts": {"extended_baselines/confirmation": 382, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}, "commit": "bf2cc87efabb1a83e72f1f2d332873118194e866", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 384, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T11:16:32.410947+00:00", "conditions": 384, "counts": {"extended_baselines/confirmation": 384, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}, "commit": "fb8ffe0f8299a1ee217b142125c85e9620dd1e36", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 385, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T11:17:04.679888+00:00", "conditions": 385, "counts": {"extended_baselines/confirmation": 385, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}, "commit": "27f7c577df6170850671dffae04edff4a5d2fc28", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 385, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"extended_baselines/confirmation": 385, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"extended_baselines/confirmation": 385, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"extended_baselines/confirmation": 385, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"extended_baselines/confirmation": 385, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"extended_baselines/confirmation": 385, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"extended_baselines/confirmation": 386, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T11:20:38.124414+00:00", "conditions": 386, "counts": {"extended_baselines/confirmation": 386, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}, "commit": "1b42df4b9d4b8d1ee562dd81dc5af4c856b74759", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 388, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T11:21:10.447392+00:00", "conditions": 388, "counts": {"extended_baselines/confirmation": 388, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}, "commit": "5c41fb4b36c5e885765843743fb9a378ae5a561d", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 389, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T11:21:42.865169+00:00", "conditions": 389, "counts": {"extended_baselines/confirmation": 389, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}, "commit": "1fe890bbcad4ef9c9e1ad3629ded35146f8fe746", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 389, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"extended_baselines/confirmation": 389, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"extended_baselines/confirmation": 389, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"extended_baselines/confirmation": 389, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"extended_baselines/confirmation": 389, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"extended_baselines/confirmation": 390, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T11:24:45.900529+00:00", "conditions": 390, "counts": {"extended_baselines/confirmation": 390, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}, "commit": "1fdab848de3a445acb90698eb4ed8e9d5335c2ec", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 392, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T11:25:18.224163+00:00", "conditions": 392, "counts": {"extended_baselines/confirmation": 392, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}, "commit": "b9c26870f684dc5a6f7c4e39325f192f226e1204", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 393, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T11:25:50.755056+00:00", "conditions": 393, "counts": {"extended_baselines/confirmation": 393, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}, "commit": "bbd7cc972cdacdb5b66e3bf2e8a16f4b03800c03", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 393, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"extended_baselines/confirmation": 393, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"extended_baselines/confirmation": 393, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"extended_baselines/confirmation": 393, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"extended_baselines/confirmation": 393, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"extended_baselines/confirmation": 393, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"extended_baselines/confirmation": 394, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T11:29:24.140290+00:00", "conditions": 394, "counts": {"extended_baselines/confirmation": 394, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}, "commit": "502301a4051f3b8d89c183f15111d08e8168fbf3", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 396, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T11:29:56.526551+00:00", "conditions": 396, "counts": {"extended_baselines/confirmation": 396, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}, "commit": "5665fd45e7868525e9bfb22d75d254b6964ed05a", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 397, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T11:30:28.935683+00:00", "conditions": 397, "counts": {"extended_baselines/confirmation": 397, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}, "commit": "59b485dfc9dff98631c2f1af6b306454dbe10173", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 397, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"extended_baselines/confirmation": 397, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"extended_baselines/confirmation": 397, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"extended_baselines/confirmation": 397, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"extended_baselines/confirmation": 398, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T11:33:02.021785+00:00", "conditions": 398, "counts": {"extended_baselines/confirmation": 398, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}, "commit": "2bf195f3a3dc318bb3970be296202a9cb8cada0a", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 398, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"extended_baselines/confirmation": 401, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T11:34:04.372411+00:00", "conditions": 401, "counts": {"extended_baselines/confirmation": 401, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}, "commit": "cb6d53c83df8f1e0c3cbc2bd4530d82a32d2f9cf", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 401, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"extended_baselines/confirmation": 401, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"extended_baselines/confirmation": 401, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"extended_baselines/confirmation": 402, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T11:36:07.375617+00:00", "conditions": 402, "counts": {"extended_baselines/confirmation": 402, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}, "commit": "f151e3e9d2aae6a085633491ac219612335637a6", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 403, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T11:36:39.618313+00:00", "conditions": 403, "counts": {"extended_baselines/confirmation": 403, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}, "commit": "a34316f9e7865a2ccf5da5070b4731d7da472509", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 405, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T11:37:12.012985+00:00", "conditions": 405, "counts": {"extended_baselines/confirmation": 405, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}, "commit": "3b75d0f139a9b4be0ce18a1e6276838652bc2819", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 405, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"extended_baselines/confirmation": 405, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"extended_baselines/confirmation": 405, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"extended_baselines/confirmation": 406, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T11:39:14.786398+00:00", "conditions": 406, "counts": {"extended_baselines/confirmation": 406, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}, "commit": "91588bcb35fabc5f052b22dd9a8d06d9d2f2a0ae", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 407, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T11:39:46.908366+00:00", "conditions": 407, "counts": {"extended_baselines/confirmation": 407, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}, "commit": "08e463b3e1648e748b364176bf405ef3c89cab4f", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 409, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T11:40:19.242967+00:00", "conditions": 409, "counts": {"extended_baselines/confirmation": 409, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}, "commit": "5e4ca815b3e48a4e7253b88758599b5c47bbcd82", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 409, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"extended_baselines/confirmation": 409, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"extended_baselines/confirmation": 410, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T11:41:51.629418+00:00", "conditions": 410, "counts": {"extended_baselines/confirmation": 410, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}, "commit": "69be2d04a685e8c694c21ab551189b81a802489c", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 412, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T11:42:23.626807+00:00", "conditions": 412, "counts": {"extended_baselines/confirmation": 412, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}, "commit": "0d16bd927d4f0a70141bf6c261f521799284193d", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 413, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T11:42:55.766158+00:00", "conditions": 413, "counts": {"extended_baselines/confirmation": 413, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}, "commit": "706423cce731c2d64fd2821115cc7e1e7048d4fa", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 413, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"extended_baselines/confirmation": 414, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T11:43:58.273037+00:00", "conditions": 414, "counts": {"extended_baselines/confirmation": 414, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}, "commit": "e26735415681ba059cd53c154038f1e712c39f73", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 415, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T11:44:30.697946+00:00", "conditions": 415, "counts": {"extended_baselines/confirmation": 415, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}, "commit": "af6d3db3b200c60ca9337cf59b8b990fc73932b0", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 415, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"extended_baselines/confirmation": 415, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"extended_baselines/confirmation": 415, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"extended_baselines/confirmation": 416, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T11:46:33.856341+00:00", "conditions": 416, "counts": {"extended_baselines/confirmation": 416, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}, "commit": "102c8553814ce6a8a062e3073e01dbefb3b8e3bf", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 417, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T11:47:06.118438+00:00", "conditions": 417, "counts": {"extended_baselines/confirmation": 417, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}, "commit": "2ea629c9ce587cff037f22f485bbc372c03e5e03", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 417, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"extended_baselines/confirmation": 418, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T11:48:08.434557+00:00", "conditions": 418, "counts": {"extended_baselines/confirmation": 418, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}, "commit": "a19446e07e57ec1d164c692010425d79bbfcbee9", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 420, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T11:48:41.315544+00:00", "conditions": 420, "counts": {"extended_baselines/confirmation": 420, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}, "commit": "6708a5d6b4e3cb59fa9dc7df896c411734e79f02", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 420, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"extended_baselines/confirmation": 420, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"extended_baselines/confirmation": 421, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T11:50:14.228033+00:00", "conditions": 421, "counts": {"extended_baselines/confirmation": 421, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}, "commit": "851c527af10394cc232965ddda3da96dfe4acfca", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 424, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T11:50:46.680972+00:00", "conditions": 424, "counts": {"extended_baselines/confirmation": 424, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}, "commit": "9934249549af0fe0b3130011000f0e497f6148c4", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 424, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"extended_baselines/confirmation": 425, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T11:51:48.930346+00:00", "conditions": 425, "counts": {"extended_baselines/confirmation": 425, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}, "commit": "63bef688a2733412e566a3b26c7ce41c79ad7105", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 425, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"extended_baselines/confirmation": 426, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T11:52:51.805645+00:00", "conditions": 426, "counts": {"extended_baselines/confirmation": 426, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}, "commit": "4508747d9647afda96351118c88b9540cf602e52", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 428, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T11:53:24.055298+00:00", "conditions": 428, "counts": {"extended_baselines/confirmation": 428, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}, "commit": "39e32e6689ad2ef2b0c7245e215bbfb132ff3f79", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 428, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"extended_baselines/confirmation": 429, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T11:54:26.361843+00:00", "conditions": 429, "counts": {"extended_baselines/confirmation": 429, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}, "commit": "8aaf8b429e54ddf355abfeedd3ba72e31db623af", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 431, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T11:54:58.651003+00:00", "conditions": 431, "counts": {"extended_baselines/confirmation": 431, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}, "commit": "92172edb23f0b04667ba23159f66e40edea1a3d0", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 432, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T11:55:30.544922+00:00", "conditions": 432, "counts": {"extended_baselines/confirmation": 432, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}, "commit": "9dc1cf352bbe59b1435441c633a8211e4a45737e", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 435, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T11:56:03.035861+00:00", "conditions": 435, "counts": {"extended_baselines/confirmation": 435, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}, "commit": "5f0bc4fca816e8a3955424ddd919c3b6753d3b11", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 435, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"extended_baselines/confirmation": 435, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"extended_baselines/confirmation": 435, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"extended_baselines/confirmation": 435, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"extended_baselines/confirmation": 436, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T11:58:36.097992+00:00", "conditions": 436, "counts": {"extended_baselines/confirmation": 436, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}, "commit": "82da1fa95721099d750a65471bb6f64e3317340a", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 439, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T11:59:08.482096+00:00", "conditions": 439, "counts": {"extended_baselines/confirmation": 439, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}, "commit": "715c6a541f52ab6b99504bb961119610b9acd202", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 439, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"extended_baselines/confirmation": 439, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"extended_baselines/confirmation": 439, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T12:01:11.256446+00:00", "conditions": 440, "counts": {"extended_baselines/confirmation": 440, "stress_study/confirmation": 0, "observation_delay_study/evaluation": 0}, "commit": "68f29c7e7ca5737d8ebf413a9849a13bc1c889bf", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 11, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T12:01:43.365838+00:00", "conditions": 451, "counts": {"extended_baselines/confirmation": 440, "stress_study/confirmation": 11, "observation_delay_study/evaluation": 0}, "commit": "f7732ed45547de1e044baa2a8551d3fb99fb66a2", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 12, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T12:02:15.725564+00:00", "conditions": 452, "counts": {"extended_baselines/confirmation": 440, "stress_study/confirmation": 12, "observation_delay_study/evaluation": 0}, "commit": "3ec6b77410cdd84cf1107d824bc21911842c5ade", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 13, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T12:02:48.060870+00:00", "conditions": 453, "counts": {"extended_baselines/confirmation": 440, "stress_study/confirmation": 13, "observation_delay_study/evaluation": 0}, "commit": "cc9a33995e8eb4dd0e45a182dcaa9bac8271a77f", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 16, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T12:03:20.252042+00:00", "conditions": 456, "counts": {"extended_baselines/confirmation": 440, "stress_study/confirmation": 16, "observation_delay_study/evaluation": 0}, "commit": "8d3df143fe7ccdf6c7bd958f9a5000d8bf6c2b75", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 17, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T12:03:52.901727+00:00", "conditions": 457, "counts": {"extended_baselines/confirmation": 440, "stress_study/confirmation": 17, "observation_delay_study/evaluation": 0}, "commit": "0f8fe06311a67dba46f459c3f1d59d6e50f4cb85", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 20, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T12:04:25.126720+00:00", "conditions": 460, "counts": {"extended_baselines/confirmation": 440, "stress_study/confirmation": 20, "observation_delay_study/evaluation": 0}, "commit": "a264fbbce37c5f318ae210ae107a808f1ca336ea", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 23, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T12:04:57.523019+00:00", "conditions": 463, "counts": {"extended_baselines/confirmation": 440, "stress_study/confirmation": 23, "observation_delay_study/evaluation": 0}, "commit": "141fbe9f15b6a7a8e5bc5939c9b05fdb72313e06", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 30, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T12:05:29.875127+00:00", "conditions": 470, "counts": {"extended_baselines/confirmation": 440, "stress_study/confirmation": 30, "observation_delay_study/evaluation": 0}, "commit": "d7c750ca5e7e13046986b6bb301fe1c4ebd14b86", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 39, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T12:06:02.626912+00:00", "conditions": 479, "counts": {"extended_baselines/confirmation": 440, "stress_study/confirmation": 39, "observation_delay_study/evaluation": 0}, "commit": "7bf703af9490af5d9c154474f11ac078b5128476", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 43, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T12:06:34.738367+00:00", "conditions": 483, "counts": {"extended_baselines/confirmation": 440, "stress_study/confirmation": 43, "observation_delay_study/evaluation": 0}, "commit": "af7f9939815948adbdb7865937e769076a339388", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 45, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T12:07:07.063873+00:00", "conditions": 485, "counts": {"extended_baselines/confirmation": 440, "stress_study/confirmation": 45, "observation_delay_study/evaluation": 0}, "commit": "a35f0659d88e278430c2b5734d20da8907825c0a", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 45, "observation_delay_study/evaluation": 0}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 48, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T12:08:09.467369+00:00", "conditions": 488, "counts": {"extended_baselines/confirmation": 440, "stress_study/confirmation": 48, "observation_delay_study/evaluation": 0}, "commit": "bab249cbf2af838be2afb914dba3b644a8dc3e35", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 49, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T12:08:41.632551+00:00", "conditions": 489, "counts": {"extended_baselines/confirmation": 440, "stress_study/confirmation": 49, "observation_delay_study/evaluation": 0}, "commit": "02a3162a985737ab33171f3adb023cfab0ea7add", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 50, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T12:09:13.783808+00:00", "conditions": 490, "counts": {"extended_baselines/confirmation": 440, "stress_study/confirmation": 50, "observation_delay_study/evaluation": 0}, "commit": "26817437ffd8e8a6f2099c60247212ebdc94d274", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 53, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T12:09:45.838256+00:00", "conditions": 493, "counts": {"extended_baselines/confirmation": 440, "stress_study/confirmation": 53, "observation_delay_study/evaluation": 0}, "commit": "29af001a96dc0fa4cb63424d847752686df6c49b", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 54, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T12:10:18.701924+00:00", "conditions": 494, "counts": {"extended_baselines/confirmation": 440, "stress_study/confirmation": 54, "observation_delay_study/evaluation": 0}, "commit": "4ddad0db8517662ce964e41f2ac6271076614e10", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 57, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T12:10:50.935525+00:00", "conditions": 497, "counts": {"extended_baselines/confirmation": 440, "stress_study/confirmation": 57, "observation_delay_study/evaluation": 0}, "commit": "1b71764c6659c54b9b831e66b42aa6a810b5b601", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 61, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T12:11:23.831433+00:00", "conditions": 501, "counts": {"extended_baselines/confirmation": 440, "stress_study/confirmation": 61, "observation_delay_study/evaluation": 0}, "commit": "e3cc6b22b7cbaa01d8ab2fefe2e563658d7fc2cf", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 73, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T12:11:56.190410+00:00", "conditions": 513, "counts": {"extended_baselines/confirmation": 440, "stress_study/confirmation": 73, "observation_delay_study/evaluation": 0}, "commit": "0a29adbb8c0a34158f638b665f45ee9227efccf0", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 78, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T12:12:29.178130+00:00", "conditions": 518, "counts": {"extended_baselines/confirmation": 440, "stress_study/confirmation": 78, "observation_delay_study/evaluation": 0}, "commit": "65d6355ca369c6697f52ad25f389e64cb62d52c6", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 78, "observation_delay_study/evaluation": 0}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 82, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T12:13:31.719556+00:00", "conditions": 522, "counts": {"extended_baselines/confirmation": 440, "stress_study/confirmation": 82, "observation_delay_study/evaluation": 0}, "commit": "82d1b92856f7d642d5db0b09dc8b498e960954a7", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 86, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T12:14:04.279848+00:00", "conditions": 526, "counts": {"extended_baselines/confirmation": 440, "stress_study/confirmation": 86, "observation_delay_study/evaluation": 0}, "commit": "6959e49060d3ad2cf8f2eea8c299919c02af6c95", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 86, "observation_delay_study/evaluation": 0}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 98, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T12:15:06.891817+00:00", "conditions": 538, "counts": {"extended_baselines/confirmation": 440, "stress_study/confirmation": 98, "observation_delay_study/evaluation": 0}, "commit": "ccb8eda1582edd0328ba35adfad8663d65559988", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 105, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T12:15:39.194143+00:00", "conditions": 545, "counts": {"extended_baselines/confirmation": 440, "stress_study/confirmation": 105, "observation_delay_study/evaluation": 0}, "commit": "a88d20a3f80550faea7e55f9ebc1aa7ff4bd430a", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 111, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T12:16:11.664083+00:00", "conditions": 551, "counts": {"extended_baselines/confirmation": 440, "stress_study/confirmation": 111, "observation_delay_study/evaluation": 0}, "commit": "20de8c179bc125941946b5700aeb26481103ea92", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 111, "observation_delay_study/evaluation": 0}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 111, "observation_delay_study/evaluation": 0}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 112, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T12:17:44.506422+00:00", "conditions": 552, "counts": {"extended_baselines/confirmation": 440, "stress_study/confirmation": 112, "observation_delay_study/evaluation": 0}, "commit": "c319a9b4e0f795fe6d717b48100c9ad18c0e9494", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 115, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T12:18:16.822299+00:00", "conditions": 555, "counts": {"extended_baselines/confirmation": 440, "stress_study/confirmation": 115, "observation_delay_study/evaluation": 0}, "commit": "49065513690a3e1d65d3edff924b8082ab87eea5", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 115, "observation_delay_study/evaluation": 0}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 116, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T12:19:19.213470+00:00", "conditions": 556, "counts": {"extended_baselines/confirmation": 440, "stress_study/confirmation": 116, "observation_delay_study/evaluation": 0}, "commit": "cd0bae1ada626208356c1c67d54ae36350919bb5", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 119, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T12:19:51.705393+00:00", "conditions": 559, "counts": {"extended_baselines/confirmation": 440, "stress_study/confirmation": 119, "observation_delay_study/evaluation": 0}, "commit": "fad99a8a37ee6bddcc8ff41e5554ae9e6989abca", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 119, "observation_delay_study/evaluation": 0}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 120, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T12:20:54.287323+00:00", "conditions": 560, "counts": {"extended_baselines/confirmation": 440, "stress_study/confirmation": 120, "observation_delay_study/evaluation": 0}, "commit": "a2fbb8e4b32e079eab5a981191fffcd4e09a00dc", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 130, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T12:21:26.814104+00:00", "conditions": 570, "counts": {"extended_baselines/confirmation": 440, "stress_study/confirmation": 130, "observation_delay_study/evaluation": 0}, "commit": "0d1b9d92fbae815c42d6a8ea2d41230f0ba6afbd", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 134, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T12:21:58.854651+00:00", "conditions": 574, "counts": {"extended_baselines/confirmation": 440, "stress_study/confirmation": 134, "observation_delay_study/evaluation": 0}, "commit": "b92105cac3a621838aa8d772ed10f8c5212bf703", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 142, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T12:22:31.026724+00:00", "conditions": 582, "counts": {"extended_baselines/confirmation": 440, "stress_study/confirmation": 142, "observation_delay_study/evaluation": 0}, "commit": "18a9b9c7ea768cd51e66701a747de0e8b99189a0", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 144, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T12:23:03.394629+00:00", "conditions": 584, "counts": {"extended_baselines/confirmation": 440, "stress_study/confirmation": 144, "observation_delay_study/evaluation": 0}, "commit": "b75c2629b65fa28d10ed48452aad17c2a62bde3c", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 144, "observation_delay_study/evaluation": 0}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 148, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T12:24:05.701069+00:00", "conditions": 588, "counts": {"extended_baselines/confirmation": 440, "stress_study/confirmation": 148, "observation_delay_study/evaluation": 0}, "commit": "1bfe915bb9ffd2de5e77b27580431b8dbacd62bf", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 149, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T12:24:38.003310+00:00", "conditions": 589, "counts": {"extended_baselines/confirmation": 440, "stress_study/confirmation": 149, "observation_delay_study/evaluation": 0}, "commit": "8ae18e8b3f223ec18dce1d23f21888cda828323f", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 152, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T12:25:10.322862+00:00", "conditions": 592, "counts": {"extended_baselines/confirmation": 440, "stress_study/confirmation": 152, "observation_delay_study/evaluation": 0}, "commit": "992f2482d0d02fd5bf73cc4ecdac05cc5d514a2d", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 153, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T12:25:42.573632+00:00", "conditions": 593, "counts": {"extended_baselines/confirmation": 440, "stress_study/confirmation": 153, "observation_delay_study/evaluation": 0}, "commit": "00bfa0964f70607f8316b5bdb78269974a3253e9", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 160, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T12:26:14.621350+00:00", "conditions": 600, "counts": {"extended_baselines/confirmation": 440, "stress_study/confirmation": 160, "observation_delay_study/evaluation": 0}, "commit": "e6271e621fec9867f319faf651325934c52371e9", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 165, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T12:26:47.067624+00:00", "conditions": 605, "counts": {"extended_baselines/confirmation": 440, "stress_study/confirmation": 165, "observation_delay_study/evaluation": 0}, "commit": "4e4c0af2e6574c1d82634e2ddc46611679622c13", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 176, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T12:27:19.507149+00:00", "conditions": 616, "counts": {"extended_baselines/confirmation": 440, "stress_study/confirmation": 176, "observation_delay_study/evaluation": 0}, "commit": "1d9a4acd12605ca8801fc25a4ae3a314f39ba3f2", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 177, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T12:27:51.508442+00:00", "conditions": 617, "counts": {"extended_baselines/confirmation": 440, "stress_study/confirmation": 177, "observation_delay_study/evaluation": 0}, "commit": "b54e7371cd8e6274c390f4ed0408b8b552143b31", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 180, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T12:28:23.784526+00:00", "conditions": 620, "counts": {"extended_baselines/confirmation": 440, "stress_study/confirmation": 180, "observation_delay_study/evaluation": 0}, "commit": "e152fd18aa51b39a24be6fb0b82755b44aa5a64d", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 181, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T12:28:56.069311+00:00", "conditions": 621, "counts": {"extended_baselines/confirmation": 440, "stress_study/confirmation": 181, "observation_delay_study/evaluation": 0}, "commit": "b4fac4215cb014ae9b5804a76905874288cd63e5", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 185, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T12:29:28.611424+00:00", "conditions": 625, "counts": {"extended_baselines/confirmation": 440, "stress_study/confirmation": 185, "observation_delay_study/evaluation": 0}, "commit": "2b2f84800d205502b224645c84fffb41fa628dbe", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 187, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T12:30:00.949029+00:00", "conditions": 627, "counts": {"extended_baselines/confirmation": 440, "stress_study/confirmation": 187, "observation_delay_study/evaluation": 0}, "commit": "13b57dc804317eb56edc09a2fd2c4ba529835739", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 197, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T12:30:33.579275+00:00", "conditions": 637, "counts": {"extended_baselines/confirmation": 440, "stress_study/confirmation": 197, "observation_delay_study/evaluation": 0}, "commit": "173a88109fd72ee302cc95772b16d15721b7deb4", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 205, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T12:31:06.016103+00:00", "conditions": 645, "counts": {"extended_baselines/confirmation": 440, "stress_study/confirmation": 205, "observation_delay_study/evaluation": 0}, "commit": "685277c52eb115e129d959d0cfdb237b80e0a3a8", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 207, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T12:31:38.432214+00:00", "conditions": 647, "counts": {"extended_baselines/confirmation": 440, "stress_study/confirmation": 207, "observation_delay_study/evaluation": 0}, "commit": "16fcc019112fcc177c7f2d4ac4ac924c583ad146", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 209, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T12:32:10.905612+00:00", "conditions": 649, "counts": {"extended_baselines/confirmation": 440, "stress_study/confirmation": 209, "observation_delay_study/evaluation": 0}, "commit": "162263a43c978b9ffbc8c14bc62f059a409ddb29", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 210, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T12:32:44.263370+00:00", "conditions": 650, "counts": {"extended_baselines/confirmation": 440, "stress_study/confirmation": 210, "observation_delay_study/evaluation": 0}, "commit": "f08cc25370efb5fc0de145a5b64e8ea6d1239d45", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 210, "observation_delay_study/evaluation": 0}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 211, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T12:33:46.751468+00:00", "conditions": 651, "counts": {"extended_baselines/confirmation": 440, "stress_study/confirmation": 211, "observation_delay_study/evaluation": 0}, "commit": "7683db3b0c1a108ad1b5619a11a59c11e93738e5", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 213, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T12:34:19.048011+00:00", "conditions": 653, "counts": {"extended_baselines/confirmation": 440, "stress_study/confirmation": 213, "observation_delay_study/evaluation": 0}, "commit": "457e8c6b7d26118d521d85de471a6b64170ca32b", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 214, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T12:34:51.370301+00:00", "conditions": 654, "counts": {"extended_baselines/confirmation": 440, "stress_study/confirmation": 214, "observation_delay_study/evaluation": 0}, "commit": "d42b830bd484bd8550fd74ca9db807bb013aa721", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 214, "observation_delay_study/evaluation": 0}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 217, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T12:35:54.286119+00:00", "conditions": 657, "counts": {"extended_baselines/confirmation": 440, "stress_study/confirmation": 217, "observation_delay_study/evaluation": 0}, "commit": "fe88d33d1a1856921a6b9309878d590ab02016aa", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 218, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T12:36:26.387316+00:00", "conditions": 658, "counts": {"extended_baselines/confirmation": 440, "stress_study/confirmation": 218, "observation_delay_study/evaluation": 0}, "commit": "8426be749aa7b92ecebe51f8aeaef58a0e543da5", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 218, "observation_delay_study/evaluation": 0}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 221, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T12:37:28.989003+00:00", "conditions": 661, "counts": {"extended_baselines/confirmation": 440, "stress_study/confirmation": 221, "observation_delay_study/evaluation": 0}, "commit": "5691792a58859dbaed67af6eff6a659f90c1bb7d", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 228, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T12:38:01.476877+00:00", "conditions": 668, "counts": {"extended_baselines/confirmation": 440, "stress_study/confirmation": 228, "observation_delay_study/evaluation": 0}, "commit": "cfe0b2abefae9b8d21c896b0112ad9177afa1d39", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 228, "observation_delay_study/evaluation": 0}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 231, "observation_delay_study/evaluation": 0}
+{"time_utc": "2026-10-22T12:39:03.835467+00:00", "conditions": 671, "counts": {"extended_baselines/confirmation": 440, "stress_study/confirmation": 231, "observation_delay_study/evaluation": 0}, "commit": "47ab8acad99b6512c262e134037c9d8923525267", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 231, "observation_delay_study/evaluation": 0}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 231, "observation_delay_study/evaluation": 0}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 231, "observation_delay_study/evaluation": 0}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 231, "observation_delay_study/evaluation": 0}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 231, "observation_delay_study/evaluation": 0}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 231, "observation_delay_study/evaluation": 0}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 231, "observation_delay_study/evaluation": 5}
+{"time_utc": "2026-10-22T12:42:38.607380+00:00", "conditions": 676, "counts": {"extended_baselines/confirmation": 440, "stress_study/confirmation": 231, "observation_delay_study/evaluation": 5}, "commit": "d8bddd548dd7b5ac4634db18b77c9b1a531f3851", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 231, "observation_delay_study/evaluation": 9}
+{"time_utc": "2026-10-22T12:43:12.636262+00:00", "conditions": 680, "counts": {"extended_baselines/confirmation": 440, "stress_study/confirmation": 231, "observation_delay_study/evaluation": 9}, "commit": "5a1446db1a2004ce272519f897d7a2221f76b65c", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 231, "observation_delay_study/evaluation": 16}
+{"time_utc": "2026-10-22T12:43:44.988113+00:00", "conditions": 687, "counts": {"extended_baselines/confirmation": 440, "stress_study/confirmation": 231, "observation_delay_study/evaluation": 16}, "commit": "2a96f4ef20fc460c6d3194c86f67d6e9fdec9338", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 231, "observation_delay_study/evaluation": 24}
+{"time_utc": "2026-10-22T12:44:17.505440+00:00", "conditions": 695, "counts": {"extended_baselines/confirmation": 440, "stress_study/confirmation": 231, "observation_delay_study/evaluation": 24}, "commit": "68dd38e250771ef334d907c17ad882de9bf6d80a", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 231, "observation_delay_study/evaluation": 34}
+{"time_utc": "2026-10-22T12:44:50.133864+00:00", "conditions": 705, "counts": {"extended_baselines/confirmation": 440, "stress_study/confirmation": 231, "observation_delay_study/evaluation": 34}, "commit": "b4aea96115fca8f0f3776c71d0bf99c5f8184b19", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 231, "observation_delay_study/evaluation": 39}
+{"time_utc": "2026-10-22T12:45:22.690667+00:00", "conditions": 710, "counts": {"extended_baselines/confirmation": 440, "stress_study/confirmation": 231, "observation_delay_study/evaluation": 39}, "commit": "9a1ad82949b361256c9ded55b731131c482921ee", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 231, "observation_delay_study/evaluation": 49}
+{"time_utc": "2026-10-22T12:45:55.230460+00:00", "conditions": 720, "counts": {"extended_baselines/confirmation": 440, "stress_study/confirmation": 231, "observation_delay_study/evaluation": 49}, "commit": "c3c531ffd5f94491e69a4d81b6f1aa8d6972a7d3", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 231, "observation_delay_study/evaluation": 57}
+{"time_utc": "2026-10-22T12:46:28.501339+00:00", "conditions": 728, "counts": {"extended_baselines/confirmation": 440, "stress_study/confirmation": 231, "observation_delay_study/evaluation": 57}, "commit": "7ccad83f360f70199ccd54ae0c1e7ac583413c09", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 231, "observation_delay_study/evaluation": 62}
+{"time_utc": "2026-10-22T12:47:01.935982+00:00", "conditions": 733, "counts": {"extended_baselines/confirmation": 440, "stress_study/confirmation": 231, "observation_delay_study/evaluation": 62}, "commit": "33b1876f72c5f6384c7839318793135b5b6df1cc", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 231, "observation_delay_study/evaluation": 69}
+{"time_utc": "2026-10-22T12:47:35.027388+00:00", "conditions": 740, "counts": {"extended_baselines/confirmation": 440, "stress_study/confirmation": 231, "observation_delay_study/evaluation": 69}, "commit": "5369861fd8d1ac933ca32856fc96d0a9ac706989", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 231, "observation_delay_study/evaluation": 74}
+{"time_utc": "2026-10-22T12:48:08.510531+00:00", "conditions": 745, "counts": {"extended_baselines/confirmation": 440, "stress_study/confirmation": 231, "observation_delay_study/evaluation": 74}, "commit": "59954ea7ff314f262d3c83e335cc6db4c390cb89", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 231, "observation_delay_study/evaluation": 79}
+{"time_utc": "2026-10-22T12:48:40.749682+00:00", "conditions": 750, "counts": {"extended_baselines/confirmation": 440, "stress_study/confirmation": 231, "observation_delay_study/evaluation": 79}, "commit": "6eb15879a39b76eb793e60aadf8760b920282d04", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 231, "observation_delay_study/evaluation": 87}
+{"time_utc": "2026-10-22T12:49:13.377406+00:00", "conditions": 758, "counts": {"extended_baselines/confirmation": 440, "stress_study/confirmation": 231, "observation_delay_study/evaluation": 87}, "commit": "eb383a1f77237b11462100a314ea2f0e74532bfe", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 231, "observation_delay_study/evaluation": 90}
+{"time_utc": "2026-10-22T12:49:45.966737+00:00", "conditions": 761, "counts": {"extended_baselines/confirmation": 440, "stress_study/confirmation": 231, "observation_delay_study/evaluation": 90}, "commit": "95c622986189a4dc339f6796d1de373ce9f3eee1", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 231, "observation_delay_study/evaluation": 99}
+{"time_utc": "2026-10-22T12:50:18.822806+00:00", "conditions": 770, "counts": {"extended_baselines/confirmation": 440, "stress_study/confirmation": 231, "observation_delay_study/evaluation": 99}, "commit": "61c35b3cb53d98a17d911c699db88ef61ae6ce94", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 231, "observation_delay_study/evaluation": 109}
+{"time_utc": "2026-10-22T12:50:51.503433+00:00", "conditions": 780, "counts": {"extended_baselines/confirmation": 440, "stress_study/confirmation": 231, "observation_delay_study/evaluation": 109}, "commit": "c7c659acbe4ba20196d98d653e3221a55b760312", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 231, "observation_delay_study/evaluation": 115}
+{"time_utc": "2026-10-22T12:51:24.378346+00:00", "conditions": 786, "counts": {"extended_baselines/confirmation": 440, "stress_study/confirmation": 231, "observation_delay_study/evaluation": 115}, "commit": "f3314240fcc96c18036ee9fa783043fbd158933d", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 231, "observation_delay_study/evaluation": 121}
+{"time_utc": "2026-10-22T12:51:56.878648+00:00", "conditions": 792, "counts": {"extended_baselines/confirmation": 440, "stress_study/confirmation": 231, "observation_delay_study/evaluation": 121}, "commit": "ef176a6928c17781db0773281b07e92d80b09be4", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 231, "observation_delay_study/evaluation": 129}
+{"time_utc": "2026-10-22T12:52:29.421123+00:00", "conditions": 800, "counts": {"extended_baselines/confirmation": 440, "stress_study/confirmation": 231, "observation_delay_study/evaluation": 129}, "commit": "4c28dc466e9a06636664117e0dc8b4ad86d08d20", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 231, "observation_delay_study/evaluation": 135}
+{"time_utc": "2026-10-22T12:53:02.124756+00:00", "conditions": 806, "counts": {"extended_baselines/confirmation": 440, "stress_study/confirmation": 231, "observation_delay_study/evaluation": 135}, "commit": "aaa0b35ef213fe88dbeb240303d1ac94be0f4669", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 231, "observation_delay_study/evaluation": 142}
+{"time_utc": "2026-10-22T12:53:34.856897+00:00", "conditions": 813, "counts": {"extended_baselines/confirmation": 440, "stress_study/confirmation": 231, "observation_delay_study/evaluation": 142}, "commit": "df5772a254ce4d28858c4fc1b70eb1ced6b8c77e", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 231, "observation_delay_study/evaluation": 149}
+{"time_utc": "2026-10-22T12:54:07.410355+00:00", "conditions": 820, "counts": {"extended_baselines/confirmation": 440, "stress_study/confirmation": 231, "observation_delay_study/evaluation": 149}, "commit": "407b99aab12cd11168373d14051a7760f540cb7e", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 231, "observation_delay_study/evaluation": 158}
+{"time_utc": "2026-10-22T12:54:40.671801+00:00", "conditions": 829, "counts": {"extended_baselines/confirmation": 440, "stress_study/confirmation": 231, "observation_delay_study/evaluation": 158}, "commit": "0012902e1f5832b6aa446e6e0d059069e959be93", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 231, "observation_delay_study/evaluation": 163}
+{"time_utc": "2026-10-22T12:55:14.108070+00:00", "conditions": 834, "counts": {"extended_baselines/confirmation": 440, "stress_study/confirmation": 231, "observation_delay_study/evaluation": 163}, "commit": "08fa166de83560da2200e77412f2af0e0278489e", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 231, "observation_delay_study/evaluation": 169}
+{"time_utc": "2026-10-22T12:55:46.430525+00:00", "conditions": 840, "counts": {"extended_baselines/confirmation": 440, "stress_study/confirmation": 231, "observation_delay_study/evaluation": 169}, "commit": "6d65c5a92206b67ff64b78b6df8ac75aee2f15ed", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 231, "observation_delay_study/evaluation": 178}
+{"time_utc": "2026-10-22T12:56:18.784809+00:00", "conditions": 849, "counts": {"extended_baselines/confirmation": 440, "stress_study/confirmation": 231, "observation_delay_study/evaluation": 178}, "commit": "ce580edc830ccb4d7ed026a8127d43e670c08266", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 231, "observation_delay_study/evaluation": 188}
+{"time_utc": "2026-10-22T12:56:52.102823+00:00", "conditions": 859, "counts": {"extended_baselines/confirmation": 440, "stress_study/confirmation": 231, "observation_delay_study/evaluation": 188}, "commit": "ac58302217aa82777f8251c63e5dce1a66ede9a9", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 231, "observation_delay_study/evaluation": 190}
+{"time_utc": "2026-10-22T12:57:24.928692+00:00", "conditions": 861, "counts": {"extended_baselines/confirmation": 440, "stress_study/confirmation": 231, "observation_delay_study/evaluation": 190}, "commit": "2859eafcc7ae70ea8e2f9b17e029e5aeee6c0304", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 231, "observation_delay_study/evaluation": 199}
+{"time_utc": "2026-10-22T12:57:57.338711+00:00", "conditions": 870, "counts": {"extended_baselines/confirmation": 440, "stress_study/confirmation": 231, "observation_delay_study/evaluation": 199}, "commit": "246b45aaed2dc3b1fe8474b5ea4348706b74400e", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 231, "observation_delay_study/evaluation": 200}
+{"time_utc": "2026-10-22T12:58:29.986924+00:00", "conditions": 871, "counts": {"extended_baselines/confirmation": 440, "stress_study/confirmation": 231, "observation_delay_study/evaluation": 200}, "commit": "bdf716aac5b7349473a17309e916f0d12e57bc1f", "remote_ref_verified": true, "branch": "backup/recovery-remaining-20261022T102500Z"}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 231, "observation_delay_study/evaluation": 200}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 231, "observation_delay_study/evaluation": 200}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 231, "observation_delay_study/evaluation": 200}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 231, "observation_delay_study/evaluation": 200}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 231, "observation_delay_study/evaluation": 200}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 231, "observation_delay_study/evaluation": 200}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 231, "observation_delay_study/evaluation": 200}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 231, "observation_delay_study/evaluation": 200}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 231, "observation_delay_study/evaluation": 200}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 231, "observation_delay_study/evaluation": 200}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 231, "observation_delay_study/evaluation": 200}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 231, "observation_delay_study/evaluation": 200}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 231, "observation_delay_study/evaluation": 200}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 231, "observation_delay_study/evaluation": 200}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 231, "observation_delay_study/evaluation": 200}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 231, "observation_delay_study/evaluation": 200}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 231, "observation_delay_study/evaluation": 200}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 231, "observation_delay_study/evaluation": 200}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 231, "observation_delay_study/evaluation": 200}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 231, "observation_delay_study/evaluation": 200}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 231, "observation_delay_study/evaluation": 200}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 231, "observation_delay_study/evaluation": 200}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 231, "observation_delay_study/evaluation": 200}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 231, "observation_delay_study/evaluation": 200}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 231, "observation_delay_study/evaluation": 200}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 231, "observation_delay_study/evaluation": 200}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 231, "observation_delay_study/evaluation": 200}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 231, "observation_delay_study/evaluation": 200}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 231, "observation_delay_study/evaluation": 200}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 231, "observation_delay_study/evaluation": 200}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 231, "observation_delay_study/evaluation": 200}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 231, "observation_delay_study/evaluation": 200}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 231, "observation_delay_study/evaluation": 200}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 231, "observation_delay_study/evaluation": 200}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 231, "observation_delay_study/evaluation": 200}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 231, "observation_delay_study/evaluation": 200}
+{"extended_baselines/confirmation": 440, "stress_study/confirmation": 231, "observation_delay_study/evaluation": 200}

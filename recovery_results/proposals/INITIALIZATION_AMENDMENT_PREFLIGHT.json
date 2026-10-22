@@ -1,0 +1,411 @@
+{
+  "status": "PROPOSAL_ONLY_NOT_APPLIED",
+  "tested_seeds": 50,
+  "accepted": 50,
+  "original_failures": 15,
+  "unchanged_original_success_cases": 35,
+  "candidate_sha256": "e31d446b0c301aa89bb837bd59e0582346f7b2d5db501816e123aa0814bfc890",
+  "source_sha256": "2b4c33461e18e1bb893398da0ccc7ab8459de52186b1d93e500f058227abcdbf",
+  "results": [
+    {
+      "seed": 161000,
+      "accepted": true,
+      "minimum_initial_pair_distance_m": 6.849634043946386,
+      "original_limit_exhausted": true,
+      "identical_to_original_when_original_accepts": null,
+      "preflight_seconds": 3.2739320269993186
+    },
+    {
+      "seed": 161001,
+      "accepted": true,
+      "minimum_initial_pair_distance_m": 6.546734153880264,
+      "original_limit_exhausted": false,
+      "identical_to_original_when_original_accepts": true,
+      "preflight_seconds": 2.877514345000236
+    },
+    {
+      "seed": 161002,
+      "accepted": true,
+      "minimum_initial_pair_distance_m": 6.442960763788553,
+      "original_limit_exhausted": false,
+      "identical_to_original_when_original_accepts": true,
+      "preflight_seconds": 1.5466854750011407
+    },
+    {
+      "seed": 161003,
+      "accepted": true,
+      "minimum_initial_pair_distance_m": 6.653287131627153,
+      "original_limit_exhausted": true,
+      "identical_to_original_when_original_accepts": null,
+      "preflight_seconds": 5.90835506700023
+    },
+    {
+      "seed": 161004,
+      "accepted": true,
+      "minimum_initial_pair_distance_m": 6.8560716785686715,
+      "original_limit_exhausted": true,
+      "identical_to_original_when_original_accepts": null,
+      "preflight_seconds": 3.661825402999966
+    },
+    {
+      "seed": 161005,
+      "accepted": true,
+      "minimum_initial_pair_distance_m": 6.260565884834559,
+      "original_limit_exhausted": false,
+      "identical_to_original_when_original_accepts": true,
+      "preflight_seconds": 3.1879172600001766
+    },
+    {
+      "seed": 161006,
+      "accepted": true,
+      "minimum_initial_pair_distance_m": 6.555927255762274,
+      "original_limit_exhausted": false,
+      "identical_to_original_when_original_accepts": true,
+      "preflight_seconds": 1.1810688380010106
+    },
+    {
+      "seed": 161007,
+      "accepted": true,
+      "minimum_initial_pair_distance_m": 7.623449223104507,
+      "original_limit_exhausted": false,
+      "identical_to_original_when_original_accepts": true,
+      "preflight_seconds": 0.7763121410007443
+    },
+    {
+      "seed": 161008,
+      "accepted": true,
+      "minimum_initial_pair_distance_m": 6.952008228490329,
+      "original_limit_exhausted": false,
+      "identical_to_original_when_original_accepts": true,
+      "preflight_seconds": 1.6195223119993898
+    },
+    {
+      "seed": 161009,
+      "accepted": true,
+      "minimum_initial_pair_distance_m": 6.6975060140409886,
+      "original_limit_exhausted": true,
+      "identical_to_original_when_original_accepts": null,
+      "preflight_seconds": 3.0795924559988634
+    },
+    {
+      "seed": 161010,
+      "accepted": true,
+      "minimum_initial_pair_distance_m": 6.131847324985975,
+      "original_limit_exhausted": false,
+      "identical_to_original_when_original_accepts": true,
+      "preflight_seconds": 2.5439283839987183
+    },
+    {
+      "seed": 161011,
+      "accepted": true,
+      "minimum_initial_pair_distance_m": 6.1179341183845155,
+      "original_limit_exhausted": false,
+      "identical_to_original_when_original_accepts": true,
+      "preflight_seconds": 1.0824845520000963
+    },
+    {
+      "seed": 161012,
+      "accepted": true,
+      "minimum_initial_pair_distance_m": 6.357393473283192,
+      "original_limit_exhausted": false,
+      "identical_to_original_when_original_accepts": true,
+      "preflight_seconds": 0.28959739099991566
+    },
+    {
+      "seed": 161013,
+      "accepted": true,
+      "minimum_initial_pair_distance_m": 6.5498126851997975,
+      "original_limit_exhausted": false,
+      "identical_to_original_when_original_accepts": true,
+      "preflight_seconds": 0.9178206969991152
+    },
+    {
+      "seed": 161014,
+      "accepted": true,
+      "minimum_initial_pair_distance_m": 6.617775722601747,
+      "original_limit_exhausted": false,
+      "identical_to_original_when_original_accepts": true,
+      "preflight_seconds": 3.8166942360003304
+    },
+    {
+      "seed": 161015,
+      "accepted": true,
+      "minimum_initial_pair_distance_m": 6.153380370000013,
+      "original_limit_exhausted": true,
+      "identical_to_original_when_original_accepts": null,
+      "preflight_seconds": 6.29406927799937
+    },
+    {
+      "seed": 161016,
+      "accepted": true,
+      "minimum_initial_pair_distance_m": 6.1746588883437346,
+      "original_limit_exhausted": false,
+      "identical_to_original_when_original_accepts": true,
+      "preflight_seconds": 1.278906769999594
+    },
+    {
+      "seed": 161017,
+      "accepted": true,
+      "minimum_initial_pair_distance_m": 6.0527834903900795,
+      "original_limit_exhausted": true,
+      "identical_to_original_when_original_accepts": null,
+      "preflight_seconds": 3.4021594080004434
+    },
+    {
+      "seed": 161018,
+      "accepted": true,
+      "minimum_initial_pair_distance_m": 6.873515341248563,
+      "original_limit_exhausted": false,
+      "identical_to_original_when_original_accepts": true,
+      "preflight_seconds": 0.9861656540015247
+    },
+    {
+      "seed": 161019,
+      "accepted": true,
+      "minimum_initial_pair_distance_m": 7.249563797288584,
+      "original_limit_exhausted": true,
+      "identical_to_original_when_original_accepts": null,
+      "preflight_seconds": 5.323300056999869
+    },
+    {
+      "seed": 161020,
+      "accepted": true,
+      "minimum_initial_pair_distance_m": 6.720176924539585,
+      "original_limit_exhausted": false,
+      "identical_to_original_when_original_accepts": true,
+      "preflight_seconds": 0.4857669769990025
+    },
+    {
+      "seed": 161021,
+      "accepted": true,
+      "minimum_initial_pair_distance_m": 6.04175002521036,
+      "original_limit_exhausted": false,
+      "identical_to_original_when_original_accepts": true,
+      "preflight_seconds": 2.075173318000452
+    },
+    {
+      "seed": 161022,
+      "accepted": true,
+      "minimum_initial_pair_distance_m": 6.606399171441799,
+      "original_limit_exhausted": true,
+      "identical_to_original_when_original_accepts": null,
+      "preflight_seconds": 3.548268131999066
+    },
+    {
+      "seed": 161023,
+      "accepted": true,
+      "minimum_initial_pair_distance_m": 6.03657828806441,
+      "original_limit_exhausted": false,
+      "identical_to_original_when_original_accepts": true,
+      "preflight_seconds": 2.194555993999529
+    },
+    {
+      "seed": 161024,
+      "accepted": true,
+      "minimum_initial_pair_distance_m": 6.362649905294952,
+      "original_limit_exhausted": false,
+      "identical_to_original_when_original_accepts": true,
+      "preflight_seconds": 1.0874455140001373
+    },
+    {
+      "seed": 161025,
+      "accepted": true,
+      "minimum_initial_pair_distance_m": 6.1737939019557615,
+      "original_limit_exhausted": false,
+      "identical_to_original_when_original_accepts": true,
+      "preflight_seconds": 0.36784840500149585
+    },
+    {
+      "seed": 161026,
+      "accepted": true,
+      "minimum_initial_pair_distance_m": 6.252280545526891,
+      "original_limit_exhausted": true,
+      "identical_to_original_when_original_accepts": null,
+      "preflight_seconds": 3.2357303650005633
+    },
+    {
+      "seed": 161027,
+      "accepted": true,
+      "minimum_initial_pair_distance_m": 6.392949992191919,
+      "original_limit_exhausted": false,
+      "identical_to_original_when_original_accepts": true,
+      "preflight_seconds": 1.1719480949996068
+    },
+    {
+      "seed": 161028,
+      "accepted": true,
+      "minimum_initial_pair_distance_m": 6.0971466091148745,
+      "original_limit_exhausted": true,
+      "identical_to_original_when_original_accepts": null,
+      "preflight_seconds": 9.090809740000623
+    },
+    {
+      "seed": 161029,
+      "accepted": true,
+      "minimum_initial_pair_distance_m": 6.6725825713486016,
+      "original_limit_exhausted": false,
+      "identical_to_original_when_original_accepts": true,
+      "preflight_seconds": 4.468386913000359
+    },
+    {
+      "seed": 161030,
+      "accepted": true,
+      "minimum_initial_pair_distance_m": 6.951901258324197,
+      "original_limit_exhausted": true,
+      "identical_to_original_when_original_accepts": null,
+      "preflight_seconds": 2.9535622080002213
+    },
+    {
+      "seed": 161031,
+      "accepted": true,
+      "minimum_initial_pair_distance_m": 6.245419114386064,
+      "original_limit_exhausted": false,
+      "identical_to_original_when_original_accepts": true,
+      "preflight_seconds": 1.9192449709989887
+    },
+    {
+      "seed": 161032,
+      "accepted": true,
+      "minimum_initial_pair_distance_m": 6.174557892558714,
+      "original_limit_exhausted": true,
+      "identical_to_original_when_original_accepts": null,
+      "preflight_seconds": 3.103837347998706
+    },
+    {
+      "seed": 161033,
+      "accepted": true,
+      "minimum_initial_pair_distance_m": 6.6240576588704005,
+      "original_limit_exhausted": false,
+      "identical_to_original_when_original_accepts": true,
+      "preflight_seconds": 3.2028197899999213
+    },
+    {
+      "seed": 161034,
+      "accepted": true,
+      "minimum_initial_pair_distance_m": 6.083190366286127,
+      "original_limit_exhausted": false,
+      "identical_to_original_when_original_accepts": true,
+      "preflight_seconds": 0.4596746629995323
+    },
+    {
+      "seed": 161035,
+      "accepted": true,
+      "minimum_initial_pair_distance_m": 6.716628220607651,
+      "original_limit_exhausted": false,
+      "identical_to_original_when_original_accepts": true,
+      "preflight_seconds": 5.148864287999459
+    },
+    {
+      "seed": 161036,
+      "accepted": true,
+      "minimum_initial_pair_distance_m": 6.580929730009642,
+      "original_limit_exhausted": false,
+      "identical_to_original_when_original_accepts": true,
+      "preflight_seconds": 0.34182859799875587
+    },
+    {
+      "seed": 161037,
+      "accepted": true,
+      "minimum_initial_pair_distance_m": 6.084533102525569,
+      "original_limit_exhausted": false,
+      "identical_to_original_when_original_accepts": true,
+      "preflight_seconds": 1.3195658240001649
+    },
+    {
+      "seed": 161038,
+      "accepted": true,
+      "minimum_initial_pair_distance_m": 6.255715924030706,
+      "original_limit_exhausted": false,
+      "identical_to_original_when_original_accepts": true,
+      "preflight_seconds": 2.2684646140005498
+    },
+    {
+      "seed": 161039,
+      "accepted": true,
+      "minimum_initial_pair_distance_m": 6.207094321155606,
+      "original_limit_exhausted": false,
+      "identical_to_original_when_original_accepts": true,
+      "preflight_seconds": 2.4473977540001215
+    },
+    {
+      "seed": 161040,
+      "accepted": true,
+      "minimum_initial_pair_distance_m": 7.012309104604922,
+      "original_limit_exhausted": false,
+      "identical_to_original_when_original_accepts": true,
+      "preflight_seconds": 1.0135784670001158
+    },
+    {
+      "seed": 161041,
+      "accepted": true,
+      "minimum_initial_pair_distance_m": 6.224530567120524,
+      "original_limit_exhausted": false,
+      "identical_to_original_when_original_accepts": true,
+      "preflight_seconds": 0.7124699599989981
+    },
+    {
+      "seed": 161042,
+      "accepted": true,
+      "minimum_initial_pair_distance_m": 6.01158535651741,
+      "original_limit_exhausted": false,
+      "identical_to_original_when_original_accepts": true,
+      "preflight_seconds": 3.902087341000879
+    },
+    {
+      "seed": 161043,
+      "accepted": true,
+      "minimum_initial_pair_distance_m": 6.350001307675423,
+      "original_limit_exhausted": true,
+      "identical_to_original_when_original_accepts": null,
+      "preflight_seconds": 4.191392615999575
+    },
+    {
+      "seed": 161044,
+      "accepted": true,
+      "minimum_initial_pair_distance_m": 6.113217068625026,
+      "original_limit_exhausted": false,
+      "identical_to_original_when_original_accepts": true,
+      "preflight_seconds": 3.84468954499971
+    },
+    {
+      "seed": 161045,
+      "accepted": true,
+      "minimum_initial_pair_distance_m": 6.277300515411646,
+      "original_limit_exhausted": true,
+      "identical_to_original_when_original_accepts": null,
+      "preflight_seconds": 2.639691643998958
+    },
+    {
+      "seed": 161046,
+      "accepted": true,
+      "minimum_initial_pair_distance_m": 6.2038278737460395,
+      "original_limit_exhausted": true,
+      "identical_to_original_when_original_accepts": null,
+      "preflight_seconds": 3.097466446999533
+    },
+    {
+      "seed": 161047,
+      "accepted": true,
+      "minimum_initial_pair_distance_m": 6.211529570561522,
+      "original_limit_exhausted": false,
+      "identical_to_original_when_original_accepts": true,
+      "preflight_seconds": 4.999573668999801
+    },
+    {
+      "seed": 161048,
+      "accepted": true,
+      "minimum_initial_pair_distance_m": 6.465482070493174,
+      "original_limit_exhausted": false,
+      "identical_to_original_when_original_accepts": true,
+      "preflight_seconds": 0.8188189729989972
+    },
+    {
+      "seed": 161049,
+      "accepted": true,
+      "minimum_initial_pair_distance_m": 6.469669221405505,
+      "original_limit_exhausted": false,
+      "identical_to_original_when_original_accepts": true,
+      "preflight_seconds": 2.0912176340007136
+    }
+  ]
+}
