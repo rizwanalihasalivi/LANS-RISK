@@ -1,7 +1,7 @@
 {
-  "time": "2026-10-22T11:29:54.332540+00:00",
+  "time": "2026-10-22T11:30:26.709649+00:00",
   "counts": {
-    "extended_baselines/confirmation": 396,
+    "extended_baselines/confirmation": 397,
     "stress_study/confirmation": 0,
     "observation_delay_study/evaluation": 0
   },
@@ -788,6 +788,8 @@
     "working/extended_baselines/confirmation/roundabout_robust_lans_seed43_delay700.jsonl": "fffcbd1cfacbd3c66c73ada6a7ccbce293b1d9e711e2c9e7175d7e61bd6a4164",
     "working/extended_baselines/confirmation/roundabout_robust_lans_seed44_delay0.json": "d17e774441536231d4d77fc6b65576326f136a8498117bc470dbe185ab1b680f",
     "working/extended_baselines/confirmation/roundabout_robust_lans_seed44_delay0.jsonl": "e375796296dcca3cac93cab7daa23d515e8a12b7924de2ef13d32bc0d4f3f6a3",
+    "working/extended_baselines/confirmation/roundabout_robust_lans_seed44_delay200.json": "527c33d9ce8deee4789cb0d02052c9ed0997c9252667fb5d5e693454f1b5c309",
+    "working/extended_baselines/confirmation/roundabout_robust_lans_seed44_delay200.jsonl": "b5707e068f502d3abcf336b7d88850b5e7db057a775d6d563299b7ec9ba5c895",
     "working/extended_baselines/confirmation/roundabout_robust_mpc_seed0_delay0.json": "9a7604245e1c6bb5ae9e1f2959a1566249fffa73b3329450c85d2178cb949962",
     "working/extended_baselines/confirmation/roundabout_robust_mpc_seed0_delay0.jsonl": "725014dc671c5b3e59e6c32c8ff3329c85936a86f3f4f52df7ce874c7028b2b8",
     "working/extended_baselines/confirmation/roundabout_robust_mpc_seed0_delay1000.json": "f7da56b6ff6a4dd8cbf2c0d3c8ef921c62b8491ce85bff8b3a76ab91647d9bf7",
