@@ -21,7 +21,7 @@ with (OP/'remaining.lock').open('w') as lock:
  run('stress-smoke',['working/stress_study/experiment.py','--stage','smoke','--workers','1'])
  run('stress-confirmation',['working/stress_study/experiment.py','--stage','confirmation','--workers','4'])
  audit('stress_study','confirmation')
- run('runtime',['working/publication_tools/runtime_profile.py'])
+ run('runtime',[str(OP/'runtime_with_raw.py')])
  run('observation-smoke',['working/observation_delay_study/run_study.py','--stage','smoke','--workers','1'])
  run('observation-evaluation',['working/observation_delay_study/run_study.py','--stage','evaluation','--workers','4'])
  audit('observation_delay_study','evaluation')

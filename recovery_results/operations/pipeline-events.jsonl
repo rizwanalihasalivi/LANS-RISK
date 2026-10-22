@@ -1,0 +1,5 @@
+{"time": "2026-10-22T12:00:54.822829+00:00", "stage": "confirmation-analysis", "status": "start", "command": ["working/analyze_extended.py", "confirmation"], "cwd": "/workspace/recovery/restored/LANS-RISK"}
+{"time": "2026-10-22T12:01:00.955056+00:00", "stage": "confirmation-analysis", "status": "exit", "exit_code": 0}
+{"time": "2026-10-22T12:01:00.955150+00:00", "stage": "stress-smoke", "status": "start", "command": ["working/stress_study/experiment.py", "--stage", "smoke", "--workers", "1"], "cwd": "/workspace/recovery/restored/LANS-RISK"}
+{"time": "2026-10-22T12:01:03.604729+00:00", "stage": "stress-smoke", "status": "exit", "exit_code": 0}
+{"time": "2026-10-22T12:01:03.604819+00:00", "stage": "stress-confirmation", "status": "start", "command": ["working/stress_study/experiment.py", "--stage", "confirmation", "--workers", "4"], "cwd": "/workspace/recovery/restored/LANS-RISK"}

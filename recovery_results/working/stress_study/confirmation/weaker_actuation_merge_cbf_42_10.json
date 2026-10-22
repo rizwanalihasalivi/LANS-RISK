@@ -1,0 +1,14 @@
+{
+  "profile": "weaker_actuation",
+  "scenario": "merge",
+  "controller": "cbf",
+  "actor_seed": 42,
+  "delay_ms": 1000,
+  "count": 50,
+  "first": 161000,
+  "source_hash": "d12640874e71e62de7b3b36caedc203c61d2e56a75154025f3a08a6bfd7b4d4e",
+  "raw_sha256": "5122369ad42a835c4c01b4b6a2d1573d9fbdba69b2901d90cb6e66789f3a4cda",
+  "collision": 8.0,
+  "completion": 86.0,
+  "corridor_completion": 18.0
+}

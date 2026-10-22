@@ -1,0 +1,3173 @@
+{
+  "valid_batches": 261,
+  "valid_episodes": 26100,
+  "remaining_batches": 179,
+  "remaining_episodes": 17900,
+  "expected_keys": [
+    [
+      "highway",
+      "cbf",
+      42,
+      0
+    ],
+    [
+      "highway",
+      "cbf",
+      42,
+      200
+    ],
+    [
+      "highway",
+      "cbf",
+      42,
+      500
+    ],
+    [
+      "highway",
+      "cbf",
+      42,
+      700
+    ],
+    [
+      "highway",
+      "cbf",
+      42,
+      1000
+    ],
+    [
+      "highway",
+      "cbf",
+      43,
+      0
+    ],
+    [
+      "highway",
+      "cbf",
+      43,
+      200
+    ],
+    [
+      "highway",
+      "cbf",
+      43,
+      500
+    ],
+    [
+      "highway",
+      "cbf",
+      43,
+      700
+    ],
+    [
+      "highway",
+      "cbf",
+      43,
+      1000
+    ],
+    [
+      "highway",
+      "cbf",
+      44,
+      0
+    ],
+    [
+      "highway",
+      "cbf",
+      44,
+      200
+    ],
+    [
+      "highway",
+      "cbf",
+      44,
+      500
+    ],
+    [
+      "highway",
+      "cbf",
+      44,
+      700
+    ],
+    [
+      "highway",
+      "cbf",
+      44,
+      1000
+    ],
+    [
+      "highway",
+      "lans",
+      42,
+      0
+    ],
+    [
+      "highway",
+      "lans",
+      42,
+      200
+    ],
+    [
+      "highway",
+      "lans",
+      42,
+      500
+    ],
+    [
+      "highway",
+      "lans",
+      42,
+      700
+    ],
+    [
+      "highway",
+      "lans",
+      42,
+      1000
+    ],
+    [
+      "highway",
+      "lans",
+      43,
+      0
+    ],
+    [
+      "highway",
+      "lans",
+      43,
+      200
+    ],
+    [
+      "highway",
+      "lans",
+      43,
+      500
+    ],
+    [
+      "highway",
+      "lans",
+      43,
+      700
+    ],
+    [
+      "highway",
+      "lans",
+      43,
+      1000
+    ],
+    [
+      "highway",
+      "lans",
+      44,
+      0
+    ],
+    [
+      "highway",
+      "lans",
+      44,
+      200
+    ],
+    [
+      "highway",
+      "lans",
+      44,
+      500
+    ],
+    [
+      "highway",
+      "lans",
+      44,
+      700
+    ],
+    [
+      "highway",
+      "lans",
+      44,
+      1000
+    ],
+    [
+      "highway",
+      "lans_no_actor",
+      0,
+      0
+    ],
+    [
+      "highway",
+      "lans_no_actor",
+      0,
+      200
+    ],
+    [
+      "highway",
+      "lans_no_actor",
+      0,
+      500
+    ],
+    [
+      "highway",
+      "lans_no_actor",
+      0,
+      700
+    ],
+    [
+      "highway",
+      "lans_no_actor",
+      0,
+      1000
+    ],
+    [
+      "highway",
+      "lans_no_prediction",
+      42,
+      0
+    ],
+    [
+      "highway",
+      "lans_no_prediction",
+      42,
+      200
+    ],
+    [
+      "highway",
+      "lans_no_prediction",
+      42,
+      500
+    ],
+    [
+      "highway",
+      "lans_no_prediction",
+      42,
+      700
+    ],
+    [
+      "highway",
+      "lans_no_prediction",
+      42,
+      1000
+    ],
+    [
+      "highway",
+      "lans_no_prediction",
+      43,
+      0
+    ],
+    [
+      "highway",
+      "lans_no_prediction",
+      43,
+      200
+    ],
+    [
+      "highway",
+      "lans_no_prediction",
+      43,
+      500
+    ],
+    [
+      "highway",
+      "lans_no_prediction",
+      43,
+      700
+    ],
+    [
+      "highway",
+      "lans_no_prediction",
+      43,
+      1000
+    ],
+    [
+      "highway",
+      "lans_no_prediction",
+      44,
+      0
+    ],
+    [
+      "highway",
+      "lans_no_prediction",
+      44,
+      200
+    ],
+    [
+      "highway",
+      "lans_no_prediction",
+      44,
+      500
+    ],
+    [
+      "highway",
+      "lans_no_prediction",
+      44,
+      700
+    ],
+    [
+      "highway",
+      "lans_no_prediction",
+      44,
+      1000
+    ],
+    [
+      "highway",
+      "lqr",
+      0,
+      0
+    ],
+    [
+      "highway",
+      "lqr",
+      0,
+      200
+    ],
+    [
+      "highway",
+      "lqr",
+      0,
+      500
+    ],
+    [
+      "highway",
+      "lqr",
+      0,
+      700
+    ],
+    [
+      "highway",
+      "lqr",
+      0,
+      1000
+    ],
+    [
+      "highway",
+      "lqr_acc",
+      0,
+      0
+    ],
+    [
+      "highway",
+      "lqr_acc",
+      0,
+      200
+    ],
+    [
+      "highway",
+      "lqr_acc",
+      0,
+      500
+    ],
+    [
+      "highway",
+      "lqr_acc",
+      0,
+      700
+    ],
+    [
+      "highway",
+      "lqr_acc",
+      0,
+      1000
+    ],
+    [
+      "highway",
+      "mpc_nominal",
+      0,
+      0
+    ],
+    [
+      "highway",
+      "mpc_nominal",
+      0,
+      200
+    ],
+    [
+      "highway",
+      "mpc_nominal",
+      0,
+      500
+    ],
+    [
+      "highway",
+      "mpc_nominal",
+      0,
+      700
+    ],
+    [
+      "highway",
+      "mpc_nominal",
+      0,
+      1000
+    ],
+    [
+      "highway",
+      "ppo_only",
+      42,
+      0
+    ],
+    [
+      "highway",
+      "ppo_only",
+      42,
+      200
+    ],
+    [
+      "highway",
+      "ppo_only",
+      42,
+      500
+    ],
+    [
+      "highway",
+      "ppo_only",
+      42,
+      700
+    ],
+    [
+      "highway",
+      "ppo_only",
+      42,
+      1000
+    ],
+    [
+      "highway",
+      "ppo_only",
+      43,
+      0
+    ],
+    [
+      "highway",
+      "ppo_only",
+      43,
+      200
+    ],
+    [
+      "highway",
+      "ppo_only",
+      43,
+      500
+    ],
+    [
+      "highway",
+      "ppo_only",
+      43,
+      700
+    ],
+    [
+      "highway",
+      "ppo_only",
+      43,
+      1000
+    ],
+    [
+      "highway",
+      "ppo_only",
+      44,
+      0
+    ],
+    [
+      "highway",
+      "ppo_only",
+      44,
+      200
+    ],
+    [
+      "highway",
+      "ppo_only",
+      44,
+      500
+    ],
+    [
+      "highway",
+      "ppo_only",
+      44,
+      700
+    ],
+    [
+      "highway",
+      "ppo_only",
+      44,
+      1000
+    ],
+    [
+      "highway",
+      "predictor_lqr",
+      0,
+      0
+    ],
+    [
+      "highway",
+      "predictor_lqr",
+      0,
+      200
+    ],
+    [
+      "highway",
+      "predictor_lqr",
+      0,
+      500
+    ],
+    [
+      "highway",
+      "predictor_lqr",
+      0,
+      700
+    ],
+    [
+      "highway",
+      "predictor_lqr",
+      0,
+      1000
+    ],
+    [
+      "highway",
+      "robust_lans",
+      42,
+      0
+    ],
+    [
+      "highway",
+      "robust_lans",
+      42,
+      200
+    ],
+    [
+      "highway",
+      "robust_lans",
+      42,
+      500
+    ],
+    [
+      "highway",
+      "robust_lans",
+      42,
+      700
+    ],
+    [
+      "highway",
+      "robust_lans",
+      42,
+      1000
+    ],
+    [
+      "highway",
+      "robust_lans",
+      43,
+      0
+    ],
+    [
+      "highway",
+      "robust_lans",
+      43,
+      200
+    ],
+    [
+      "highway",
+      "robust_lans",
+      43,
+      500
+    ],
+    [
+      "highway",
+      "robust_lans",
+      43,
+      700
+    ],
+    [
+      "highway",
+      "robust_lans",
+      43,
+      1000
+    ],
+    [
+      "highway",
+      "robust_lans",
+      44,
+      0
+    ],
+    [
+      "highway",
+      "robust_lans",
+      44,
+      200
+    ],
+    [
+      "highway",
+      "robust_lans",
+      44,
+      500
+    ],
+    [
+      "highway",
+      "robust_lans",
+      44,
+      700
+    ],
+    [
+      "highway",
+      "robust_lans",
+      44,
+      1000
+    ],
+    [
+      "highway",
+      "robust_mpc",
+      0,
+      0
+    ],
+    [
+      "highway",
+      "robust_mpc",
+      0,
+      200
+    ],
+    [
+      "highway",
+      "robust_mpc",
+      0,
+      500
+    ],
+    [
+      "highway",
+      "robust_mpc",
+      0,
+      700
+    ],
+    [
+      "highway",
+      "robust_mpc",
+      0,
+      1000
+    ],
+    [
+      "highway",
+      "robust_no_actor",
+      0,
+      0
+    ],
+    [
+      "highway",
+      "robust_no_actor",
+      0,
+      200
+    ],
+    [
+      "highway",
+      "robust_no_actor",
+      0,
+      500
+    ],
+    [
+      "highway",
+      "robust_no_actor",
+      0,
+      700
+    ],
+    [
+      "highway",
+      "robust_no_actor",
+      0,
+      1000
+    ],
+    [
+      "intersection",
+      "cbf",
+      42,
+      0
+    ],
+    [
+      "intersection",
+      "cbf",
+      42,
+      200
+    ],
+    [
+      "intersection",
+      "cbf",
+      42,
+      500
+    ],
+    [
+      "intersection",
+      "cbf",
+      42,
+      700
+    ],
+    [
+      "intersection",
+      "cbf",
+      42,
+      1000
+    ],
+    [
+      "intersection",
+      "cbf",
+      43,
+      0
+    ],
+    [
+      "intersection",
+      "cbf",
+      43,
+      200
+    ],
+    [
+      "intersection",
+      "cbf",
+      43,
+      500
+    ],
+    [
+      "intersection",
+      "cbf",
+      43,
+      700
+    ],
+    [
+      "intersection",
+      "cbf",
+      43,
+      1000
+    ],
+    [
+      "intersection",
+      "cbf",
+      44,
+      0
+    ],
+    [
+      "intersection",
+      "cbf",
+      44,
+      200
+    ],
+    [
+      "intersection",
+      "cbf",
+      44,
+      500
+    ],
+    [
+      "intersection",
+      "cbf",
+      44,
+      700
+    ],
+    [
+      "intersection",
+      "cbf",
+      44,
+      1000
+    ],
+    [
+      "intersection",
+      "lans",
+      42,
+      0
+    ],
+    [
+      "intersection",
+      "lans",
+      42,
+      200
+    ],
+    [
+      "intersection",
+      "lans",
+      42,
+      500
+    ],
+    [
+      "intersection",
+      "lans",
+      42,
+      700
+    ],
+    [
+      "intersection",
+      "lans",
+      42,
+      1000
+    ],
+    [
+      "intersection",
+      "lans",
+      43,
+      0
+    ],
+    [
+      "intersection",
+      "lans",
+      43,
+      200
+    ],
+    [
+      "intersection",
+      "lans",
+      43,
+      500
+    ],
+    [
+      "intersection",
+      "lans",
+      43,
+      700
+    ],
+    [
+      "intersection",
+      "lans",
+      43,
+      1000
+    ],
+    [
+      "intersection",
+      "lans",
+      44,
+      0
+    ],
+    [
+      "intersection",
+      "lans",
+      44,
+      200
+    ],
+    [
+      "intersection",
+      "lans",
+      44,
+      500
+    ],
+    [
+      "intersection",
+      "lans",
+      44,
+      700
+    ],
+    [
+      "intersection",
+      "lans",
+      44,
+      1000
+    ],
+    [
+      "intersection",
+      "lans_no_actor",
+      0,
+      0
+    ],
+    [
+      "intersection",
+      "lans_no_actor",
+      0,
+      200
+    ],
+    [
+      "intersection",
+      "lans_no_actor",
+      0,
+      500
+    ],
+    [
+      "intersection",
+      "lans_no_actor",
+      0,
+      700
+    ],
+    [
+      "intersection",
+      "lans_no_actor",
+      0,
+      1000
+    ],
+    [
+      "intersection",
+      "lans_no_prediction",
+      42,
+      0
+    ],
+    [
+      "intersection",
+      "lans_no_prediction",
+      42,
+      200
+    ],
+    [
+      "intersection",
+      "lans_no_prediction",
+      42,
+      500
+    ],
+    [
+      "intersection",
+      "lans_no_prediction",
+      42,
+      700
+    ],
+    [
+      "intersection",
+      "lans_no_prediction",
+      42,
+      1000
+    ],
+    [
+      "intersection",
+      "lans_no_prediction",
+      43,
+      0
+    ],
+    [
+      "intersection",
+      "lans_no_prediction",
+      43,
+      200
+    ],
+    [
+      "intersection",
+      "lans_no_prediction",
+      43,
+      500
+    ],
+    [
+      "intersection",
+      "lans_no_prediction",
+      43,
+      700
+    ],
+    [
+      "intersection",
+      "lans_no_prediction",
+      43,
+      1000
+    ],
+    [
+      "intersection",
+      "lans_no_prediction",
+      44,
+      0
+    ],
+    [
+      "intersection",
+      "lans_no_prediction",
+      44,
+      200
+    ],
+    [
+      "intersection",
+      "lans_no_prediction",
+      44,
+      500
+    ],
+    [
+      "intersection",
+      "lans_no_prediction",
+      44,
+      700
+    ],
+    [
+      "intersection",
+      "lans_no_prediction",
+      44,
+      1000
+    ],
+    [
+      "intersection",
+      "lqr",
+      0,
+      0
+    ],
+    [
+      "intersection",
+      "lqr",
+      0,
+      200
+    ],
+    [
+      "intersection",
+      "lqr",
+      0,
+      500
+    ],
+    [
+      "intersection",
+      "lqr",
+      0,
+      700
+    ],
+    [
+      "intersection",
+      "lqr",
+      0,
+      1000
+    ],
+    [
+      "intersection",
+      "lqr_acc",
+      0,
+      0
+    ],
+    [
+      "intersection",
+      "lqr_acc",
+      0,
+      200
+    ],
+    [
+      "intersection",
+      "lqr_acc",
+      0,
+      500
+    ],
+    [
+      "intersection",
+      "lqr_acc",
+      0,
+      700
+    ],
+    [
+      "intersection",
+      "lqr_acc",
+      0,
+      1000
+    ],
+    [
+      "intersection",
+      "mpc_nominal",
+      0,
+      0
+    ],
+    [
+      "intersection",
+      "mpc_nominal",
+      0,
+      200
+    ],
+    [
+      "intersection",
+      "mpc_nominal",
+      0,
+      500
+    ],
+    [
+      "intersection",
+      "mpc_nominal",
+      0,
+      700
+    ],
+    [
+      "intersection",
+      "mpc_nominal",
+      0,
+      1000
+    ],
+    [
+      "intersection",
+      "ppo_only",
+      42,
+      0
+    ],
+    [
+      "intersection",
+      "ppo_only",
+      42,
+      200
+    ],
+    [
+      "intersection",
+      "ppo_only",
+      42,
+      500
+    ],
+    [
+      "intersection",
+      "ppo_only",
+      42,
+      700
+    ],
+    [
+      "intersection",
+      "ppo_only",
+      42,
+      1000
+    ],
+    [
+      "intersection",
+      "ppo_only",
+      43,
+      0
+    ],
+    [
+      "intersection",
+      "ppo_only",
+      43,
+      200
+    ],
+    [
+      "intersection",
+      "ppo_only",
+      43,
+      500
+    ],
+    [
+      "intersection",
+      "ppo_only",
+      43,
+      700
+    ],
+    [
+      "intersection",
+      "ppo_only",
+      43,
+      1000
+    ],
+    [
+      "intersection",
+      "ppo_only",
+      44,
+      0
+    ],
+    [
+      "intersection",
+      "ppo_only",
+      44,
+      200
+    ],
+    [
+      "intersection",
+      "ppo_only",
+      44,
+      500
+    ],
+    [
+      "intersection",
+      "ppo_only",
+      44,
+      700
+    ],
+    [
+      "intersection",
+      "ppo_only",
+      44,
+      1000
+    ],
+    [
+      "intersection",
+      "predictor_lqr",
+      0,
+      0
+    ],
+    [
+      "intersection",
+      "predictor_lqr",
+      0,
+      200
+    ],
+    [
+      "intersection",
+      "predictor_lqr",
+      0,
+      500
+    ],
+    [
+      "intersection",
+      "predictor_lqr",
+      0,
+      700
+    ],
+    [
+      "intersection",
+      "predictor_lqr",
+      0,
+      1000
+    ],
+    [
+      "intersection",
+      "robust_lans",
+      42,
+      0
+    ],
+    [
+      "intersection",
+      "robust_lans",
+      42,
+      200
+    ],
+    [
+      "intersection",
+      "robust_lans",
+      42,
+      500
+    ],
+    [
+      "intersection",
+      "robust_lans",
+      42,
+      700
+    ],
+    [
+      "intersection",
+      "robust_lans",
+      42,
+      1000
+    ],
+    [
+      "intersection",
+      "robust_lans",
+      43,
+      0
+    ],
+    [
+      "intersection",
+      "robust_lans",
+      43,
+      200
+    ],
+    [
+      "intersection",
+      "robust_lans",
+      43,
+      500
+    ],
+    [
+      "intersection",
+      "robust_lans",
+      43,
+      700
+    ],
+    [
+      "intersection",
+      "robust_lans",
+      43,
+      1000
+    ],
+    [
+      "intersection",
+      "robust_lans",
+      44,
+      0
+    ],
+    [
+      "intersection",
+      "robust_lans",
+      44,
+      200
+    ],
+    [
+      "intersection",
+      "robust_lans",
+      44,
+      500
+    ],
+    [
+      "intersection",
+      "robust_lans",
+      44,
+      700
+    ],
+    [
+      "intersection",
+      "robust_lans",
+      44,
+      1000
+    ],
+    [
+      "intersection",
+      "robust_mpc",
+      0,
+      0
+    ],
+    [
+      "intersection",
+      "robust_mpc",
+      0,
+      200
+    ],
+    [
+      "intersection",
+      "robust_mpc",
+      0,
+      500
+    ],
+    [
+      "intersection",
+      "robust_mpc",
+      0,
+      700
+    ],
+    [
+      "intersection",
+      "robust_mpc",
+      0,
+      1000
+    ],
+    [
+      "intersection",
+      "robust_no_actor",
+      0,
+      0
+    ],
+    [
+      "intersection",
+      "robust_no_actor",
+      0,
+      200
+    ],
+    [
+      "intersection",
+      "robust_no_actor",
+      0,
+      500
+    ],
+    [
+      "intersection",
+      "robust_no_actor",
+      0,
+      700
+    ],
+    [
+      "intersection",
+      "robust_no_actor",
+      0,
+      1000
+    ],
+    [
+      "merge",
+      "cbf",
+      42,
+      0
+    ],
+    [
+      "merge",
+      "cbf",
+      42,
+      200
+    ],
+    [
+      "merge",
+      "cbf",
+      42,
+      500
+    ],
+    [
+      "merge",
+      "cbf",
+      42,
+      700
+    ],
+    [
+      "merge",
+      "cbf",
+      42,
+      1000
+    ],
+    [
+      "merge",
+      "cbf",
+      43,
+      0
+    ],
+    [
+      "merge",
+      "cbf",
+      43,
+      200
+    ],
+    [
+      "merge",
+      "cbf",
+      43,
+      500
+    ],
+    [
+      "merge",
+      "cbf",
+      43,
+      700
+    ],
+    [
+      "merge",
+      "cbf",
+      43,
+      1000
+    ],
+    [
+      "merge",
+      "cbf",
+      44,
+      0
+    ],
+    [
+      "merge",
+      "cbf",
+      44,
+      200
+    ],
+    [
+      "merge",
+      "cbf",
+      44,
+      500
+    ],
+    [
+      "merge",
+      "cbf",
+      44,
+      700
+    ],
+    [
+      "merge",
+      "cbf",
+      44,
+      1000
+    ],
+    [
+      "merge",
+      "lans",
+      42,
+      0
+    ],
+    [
+      "merge",
+      "lans",
+      42,
+      200
+    ],
+    [
+      "merge",
+      "lans",
+      42,
+      500
+    ],
+    [
+      "merge",
+      "lans",
+      42,
+      700
+    ],
+    [
+      "merge",
+      "lans",
+      42,
+      1000
+    ],
+    [
+      "merge",
+      "lans",
+      43,
+      0
+    ],
+    [
+      "merge",
+      "lans",
+      43,
+      200
+    ],
+    [
+      "merge",
+      "lans",
+      43,
+      500
+    ],
+    [
+      "merge",
+      "lans",
+      43,
+      700
+    ],
+    [
+      "merge",
+      "lans",
+      43,
+      1000
+    ],
+    [
+      "merge",
+      "lans",
+      44,
+      0
+    ],
+    [
+      "merge",
+      "lans",
+      44,
+      200
+    ],
+    [
+      "merge",
+      "lans",
+      44,
+      500
+    ],
+    [
+      "merge",
+      "lans",
+      44,
+      700
+    ],
+    [
+      "merge",
+      "lans",
+      44,
+      1000
+    ],
+    [
+      "merge",
+      "lans_no_actor",
+      0,
+      0
+    ],
+    [
+      "merge",
+      "lans_no_actor",
+      0,
+      200
+    ],
+    [
+      "merge",
+      "lans_no_actor",
+      0,
+      500
+    ],
+    [
+      "merge",
+      "lans_no_actor",
+      0,
+      700
+    ],
+    [
+      "merge",
+      "lans_no_actor",
+      0,
+      1000
+    ],
+    [
+      "merge",
+      "lans_no_prediction",
+      42,
+      0
+    ],
+    [
+      "merge",
+      "lans_no_prediction",
+      42,
+      200
+    ],
+    [
+      "merge",
+      "lans_no_prediction",
+      42,
+      500
+    ],
+    [
+      "merge",
+      "lans_no_prediction",
+      42,
+      700
+    ],
+    [
+      "merge",
+      "lans_no_prediction",
+      42,
+      1000
+    ],
+    [
+      "merge",
+      "lans_no_prediction",
+      43,
+      0
+    ],
+    [
+      "merge",
+      "lans_no_prediction",
+      43,
+      200
+    ],
+    [
+      "merge",
+      "lans_no_prediction",
+      43,
+      500
+    ],
+    [
+      "merge",
+      "lans_no_prediction",
+      43,
+      700
+    ],
+    [
+      "merge",
+      "lans_no_prediction",
+      43,
+      1000
+    ],
+    [
+      "merge",
+      "lans_no_prediction",
+      44,
+      0
+    ],
+    [
+      "merge",
+      "lans_no_prediction",
+      44,
+      200
+    ],
+    [
+      "merge",
+      "lans_no_prediction",
+      44,
+      500
+    ],
+    [
+      "merge",
+      "lans_no_prediction",
+      44,
+      700
+    ],
+    [
+      "merge",
+      "lans_no_prediction",
+      44,
+      1000
+    ],
+    [
+      "merge",
+      "lqr",
+      0,
+      0
+    ],
+    [
+      "merge",
+      "lqr",
+      0,
+      200
+    ],
+    [
+      "merge",
+      "lqr",
+      0,
+      500
+    ],
+    [
+      "merge",
+      "lqr",
+      0,
+      700
+    ],
+    [
+      "merge",
+      "lqr",
+      0,
+      1000
+    ],
+    [
+      "merge",
+      "lqr_acc",
+      0,
+      0
+    ],
+    [
+      "merge",
+      "lqr_acc",
+      0,
+      200
+    ],
+    [
+      "merge",
+      "lqr_acc",
+      0,
+      500
+    ],
+    [
+      "merge",
+      "lqr_acc",
+      0,
+      700
+    ],
+    [
+      "merge",
+      "lqr_acc",
+      0,
+      1000
+    ],
+    [
+      "merge",
+      "mpc_nominal",
+      0,
+      0
+    ],
+    [
+      "merge",
+      "mpc_nominal",
+      0,
+      200
+    ],
+    [
+      "merge",
+      "mpc_nominal",
+      0,
+      500
+    ],
+    [
+      "merge",
+      "mpc_nominal",
+      0,
+      700
+    ],
+    [
+      "merge",
+      "mpc_nominal",
+      0,
+      1000
+    ],
+    [
+      "merge",
+      "ppo_only",
+      42,
+      0
+    ],
+    [
+      "merge",
+      "ppo_only",
+      42,
+      200
+    ],
+    [
+      "merge",
+      "ppo_only",
+      42,
+      500
+    ],
+    [
+      "merge",
+      "ppo_only",
+      42,
+      700
+    ],
+    [
+      "merge",
+      "ppo_only",
+      42,
+      1000
+    ],
+    [
+      "merge",
+      "ppo_only",
+      43,
+      0
+    ],
+    [
+      "merge",
+      "ppo_only",
+      43,
+      200
+    ],
+    [
+      "merge",
+      "ppo_only",
+      43,
+      500
+    ],
+    [
+      "merge",
+      "ppo_only",
+      43,
+      700
+    ],
+    [
+      "merge",
+      "ppo_only",
+      43,
+      1000
+    ],
+    [
+      "merge",
+      "ppo_only",
+      44,
+      0
+    ],
+    [
+      "merge",
+      "ppo_only",
+      44,
+      200
+    ],
+    [
+      "merge",
+      "ppo_only",
+      44,
+      500
+    ],
+    [
+      "merge",
+      "ppo_only",
+      44,
+      700
+    ],
+    [
+      "merge",
+      "ppo_only",
+      44,
+      1000
+    ],
+    [
+      "merge",
+      "predictor_lqr",
+      0,
+      0
+    ],
+    [
+      "merge",
+      "predictor_lqr",
+      0,
+      200
+    ],
+    [
+      "merge",
+      "predictor_lqr",
+      0,
+      500
+    ],
+    [
+      "merge",
+      "predictor_lqr",
+      0,
+      700
+    ],
+    [
+      "merge",
+      "predictor_lqr",
+      0,
+      1000
+    ],
+    [
+      "merge",
+      "robust_lans",
+      42,
+      0
+    ],
+    [
+      "merge",
+      "robust_lans",
+      42,
+      200
+    ],
+    [
+      "merge",
+      "robust_lans",
+      42,
+      500
+    ],
+    [
+      "merge",
+      "robust_lans",
+      42,
+      700
+    ],
+    [
+      "merge",
+      "robust_lans",
+      42,
+      1000
+    ],
+    [
+      "merge",
+      "robust_lans",
+      43,
+      0
+    ],
+    [
+      "merge",
+      "robust_lans",
+      43,
+      200
+    ],
+    [
+      "merge",
+      "robust_lans",
+      43,
+      500
+    ],
+    [
+      "merge",
+      "robust_lans",
+      43,
+      700
+    ],
+    [
+      "merge",
+      "robust_lans",
+      43,
+      1000
+    ],
+    [
+      "merge",
+      "robust_lans",
+      44,
+      0
+    ],
+    [
+      "merge",
+      "robust_lans",
+      44,
+      200
+    ],
+    [
+      "merge",
+      "robust_lans",
+      44,
+      500
+    ],
+    [
+      "merge",
+      "robust_lans",
+      44,
+      700
+    ],
+    [
+      "merge",
+      "robust_lans",
+      44,
+      1000
+    ],
+    [
+      "merge",
+      "robust_mpc",
+      0,
+      0
+    ],
+    [
+      "merge",
+      "robust_mpc",
+      0,
+      200
+    ],
+    [
+      "merge",
+      "robust_mpc",
+      0,
+      500
+    ],
+    [
+      "merge",
+      "robust_mpc",
+      0,
+      700
+    ],
+    [
+      "merge",
+      "robust_mpc",
+      0,
+      1000
+    ],
+    [
+      "merge",
+      "robust_no_actor",
+      0,
+      0
+    ],
+    [
+      "merge",
+      "robust_no_actor",
+      0,
+      200
+    ],
+    [
+      "merge",
+      "robust_no_actor",
+      0,
+      500
+    ],
+    [
+      "merge",
+      "robust_no_actor",
+      0,
+      700
+    ],
+    [
+      "merge",
+      "robust_no_actor",
+      0,
+      1000
+    ],
+    [
+      "roundabout",
+      "cbf",
+      42,
+      0
+    ],
+    [
+      "roundabout",
+      "cbf",
+      42,
+      200
+    ],
+    [
+      "roundabout",
+      "cbf",
+      42,
+      500
+    ],
+    [
+      "roundabout",
+      "cbf",
+      42,
+      700
+    ],
+    [
+      "roundabout",
+      "cbf",
+      42,
+      1000
+    ],
+    [
+      "roundabout",
+      "cbf",
+      43,
+      0
+    ],
+    [
+      "roundabout",
+      "cbf",
+      43,
+      200
+    ],
+    [
+      "roundabout",
+      "cbf",
+      43,
+      500
+    ],
+    [
+      "roundabout",
+      "cbf",
+      43,
+      700
+    ],
+    [
+      "roundabout",
+      "cbf",
+      43,
+      1000
+    ],
+    [
+      "roundabout",
+      "cbf",
+      44,
+      0
+    ],
+    [
+      "roundabout",
+      "cbf",
+      44,
+      200
+    ],
+    [
+      "roundabout",
+      "cbf",
+      44,
+      500
+    ],
+    [
+      "roundabout",
+      "cbf",
+      44,
+      700
+    ],
+    [
+      "roundabout",
+      "cbf",
+      44,
+      1000
+    ],
+    [
+      "roundabout",
+      "lans",
+      42,
+      0
+    ],
+    [
+      "roundabout",
+      "lans",
+      42,
+      200
+    ],
+    [
+      "roundabout",
+      "lans",
+      42,
+      500
+    ],
+    [
+      "roundabout",
+      "lans",
+      42,
+      700
+    ],
+    [
+      "roundabout",
+      "lans",
+      42,
+      1000
+    ],
+    [
+      "roundabout",
+      "lans",
+      43,
+      0
+    ],
+    [
+      "roundabout",
+      "lans",
+      43,
+      200
+    ],
+    [
+      "roundabout",
+      "lans",
+      43,
+      500
+    ],
+    [
+      "roundabout",
+      "lans",
+      43,
+      700
+    ],
+    [
+      "roundabout",
+      "lans",
+      43,
+      1000
+    ],
+    [
+      "roundabout",
+      "lans",
+      44,
+      0
+    ],
+    [
+      "roundabout",
+      "lans",
+      44,
+      200
+    ],
+    [
+      "roundabout",
+      "lans",
+      44,
+      500
+    ],
+    [
+      "roundabout",
+      "lans",
+      44,
+      700
+    ],
+    [
+      "roundabout",
+      "lans",
+      44,
+      1000
+    ],
+    [
+      "roundabout",
+      "lans_no_actor",
+      0,
+      0
+    ],
+    [
+      "roundabout",
+      "lans_no_actor",
+      0,
+      200
+    ],
+    [
+      "roundabout",
+      "lans_no_actor",
+      0,
+      500
+    ],
+    [
+      "roundabout",
+      "lans_no_actor",
+      0,
+      700
+    ],
+    [
+      "roundabout",
+      "lans_no_actor",
+      0,
+      1000
+    ],
+    [
+      "roundabout",
+      "lans_no_prediction",
+      42,
+      0
+    ],
+    [
+      "roundabout",
+      "lans_no_prediction",
+      42,
+      200
+    ],
+    [
+      "roundabout",
+      "lans_no_prediction",
+      42,
+      500
+    ],
+    [
+      "roundabout",
+      "lans_no_prediction",
+      42,
+      700
+    ],
+    [
+      "roundabout",
+      "lans_no_prediction",
+      42,
+      1000
+    ],
+    [
+      "roundabout",
+      "lans_no_prediction",
+      43,
+      0
+    ],
+    [
+      "roundabout",
+      "lans_no_prediction",
+      43,
+      200
+    ],
+    [
+      "roundabout",
+      "lans_no_prediction",
+      43,
+      500
+    ],
+    [
+      "roundabout",
+      "lans_no_prediction",
+      43,
+      700
+    ],
+    [
+      "roundabout",
+      "lans_no_prediction",
+      43,
+      1000
+    ],
+    [
+      "roundabout",
+      "lans_no_prediction",
+      44,
+      0
+    ],
+    [
+      "roundabout",
+      "lans_no_prediction",
+      44,
+      200
+    ],
+    [
+      "roundabout",
+      "lans_no_prediction",
+      44,
+      500
+    ],
+    [
+      "roundabout",
+      "lans_no_prediction",
+      44,
+      700
+    ],
+    [
+      "roundabout",
+      "lans_no_prediction",
+      44,
+      1000
+    ],
+    [
+      "roundabout",
+      "lqr",
+      0,
+      0
+    ],
+    [
+      "roundabout",
+      "lqr",
+      0,
+      200
+    ],
+    [
+      "roundabout",
+      "lqr",
+      0,
+      500
+    ],
+    [
+      "roundabout",
+      "lqr",
+      0,
+      700
+    ],
+    [
+      "roundabout",
+      "lqr",
+      0,
+      1000
+    ],
+    [
+      "roundabout",
+      "lqr_acc",
+      0,
+      0
+    ],
+    [
+      "roundabout",
+      "lqr_acc",
+      0,
+      200
+    ],
+    [
+      "roundabout",
+      "lqr_acc",
+      0,
+      500
+    ],
+    [
+      "roundabout",
+      "lqr_acc",
+      0,
+      700
+    ],
+    [
+      "roundabout",
+      "lqr_acc",
+      0,
+      1000
+    ],
+    [
+      "roundabout",
+      "mpc_nominal",
+      0,
+      0
+    ],
+    [
+      "roundabout",
+      "mpc_nominal",
+      0,
+      200
+    ],
+    [
+      "roundabout",
+      "mpc_nominal",
+      0,
+      500
+    ],
+    [
+      "roundabout",
+      "mpc_nominal",
+      0,
+      700
+    ],
+    [
+      "roundabout",
+      "mpc_nominal",
+      0,
+      1000
+    ],
+    [
+      "roundabout",
+      "ppo_only",
+      42,
+      0
+    ],
+    [
+      "roundabout",
+      "ppo_only",
+      42,
+      200
+    ],
+    [
+      "roundabout",
+      "ppo_only",
+      42,
+      500
+    ],
+    [
+      "roundabout",
+      "ppo_only",
+      42,
+      700
+    ],
+    [
+      "roundabout",
+      "ppo_only",
+      42,
+      1000
+    ],
+    [
+      "roundabout",
+      "ppo_only",
+      43,
+      0
+    ],
+    [
+      "roundabout",
+      "ppo_only",
+      43,
+      200
+    ],
+    [
+      "roundabout",
+      "ppo_only",
+      43,
+      500
+    ],
+    [
+      "roundabout",
+      "ppo_only",
+      43,
+      700
+    ],
+    [
+      "roundabout",
+      "ppo_only",
+      43,
+      1000
+    ],
+    [
+      "roundabout",
+      "ppo_only",
+      44,
+      0
+    ],
+    [
+      "roundabout",
+      "ppo_only",
+      44,
+      200
+    ],
+    [
+      "roundabout",
+      "ppo_only",
+      44,
+      500
+    ],
+    [
+      "roundabout",
+      "ppo_only",
+      44,
+      700
+    ],
+    [
+      "roundabout",
+      "ppo_only",
+      44,
+      1000
+    ],
+    [
+      "roundabout",
+      "predictor_lqr",
+      0,
+      0
+    ],
+    [
+      "roundabout",
+      "predictor_lqr",
+      0,
+      200
+    ],
+    [
+      "roundabout",
+      "predictor_lqr",
+      0,
+      500
+    ],
+    [
+      "roundabout",
+      "predictor_lqr",
+      0,
+      700
+    ],
+    [
+      "roundabout",
+      "predictor_lqr",
+      0,
+      1000
+    ],
+    [
+      "roundabout",
+      "robust_lans",
+      42,
+      0
+    ],
+    [
+      "roundabout",
+      "robust_lans",
+      42,
+      200
+    ],
+    [
+      "roundabout",
+      "robust_lans",
+      42,
+      500
+    ],
+    [
+      "roundabout",
+      "robust_lans",
+      42,
+      700
+    ],
+    [
+      "roundabout",
+      "robust_lans",
+      42,
+      1000
+    ],
+    [
+      "roundabout",
+      "robust_lans",
+      43,
+      0
+    ],
+    [
+      "roundabout",
+      "robust_lans",
+      43,
+      200
+    ],
+    [
+      "roundabout",
+      "robust_lans",
+      43,
+      500
+    ],
+    [
+      "roundabout",
+      "robust_lans",
+      43,
+      700
+    ],
+    [
+      "roundabout",
+      "robust_lans",
+      43,
+      1000
+    ],
+    [
+      "roundabout",
+      "robust_lans",
+      44,
+      0
+    ],
+    [
+      "roundabout",
+      "robust_lans",
+      44,
+      200
+    ],
+    [
+      "roundabout",
+      "robust_lans",
+      44,
+      500
+    ],
+    [
+      "roundabout",
+      "robust_lans",
+      44,
+      700
+    ],
+    [
+      "roundabout",
+      "robust_lans",
+      44,
+      1000
+    ],
+    [
+      "roundabout",
+      "robust_mpc",
+      0,
+      0
+    ],
+    [
+      "roundabout",
+      "robust_mpc",
+      0,
+      200
+    ],
+    [
+      "roundabout",
+      "robust_mpc",
+      0,
+      500
+    ],
+    [
+      "roundabout",
+      "robust_mpc",
+      0,
+      700
+    ],
+    [
+      "roundabout",
+      "robust_mpc",
+      0,
+      1000
+    ],
+    [
+      "roundabout",
+      "robust_no_actor",
+      0,
+      0
+    ],
+    [
+      "roundabout",
+      "robust_no_actor",
+      0,
+      200
+    ],
+    [
+      "roundabout",
+      "robust_no_actor",
+      0,
+      500
+    ],
+    [
+      "roundabout",
+      "robust_no_actor",
+      0,
+      700
+    ],
+    [
+      "roundabout",
+      "robust_no_actor",
+      0,
+      1000
+    ]
+  ],
+  "existing_result_hashes": {
+    "working/extended_baselines/confirmation/intersection_lans_no_prediction_seed43_delay500.json": "84b52af06de15938d39890d6e7b681dd776def593e0966725d2e8615c55430a2",
+    "working/extended_baselines/confirmation/intersection_lans_no_prediction_seed43_delay500.jsonl": "ca5edb2e72f2926caa7cf2356f1d9db1c3d9536ac5eedfa826cacc1e39754eb7",
+    "working/extended_baselines/confirmation/highway_lans_seed43_delay0.json": "74f905e25ef38fbe4caf5274f7294d57de9330631462c38bb218d271c0b422bf",
+    "working/extended_baselines/confirmation/highway_lans_seed43_delay0.jsonl": "f320fc3b7f44b7a3c6de194d99271cd388a14e32546147619662fcc676aa116a",
+    "working/extended_baselines/confirmation/intersection_cbf_seed42_delay500.json": "060fc1977504483ab8819b015a6bec08f6af31ecb64218eea1399d3729aa9b8a",
+    "working/extended_baselines/confirmation/intersection_cbf_seed42_delay500.jsonl": "4f48ef5e5bb0c839a129566e3051b21d96e3f1478b7a25d9c83f7c058ccd5277",
+    "working/extended_baselines/confirmation/roundabout_ppo_only_seed42_delay0.json": "89dd87728d93013572b151bd1962e9804f43b8ba892964e9a86d58e74cc74f7f",
+    "working/extended_baselines/confirmation/roundabout_ppo_only_seed42_delay0.jsonl": "73d1b287b1dcbbf675fcf489110482a19b49d5b513f6bbb9ab58fed946f88bfb",
+    "working/extended_baselines/confirmation/roundabout_ppo_only_seed42_delay500.json": "591df2d482b5cfd084a3eeec081c4ee08dbff71f9322e61563a08973173b17a0",
+    "working/extended_baselines/confirmation/roundabout_ppo_only_seed42_delay500.jsonl": "b37c86da35fb766ced7ec4f310e5a2fdf5f41ccf30ddf579f65f482782cec572",
+    "working/extended_baselines/confirmation/intersection_lans_no_prediction_seed42_delay0.json": "2fbc2941e846a73daf34a4511ee77cf683883cc593cedd8e7fe0bd00d92a86c3",
+    "working/extended_baselines/confirmation/intersection_lans_no_prediction_seed42_delay0.jsonl": "32c6ee288f306193efdd59178323459f49225b6cb16962be5850338cdb97f0bf",
+    "working/extended_baselines/confirmation/merge_lans_seed43_delay1000.json": "bd0c590a76b73d66626cc8aeed3a4662289ce2abad73a75b4c380293b40adf36",
+    "working/extended_baselines/confirmation/merge_lans_seed43_delay1000.jsonl": "b9f3cbc76b7c04aacbd12a16357f39df660667324ad5aedca296a7408b24ee76",
+    "working/extended_baselines/confirmation/roundabout_ppo_only_seed42_delay1000.json": "1912a6e7834921455a4503313c913fdced835f24c7e4f400293307209f5e728f",
+    "working/extended_baselines/confirmation/roundabout_ppo_only_seed42_delay1000.jsonl": "5deae3e82de7d586ce2a991cd868a33acbbad9095f1dca14b798ee770742ee4e",
+    "working/extended_baselines/confirmation/highway_lans_seed44_delay700.json": "be4d27dc308ab09034a26fd0f7ebe9759d52aba64440b7853d0cab705eaf479f",
+    "working/extended_baselines/confirmation/highway_lans_seed44_delay700.jsonl": "4e0500505d8626cce9033fc2b931269568f46c960f69515401cb6c232f6d6ac0",
+    "working/extended_baselines/confirmation/merge_ppo_only_seed42_delay0.json": "d88fc70adaf9a701bfa0abf5eacb3e4366e9eb974bd013623acc200948de02ab",
+    "working/extended_baselines/confirmation/merge_ppo_only_seed42_delay0.jsonl": "17a5189aa8e2c50dab4d46b1d0552786bb94438300e7804734a793c144645415",
+    "working/extended_baselines/confirmation/merge_ppo_only_seed44_delay500.json": "b4ac1b9e54fdfe931ae3e5baac2724ec84ecb96a175e48edf0f9ff74c9bf3d40",
+    "working/extended_baselines/confirmation/merge_ppo_only_seed44_delay500.jsonl": "2b5afa06736614d29049e9ec73c3a3f34aefa28475bd29cda295ffab603c62e1",
+    "working/extended_baselines/confirmation/merge_cbf_seed42_delay0.json": "3431748c8c9be0bc02b9a9e73326d5a6ddbbf0e6724d714dd10073bc5f6e5232",
+    "working/extended_baselines/confirmation/merge_cbf_seed42_delay0.jsonl": "bf33fe09fedc6f68f77b082f6465f5e4dd2e0a1de8a0c778dccd6afcf690cff2",
+    "working/extended_baselines/confirmation/roundabout_robust_mpc_seed0_delay700.json": "cfab1b3f9e4aa3bc084fc4bac0ff8d287c3c5c4ddaba7b900302292556ade26b",
+    "working/extended_baselines/confirmation/roundabout_robust_mpc_seed0_delay700.jsonl": "8a0d82ebbcf9986769be4f14d677aeee369a1e3b8e0e4671853e2269f5550b78",
+    "working/extended_baselines/confirmation/roundabout_cbf_seed44_delay700.json": "d96b9845b99491e119db4c8bab7d4c81048c7f1bd5f909451ca1893580b8b43f",
+    "working/extended_baselines/confirmation/roundabout_cbf_seed44_delay700.jsonl": "e0c311e711eef7c4c39df5a5c7d9df2001326f647863455fa18fb12b56172f84",
+    "working/extended_baselines/confirmation/merge_ppo_only_seed42_delay1000.json": "b8ebb8636228ed6770d5e73d91022be51477483a592957c7c7ee274d7fa17ec0",
+    "working/extended_baselines/confirmation/merge_ppo_only_seed42_delay1000.jsonl": "ad0d13ad66d4dcfaf7c1849df13cbeb9fe0fc636e9287fe37d69e8deba7c40a9",
+    "working/extended_baselines/confirmation/roundabout_lans_no_prediction_seed44_delay200.json": "40d727df7b38aa87f9163a5ab2af665e7d101c8bc85ee7bf18fad36cc13c4ad8",
+    "working/extended_baselines/confirmation/roundabout_lans_no_prediction_seed44_delay200.jsonl": "9b9de908a5e2aeb6a69b3941292840d6bb824148db789939fea161345928a588",
+    "working/extended_baselines/confirmation/intersection_lans_no_prediction_seed42_delay700.json": "5950f1fd965974bc0af99626ab6a7159a967cc75799ca6d8e78606654c516f87",
+    "working/extended_baselines/confirmation/intersection_lans_no_prediction_seed42_delay700.jsonl": "c9d6b3f3ea1ef5c00fc721694aea4108f1fbacf84cd5a72a84ec1f5352e06b14",
+    "working/extended_baselines/confirmation/merge_ppo_only_seed43_delay1000.json": "9f7b576f942451176e82d32ecde4846c3c1870961bfce1e93b72ecd1b77b92a7",
+    "working/extended_baselines/confirmation/merge_ppo_only_seed43_delay1000.jsonl": "6372108043b66bdeb66a6a736f65f3db55dadeb27d38bce3076c456cb94ac990",
+    "working/extended_baselines/confirmation/merge_ppo_only_seed44_delay200.json": "d477b9ff5d73e2be1e2691742a50526ade7c12a448394b2493fff96d6444d084",
+    "working/extended_baselines/confirmation/merge_ppo_only_seed44_delay200.jsonl": "42ace683f0dbe203fe7bc1e072f6e58bd3555518024776754e8fee6dd8c8355b",
+    "working/extended_baselines/confirmation/merge_cbf_seed44_delay500.json": "624ed884f944115d64b4c0050a9459632c6cf38442dddc64286a635076adf264",
+    "working/extended_baselines/confirmation/merge_cbf_seed44_delay500.jsonl": "2244979159a9697dc38929923e5ce1bebe7d2903548bb59d83b781bee6e3f53d",
+    "working/extended_baselines/confirmation/merge_cbf_seed43_delay1000.json": "73aaaf29c477805e9c36a54832adda6f29c3fc31054f7af141c9ccc5609563d2",
+    "working/extended_baselines/confirmation/merge_cbf_seed43_delay1000.jsonl": "bfead5b87f7072d4a5b363204da5822c06e599ff34503e380196c9a8b58f28a6",
+    "working/extended_baselines/confirmation/roundabout_ppo_only_seed42_delay200.json": "25be95c2fb84647ea432471430daa156860862112509597b17977e041e59d6b0",
+    "working/extended_baselines/confirmation/roundabout_ppo_only_seed42_delay200.jsonl": "be714ead342de7b10a7951de33915115dcfb6c184c8b5c78c6667593959d3399",
+    "working/extended_baselines/confirmation/intersection_ppo_only_seed44_delay500.json": "1c24dccd0a238ff33d74369c0be6e39015d83492a9a659400182a1a9b64a0405",
+    "working/extended_baselines/confirmation/intersection_ppo_only_seed44_delay500.jsonl": "f699ed0a70f59e313039d4a486cfb88687c842c65a8310b0c27a8274d2bfdc92",
+    "working/extended_baselines/confirmation/highway_cbf_seed44_delay200.json": "15815d3a9b47c54e4bb8160fcc7635c0a07f1473770bb14ef56d017649a1610d",
+    "working/extended_baselines/confirmation/highway_cbf_seed44_delay200.jsonl": "7f28199ebcfa185a6e788f8b182920713c01634fe8180ca9a1e170bb924bcf6a",
+    "working/extended_baselines/confirmation/merge_ppo_only_seed43_delay200.json": "44abe2ecb36ca7f0d9fb47205aab6f29a2b0c72cc0860b4fa14ac47661051a52",
+    "working/extended_baselines/confirmation/merge_ppo_only_seed43_delay200.jsonl": "aaa6991e58ad55fbf20ba801f7951dbb46c8fd7cf1345573121c41e0557dcd19",
+    "working/extended_baselines/confirmation/merge_lans_no_prediction_seed42_delay200.json": "8521ff790721fca9814e1c0ca4fc9a0aa6fbac1115a142800bd09b3576280e27",
+    "working/extended_baselines/confirmation/merge_lans_no_prediction_seed42_delay200.jsonl": "26278e15330f26eb674862441b642786436e3efbd8bc6bfd58f165cf23b970a2",
+    "working/extended_baselines/confirmation/intersection_robust_mpc_seed0_delay1000.json": "f99a207c911553c22f85cb00f9df2f1c6ce31254e0887c9252ca60c84613aeaa",
+    "working/extended_baselines/confirmation/intersection_robust_mpc_seed0_delay1000.jsonl": "36d7aa5685076e44f65ed3c22da11678f46dce50025ccf61988fc60ebc42994e",
+    "working/extended_baselines/confirmation/merge_lans_no_prediction_seed44_delay200.json": "1effd99d92d7a1f85b7eb446de2367c8b297d6980fbc18516bab7eb10edd2882",
+    "working/extended_baselines/confirmation/merge_lans_no_prediction_seed44_delay200.jsonl": "d4db050d69df1537dc5b058624fe42265b2c4485a6e1a1daaef77202764fac19",
+    "working/extended_baselines/confirmation/roundabout_lans_no_prediction_seed43_delay700.json": "5f7f1b16977c8b8a86645a72a6bbc298abe05564c35e20692d72814e6a17693b",
+    "working/extended_baselines/confirmation/roundabout_lans_no_prediction_seed43_delay700.jsonl": "4de69bb75daf12391b25245b6d22d07b69f8bb72f1ef7f76048c07740c321fbb",
+    "working/extended_baselines/confirmation/roundabout_ppo_only_seed44_delay200.json": "de4be8dbef3f810a821302d0197967d8385e1f29d5a967c03f5cb9e13cc68204",
+    "working/extended_baselines/confirmation/roundabout_ppo_only_seed44_delay200.jsonl": "ffe6ad924221a0fc6ac74afe9b997aa63c8994b50f20dd5fdba4e55736f06a20",
+    "working/extended_baselines/confirmation/intersection_ppo_only_seed42_delay700.json": "c3f0cf575ec1bcbc9da1fa81e0f24ec924f179e364c35524a4f8921d35440fff",
+    "working/extended_baselines/confirmation/intersection_ppo_only_seed42_delay700.jsonl": "37a1564ae3bb4aff87e3bdaf501e0b287f2aab1e3be7f108b308fc1aa81e75ba",
+    "working/extended_baselines/confirmation/merge_lans_no_prediction_seed42_delay0.json": "6eded55e310fe5355e764d4d33648f16273d68b59fc8e3e7cb49fe6637ffb29f",
+    "working/extended_baselines/confirmation/merge_lans_no_prediction_seed42_delay0.jsonl": "69d3d9e9bfc56666d29de7ca65fbc7a68cad1eca896bcb2dcd760786014401c6",
+    "working/extended_baselines/confirmation/intersection_cbf_seed44_delay700.json": "05f488c391e6112ecbaa62fbf930776030e5099f519648276577297fac8a40d0",
+    "working/extended_baselines/confirmation/intersection_cbf_seed44_delay700.jsonl": "166c23ebd8bc4577558fee244e307cef29b573a9ec264c2f6bf21f5a5f5aef9a",
+    "working/extended_baselines/confirmation/highway_lans_seed42_delay200.json": "79301970277429807e006161a06ef5eb8ed2f3a368934d008b731baf5863b3ae",
+    "working/extended_baselines/confirmation/highway_lans_seed42_delay200.jsonl": "97f7c94554e06d35d2e6a11285d931e3a1c01a9e7e53a8296cc307db7900936a",
+    "working/extended_baselines/confirmation/roundabout_ppo_only_seed44_delay500.json": "17682eba756ae6153f74a7749e4a7dc6169d18857142fb198abedd4bcb66193c",
+    "working/extended_baselines/confirmation/roundabout_ppo_only_seed44_delay500.jsonl": "7949e5aedcfd4b70789a9ffb9f91243004af70470f20f54950fb59006b3fd87b",
+    "working/extended_baselines/confirmation/highway_lans_no_prediction_seed44_delay0.json": "98f419a5f194e9dd654f7f4403a24c8e0200f506db39b37da4fdb0e33dd84112",
+    "working/extended_baselines/confirmation/highway_lans_no_prediction_seed44_delay0.jsonl": "9628480ef49f51a9f9e2501008ab9989006a7553ca7a7a468c0eefd66090a520",
+    "working/extended_baselines/confirmation/intersection_robust_mpc_seed0_delay200.json": "399b36234e797e422d8cff1f175e5911366061b343f44705d0e06959b913de35",
+    "working/extended_baselines/confirmation/intersection_robust_mpc_seed0_delay200.jsonl": "65de7e337f50b13443e64da832da737abf281f689f52a3594f1a3003d16df317",
+    "working/extended_baselines/confirmation/highway_cbf_seed42_delay0.json": "b385b80c0673d3372e6f3c6ed21fea38956bc17f705b2c0452701ab0fe994a83",
+    "working/extended_baselines/confirmation/highway_cbf_seed42_delay0.jsonl": "2ce7bb7f6047390637b96b7c1f83a64fd7ca03ae4ccd8911bd13aebc1946c367",
+    "working/extended_baselines/confirmation/merge_lans_no_prediction_seed42_delay500.json": "9879fc01e136d8930e8986222024357e6193292412e62184386bc05817a57ca4",
+    "working/extended_baselines/confirmation/merge_lans_no_prediction_seed42_delay500.jsonl": "9fbc3aec242283a558e4578b2f7c65b847e10550e8bba6e23f0631c1ad1f8be5",
+    "working/extended_baselines/confirmation/merge_lans_seed42_delay500.json": "6ff1bf41b859a8037d1a00f6dc2d615fe84474fcaf2fa9d4f7528ee1cc73f2f0",
+    "working/extended_baselines/confirmation/merge_lans_seed42_delay500.jsonl": "7af738264104c6856d8e224688af5b722d10e697df8418ef8c907637f4611a10",
+    "working/extended_baselines/confirmation/highway_lans_seed44_delay200.json": "5808365dcf3946145d56b261b386ab6da6f4f7ba8e6720ecd1131d196ec49914",
+    "working/extended_baselines/confirmation/highway_lans_seed44_delay200.jsonl": "8cf3e575f801b6e095e5fce4741ae881825237eb67a136422f9260b70616df32",
+    "working/extended_baselines/confirmation/roundabout_ppo_only_seed42_delay700.json": "cae3254cb028948d9166942ae1389cd57186d407c3fb62e688808affa4af7324",
+    "working/extended_baselines/confirmation/roundabout_ppo_only_seed42_delay700.jsonl": "84ac16663cba00ca212c70a9f8f4a3184ed7f1946c9ae4c2a86901cb991249e0",
+    "working/extended_baselines/confirmation/highway_ppo_only_seed42_delay1000.json": "cb9106d287eee5b03bd5ddade9ef0820da91a660eb5376253b4533e5d84e4705",
+    "working/extended_baselines/confirmation/highway_ppo_only_seed42_delay1000.jsonl": "00c4bcedbdb6e0cde2e5c53a3ffb48e1108e104da01dd6eb67cab70422d3290f",
+    "working/extended_baselines/confirmation/roundabout_cbf_seed44_delay500.json": "d7267ccff83c308d3d7cecbca065c93ec35baef8f1e3f79883df9b5210af0b9b",
+    "working/extended_baselines/confirmation/roundabout_cbf_seed44_delay500.jsonl": "560e11a88f212ba6418907d593ad643568a89e807b48a114a2511db40afe2907",
+    "working/extended_baselines/confirmation/roundabout_robust_mpc_seed0_delay200.json": "af261a6fcf42841131cbe5a03b9a90289eb012ceef496bb97f8f21c5b18d7dde",
+    "working/extended_baselines/confirmation/roundabout_robust_mpc_seed0_delay200.jsonl": "f60157d13ecd783a746ac426654354c40001057e0a8669885b0a4e4ab9c592c9",
+    "working/extended_baselines/confirmation/highway_robust_mpc_seed0_delay500.json": "dcf70b1a90ff9737569516f6e5d2b6962711b39d69d2b1159f0f00b64da20cba",
+    "working/extended_baselines/confirmation/highway_robust_mpc_seed0_delay500.jsonl": "5293c5bda5a54ae0bb8d18137bded3bcbd01fae5eeae0133a5f67476cecc1a87",
+    "working/extended_baselines/confirmation/intersection_lans_seed43_delay200.json": "b0fd80615e8c07837cddbc3b69aba8a564e70ce1e4ba3308d59d78501fb583f7",
+    "working/extended_baselines/confirmation/intersection_lans_seed43_delay200.jsonl": "84f72cfbcaff0497d209d986fc5c6d93950316f92331262a33eff037973fe7a7",
+    "working/extended_baselines/confirmation/roundabout_cbf_seed44_delay1000.json": "0a8d5b663e4b6ff31e4771a53fb7487fa79ad7e5efcc9efec38c6a84c4881d17",
+    "working/extended_baselines/confirmation/roundabout_cbf_seed44_delay1000.jsonl": "059ecb6ecc40bb51702ba61a184ac6cd3129ae125803a996caab313377aeda58",
+    "working/extended_baselines/confirmation/merge_ppo_only_seed43_delay0.json": "d99402c3d8cd4d897ec6da296c045c2c35a01e72b6bc6949728b4df054b7e23b",
+    "working/extended_baselines/confirmation/merge_ppo_only_seed43_delay0.jsonl": "e11323aea5e5b0f98725d60a2bcc32910cb3c5e2767e5dbff718d8188cf42232",
+    "working/extended_baselines/confirmation/highway_predictor_lqr_seed0_delay0.json": "bd145c6a39cb80076bbd6b502ba71140e49a6db5394842a7030db0d90bc31d98",
+    "working/extended_baselines/confirmation/highway_predictor_lqr_seed0_delay0.jsonl": "287f8fe6cc48ab71aaee942f95b392ec1fdc11e763f6af8e4203fbf3daa1eb8d",
+    "working/extended_baselines/confirmation/highway_lans_no_prediction_seed42_delay1000.json": "a257c5518dde55abbefecb546a40b9d98c90ab32159b71ab51a0274ba8b2e876",
+    "working/extended_baselines/confirmation/highway_lans_no_prediction_seed42_delay1000.jsonl": "f266bcf86efcaffc3347bd9e338d9b2420b06c654e1ffdc5185313d331e123d7",
+    "working/extended_baselines/confirmation/merge_cbf_seed42_delay700.json": "eb70f916a18d22b2f5a7d07604489ceaa827d258a99017325268f36e8b37508d",
+    "working/extended_baselines/confirmation/merge_cbf_seed42_delay700.jsonl": "faf6c926379f2c12571ec91055f511327bd259374a1d4ce7d27e3ce3e49bdbe8",
+    "working/extended_baselines/confirmation/merge_predictor_lqr_seed0_delay500.json": "9c91207b4504a905686dd2751786b2aba7001ce37504517c8a5a0ef228ef6865",
+    "working/extended_baselines/confirmation/merge_predictor_lqr_seed0_delay500.jsonl": "a56cb472336953de28ffa6ab7376f01a936a78f39aa0929262c91940a8da3aeb",
+    "working/extended_baselines/confirmation/merge_ppo_only_seed43_delay500.json": "5303fba6a6f59fb160ad2fe5646bde2e9ae08400105069cffd82d26529e94dcc",
+    "working/extended_baselines/confirmation/merge_ppo_only_seed43_delay500.jsonl": "ba1ef3cd0f8c192a9e78dd1d792f386694a246f668f32039b08cc19e0724287e",
+    "working/extended_baselines/confirmation/merge_predictor_lqr_seed0_delay1000.json": "b146660bce9fa7f0bd88a449b6c405e0450346c440bedff121d3afd122499f12",
+    "working/extended_baselines/confirmation/merge_predictor_lqr_seed0_delay1000.jsonl": "e8430a875feb7b1afea78d194640ffff216d1f6d4dbe2afe6fd816aaaaa82fa6",
+    "working/extended_baselines/confirmation/merge_lans_seed43_delay0.json": "f6d0cbaca7698434e18550999e31afc04713c3678034d3a8968c0aec5b0478a0",
+    "working/extended_baselines/confirmation/merge_lans_seed43_delay0.jsonl": "44678945c3bf945dea9ecc8503242e43b2ae79dd677462f1647f7714852060ab",
+    "working/extended_baselines/confirmation/intersection_lans_seed43_delay0.json": "28e5bd8a5ea71c71e41f0b8ac3dc993c37750b9ce2e171b455db64326074dcc6",
+    "working/extended_baselines/confirmation/intersection_lans_seed43_delay0.jsonl": "4f8b76fd11e05184de6b6d82ce3781ecfb0fee0962afe04ff1192f726f70dfdc",
+    "working/extended_baselines/confirmation/highway_lans_no_prediction_seed43_delay200.json": "b9d15486c8585aa4bd0b9bdbb80a56fdcc091cd28bbde9ad3d37da95b53561f3",
+    "working/extended_baselines/confirmation/highway_lans_no_prediction_seed43_delay200.jsonl": "b78248fb4ae1cc25b3a1ed804a12925014ce248cad40a7b5a0bf262416ac2933",
+    "working/extended_baselines/confirmation/highway_robust_mpc_seed0_delay0.json": "3fb049ea568e322aae521be64d886d1e9959e775b3feea85df42a5e760bb3f8d",
+    "working/extended_baselines/confirmation/highway_robust_mpc_seed0_delay0.jsonl": "8904f9a01c14b508523e1d688b150714a66641c192f9a41c2c25018f2779466c",
+    "working/extended_baselines/confirmation/highway_robust_mpc_seed0_delay1000.json": "c33073be817f47a897c3ccb4f8034fb1d77e238c3df685e8285636761d589337",
+    "working/extended_baselines/confirmation/highway_robust_mpc_seed0_delay1000.jsonl": "09c4e9c240c3624a2e6e53dba0c3ab59ce87563e74defb975d88b8aff3e51a6f",
+    "working/extended_baselines/confirmation/intersection_ppo_only_seed43_delay0.json": "136eeb0a6a81a41da1601c01586f9fa7669419f2a4f73e64275d1425ce61cd62",
+    "working/extended_baselines/confirmation/intersection_ppo_only_seed43_delay0.jsonl": "3f05f62c15855e6329a3fcdbfb7cb7bc2db25d4269426d04a8c75367953249eb",
+    "working/extended_baselines/confirmation/merge_cbf_seed44_delay1000.json": "bbdca0fe7a04042d6e97382f9a1c14ded83c9e9be4fbca41ae67d636440e69b2",
+    "working/extended_baselines/confirmation/merge_cbf_seed44_delay1000.jsonl": "cb7ef4eef1c0657cdc5d9867c4f6fc718781ca35244f792f68387cb6a2cb4d13",
+    "working/extended_baselines/confirmation/merge_cbf_seed43_delay0.json": "2b748066bb2a47ec24e80ca03698923b929962ebd2e35beb85029b9b0c59b3f8",
+    "working/extended_baselines/confirmation/merge_cbf_seed43_delay0.jsonl": "cc6b34b8a7f7e09403f1799a3169839284767d46010bc15de0f616639627c544",
+    "working/extended_baselines/confirmation/merge_predictor_lqr_seed0_delay700.json": "bba46ddf9c19e7c4d08217f5b15ebf5369b494ce21a32a141c24768ad0949b29",
+    "working/extended_baselines/confirmation/merge_predictor_lqr_seed0_delay700.jsonl": "03a9cea403e20ae68d95f6bbe2b5f90c28e28673876813b74c30361d9974c177",
+    "working/extended_baselines/confirmation/highway_lans_seed42_delay0.json": "25c3cc0c323916f9bc0c18eb5c1912b9bf37bb95eb3e1d8010fbb42a95a627e8",
+    "working/extended_baselines/confirmation/highway_lans_seed42_delay0.jsonl": "bfcb788496b0991dd7a54fbcf2a6a00bf063a2ff74be2222f998d24300e78c19",
+    "working/extended_baselines/confirmation/merge_cbf_seed43_delay200.json": "6c880216b39bed129154e4b7e6bb8f19044ccdd0381d9195050f77c59d0b5558",
+    "working/extended_baselines/confirmation/merge_cbf_seed43_delay200.jsonl": "eacff8d36577bdfc42315b8a5c7d27acb62f18f979073d784e7cd65254ce283e",
+    "working/extended_baselines/confirmation/intersection_ppo_only_seed44_delay200.json": "a4a5e63df456e983a5b236d960f8cb7e1379f30c9d8f40802a4ab310e927eaab",
+    "working/extended_baselines/confirmation/intersection_ppo_only_seed44_delay200.jsonl": "3df1faceda4714287cc1f7e43ba686bf6a127d05e374ff227f58119a642c5979",
+    "working/extended_baselines/confirmation/roundabout_lans_no_prediction_seed44_delay0.json": "1313362739280fb1c62f5a83f5b4206a82ee8d58330566d0614bd43b9108f951",
+    "working/extended_baselines/confirmation/roundabout_lans_no_prediction_seed44_delay0.jsonl": "eb893f770a363933e3488075a618b0e5bdbbf3bc00f97fd887883557015e3602",
+    "working/extended_baselines/confirmation/merge_lans_seed44_delay700.json": "9f8397cfabaa926ab3317d4f791bacb2f81c4272c3e6ee884f9b7beecdaf8fd0",
+    "working/extended_baselines/confirmation/merge_lans_seed44_delay700.jsonl": "cad8cdea295943405e04dd77b4560f30f482918b151cccc15b54bd3504c4ec17",
+    "working/extended_baselines/confirmation/roundabout_cbf_seed42_delay500.json": "105c1230a02d88e56a0384b6335854b9a345adfea57f8b7116c702e704468334",
+    "working/extended_baselines/confirmation/roundabout_cbf_seed42_delay500.jsonl": "2dc4ff5758721925ca445f9c1c248c2e06b3363cd2e3a904ae5c281f68917c5b",
+    "working/extended_baselines/confirmation/roundabout_lans_no_prediction_seed43_delay200.json": "4daa12ed6aa26e4b52598e7ed375b65f5527fc4aa5c836a9d1320da96076f17e",
+    "working/extended_baselines/confirmation/roundabout_lans_no_prediction_seed43_delay200.jsonl": "c4aa4e29a0c8eaea33cfb99b51b43d86559962a7578d4bf48b3a796d6b6d5a04",
+    "working/extended_baselines/confirmation/intersection_cbf_seed43_delay0.json": "a1b22e7963fd2ead6b736fdd8ccb6a2ec6966a3ccb5b25cc04e61c1361887464",
+    "working/extended_baselines/confirmation/intersection_cbf_seed43_delay0.jsonl": "03b608a7934abeca34946a88e75a3339060bcf00ecc3ad313bfa09ceaee496fa",
+    "working/extended_baselines/confirmation/merge_lans_no_prediction_seed42_delay1000.json": "c2d27ed32b9593ff9a5489a6c1486f007747e3b7cdbab36db0c5cdf7da7307a6",
+    "working/extended_baselines/confirmation/merge_lans_no_prediction_seed42_delay1000.jsonl": "565a973c9c01489df880574d6773d15e7857271cce202670d9a5a3243af57a95",
+    "working/extended_baselines/confirmation/intersection_robust_mpc_seed0_delay500.json": "07e6fff5b0cc6bca92226b8885d82f2ffcb3a7d2e3c7d453a2a2d44ea2dae49c",
+    "working/extended_baselines/confirmation/intersection_robust_mpc_seed0_delay500.jsonl": "9ec7975c075060f0fd0d4be709c26ac1c740bf2f47b657972a299f031a531a41",
+    "working/extended_baselines/confirmation/roundabout_ppo_only_seed43_delay200.json": "52a9566ecb93cb3fd35464f24999d6ca0ed4a4a0b32a8ced850f4a5ad23d44a5",
+    "working/extended_baselines/confirmation/roundabout_ppo_only_seed43_delay200.jsonl": "d23f017d0aad7d1cb3790ebe19a227a3979f007669140d4e899a0e4b6fa51f2b",
+    "working/extended_baselines/confirmation/roundabout_ppo_only_seed44_delay700.json": "ff387883851f614714762be487cf6d206b7357a05a8e51b4b3fc9313b1f13efb",
+    "working/extended_baselines/confirmation/roundabout_ppo_only_seed44_delay700.jsonl": "588e58a63474ce7a9a2e3e204004a9ae08142368a33336f84ee3cd6c382fca64",
+    "working/extended_baselines/confirmation/highway_lans_seed43_delay200.json": "632bc491579170ac1349eef871e8812b7a3a3a2ca90b1aa681bfcd51c9c553af",
+    "working/extended_baselines/confirmation/highway_lans_seed43_delay200.jsonl": "3d0020f6fe99fb2bfbaeb9893f057c06ad993350e9a03b12a50b55ac14131387",
+    "working/extended_baselines/confirmation/roundabout_cbf_seed44_delay200.json": "0acaf7b00bd376e8d3e55faea31120b1eb812ee75e9e3ea3a111836b7457e7d7",
+    "working/extended_baselines/confirmation/roundabout_cbf_seed44_delay200.jsonl": "01cebc948aa271fc66c729c8c66571f0d892bb5e2e5708ad82dbd99ce7d8c069",
+    "working/extended_baselines/confirmation/merge_lans_no_prediction_seed44_delay500.json": "d3a10b7f18d9b0ba349578fce3c8c257d1662aea318b4769c238dc40ae65aa0a",
+    "working/extended_baselines/confirmation/merge_lans_no_prediction_seed44_delay500.jsonl": "ff7919a083465d0272d8bd143f8ad8dbf6e63e4e2a962b74d385b1869480ea2e",
+    "working/extended_baselines/confirmation/highway_cbf_seed44_delay0.json": "af4fe52bc1b6e68d4ea22006482bbce5988e6e745b15b89b22bc34eb820a5d4a",
+    "working/extended_baselines/confirmation/highway_cbf_seed44_delay0.jsonl": "47bf5efd7cb2e457824e5dccd63a9584363c99ec364bd64b7fe83f7f9fc3cbaa",
+    "working/extended_baselines/confirmation/intersection_lans_seed42_delay1000.json": "adb97729d9a5400788601733db29983c7d8a94a631ea69c7a06114fc8a2e53b0",
+    "working/extended_baselines/confirmation/intersection_lans_seed42_delay1000.jsonl": "63954496e7ed521ab37cc056f66e31f345646d1ba752c7c54b5575029df4d49f",
+    "working/extended_baselines/confirmation/intersection_robust_mpc_seed0_delay700.json": "e3aee1a067fa6bc32d996aec3e7993cd3502fe8bdc1ff4c359b239810c031c67",
+    "working/extended_baselines/confirmation/intersection_robust_mpc_seed0_delay700.jsonl": "888e3f195bfde6c2335fe7223f9a237ed30f9ef9efc0eeb9d91106a35422b9d4",
+    "working/extended_baselines/confirmation/highway_lans_no_prediction_seed43_delay1000.json": "9afbcf465ec86d579f6762215277993efa50ccd055e3fe2d73fbb2e73692ecb1",
+    "working/extended_baselines/confirmation/highway_lans_no_prediction_seed43_delay1000.jsonl": "70ff01bb27c2f2f7c5501720a337ee7f2764be41f7acce73aabb3bddb9dd4817",
+    "working/extended_baselines/confirmation/merge_robust_mpc_seed0_delay200.json": "2c75aa9c5b2932b285b2af2f7f0c623beda74a829fed713299b733452b395c34",
+    "working/extended_baselines/confirmation/merge_robust_mpc_seed0_delay200.jsonl": "45a522b54f4cad74c546681561a4005e1c196954b527660a52d1ce1ec3d2f0e9",
+    "working/extended_baselines/confirmation/highway_predictor_lqr_seed0_delay700.json": "585f4f21aeafb6cbf103b9e8e65a84b6fcd2b340a8bedc1462dcd37ab375065e",
+    "working/extended_baselines/confirmation/highway_predictor_lqr_seed0_delay700.jsonl": "4a4058a2c50d17df0d339d0068c7bbaec605f2dceaf0838957b2c1165d973ca1",
+    "working/extended_baselines/confirmation/intersection_cbf_seed42_delay700.json": "13799b3c46ef94a9076430e95d9a71233945ee6385adcc22b3777ab4f6c8578c",
+    "working/extended_baselines/confirmation/intersection_cbf_seed42_delay700.jsonl": "3fe9f058e990a4c314452a5e7a56ab5f6361865f96454db286089c505ff0ac37",
+    "working/extended_baselines/confirmation/merge_robust_mpc_seed0_delay1000.json": "602e9f3d20e5304147bf6c71dd49abfce5d41552a887062e6f46a94ff5ef3f45",
+    "working/extended_baselines/confirmation/merge_robust_mpc_seed0_delay1000.jsonl": "bfb27a14642c4f2ad95a55762db47e9ad154df62d6bc008d579abc330dcb4e79",
+    "working/extended_baselines/confirmation/merge_robust_mpc_seed0_delay700.json": "a6515e58cd8b72316006b171c35e1f308ed9b91b512e37a33265d7cac17cf362",
+    "working/extended_baselines/confirmation/merge_robust_mpc_seed0_delay700.jsonl": "54cf918c2ec2fede918d33059b53c5f7960e2a4c744d2715dc2948cb7ee53a7a",
+    "working/extended_baselines/confirmation/highway_cbf_seed44_delay1000.json": "5cd24eeee1ee6c6171db83605c60f44b1f03a4528843bb0a17f45bf2ab5052f2",
+    "working/extended_baselines/confirmation/highway_cbf_seed44_delay1000.jsonl": "17441439712945ba5006fea1585078fa6fad8e22d92a5e459fc70112b822e35e",
+    "working/extended_baselines/confirmation/highway_lans_no_prediction_seed43_delay700.json": "a8e8b6e1ca7a01df3f1d08575d167b74ef832d2aadeea7ef8c6a976d0ab9dbbe",
+    "working/extended_baselines/confirmation/highway_lans_no_prediction_seed43_delay700.jsonl": "a668d7a2d7d99c114eb1fc762d6127df86ee1ea765cb8802445dba091a55f0cc",
+    "working/extended_baselines/confirmation/roundabout_ppo_only_seed43_delay700.json": "4b8f39ba1b4a7e96c1f2b156b0cef1f465ce5e2630654fdbb974153617d53662",
+    "working/extended_baselines/confirmation/roundabout_ppo_only_seed43_delay700.jsonl": "36fa24ea622da0ba301e6eb41bd2ccb9e1d97347a7e23e77c1ad2a81e24e0d48",
+    "working/extended_baselines/confirmation/merge_lans_seed43_delay200.json": "6d54844ddeb56509fd3671579006c039c24de676688e5febf960b717175a18c8",
+    "working/extended_baselines/confirmation/merge_lans_seed43_delay200.jsonl": "194873e3d45b0ef7d9b9fa9e3e07b6da3a2b179874bc734cdf169d678174d9a4",
+    "working/extended_baselines/confirmation/merge_lans_seed43_delay700.json": "99080e30b36c37c7206d07b2c8cefd0b623f5cefe7855be76ebbd7882d23ed7f",
+    "working/extended_baselines/confirmation/merge_lans_seed43_delay700.jsonl": "888ff5d2ae509be91c5fcecbb175fdc358e83db99fbff013c4547bff69534968",
+    "working/extended_baselines/confirmation/intersection_predictor_lqr_seed0_delay500.json": "f2dd686dba67237f18accee3c1fbe87dcf388c06f0adf8fe7c0b9fa8bec4dc67",
+    "working/extended_baselines/confirmation/intersection_predictor_lqr_seed0_delay500.jsonl": "4b54e10d56a0da661352176e0b5cefa705f5c675928812f36ad20ae09568009e",
+    "working/extended_baselines/confirmation/highway_lans_no_prediction_seed44_delay500.json": "fbad0bb19d6266fc8a1ccdfd0349d5e7c76b178655e435278d46e76b5175f46a",
+    "working/extended_baselines/confirmation/highway_lans_no_prediction_seed44_delay500.jsonl": "5a9de30e40cf4d10bffe3743389160efb746b078dca9995c04d5f75803574b27",
+    "working/extended_baselines/confirmation/highway_lans_no_prediction_seed42_delay0.json": "d7075bd461ce68aaa859ddc8c03eaed6bf32840cf56ea00a69f5449d0a991927",
+    "working/extended_baselines/confirmation/highway_lans_no_prediction_seed42_delay0.jsonl": "03912678d429084e81bc3cd1604e77b4bad8176344640908f97b8e5d788209e7",
+    "working/extended_baselines/confirmation/intersection_predictor_lqr_seed0_delay0.json": "087b4515c07abd0efc2ce87884391223c5597901fe6985cf6361dbf736411c5c",
+    "working/extended_baselines/confirmation/intersection_predictor_lqr_seed0_delay0.jsonl": "0f0232eaff51b56a18d688a9a97f272fba926816f10d6670056a1707f3a31e68",
+    "working/extended_baselines/confirmation/highway_lans_seed42_delay1000.json": "2610d7783426f97bca79eeed6805c78107be1d7b90eebb6fc1cc4c4ccf4da08b",
+    "working/extended_baselines/confirmation/highway_lans_seed42_delay1000.jsonl": "e20c5678d53f2876b813c86ecbdb003e13f0fc8f50ccd7f6cc2aaa27bd2be8d3",
+    "working/extended_baselines/confirmation/merge_lans_seed42_delay0.json": "d666391eb6a8b0b0c3dcc02e55bc71b4db24e0189f627aa995ca10801b206841",
+    "working/extended_baselines/confirmation/merge_lans_seed42_delay0.jsonl": "5baf025c29cbdf292a584c4c279848a058a148acab8ca1e67c2744705e0bd65c",
+    "working/extended_baselines/confirmation/merge_cbf_seed43_delay700.json": "600a40fc7095bb3405e91ac228578e9f4188b03a7692157278d374359ed6c597",
+    "working/extended_baselines/confirmation/merge_cbf_seed43_delay700.jsonl": "63bfdbbd777ca522f159b9a63e5501ebd0f98570c6de0f451cddb18ad44eaa2f",
+    "working/extended_baselines/confirmation/highway_predictor_lqr_seed0_delay500.json": "fe8d2d72d1eebd8384a2c8d98bfa8203c7515ef1ac242f2f38f48289872298ac",
+    "working/extended_baselines/confirmation/highway_predictor_lqr_seed0_delay500.jsonl": "caabf06dac6339995b2fcab6370d41ff8381320799936b03704b2455856110b0",
+    "working/extended_baselines/confirmation/intersection_lans_no_prediction_seed43_delay200.json": "a240ef0ab467e3780816ce11e28c6f30d1c69286b2222db686e68e429d4cc700",
+    "working/extended_baselines/confirmation/intersection_lans_no_prediction_seed43_delay200.jsonl": "720d46dfa68e75dc091d26e4c4473f3cdb941ac1e65b2fcb6bfc637347d5f0f0",
+    "working/extended_baselines/confirmation/intersection_lans_seed42_delay200.json": "e04b4c9d3a6cedcefae9bd695a8b222843eab0909433b551ace23e82cc8e7fcc",
+    "working/extended_baselines/confirmation/intersection_lans_seed42_delay200.jsonl": "deeee77325ed6bbf0ab3c5169d4a571f46b6ea9137c61eb4a713a8ae4a31da32",
+    "working/extended_baselines/confirmation/intersection_cbf_seed44_delay1000.json": "0af4ea1d65654f7ce6bafcc374a4847854b0f4da527cb17c2721da0b5562f829",
+    "working/extended_baselines/confirmation/intersection_cbf_seed44_delay1000.jsonl": "c5087605c8c805c136f497cc472937f36c0179ef4aab668eaf2262a7a60d060e",
+    "working/extended_baselines/confirmation/intersection_lans_seed42_delay0.json": "b24bd16fb355e76cff5ea3a982b95742d1b4408c7604b6f9bf438c64c2f36755",
+    "working/extended_baselines/confirmation/intersection_lans_seed42_delay0.jsonl": "6dcdbfc3fe069b4fb4d7d323311ff8d9d8ff598e1c6d85621fa631ff9faa9e06",
+    "working/extended_baselines/confirmation/intersection_lans_no_prediction_seed44_delay200.json": "1705d8a6b733e3639c9a68f730ab043ad41eeeed869d3f925b82ab42682cbfc1",
+    "working/extended_baselines/confirmation/intersection_lans_no_prediction_seed44_delay200.jsonl": "a5bed8b758b3e0464771e0fdf909eb2ce136a8766b723d38704ca3445307390a",
+    "working/extended_baselines/confirmation/highway_lans_seed43_delay1000.json": "cebab0c1d658e7cafde85c74b6ea48d1a64aade484931cc23dd68ac435b68bb3",
+    "working/extended_baselines/confirmation/highway_lans_seed43_delay1000.jsonl": "df0db7b9f2a0c175924227d0d9251f369a00b447bf0357be4883d97266bafda5",
+    "working/extended_baselines/confirmation/merge_ppo_only_seed44_delay700.json": "dc93ad36d9157f9a2b8a84e1f42c96407eee5e068030431317a3a01a7f636150",
+    "working/extended_baselines/confirmation/merge_ppo_only_seed44_delay700.jsonl": "1201012c3fb56ceff3c4b8b2c99061b17ec2427c45791b7df12dd0e760e6488d",
+    "working/extended_baselines/confirmation/highway_lans_no_prediction_seed44_delay1000.json": "ea9d256933971d59667f36559440912dcf050ddb06899dd75673fe3ca5d9dfc1",
+    "working/extended_baselines/confirmation/highway_lans_no_prediction_seed44_delay1000.jsonl": "7060732979d9dcb4a103e620542f94b9d1446ef69628061ea1046d1be22cee2b",
+    "working/extended_baselines/confirmation/highway_ppo_only_seed44_delay0.json": "0f2a23307baa6a54af9be984698fceb9c6b426b0c889c425224370f694d919ea",
+    "working/extended_baselines/confirmation/highway_ppo_only_seed44_delay0.jsonl": "19b85db2eb21d8d7d99c3a4c2f2809c0c39adf9d386505e9c51a523adf349d7f",
+    "working/extended_baselines/confirmation/merge_lans_no_prediction_seed42_delay700.json": "99f3d9c4d19a94d3cb5b97309a446bb83f0ad8cff7b85219cc503f4b1bdeb28f",
+    "working/extended_baselines/confirmation/merge_lans_no_prediction_seed42_delay700.jsonl": "0f1105f7c4612c1046d93e8baa67369d5cdc92ee90ceef8260a7994fbcb480c4",
+    "working/extended_baselines/confirmation/highway_cbf_seed42_delay500.json": "21650ec388addfc909bcba18c397e495b54435271508cee66b7f3d47d26e504c",
+    "working/extended_baselines/confirmation/highway_cbf_seed42_delay500.jsonl": "a510548574f1a4b1da8efe8a209cf9f07c71ba4228f68a085b808528b8dd459a",
+    "working/extended_baselines/confirmation/merge_lans_seed44_delay1000.json": "f7c6e3a29b108e4dc5faa41323754eae27068e7ff5055b6cdc8e7fb266cf5a71",
+    "working/extended_baselines/confirmation/merge_lans_seed44_delay1000.jsonl": "176bfc0254fbaff840c76ffff1aac33a959b526e4066c9ca3554700485289e68",
+    "working/extended_baselines/confirmation/roundabout_lans_no_prediction_seed43_delay500.json": "f04fd786b457cd714de86f8c8d9d2cf5ec61a6cc7ce2ad186a9540074e43f3f6",
+    "working/extended_baselines/confirmation/roundabout_lans_no_prediction_seed43_delay500.jsonl": "ef12812a6b6dd64f9777167abe02b9faaec32fe27059fee7ac008cab4a8d50d2",
+    "working/extended_baselines/confirmation/roundabout_ppo_only_seed43_delay500.json": "f4529a4ddd4f64d0ebed09092793d45778f28f4b4b4a4d6387167f89389495e4",
+    "working/extended_baselines/confirmation/roundabout_ppo_only_seed43_delay500.jsonl": "9cc8e1beed46c2695d898b1fc64f3ade17bb0fb0596de9dce512a98c8b3ae069",
+    "working/extended_baselines/confirmation/highway_cbf_seed42_delay200.json": "dffa7a46632c3a655cc52045b7533340f00febb4610594d4ddc553bd02edc336",
+    "working/extended_baselines/confirmation/highway_cbf_seed42_delay200.jsonl": "4b8bd5fd0507b0ede277162ceefd176ecbe14439e831c0bfd172eebeb47a515a",
+    "working/extended_baselines/confirmation/highway_cbf_seed44_delay700.json": "aba2af63a8a0315445e80aa287fb40073422a36de912cce0b085cce7a15df51f",
+    "working/extended_baselines/confirmation/highway_cbf_seed44_delay700.jsonl": "c471fa5b0e5ed7ce67f127ebfb756f2eba5f133b08f0677b58f78ad702cab497",
+    "working/extended_baselines/confirmation/intersection_cbf_seed43_delay500.json": "00532620d72aa28be64aa3ab77d213256b0650ba44da5f7d924a1836beebf34c",
+    "working/extended_baselines/confirmation/intersection_cbf_seed43_delay500.jsonl": "030177efe0d7e97bb0046e6591c3ea49ebb8a1e6933ed22ebcb008a69cf56497",
+    "working/extended_baselines/confirmation/roundabout_robust_mpc_seed0_delay0.json": "9a7604245e1c6bb5ae9e1f2959a1566249fffa73b3329450c85d2178cb949962",
+    "working/extended_baselines/confirmation/roundabout_robust_mpc_seed0_delay0.jsonl": "725014dc671c5b3e59e6c32c8ff3329c85936a86f3f4f52df7ce874c7028b2b8",
+    "working/extended_baselines/confirmation/highway_ppo_only_seed43_delay500.json": "2923458c188144812afa3b964f14c302a3b1598c613ebe1c5c4d88ab2d51a4da",
+    "working/extended_baselines/confirmation/highway_ppo_only_seed43_delay500.jsonl": "8c59afe2459b05c4062a9ed3def87dd03c8f3051b96c0d7c0c2ed750e0d7c1ed",
+    "working/extended_baselines/confirmation/roundabout_predictor_lqr_seed0_delay200.json": "7c61b82662a5c67fb3827d7d92267f318d520add84409833e506716943c02b94",
+    "working/extended_baselines/confirmation/roundabout_predictor_lqr_seed0_delay200.jsonl": "eb3a038d090099eda499bcbb38030407ca7c26048681d88d823c5c4d9cb002ef",
+    "working/extended_baselines/confirmation/intersection_lans_seed43_delay700.json": "6c56d03433a6c205b625c1f8cf4f2623341bb106a3fcb69f55beb55381510242",
+    "working/extended_baselines/confirmation/intersection_lans_seed43_delay700.jsonl": "5d01ef553f13e8c8189706b42a713c8481b2db219ea0c636a054c6cb6752d6b9",
+    "working/extended_baselines/confirmation/roundabout_cbf_seed42_delay1000.json": "98aacd1af69d859dc0cb76a22ba99cac53fb7ac3cba19f8b632dbcc2d1872d5d",
+    "working/extended_baselines/confirmation/roundabout_cbf_seed42_delay1000.jsonl": "03464649746d5d880f8ea05e0b6bec4bd3f5040189fe901d6844da1db7af293a",
+    "working/extended_baselines/confirmation/intersection_cbf_seed43_delay700.json": "408301c2e297dd077a6229599203124347f56550be6c3a954d875a0d1edd156a",
+    "working/extended_baselines/confirmation/intersection_cbf_seed43_delay700.jsonl": "7c0e088a8251242d07fc2d85219c635327307d7a5b5a5fc408477b1b68ae6148",
+    "working/extended_baselines/confirmation/intersection_lans_seed44_delay200.json": "05e6ef377faa267403f30435cfa8e959b93298a091203e8d1e7ea6e4f77e2a3e",
+    "working/extended_baselines/confirmation/intersection_lans_seed44_delay200.jsonl": "6a65d7bcf4ec4f94a9f171a4700e26d90221d85295b0a4531781f137d86024d8",
+    "working/extended_baselines/confirmation/intersection_cbf_seed42_delay200.json": "28702e02a94340708d0667c49eb3c1a40909dca1996b12c7152d86aef9465a4f",
+    "working/extended_baselines/confirmation/intersection_cbf_seed42_delay200.jsonl": "68f16f96b984c95261ad1e16f19d0b83b1c8cceb2f56de2d87b2eed620009a8d",
+    "working/extended_baselines/confirmation/merge_lans_seed44_delay200.json": "a174a2c876718d51c970b39eb6b61fcc91a45c838415c16d2a6b6e837ecfb86f",
+    "working/extended_baselines/confirmation/merge_lans_seed44_delay200.jsonl": "68cf9ac2545b562dd16d863be4e5b31741019daaf3279cfe08dfb0512d43d7ca",
+    "working/extended_baselines/confirmation/roundabout_predictor_lqr_seed0_delay0.json": "9107757e1f34d0333769e12b3a651d20cfc165f21c55107f3e3be778190627fb",
+    "working/extended_baselines/confirmation/roundabout_predictor_lqr_seed0_delay0.jsonl": "b7ee9404314dec55e60e89139118bea22964a0b082208b6b0d468777ce13d6d0",
+    "working/extended_baselines/confirmation/intersection_cbf_seed42_delay1000.json": "ab18b12879e8630fa9ac305528cdc2cde000c02d9d22bbbc680b52d75e628d7a",
+    "working/extended_baselines/confirmation/intersection_cbf_seed42_delay1000.jsonl": "a48ec44805c60c934255ce31814baeed3f2baa43a26dcd5e0c719ed44b0fc6dd",
+    "working/extended_baselines/confirmation/roundabout_cbf_seed42_delay200.json": "0cf1f536463232399c30218513c4ed0faa05cd1d1812e5ac718d6510a95ebb75",
+    "working/extended_baselines/confirmation/roundabout_cbf_seed42_delay200.jsonl": "1ced41f7ec65d578a8b1a20b011d9f7b409d2839f717476d8d4e1399613e9b73",
+    "working/extended_baselines/confirmation/intersection_ppo_only_seed43_delay700.json": "ea89e8792f0d6aee2e6aa77a697f907e46dcd96cada0efe997c2b3b616e62efc",
+    "working/extended_baselines/confirmation/intersection_ppo_only_seed43_delay700.jsonl": "bc107f2d7ae89dd967ceca95d7302a6950424807cfba8d0685224185facb5fce",
+    "working/extended_baselines/confirmation/highway_ppo_only_seed43_delay0.json": "e5ca58db6a4ef81ed1fd3c528af5cbe52f0599319c13f94db672804ec7a010ec",
+    "working/extended_baselines/confirmation/highway_ppo_only_seed43_delay0.jsonl": "06f94b469babf30bf59a6f602ba1ce01067963498c61256cd4ec2f6f99189f3e",
+    "working/extended_baselines/confirmation/intersection_ppo_only_seed42_delay200.json": "5239410e510d58dc62881c4abcc1d63d7bfeca5aa1741e1a6c3271c1a5448110",
+    "working/extended_baselines/confirmation/intersection_ppo_only_seed42_delay200.jsonl": "e166fdb9849c72d0b134ce23129a767b21b58c30042b77fa1cec544bd8c58f93",
+    "working/extended_baselines/confirmation/intersection_ppo_only_seed42_delay1000.json": "db6095aab08c3a139976d3e5e901e29fba7bdcfc787b613b0d78027e6f34e75c",
+    "working/extended_baselines/confirmation/intersection_ppo_only_seed42_delay1000.jsonl": "e69740de0c9b3a2b9dca2374b69bdabb962045685e9e2e75af5b6651810a78f5",
+    "working/extended_baselines/confirmation/highway_cbf_seed43_delay500.json": "3fd0fb476d132a5d2b617145926e18816eba098405bc4c620219f11d2584660e",
+    "working/extended_baselines/confirmation/highway_cbf_seed43_delay500.jsonl": "a3c3c4dabf67bca65055734cbc4b394624e12b6e1f61b431a4997607a4dda98c",
+    "working/extended_baselines/confirmation/highway_lans_no_prediction_seed42_delay500.json": "65cad342f519de8c237b5cba6133351b4158e50ba08122fb1cac993d24008760",
+    "working/extended_baselines/confirmation/highway_lans_no_prediction_seed42_delay500.jsonl": "41312f5d1adde1b4ac414b1473bf75269b773009dfed68f37cb448c892dfa69a",
+    "working/extended_baselines/confirmation/intersection_cbf_seed43_delay1000.json": "277de746e13e1f6e8dcc9b0060bbea2cd851f7c8c18ddad0c8f31847c8c45141",
+    "working/extended_baselines/confirmation/intersection_cbf_seed43_delay1000.jsonl": "9c98da0bb331044361b80535a788fea913f08cc9bd24dd6d3de4b8fa54053c62",
+    "working/extended_baselines/confirmation/merge_cbf_seed42_delay200.json": "9dbbe17fb19e13e299c7ef6fa9a69b8e76d47286444c7c9c4fc9c2025550916d",
+    "working/extended_baselines/confirmation/merge_cbf_seed42_delay200.jsonl": "a19833804885e66d3ee71a7d03968ed4fd4ace3d9b4e24cb6382604965095dc2",
+    "working/extended_baselines/confirmation/intersection_lans_no_prediction_seed44_delay0.json": "dcc7163ae8ea9d51a105a051a2c3bf5adc2bf6a27a736d4ca06103993ec865ce",
+    "working/extended_baselines/confirmation/intersection_lans_no_prediction_seed44_delay0.jsonl": "874fb60d478dbb636749dea3a0dcdddd00968c004ef1a3a9b1fac581e32137a2",
+    "working/extended_baselines/confirmation/merge_lans_seed42_delay700.json": "142fdfda7af5303d4c41101c81c1559bfe828aa8661e5f6cc2e32eab9802f68a",
+    "working/extended_baselines/confirmation/merge_lans_seed42_delay700.jsonl": "8907ece3d7120ed6c31fea67da48c60412826424819a7286d6efdbd9ba871392",
+    "working/extended_baselines/confirmation/intersection_lans_seed43_delay1000.json": "eda229be0ba2177c08d1ab1559ad3e02d6783ef2eee30fdf6643202a85f3adc2",
+    "working/extended_baselines/confirmation/intersection_lans_seed43_delay1000.jsonl": "1fdd383a2332d37b7c53b20d0df7b3846c83fe209c67a46b98078b5841812c35",
+    "working/extended_baselines/confirmation/roundabout_cbf_seed42_delay700.json": "838e1c2424fd072143b26e55e23ac442dbc7b9ed69f597b0ea5f3f76b0144924",
+    "working/extended_baselines/confirmation/roundabout_cbf_seed42_delay700.jsonl": "a2f19f81924178f7a5b558d9763204761a3aaf52da3fbf1fbfa1d1d9fde54241",
+    "working/extended_baselines/confirmation/intersection_lans_no_prediction_seed44_delay700.json": "41b28a6f2bf10e088bab960c05eedcfc7e78d6f500f42e07588ef5c2debd8c65",
+    "working/extended_baselines/confirmation/intersection_lans_no_prediction_seed44_delay700.jsonl": "7547045b7802e82778631e510eb53c1667411f57a96dca9585369c8df63dc142",
+    "working/extended_baselines/confirmation/intersection_predictor_lqr_seed0_delay1000.json": "f9c64d54c95cf25dcb472333eb7a20d359e0dada3e0780c2f9f19b0e6eb65b11",
+    "working/extended_baselines/confirmation/intersection_predictor_lqr_seed0_delay1000.jsonl": "96f94f7436d01222e3fc322cf5f9130c214913bbeea37f65868c89e2ef4f1507",
+    "working/extended_baselines/confirmation/merge_ppo_only_seed44_delay0.json": "b80d95175c288aa00f955948fe9aa3a3f46eb1f2d39ec894d0dd7b499cb18688",
+    "working/extended_baselines/confirmation/merge_ppo_only_seed44_delay0.jsonl": "59f2a65fa64079d669ae626671352cadd33156fb9edefee9e99fb793b0d6a22b",
+    "working/extended_baselines/confirmation/merge_ppo_only_seed44_delay1000.json": "8e8af9654373ff82cd651eaa3b1544154e02f717c444967a243c4240cc144875",
+    "working/extended_baselines/confirmation/merge_ppo_only_seed44_delay1000.jsonl": "aee2fc42e524484a5ecec1e0dce53ac1f512e7bcb905e7e4bffde44c1430200e",
+    "working/extended_baselines/confirmation/intersection_predictor_lqr_seed0_delay700.json": "7104fc1d6971f4e18fbbd7a6a15cc570c42f4d8965b39ba10f18d7889ce8bb03",
+    "working/extended_baselines/confirmation/intersection_predictor_lqr_seed0_delay700.jsonl": "9f5c6aca6126edf475ab9c5c55c9bb76154bb71e9bbd3acc6d8db444980d74cc",
+    "working/extended_baselines/confirmation/intersection_cbf_seed44_delay200.json": "e06a755754d614e947a725a29a96b225af4865d968bf5e8ec532f3df21b1e2d1",
+    "working/extended_baselines/confirmation/intersection_cbf_seed44_delay200.jsonl": "acf51d8705d943ae95bf4ed44128d253eb5129357671bfab31568460bb80c38c",
+    "working/extended_baselines/confirmation/merge_lans_no_prediction_seed43_delay1000.json": "caf5acfc3af5aea6637bd1e3a950e0d47f5c84637ad07354569e36bebf5bdcea",
+    "working/extended_baselines/confirmation/merge_lans_no_prediction_seed43_delay1000.jsonl": "51105e42f186eb22337f9fbf09474f7c5403eb30c71eb5fe2f5b92a4cd010559",
+    "working/extended_baselines/confirmation/intersection_lans_no_prediction_seed42_delay1000.json": "642fefc013322945adbd8ecb708ed0a3632fb1c6b9bfe459d4414f94bddd7576",
+    "working/extended_baselines/confirmation/intersection_lans_no_prediction_seed42_delay1000.jsonl": "5ed6d9ca880ee39e2e27bc2f7b144eba2c4da478947627061db707a21f833308",
+    "working/extended_baselines/confirmation/intersection_lans_no_prediction_seed42_delay200.json": "8ccac1e65df6da886bbe2b261d09d830e4b79e10698f246dd6c3a1d98a167c9d",
+    "working/extended_baselines/confirmation/intersection_lans_no_prediction_seed42_delay200.jsonl": "817e08e3e59d61b0dae90cf45a66d4c5fb766696df0ac09b5eede02cbce74b5d",
+    "working/extended_baselines/confirmation/roundabout_robust_mpc_seed0_delay500.json": "4403d79325a1d650e5a99d45479f6bac0c833a882149e149806d2725c5f71ae1",
+    "working/extended_baselines/confirmation/roundabout_robust_mpc_seed0_delay500.jsonl": "74471b17a4bba7f7a0baeddecee9b8d06b4a512aa65e1d7261db3bacefd16d7f",
+    "working/extended_baselines/confirmation/roundabout_lans_no_prediction_seed42_delay200.json": "aa28476a8f7f0988e7a77a708d09715a3860abcb1474068b90f6d13bfa20ae41",
+    "working/extended_baselines/confirmation/roundabout_lans_no_prediction_seed42_delay200.jsonl": "abd1f29ac59ac0f33cab09fb0cba48ba1628fdaa9d1217c8d2d02f7055ad1ebb",
+    "working/extended_baselines/confirmation/intersection_ppo_only_seed42_delay500.json": "cbb1c563eb0e53459e8c8137a3f484002863eec1b92f6b9dc96ea944c4113188",
+    "working/extended_baselines/confirmation/intersection_ppo_only_seed42_delay500.jsonl": "a05db0f03d465d49101e8bef08e821e7b62ac834206574f4d2bac7e3536ad2ae",
+    "working/extended_baselines/confirmation/merge_cbf_seed44_delay200.json": "bf5c7acac573f5fdde5e326666094c43f75018722558ebfdd55a544db549e86a",
+    "working/extended_baselines/confirmation/merge_cbf_seed44_delay200.jsonl": "fd59c6cc87610691e5b38421b4e82a96e2540b897278a7255fba2621f74328f4",
+    "working/extended_baselines/confirmation/merge_predictor_lqr_seed0_delay0.json": "3252ec19a1965a6a28455220cc917f886b9b5d1522b65441a791e921b376edc2",
+    "working/extended_baselines/confirmation/merge_predictor_lqr_seed0_delay0.jsonl": "0c67f169a57476fdd72332b25ac3b93545f1d0d3a67fb90a1ecbf28a7d165beb",
+    "working/extended_baselines/confirmation/roundabout_lans_no_prediction_seed42_delay1000.json": "b1d57af07bdb1b2ac8ff6001b7f093191ad2fc916e37d6d41286cc01469ec6be",
+    "working/extended_baselines/confirmation/roundabout_lans_no_prediction_seed42_delay1000.jsonl": "5a423a64a8c97a6aef8ab213d84fccad02cf33e64eb651d3198ba901f79a9a44",
+    "working/extended_baselines/confirmation/intersection_lans_no_prediction_seed44_delay500.json": "c52fdbfa2f75f30537ca4eb7aff9110fd8614855660fc09f43c83a2fde51d918",
+    "working/extended_baselines/confirmation/intersection_lans_no_prediction_seed44_delay500.jsonl": "af18c8b232c3e75b520c4426a2ab03ca1d87fa0d902880d048c19573d6ce5d94",
+    "working/extended_baselines/confirmation/merge_ppo_only_seed42_delay700.json": "c7523c52e8fd0e553768ed4860753d9d26e679df62b8110a4cc846b2d191ba46",
+    "working/extended_baselines/confirmation/merge_ppo_only_seed42_delay700.jsonl": "c0358d36cf24d95a9cb5d4a69bf41bda1d9873c220fa29c58dd2b4e81e07fc05",
+    "working/extended_baselines/confirmation/intersection_ppo_only_seed43_delay200.json": "cea3feb19cfa83527dcd8ddf128a72622e2ef0bd1f0ccc6c25f378edf9fe684b",
+    "working/extended_baselines/confirmation/intersection_ppo_only_seed43_delay200.jsonl": "a6dc7c905135c8011e9205e7976c59597bda0224dafa86466210dca030a5b602",
+    "working/extended_baselines/confirmation/highway_ppo_only_seed44_delay500.json": "404b7ed31c4a5d7946bc397f616cb102d02f8fde6fb62d4744756252c036ef52",
+    "working/extended_baselines/confirmation/highway_ppo_only_seed44_delay500.jsonl": "8ee875b0122fe489a1dc3c9b07155896d9cc48143e8e52df9e63b758d688d5f5",
+    "working/extended_baselines/confirmation/merge_ppo_only_seed42_delay200.json": "a659d9bd9bf5eabcf2bd22379e27dcc33cda0cdf4ffa925908a52fcd89ecc448",
+    "working/extended_baselines/confirmation/merge_ppo_only_seed42_delay200.jsonl": "b5e55d29f47972761cf136a961ebf2a779f1605f688d8d58311ffd9a6b92ad15",
+    "working/extended_baselines/confirmation/intersection_lans_no_prediction_seed43_delay1000.json": "ae506ebfd5fbba58b628518316d7c2bd0954411819f1c174fa213905eab2b8bd",
+    "working/extended_baselines/confirmation/intersection_lans_no_prediction_seed43_delay1000.jsonl": "904c52a1f88b11fa6e24617ab75a773eea6c916e44429430cb5ef64870ea2cf2",
+    "working/extended_baselines/confirmation/merge_lans_no_prediction_seed43_delay200.json": "6e5fd76c71ab0d654f4f406b7f7c40223be33616de9e08b2b48ea6a8ec4ffa57",
+    "working/extended_baselines/confirmation/merge_lans_no_prediction_seed43_delay200.jsonl": "9d22b32e99040778c72d3d58f03ce19f4474a9c619bfcd57c428260cbf006d06",
+    "working/extended_baselines/confirmation/merge_predictor_lqr_seed0_delay200.json": "6ed4cf6c893528308baa0257f546f818fcfc87076da93d900a0840b25f846b42",
+    "working/extended_baselines/confirmation/merge_predictor_lqr_seed0_delay200.jsonl": "8ca57c9dad216021e2b867d86f0a3dc36a7467782588310f535acb412bd364d5",
+    "working/extended_baselines/confirmation/intersection_predictor_lqr_seed0_delay200.json": "d9b60ba6cce2f06da72298aa8b0a9de6c5acc51d06c6a3b31bd8befa67c2ba0a",
+    "working/extended_baselines/confirmation/intersection_predictor_lqr_seed0_delay200.jsonl": "9d4465c301d2ed2d9012e840a0eb6b8aeef61e5bdd365a4dab5c949afaac7010",
+    "working/extended_baselines/confirmation/highway_lans_seed44_delay1000.json": "8ef67b8fe355c696fd8b0d3ed32698838a4f717ccf3446129978f92017ee29cb",
+    "working/extended_baselines/confirmation/highway_lans_seed44_delay1000.jsonl": "329028dd0de363c38198c1aafc28c0ce5c99e283bc6021861a5af482c09b963c",
+    "working/extended_baselines/confirmation/intersection_ppo_only_seed44_delay700.json": "d7396e7fc9d867f8a4d55b0b0451edb990f200e3f43d0f7d639a1678e3182c59",
+    "working/extended_baselines/confirmation/intersection_ppo_only_seed44_delay700.jsonl": "e26807b59bdae08452a1bb324fd061f4e44e4c27882f3c1b02ab1f0db3b7e563",
+    "working/extended_baselines/confirmation/highway_cbf_seed43_delay1000.json": "8ec3a4403221b073e889481e211dcd05bb5d9e734e5c6dd10d49d92f16929e46",
+    "working/extended_baselines/confirmation/highway_cbf_seed43_delay1000.jsonl": "9cbc071d25a5510d6ade5d1072cf7a9c4a9de53d69afd0de93326a28fde10a05",
+    "working/extended_baselines/confirmation/roundabout_cbf_seed43_delay500.json": "73ce6aeceba44ceb7e74c833af86fd27ac6b3a4064073bf63bc5111102e09a42",
+    "working/extended_baselines/confirmation/roundabout_cbf_seed43_delay500.jsonl": "1978ecfd8c68f74d30b0a89f4f19a279112d3586dffaf1a6f1d902b21e97ce32",
+    "working/extended_baselines/confirmation/highway_cbf_seed44_delay500.json": "8ef753d5cf4002d4567f810461a5aafaa3e81751424ca1eaaf683e9ce416e182",
+    "working/extended_baselines/confirmation/highway_cbf_seed44_delay500.jsonl": "0e08fc0d8337ba0eb4eb71056fa5fa3d1db9c1220743fbff7a12a59e1d47d7a3",
+    "working/extended_baselines/confirmation/roundabout_robust_mpc_seed0_delay1000.json": "f7da56b6ff6a4dd8cbf2c0d3c8ef921c62b8491ce85bff8b3a76ab91647d9bf7",
+    "working/extended_baselines/confirmation/roundabout_robust_mpc_seed0_delay1000.jsonl": "df4a41c8fc450df9468f722e5a90e7b09e98ce7dd77aa300f460305aed37f26a",
+    "working/extended_baselines/confirmation/highway_lans_no_prediction_seed43_delay0.json": "ff4df0086fc480bcf574f0e811ef025dd9b3048e778b0d3bbdbda1b2a0fb5708",
+    "working/extended_baselines/confirmation/highway_lans_no_prediction_seed43_delay0.jsonl": "f8e9d856c330028b7fac2a9f7babc92db06d95e13af1604057fd290b99cce444",
+    "working/extended_baselines/confirmation/merge_lans_no_prediction_seed44_delay1000.json": "e52404b07ab150c689acfcc281b1bdfc44b08417d8324eb188febdfec924ddda",
+    "working/extended_baselines/confirmation/merge_lans_no_prediction_seed44_delay1000.jsonl": "b549cac346765292ccfae1ac29c3e87de16fa6293c000aec3ed4c7e9ff680f2f",
+    "working/extended_baselines/confirmation/roundabout_cbf_seed43_delay700.json": "6214dda406fa2ea0927fb5f17d369669de2c94508231235f5ceb6469c3ff248d",
+    "working/extended_baselines/confirmation/roundabout_cbf_seed43_delay700.jsonl": "d20508da45190736195aaecce6a3000dde5c3afffe2f26c52ba3514046c388c4",
+    "working/extended_baselines/confirmation/roundabout_ppo_only_seed43_delay0.json": "f9e908990fed6f6c96c008d9d1332238156f5a780101fd2de6ffd5c98ad35aff",
+    "working/extended_baselines/confirmation/roundabout_ppo_only_seed43_delay0.jsonl": "4fa2d4e2274df7e7bce61de0c838851a94e0f15c926d73b8e9ea88c4d0212125",
+    "working/extended_baselines/confirmation/roundabout_predictor_lqr_seed0_delay1000.json": "e410cddfe9d40e530e323dd1f9a8e9077553aee62cd965da9c45b2695d932316",
+    "working/extended_baselines/confirmation/roundabout_predictor_lqr_seed0_delay1000.jsonl": "e6f961f341b72dbd79caf912917e8c7c81804568ec21e86c26c23ba2f9e682e8",
+    "working/extended_baselines/confirmation/highway_ppo_only_seed44_delay700.json": "1303d46767f25865357d786507b33164c0aee8410b2d99fff2ddeb6f41fbb9cc",
+    "working/extended_baselines/confirmation/highway_ppo_only_seed44_delay700.jsonl": "aaff809454b401c792a22569e8726cbc9678c38c578206e3cbc5f4f3d9a54bbf",
+    "working/extended_baselines/confirmation/highway_ppo_only_seed42_delay0.json": "09d311319b3d0d0df74d738bf9ec08698becc7110a224f3113092c2bf84a839b",
+    "working/extended_baselines/confirmation/highway_ppo_only_seed42_delay0.jsonl": "3ee568c80e7ff12b549d6896407d0ad6e9f273fb093b6a63b84e2c942a15a6c3",
+    "working/extended_baselines/confirmation/highway_ppo_only_seed42_delay200.json": "06e683de2bd68808c1e655b4746aa5330fd8a961893a71ace200ed70ec496389",
+    "working/extended_baselines/confirmation/highway_ppo_only_seed42_delay200.jsonl": "83ec3a3b79e69f9a713f0255a7cf710a1fa1df10a7ee63bdeeafd05a9cb9ffdf",
+    "working/extended_baselines/confirmation/merge_lans_no_prediction_seed43_delay0.json": "494d6507832465a0e565d766c2bfcb31f77d9b89d21d0ff0fe1f079eed269ea8",
+    "working/extended_baselines/confirmation/merge_lans_no_prediction_seed43_delay0.jsonl": "b5ff8348a62282ec4a4d73faddeadc9ae967912caea01b02eec4b028d5ea0e8d",
+    "working/extended_baselines/confirmation/intersection_lans_no_prediction_seed42_delay500.json": "70778fb84cb0f8345bdd0ca5609b47471fc57df4ec0c505726c5b1313af0cf65",
+    "working/extended_baselines/confirmation/intersection_lans_no_prediction_seed42_delay500.jsonl": "4d844df5949943b3d4772d4070d54c524bb90a3a292f459a831f7645016aad8f",
+    "working/extended_baselines/confirmation/merge_cbf_seed42_delay500.json": "6b7b7f7ba46071847ec4e153bf5038adbc3a04aacf24d117e29d7bbf481c75f3",
+    "working/extended_baselines/confirmation/merge_cbf_seed42_delay500.jsonl": "f9f6de5ab74dbe1eed805f1717b0392c2d43edb9440a4004da62b5ca98ce8ba3",
+    "working/extended_baselines/confirmation/highway_lans_no_prediction_seed44_delay200.json": "f0b32b06ec71586d2495851f12de69c18f2c1a88765ac51d17ca84e754d0c31b",
+    "working/extended_baselines/confirmation/highway_lans_no_prediction_seed44_delay200.jsonl": "bbe168a8f8391cc92b29f7b88b6d4f52b04076a58362ce4711f2903dfbc52230",
+    "working/extended_baselines/confirmation/merge_lans_seed42_delay1000.json": "f49471b9954d9d6d9602881839b1da35e6161371dd988d15e5cc144df979fbd0",
+    "working/extended_baselines/confirmation/merge_lans_seed42_delay1000.jsonl": "55e5ba2612a776f06a71fc1d5fe05a50fe11f50c39989e610bca0ba7f4e829f8",
+    "working/extended_baselines/confirmation/intersection_cbf_seed44_delay0.json": "12b87038b78e36dd1cdcd8dab0f6e702b461d7f5b5505e176e1fc694795ac6c1",
+    "working/extended_baselines/confirmation/intersection_cbf_seed44_delay0.jsonl": "ac378c7b9af4fe71da6538f2b8bb1909339c9d39416dfff1668667b3c2207630",
+    "working/extended_baselines/confirmation/highway_cbf_seed42_delay1000.json": "1223dd9dc046a0e2eaa11a15c9d137c4d16063fdc6aee53ec7375b75ae37cd04",
+    "working/extended_baselines/confirmation/highway_cbf_seed42_delay1000.jsonl": "047d82351971dc138d09f50bdb361c7cad1c36ede77f8110befd8d2f9ba3bd3f",
+    "working/extended_baselines/confirmation/roundabout_lans_no_prediction_seed44_delay1000.json": "91c3ef7662c1bc96effccf21e55d45a3dd0a8da16eb537b005be923cd0f0df5c",
+    "working/extended_baselines/confirmation/roundabout_lans_no_prediction_seed44_delay1000.jsonl": "60b534bb0a59ff40de6e9dc5382057379d214ff008a29569a28c2d352d9d6a02",
+    "working/extended_baselines/confirmation/highway_ppo_only_seed44_delay200.json": "95e83f167259e791e89466ea15226e53878813d8f35fec817ee497e94af75796",
+    "working/extended_baselines/confirmation/highway_ppo_only_seed44_delay200.jsonl": "84d40c558c896358be266799b1f78aa7ab8eabc425a0214e8453c106de61b4b5",
+    "working/extended_baselines/confirmation/roundabout_ppo_only_seed43_delay1000.json": "3a1fbe165c11781ba9474f235adf13ffd64ef0e3337d3fc3dddbc180fc377fdd",
+    "working/extended_baselines/confirmation/roundabout_ppo_only_seed43_delay1000.jsonl": "97c7ec8d50769a61bb46d5763ef3b916c652c1f1ea07a0c871ec5f70d61cdade",
+    "working/extended_baselines/confirmation/highway_predictor_lqr_seed0_delay200.json": "ff1757f75ffee6ed82c60034c0b2bce595f71202010f708a89b5dab4db9bd043",
+    "working/extended_baselines/confirmation/highway_predictor_lqr_seed0_delay200.jsonl": "7dfca8eb60fbafe02bc6d9e08ae3f63716ba3f5d4b023d922547ef136732b35f",
+    "working/extended_baselines/confirmation/highway_lans_seed44_delay0.json": "cce76d41666a74e401ba17d357607e40350c190822183615fc771d9a73bceada",
+    "working/extended_baselines/confirmation/highway_lans_seed44_delay0.jsonl": "c19dfc24bf4abab31cf143cc1229dd706aca86f21751fc74c7ea5158489cae13",
+    "working/extended_baselines/confirmation/roundabout_ppo_only_seed44_delay1000.json": "ca4c1dab10bd901e0779540a65d521f0ee55a86ad38bef6cdabab4840f0b39f7",
+    "working/extended_baselines/confirmation/roundabout_ppo_only_seed44_delay1000.jsonl": "10e0e9855969f72a89a2dc9ab0afb116ed4ff993659922c7fa13ba8542347b88",
+    "working/extended_baselines/confirmation/roundabout_cbf_seed42_delay0.json": "05c5670e2115e742c3c69dfbee8fbe11f81aabc4282593d95606397ee479a228",
+    "working/extended_baselines/confirmation/roundabout_cbf_seed42_delay0.jsonl": "23dc254a70e2d4fd1fa980f419732257f3d410daf27d56987d5364ed8ecffc75",
+    "working/extended_baselines/confirmation/merge_cbf_seed44_delay0.json": "90f7402c40ef01d837c314f89a158593f9361277e94fb67aa4333cce659ac2e0",
+    "working/extended_baselines/confirmation/merge_cbf_seed44_delay0.jsonl": "b97d6738ac5b09f15726a219f90c23e5c9e39cea8b8bf3f73c365d70f05b2790",
+    "working/extended_baselines/confirmation/merge_lans_no_prediction_seed44_delay0.json": "1f0a792a9851bdc78b3614992d591b049cc00a27e723fd5f323d7577a6f0261b",
+    "working/extended_baselines/confirmation/merge_lans_no_prediction_seed44_delay0.jsonl": "b3b8392dccf5d429ade13e939406c44a8162f5de3f4717c9c2d9c037c000e6e1",
+    "working/extended_baselines/confirmation/merge_lans_seed43_delay500.json": "1f12b2a1e8219b43c13b7fa50666bed5a9915b4b3d74ac2c3171a8eee0342421",
+    "working/extended_baselines/confirmation/merge_lans_seed43_delay500.jsonl": "65355c0b9c9591587e6d6871931e4bf74543283de7987a0114dee87fd8991902",
+    "working/extended_baselines/confirmation/highway_cbf_seed43_delay0.json": "6bf823413396fbdbf58ca1808ab1598400e97405c42ceaa71c0c4431c6280048",
+    "working/extended_baselines/confirmation/highway_cbf_seed43_delay0.jsonl": "3b4aa5bb9e2892a9e4848804719db78d7ac99ef64d061eb5e50596135e2572cd",
+    "working/extended_baselines/confirmation/highway_cbf_seed42_delay700.json": "d53bbd1a708a8487ab0681579848132101b1f28ddc399309c0cbe402f2c9c86f",
+    "working/extended_baselines/confirmation/highway_cbf_seed42_delay700.jsonl": "1d96d4c50f7bde641e0249de7ac888bb8ba82e3f15047b111ced340f1012d700",
+    "working/extended_baselines/confirmation/highway_ppo_only_seed43_delay1000.json": "23057254dbf51c2a0ce6b845735bc66749599acce00b269cef68d98480941bc8",
+    "working/extended_baselines/confirmation/highway_ppo_only_seed43_delay1000.jsonl": "8416d1e75bfcfb841ef888e80c6b9c2641538bc29852db43ea1e2fc5a0ba7c31",
+    "working/extended_baselines/confirmation/intersection_lans_no_prediction_seed43_delay700.json": "28fd75f32c13eeedc6fdd8d4c739721b5fc30b36b4c4ef9b35563eee7e50353a",
+    "working/extended_baselines/confirmation/intersection_lans_no_prediction_seed43_delay700.jsonl": "42169f4c82677ab34884f8d68317a274401c0180b73b1ae7a2ac51d8de77df57",
+    "working/extended_baselines/confirmation/roundabout_cbf_seed43_delay1000.json": "f809aa2ee2b0ed5ef781c9c22536859ea2146c2fe86062df63b8bae33d2c0421",
+    "working/extended_baselines/confirmation/roundabout_cbf_seed43_delay1000.jsonl": "ae168e70606401628c249ce85e7cb799b8fe3d41a1a262b0df103aa402f86f52",
+    "working/extended_baselines/confirmation/intersection_lans_seed42_delay700.json": "ce89d8668935745a1d2cf2e3482c66c92ef8608e79450035bde7c51ceb8971fe",
+    "working/extended_baselines/confirmation/intersection_lans_seed42_delay700.jsonl": "5a7b548ac86a0240c611f052b30cb05110c4ca5484d817143798d6eb35758e65",
+    "working/extended_baselines/confirmation/merge_robust_mpc_seed0_delay500.json": "39ba6ad5b01523a5d04d0c83de323bee34119954676039530a071fa13692343d",
+    "working/extended_baselines/confirmation/merge_robust_mpc_seed0_delay500.jsonl": "184023ad9ced3f5f62ee892416a327cb9fb550b232c3777c115cf673430f760c",
+    "working/extended_baselines/confirmation/roundabout_cbf_seed43_delay200.json": "9279de3c64dbfc5e11bd4f5303b38b12322be3b8eda773c9c3bfc1a3022cb196",
+    "working/extended_baselines/confirmation/roundabout_cbf_seed43_delay200.jsonl": "3cff1f14521d7813be3a1f4d00fad2f1322c7d19025d33e014b01165388a0e00",
+    "working/extended_baselines/confirmation/merge_ppo_only_seed42_delay500.json": "b7b10a919fe57a9b9c206e966a28935c90c8b19a79a1fb103aba20dc7ae80bbb",
+    "working/extended_baselines/confirmation/merge_ppo_only_seed42_delay500.jsonl": "c5b49c033daa62e1a80af427331373432da5d8ce3c2ff34afa0f62084876b5a7",
+    "working/extended_baselines/confirmation/roundabout_cbf_seed43_delay0.json": "491a9af634e2655b700bfd8f19f08af0f7caf2fd30290a4d2beb24157d7f95f2",
+    "working/extended_baselines/confirmation/roundabout_cbf_seed43_delay0.jsonl": "73187ec53bbaf2ecbfb76530b54756b7c24ce7829008259c7d43111fc87d3b2e",
+    "working/extended_baselines/confirmation/intersection_ppo_only_seed44_delay0.json": "4b51e390cddad9b9c37c85ee5ce50c4ec215e7d91cefd0c011133f7ba88abd8f",
+    "working/extended_baselines/confirmation/intersection_ppo_only_seed44_delay0.jsonl": "d9b55762168f93580826fe98e767bd2c1a4a5411eed3c93cd4f44d224b1a2b84",
+    "working/extended_baselines/confirmation/merge_cbf_seed43_delay500.json": "043933b815baffc47c4ac3028ead3390ed15bfa9c9564712c62d6e31e3bd3fe8",
+    "working/extended_baselines/confirmation/merge_cbf_seed43_delay500.jsonl": "4c57078c8122baab7d973d7c2c5e399e3b3b93fb29bc0e6ca263fede92758ec6",
+    "working/extended_baselines/confirmation/highway_lans_no_prediction_seed43_delay500.json": "12187c73c221c3d2f79bc44e185805e2b6eeadd085696e08386569552905d429",
+    "working/extended_baselines/confirmation/highway_lans_no_prediction_seed43_delay500.jsonl": "78ef6efd1429062b5b239076c54c554780f38932721c9db9ca9592a133ace601",
+    "working/extended_baselines/confirmation/highway_lans_seed43_delay500.json": "f770130cf5ad2dc493551f9cebb772eed9ce66e077aeb17fe83c50e4b28994f0",
+    "working/extended_baselines/confirmation/highway_lans_seed43_delay500.jsonl": "57c81b9f62a877a9ceca4bd2ef1e8c85518cf0a72d2534ae87312409bb57e97e",
+    "working/extended_baselines/confirmation/merge_lans_no_prediction_seed43_delay700.json": "2c1c10dc481886e2e4e18120e24850fac6667d362a59b12791a0dd7b05029d72",
+    "working/extended_baselines/confirmation/merge_lans_no_prediction_seed43_delay700.jsonl": "7a25cab8b2645cfc5953f3e976fa4c37adaef59b2787bc62e374c9ec61941b97",
+    "working/extended_baselines/confirmation/intersection_ppo_only_seed44_delay1000.json": "f076610d9b25f1878a6c092fd045ac458d7b752236af48b95c60959b2cf64a3a",
+    "working/extended_baselines/confirmation/intersection_ppo_only_seed44_delay1000.jsonl": "1cfe6aac147efaf0b320dfa2e58dd797d45ca88e57ddfba394f566c560a76130",
+    "working/extended_baselines/confirmation/highway_lans_no_prediction_seed42_delay700.json": "54153abf1f635aa65b60c273fe9775724307aacc500bcc7a82cf65d33a4a1a10",
+    "working/extended_baselines/confirmation/highway_lans_no_prediction_seed42_delay700.jsonl": "a57cced8a004a4b7c8187030aaf69102dea15ec6bfc102932ce45a77d1bc57ab",
+    "working/extended_baselines/confirmation/highway_lans_seed42_delay700.json": "fee22d51e4174b0cac1624496a60414a1c3de12a5cb8a063cd63420d8edf748e",
+    "working/extended_baselines/confirmation/highway_lans_seed42_delay700.jsonl": "7fa5928302fbc8eafd215cd11273fce728381a8ca4c4f5015b6f7f9e6a844d42",
+    "working/extended_baselines/confirmation/intersection_lans_no_prediction_seed44_delay1000.json": "3a0ed6d4995bd05ff55154bb5af498316d86b77970c7f751e12edef4fcf1af07",
+    "working/extended_baselines/confirmation/intersection_lans_no_prediction_seed44_delay1000.jsonl": "cebe1e1e8a08db502ca74b69390e0581c245e7bf17a95b774f338437d1246500",
+    "working/extended_baselines/confirmation/roundabout_lans_no_prediction_seed44_delay700.json": "d819c131e7a727f29b3d4318e4b6d0f5c3dce797fc34ee6065ca82735feeff5c",
+    "working/extended_baselines/confirmation/roundabout_lans_no_prediction_seed44_delay700.jsonl": "90b06cc2958d112b95a69f3738cae980a1a980dea1ddc4e7a7637cac2c251003",
+    "working/extended_baselines/confirmation/highway_ppo_only_seed44_delay1000.json": "fe4c6323cb657bfd12a207d6cde27888529cc43c542233929cba97fde5a6296e",
+    "working/extended_baselines/confirmation/highway_ppo_only_seed44_delay1000.jsonl": "661dae7a49fafcc3ca505228d0df0fe49c3cdefaec11224f208b2e656d6f3561",
+    "working/extended_baselines/confirmation/highway_lans_seed43_delay700.json": "ff0d263e8c2400feae4a4581716606bf778e41db61f076fc96684b47a94e9b9c",
+    "working/extended_baselines/confirmation/highway_lans_seed43_delay700.jsonl": "2fb98d5519f45beead6e8939d2d6177443dcd4a50bf57160c375aa57c307f6a7",
+    "working/extended_baselines/confirmation/roundabout_lans_no_prediction_seed43_delay1000.json": "90bdc3db0750a1b9063dfe634391efef9a231c97f17cf2812da46ac128e5f0c7",
+    "working/extended_baselines/confirmation/roundabout_lans_no_prediction_seed43_delay1000.jsonl": "66ec95c9b06c6bce60a9d5a92b0a736df926e7945c7324b04af9bc2d3f4be94e",
+    "working/extended_baselines/confirmation/highway_ppo_only_seed42_delay500.json": "a9a4bcbed96c061e468b11de80b918cdaca94c44300d79d06f686d90d922ad3d",
+    "working/extended_baselines/confirmation/highway_ppo_only_seed42_delay500.jsonl": "abae00232f7058fbfbf0fe31fc5a7bd131df914258f5a7d2d114bd17a161028c",
+    "working/extended_baselines/confirmation/merge_robust_mpc_seed0_delay0.json": "c54077df8b09f5c875d967f071e0ef8a00b39b0d45f09c8185d6ef8f148f858e",
+    "working/extended_baselines/confirmation/merge_robust_mpc_seed0_delay0.jsonl": "11aa2f4e77e5a830a473f821253dfcf4b07777a5cad75bcf2ad4d054fdd0cc66",
+    "working/extended_baselines/confirmation/highway_lans_seed42_delay500.json": "e0d21ee43c21d7af74f89360badc6f13db2f201e6a44c866a518bea11bca2c4c",
+    "working/extended_baselines/confirmation/highway_lans_seed42_delay500.jsonl": "e167aab9cc931176725cb35101f5d0aa90194bfd4a6c7ab30e706ac71a813eed",
+    "working/extended_baselines/confirmation/intersection_ppo_only_seed43_delay1000.json": "f92edc62833c3a77a7602622dfcd60cf5c8e23f023820b88350375a1dadf1182",
+    "working/extended_baselines/confirmation/intersection_ppo_only_seed43_delay1000.jsonl": "d34a288cc38928828e04d9034c2ece0a73626507b408f82575379f5eb8efb9bd",
+    "working/extended_baselines/confirmation/intersection_cbf_seed44_delay500.json": "dbd75b4e84d60ab1fc37ebf8fd67efff003eaec99c55968cb6ea2b5e7bcaf8be",
+    "working/extended_baselines/confirmation/intersection_cbf_seed44_delay500.jsonl": "4198a6a9ccd0aef1ecd83e0860a719495cdb85521d47c8d470ac995b152aa96b",
+    "working/extended_baselines/confirmation/highway_ppo_only_seed42_delay700.json": "8bf57ea24b2a21a67f95d1512d19d1cd31b4ad0babdfd56ad30f51259daf4fd8",
+    "working/extended_baselines/confirmation/highway_ppo_only_seed42_delay700.jsonl": "9a1c91d3b30580f8e326ff12405c92134cb609c7ac8bdadd9e38d892eb305448",
+    "working/extended_baselines/confirmation/roundabout_lans_no_prediction_seed43_delay0.json": "572602a505c401e7650ff186207a9a7151636bf74ae3481a3886aec631a8d96a",
+    "working/extended_baselines/confirmation/roundabout_lans_no_prediction_seed43_delay0.jsonl": "44b7bf9e54dfa751b4bd62c2d91849066e6168c5d02b13b7322ec4dff692637b",
+    "working/extended_baselines/confirmation/highway_lans_no_prediction_seed42_delay200.json": "6595ba3d19e90ea8b0241079c714a36a692de9c54fab4bb113826c2b7d3fa04c",
+    "working/extended_baselines/confirmation/highway_lans_no_prediction_seed42_delay200.jsonl": "283617bbc0a66865cd1f94f6c924c81692e77f1557c523e0539b65808df939f8",
+    "working/extended_baselines/confirmation/merge_lans_no_prediction_seed43_delay500.json": "6eae3e8fdf616a366c1697e03295392ea7be5820bf146f56bfb226e67ec99e5c",
+    "working/extended_baselines/confirmation/merge_lans_no_prediction_seed43_delay500.jsonl": "46cf96379a1d5e21f6d34e7a5725861452564fa31e56adab81892ea403052f7d",
+    "working/extended_baselines/confirmation/intersection_robust_mpc_seed0_delay0.json": "ef5fa00b525d292a0a8f3cbbf9da93c7f6ea8a29def4827c56a95663d4886295",
+    "working/extended_baselines/confirmation/intersection_robust_mpc_seed0_delay0.jsonl": "a8a692a6edc3d8331b8ee6caf94c4dc9c7998fe5f906d0211b24c4398eedc2d1",
+    "working/extended_baselines/confirmation/intersection_cbf_seed42_delay0.json": "a0c55534f54c9cbe17dcfe293e84b8947caa7e3af2181205cf78f461c5b8940f",
+    "working/extended_baselines/confirmation/intersection_cbf_seed42_delay0.jsonl": "40d3ce562bfeb929e1a80ede63fc481dd2e5b259f7eea124a61d582d5d3803a7",
+    "working/extended_baselines/confirmation/highway_robust_mpc_seed0_delay700.json": "b490e517830b1c051629351030ddd9b61eeb72cc24f6f1aa22f9f19e7db37663",
+    "working/extended_baselines/confirmation/highway_robust_mpc_seed0_delay700.jsonl": "078131f18764039e5838eb56fc81495e6ce1b2e7f9ccadbff6c63cf2a628f9d5",
+    "working/extended_baselines/confirmation/highway_ppo_only_seed43_delay200.json": "d8451f5a377bc427cbc6713da2f8c55bf2d110f79e3501ae36ad68559b3804c7",
+    "working/extended_baselines/confirmation/highway_ppo_only_seed43_delay200.jsonl": "edbe7cbf4a5b28a07376636a7c1ec8d55d7c1d741fbbd1ef47b3aba159b8eb2d",
+    "working/extended_baselines/confirmation/roundabout_predictor_lqr_seed0_delay500.json": "ae3ae429fbcd56b836e5a53eebe400c7af8b917f14da10b160d6bda6b79ce042",
+    "working/extended_baselines/confirmation/roundabout_predictor_lqr_seed0_delay500.jsonl": "beac54c2f91fa288bd9e05efa3bda6a6bccc821c64ffad100cfec3972712e64f",
+    "working/extended_baselines/confirmation/roundabout_lans_no_prediction_seed42_delay500.json": "fb5df6f77091807f46755d4575ec546e909cadad61a4a4f2e37ad171dacb4d3d",
+    "working/extended_baselines/confirmation/roundabout_lans_no_prediction_seed42_delay500.jsonl": "d55499ecb8c8254f547d2d5af0fbf665262261b3be74491c52ab2e2e1d1a63c0",
+    "working/extended_baselines/confirmation/intersection_lans_seed42_delay500.json": "ec9418c23deb38982a6111b576fe5026232ecf2d77f1a31e852a8701dc5c2aa4",
+    "working/extended_baselines/confirmation/intersection_lans_seed42_delay500.jsonl": "b64d9b29e7abb03b46482ca1e28d935f911c0298c8511bf1e6b528db422263e5",
+    "working/extended_baselines/confirmation/intersection_ppo_only_seed43_delay500.json": "13b42aa3f09b194ca7aa3314bdb9d2ebb7fea4a3caef64aeb3acd9683fac024f",
+    "working/extended_baselines/confirmation/intersection_ppo_only_seed43_delay500.jsonl": "65971c9cb2284652229d77a00649bf9907dddf13dc9761d07c84a1d556c3a40e",
+    "working/extended_baselines/confirmation/merge_lans_no_prediction_seed44_delay700.json": "a7554e37f2f97570b25374836d4fc30c61d099f25f84878f317c62a3c14017bc",
+    "working/extended_baselines/confirmation/merge_lans_no_prediction_seed44_delay700.jsonl": "0e3c35c86335c82f661c8464e3611d35fc3303ad3c6af7b33cb8c691a3aa43c1",
+    "working/extended_baselines/confirmation/roundabout_lans_no_prediction_seed42_delay700.json": "f23793a63c70d09169abfb245f197ae1c1d69613cccb6f2733cc61ac147fea3a",
+    "working/extended_baselines/confirmation/roundabout_lans_no_prediction_seed42_delay700.jsonl": "73b033162ac0d642a947b26aace22d06e3ad51ddf3c63e86d773c84d4faf17d1",
+    "working/extended_baselines/confirmation/merge_cbf_seed42_delay1000.json": "13e94837a9b9ea741b587829b835344f9a84139fb9338d943059bd3607d42839",
+    "working/extended_baselines/confirmation/merge_cbf_seed42_delay1000.jsonl": "038cd2b4a5e5e34295ba948481790a9f4cee489ff3b1322060b9d94f7161208c",
+    "working/extended_baselines/confirmation/merge_lans_seed44_delay0.json": "2aad8eeab7fbf0af7793ebfbd6d49d2ee5904389e92a37c5fa3669e34f075d10",
+    "working/extended_baselines/confirmation/merge_lans_seed44_delay0.jsonl": "2ddf427f644965613100487703562fa88c3c0ca0a850df026bf5bb3872b6ba35",
+    "working/extended_baselines/confirmation/roundabout_lans_no_prediction_seed44_delay500.json": "cebf55debe499c1068254073192b8cfcc8517075f6658769d0a201af04552772",
+    "working/extended_baselines/confirmation/roundabout_lans_no_prediction_seed44_delay500.jsonl": "3f14f8786cd9accb69990277a54a99a17e49bbda6213888a647499d02293cfc0",
+    "working/extended_baselines/confirmation/highway_robust_mpc_seed0_delay200.json": "926120d5dffc27be9664b67d374c76f0b77a47b8ed7bddee376c7d9b4ec5aa53",
+    "working/extended_baselines/confirmation/highway_robust_mpc_seed0_delay200.jsonl": "32efc5c0f37d857d73bff6552435a02e5ab9b2f5d741f0da3419740627683855",
+    "working/extended_baselines/confirmation/merge_ppo_only_seed43_delay700.json": "88f7a3aa1075584047631b4c0f2a046f127485c7b717786bc1c5d76ffc51c2f9",
+    "working/extended_baselines/confirmation/merge_ppo_only_seed43_delay700.jsonl": "b7334234dc3aaa38315e95fa6a2197fa0813048f7dfbf33ab3d43a4ccaee7271",
+    "working/extended_baselines/confirmation/highway_lans_no_prediction_seed44_delay700.json": "99c9fc337759d8c20be552b3b0f8068c25ddd0538b384fa3287bec949a835dbd",
+    "working/extended_baselines/confirmation/highway_lans_no_prediction_seed44_delay700.jsonl": "7c0fde2d62aa6e2657aeffe62855d2c6230bd3584dcb1252cee9eae16c494ba8",
+    "working/extended_baselines/confirmation/roundabout_predictor_lqr_seed0_delay700.json": "ec67f6690e69ff4ec19d0d06993cf6d1f774fa529b830e4e9c019ed7f8f6e969",
+    "working/extended_baselines/confirmation/roundabout_predictor_lqr_seed0_delay700.jsonl": "e66581b9010066a86f0a1ae032ef5f6676e530955df2ec65a6535c287734d4bd",
+    "working/extended_baselines/confirmation/merge_lans_seed44_delay500.json": "e3cac833f5d767e80e00ef7165304f03aa9897913a5d733133934068240cbf2f",
+    "working/extended_baselines/confirmation/merge_lans_seed44_delay500.jsonl": "bd72bcf3aea43020067b1d445441ec636fd6db984d4beb0d930e2012a57466bf",
+    "working/extended_baselines/confirmation/merge_lans_seed42_delay200.json": "71a98a840145fb32094ae0b973009e7c76b37e1a6ef628a28ffdd2a79b7bee1f",
+    "working/extended_baselines/confirmation/merge_lans_seed42_delay200.jsonl": "60038e2c55e05fa4f5c82324ea49f8e08a3ee795457aed09c23ef7003cddaed7",
+    "working/extended_baselines/confirmation/intersection_cbf_seed43_delay200.json": "8cc19913479bd9c95e5c08c661c4894be57b66b63465c23dcfa8a0e6d6c38018",
+    "working/extended_baselines/confirmation/intersection_cbf_seed43_delay200.jsonl": "0b06e2049fb3b8e4ca07ac46f38d3489fdbe45c084deb40856c16ffc6277ca16",
+    "working/extended_baselines/confirmation/intersection_lans_seed43_delay500.json": "56f8b72726c987c03e8a3002e263f2d9eeb4f90079c75163095fd60162dda5c7",
+    "working/extended_baselines/confirmation/intersection_lans_seed43_delay500.jsonl": "1b4d552309e335bd791af5d6d30800b1ba0488a26f6896595493b59286060aaa",
+    "working/extended_baselines/confirmation/roundabout_ppo_only_seed44_delay0.json": "a5b4e4389f4a97f96093523758c9de8f709c407f82f214d5822d0654e6ab0074",
+    "working/extended_baselines/confirmation/roundabout_ppo_only_seed44_delay0.jsonl": "2429ec8d4d695376c25f1ac876bed2f9d40b26a03012262782ee146a185b7c3d",
+    "working/extended_baselines/confirmation/highway_lans_seed44_delay500.json": "99a19c8133409a66df7bfbdeb9a22a7e277411755922b2803f88eb9dcd014010",
+    "working/extended_baselines/confirmation/highway_lans_seed44_delay500.jsonl": "4a35716f70091936c2e79d000aea54c1a4d9870bfb7f6b22eabdc869772c991a",
+    "working/extended_baselines/confirmation/highway_cbf_seed43_delay200.json": "220d98e76dcc1ab8cf0d1d5fa7c1ee145152dd4de9deeb43355175d8599b1cbf",
+    "working/extended_baselines/confirmation/highway_cbf_seed43_delay200.jsonl": "4369ebe8ac79b17505de637acd3ac14f15efa4cfb9ef2dc1863a20187bfb1383",
+    "working/extended_baselines/confirmation/roundabout_cbf_seed44_delay0.json": "17331632055c21e55bcb2b6d2db6c55b7affc656f04ccb6979a1f1f006c95a90",
+    "working/extended_baselines/confirmation/roundabout_cbf_seed44_delay0.jsonl": "25c27b3e93f5cdbdadd793949a2fcac54ccf1d355fbb25c9ce744c7755bfe1ef",
+    "working/extended_baselines/confirmation/roundabout_lans_no_prediction_seed42_delay0.json": "ee09ca9fc36a3fcc1b853e9b22c9e3a55d6c1bfdfba8d640d9b14750c0633713",
+    "working/extended_baselines/confirmation/roundabout_lans_no_prediction_seed42_delay0.jsonl": "a7cfb77b90487152e60c9e9c1a176d674a5c7eaffdff2980c9a03f76fbae4b83",
+    "working/extended_baselines/confirmation/highway_ppo_only_seed43_delay700.json": "09f9dd510dea4b3a01e5cb4b1a854d6fd607d5b29ec31c42c515eebfba4259c6",
+    "working/extended_baselines/confirmation/highway_ppo_only_seed43_delay700.jsonl": "0dfe13d84fd0172dbac6d5253e259ef5a7ab55901995a8ce6af6486bfa1027ae",
+    "working/extended_baselines/confirmation/highway_predictor_lqr_seed0_delay1000.json": "d4dee3cba527463e655797c6a586c47dee1515939a26a3cbebf637f60662e2ca",
+    "working/extended_baselines/confirmation/highway_predictor_lqr_seed0_delay1000.jsonl": "5f23ac1248c4d90714d27f8ab028f3f4e61b65432b7d0d296722e9f96063488f",
+    "working/extended_baselines/confirmation/intersection_lans_no_prediction_seed43_delay0.json": "2c7316516ebb2ea4e2e2529b380cc338288d476ea103c7574db0f3afae1216cf",
+    "working/extended_baselines/confirmation/intersection_lans_no_prediction_seed43_delay0.jsonl": "e829feb692297b58d12e212548c07c4e86a36a0e10e785cfc2fd16c6721beabe",
+    "working/extended_baselines/confirmation/highway_cbf_seed43_delay700.json": "ba43867e6897e20c4d5f743516d230cf3ac3bbc83c5b4d4afd4af02c0517ad45",
+    "working/extended_baselines/confirmation/highway_cbf_seed43_delay700.jsonl": "4ded6eb0e0ebef7df898ebe0ca3f458d3d5a1bf47e4f88f43a1909be8c7a36db",
+    "working/extended_baselines/confirmation/merge_cbf_seed44_delay700.json": "dcc530c63b9f4da4c54640c9c2fd3987db584793a7af0451c7f16ac3de69c337",
+    "working/extended_baselines/confirmation/merge_cbf_seed44_delay700.jsonl": "3d9eb9076c13c161459c3914e0d7f18a3b68daf63aac4528ebe3a96cadd2c431",
+    "working/extended_baselines/confirmation/intersection_ppo_only_seed42_delay0.json": "48277d0b9662703828ebd68e9ed7a9c5966f3aa7e9798b6618bc40e2800ee6a4",
+    "working/extended_baselines/confirmation/intersection_ppo_only_seed42_delay0.jsonl": "5704cbc1147dabcac95285df897b6c24c850b7d7d128cf084d7556a99a7fe402"
+  },
+  "source_fingerprint": "0d2ee90f988a699f28e205802cc5f60dbc73d8f75e2bd854ac640b07c2fb0241"
+}

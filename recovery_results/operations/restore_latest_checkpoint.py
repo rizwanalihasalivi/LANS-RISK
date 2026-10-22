@@ -10,5 +10,11 @@ for name,h in meta['sha256'].items():
  src=SOURCE/name;dst=ROOT/name
  if dst.exists():assert hashlib.sha256(dst.read_bytes()).hexdigest()==h,('Refusing to replace different result',name)
  else:dst.parent.mkdir(parents=True,exist_ok=True);shutil.copyfile(src,dst)
+op=Path('/workspace/recovery/operations');op.mkdir(exist_ok=True)
+preflight=SOURCE/'operations/PREFLIGHT_261.json'
+if preflight.exists():
+ dst=op/'PREFLIGHT_261.json'
+ if dst.exists():assert dst.read_bytes()==preflight.read_bytes()
+ else:shutil.copyfile(preflight,dst)
 print('Merged complete immutable pairs:',meta['counts'])
 print('Revalidate frozen hashes/condition coverage and process identity before resuming. No experiment launched.')

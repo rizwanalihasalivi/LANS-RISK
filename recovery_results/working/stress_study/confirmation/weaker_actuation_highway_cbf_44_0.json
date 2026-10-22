@@ -1,0 +1,14 @@
+{
+  "profile": "weaker_actuation",
+  "scenario": "highway",
+  "controller": "cbf",
+  "actor_seed": 44,
+  "delay_ms": 0,
+  "count": 50,
+  "first": 161000,
+  "source_hash": "d12640874e71e62de7b3b36caedc203c61d2e56a75154025f3a08a6bfd7b4d4e",
+  "raw_sha256": "a41d0dfb4d63ade451ce5bd958c7b046ee161d8a02a67ef074375fa159bb03ba",
+  "collision": 0.0,
+  "completion": 100.0,
+  "corridor_completion": 100.0
+}

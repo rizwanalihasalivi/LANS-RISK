@@ -1,0 +1,17 @@
+{
+  "extended_baselines": {
+    "conditions": 96,
+    "records": 96,
+    "source_and_raw_hashes_verified": true
+  },
+  "stress_study": {
+    "conditions": 56,
+    "records": 56,
+    "source_and_raw_hashes_verified": true
+  },
+  "observation_delay_study": {
+    "conditions": 24,
+    "records": 24,
+    "source_and_raw_hashes_verified": true
+  }
+}

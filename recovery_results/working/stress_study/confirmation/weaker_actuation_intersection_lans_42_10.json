@@ -1,0 +1,14 @@
+{
+  "profile": "weaker_actuation",
+  "scenario": "intersection",
+  "controller": "lans",
+  "actor_seed": 42,
+  "delay_ms": 1000,
+  "count": 50,
+  "first": 161000,
+  "source_hash": "d12640874e71e62de7b3b36caedc203c61d2e56a75154025f3a08a6bfd7b4d4e",
+  "raw_sha256": "a74fd9bd3f47d3d026b2a6c4d2f12a8875bf5bc12544bafb87121cebdbbebdd8",
+  "collision": 4.0,
+  "completion": 96.0,
+  "corridor_completion": 96.0
+}
