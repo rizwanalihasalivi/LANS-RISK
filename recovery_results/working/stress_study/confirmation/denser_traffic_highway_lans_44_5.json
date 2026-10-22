@@ -1,0 +1,14 @@
+{
+  "profile": "denser_traffic",
+  "scenario": "highway",
+  "controller": "lans",
+  "actor_seed": 44,
+  "delay_ms": 500,
+  "count": 50,
+  "first": 161000,
+  "source_hash": "d12640874e71e62de7b3b36caedc203c61d2e56a75154025f3a08a6bfd7b4d4e",
+  "raw_sha256": "2e0e858cce066df98df8abf2f61e3d86ebccc82e5b5a1bb58cf1c69dd71fb8d0",
+  "collision": 0.0,
+  "completion": 100.0,
+  "corridor_completion": 100.0
+}
