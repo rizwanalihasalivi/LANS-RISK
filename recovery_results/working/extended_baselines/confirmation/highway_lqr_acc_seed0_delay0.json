@@ -1,0 +1,22 @@
+{
+  "scenario": "highway",
+  "controller": "lqr_acc",
+  "policy_seed": 0,
+  "delay_ms": 0,
+  "count": 100,
+  "first": 141000,
+  "raw_sha256": "b8e769b577d71e3755d8cccdb5a6821af0c3621d90f19cc43938eb00d80cd207",
+  "source_hash": "0d2ee90f988a699f28e205802cc5f60dbc73d8f75e2bd854ac640b07c2fb0241",
+  "seconds": 13.325770656000032,
+  "collision": 0.0,
+  "completion": 100.0,
+  "corridor_completion": 100.0,
+  "corridor_exceedance": 0.0,
+  "timeout": 0.0,
+  "progress": 1.96987978197146,
+  "rmse": 0.0,
+  "decision_ms_median": 0.06888462,
+  "no_feasible_steps": 0.0,
+  "npc_position_error_cv": 0.0030092209124002044,
+  "npc_position_error_accel": 0.00024111249925390997
+}
