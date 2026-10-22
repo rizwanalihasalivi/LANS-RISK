@@ -1,7 +1,7 @@
 {
-  "time": "2026-10-22T11:50:11.863008+00:00",
+  "time": "2026-10-22T11:50:44.408824+00:00",
   "counts": {
-    "extended_baselines/confirmation": 421,
+    "extended_baselines/confirmation": 424,
     "stress_study/confirmation": 0,
     "observation_delay_study/evaluation": 0
   },
@@ -40,6 +40,10 @@
     "working/extended_baselines/confirmation/highway_lans_no_actor_seed0_delay0.jsonl": "6be6c5d038fae232ebd793e1f028ab9f7059eca077450a3cfa284a7fd2527d50",
     "working/extended_baselines/confirmation/highway_lans_no_actor_seed0_delay200.json": "7d57151ad6314cc54066c801e7ac2c84ac20f70f66d9356a670dc1a7add8f640",
     "working/extended_baselines/confirmation/highway_lans_no_actor_seed0_delay200.jsonl": "0cd6d8ba5e3bc729f2bda09e32810247572808cdd1bbb6ae648bf60360612dff",
+    "working/extended_baselines/confirmation/highway_lans_no_actor_seed0_delay500.json": "dd8e882f841d5077ba6f2f9d121f04bdbdfbaf5501c98c61812e8a24fec639e6",
+    "working/extended_baselines/confirmation/highway_lans_no_actor_seed0_delay500.jsonl": "913840e3922343b51b6afba9d72e91b6981aea031560d8c90e9991412397ab22",
+    "working/extended_baselines/confirmation/highway_lans_no_actor_seed0_delay700.json": "5f1574bc064ee6b7393637b16693d038532138c3f03ee51377c816c254ffe5f3",
+    "working/extended_baselines/confirmation/highway_lans_no_actor_seed0_delay700.jsonl": "a869cdc3ea12a0ab57e26f5628337defdb99dd3f54deb257a081b7fd100bb4f0",
     "working/extended_baselines/confirmation/highway_lans_no_prediction_seed42_delay0.json": "d7075bd461ce68aaa859ddc8c03eaed6bf32840cf56ea00a69f5449d0a991927",
     "working/extended_baselines/confirmation/highway_lans_no_prediction_seed42_delay0.jsonl": "03912678d429084e81bc3cd1604e77b4bad8176344640908f97b8e5d788209e7",
     "working/extended_baselines/confirmation/highway_lans_no_prediction_seed42_delay1000.json": "a257c5518dde55abbefecb546a40b9d98c90ab32159b71ab51a0274ba8b2e876",
@@ -842,6 +846,8 @@
     "working/extended_baselines/confirmation/roundabout_robust_mpc_seed0_delay700.jsonl": "8a0d82ebbcf9986769be4f14d677aeee369a1e3b8e0e4671853e2269f5550b78",
     "working/extended_baselines/confirmation/roundabout_robust_no_actor_seed0_delay0.json": "caae3d7db43da5fedd0fe0b6e80677f6fc4c10f5b838bea58837a83cffb56f7b",
     "working/extended_baselines/confirmation/roundabout_robust_no_actor_seed0_delay0.jsonl": "24b67a334f0cc9cab86a8ee34ed524384e11fd92c097af81c69831492b0443f6",
+    "working/extended_baselines/confirmation/roundabout_robust_no_actor_seed0_delay1000.json": "3cad2a0b7123984586bfa822d93f6536d9d9811dc3b263e83b3d94f7be0a4015",
+    "working/extended_baselines/confirmation/roundabout_robust_no_actor_seed0_delay1000.jsonl": "0706aabc46bbf5092108bab3a729404ee81c45af4bc74d56866d080bde7596cc",
     "working/extended_baselines/confirmation/roundabout_robust_no_actor_seed0_delay200.json": "646b9ed62068dfafe218825091f9e7cfd8cba9672fcd49322b96ec607e143ada",
     "working/extended_baselines/confirmation/roundabout_robust_no_actor_seed0_delay200.jsonl": "eb0134d017af199f67039371e77268a4d709a4932e95092742b9aa3cff7c19f2",
     "working/extended_baselines/confirmation/roundabout_robust_no_actor_seed0_delay500.json": "c96c4a72e2545782024f8d67f02a148c689c096d8cb93968bb1edd9e6259e412",
