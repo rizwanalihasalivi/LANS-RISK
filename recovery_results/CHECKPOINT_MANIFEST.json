@@ -1,8 +1,8 @@
 {
-  "time": "2026-10-22T12:26:12.828697+00:00",
+  "time": "2026-10-22T12:26:44.855021+00:00",
   "counts": {
     "extended_baselines/confirmation": 440,
-    "stress_study/confirmation": 160,
+    "stress_study/confirmation": 165,
     "observation_delay_study/evaluation": 0
   },
   "sha256": {
@@ -930,6 +930,16 @@
     "working/stress_study/confirmation/denser_traffic_highway_lqr_0_5.jsonl": "b481c6acf5d45fde35cd87f0afb73c23291a8a670ba2b8bdb69f0a808222d82b",
     "working/stress_study/confirmation/denser_traffic_highway_lqr_acc_0_0.json": "92b77e550e4d48d8bca2889c7e41b6ba7fd2b5c011ddeb6c1e46444c21d58d36",
     "working/stress_study/confirmation/denser_traffic_highway_lqr_acc_0_0.jsonl": "a3afa4ad08341cad14adf813d0eb45c75329b17a7ea3fe88fa4be435cd62c674",
+    "working/stress_study/confirmation/denser_traffic_highway_lqr_acc_0_10.json": "0dda027bf748471ebdfbd6fff24c97b55e2bd38df7cdac7b27066fcdd4d49279",
+    "working/stress_study/confirmation/denser_traffic_highway_lqr_acc_0_10.jsonl": "a3afa4ad08341cad14adf813d0eb45c75329b17a7ea3fe88fa4be435cd62c674",
+    "working/stress_study/confirmation/denser_traffic_highway_lqr_acc_0_5.json": "d679258afdde29d01836c70f43c5b42429cc7827e3364663455ed54bca6c1209",
+    "working/stress_study/confirmation/denser_traffic_highway_lqr_acc_0_5.jsonl": "a3afa4ad08341cad14adf813d0eb45c75329b17a7ea3fe88fa4be435cd62c674",
+    "working/stress_study/confirmation/denser_traffic_highway_mpc_nominal_0_0.json": "81d4c9dcdd5dbd805d0a27bf4edcbff869d1e79056a31e0273a83d71fd2ce8e7",
+    "working/stress_study/confirmation/denser_traffic_highway_mpc_nominal_0_0.jsonl": "d9cd442621e5f77cc6101fc9100e609037ac279b34b71d06eda261f1756f430f",
+    "working/stress_study/confirmation/denser_traffic_highway_mpc_nominal_0_10.json": "04e3ae4f321cf3f6441318f71d9248e44f3e82f86a155439b8b0fa735936372c",
+    "working/stress_study/confirmation/denser_traffic_highway_mpc_nominal_0_10.jsonl": "d3a303fe95821f3bcd1b798b7e894f4defd1f4234bb2829b4e13af3d3b6c0b7c",
+    "working/stress_study/confirmation/denser_traffic_highway_mpc_nominal_0_5.json": "14059dc4e0db689d0398b9f3aa0c1478cab9d05a323f527de334fc98dbdf4069",
+    "working/stress_study/confirmation/denser_traffic_highway_mpc_nominal_0_5.jsonl": "c0634a9ec16aea5350ea69db11463ee985e1ec026920e8dfa71fe912e0548996",
     "working/stress_study/confirmation/denser_traffic_highway_predictor_lqr_0_0.json": "4a1bd24b9ab396957373b441079ae7560d455092d3176e9766246165a86dbd19",
     "working/stress_study/confirmation/denser_traffic_highway_predictor_lqr_0_0.jsonl": "a3afa4ad08341cad14adf813d0eb45c75329b17a7ea3fe88fa4be435cd62c674",
     "working/stress_study/confirmation/denser_traffic_highway_predictor_lqr_0_10.json": "0a41c92564323bfababd344a3f2a579a7441ebe27f7988aa978b77f28a390aa0",
