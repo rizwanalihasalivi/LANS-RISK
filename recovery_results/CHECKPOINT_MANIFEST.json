@@ -1,7 +1,7 @@
 {
-  "time": "2026-10-22T10:44:24.943145+00:00",
+  "time": "2026-10-22T10:44:57.079440+00:00",
   "counts": {
-    "extended_baselines/confirmation": 322,
+    "extended_baselines/confirmation": 325,
     "stress_study/confirmation": 0,
     "observation_delay_study/evaluation": 0
   },
@@ -98,10 +98,14 @@
     "working/extended_baselines/confirmation/highway_lans_seed44_delay700.jsonl": "4e0500505d8626cce9033fc2b931269568f46c960f69515401cb6c232f6d6ac0",
     "working/extended_baselines/confirmation/highway_lqr_acc_seed0_delay0.json": "f1fe8a627a203fbfb1d238dc856b3a3e92fcc877bd730929d30a5faba1a5c45c",
     "working/extended_baselines/confirmation/highway_lqr_acc_seed0_delay0.jsonl": "b8e769b577d71e3755d8cccdb5a6821af0c3621d90f19cc43938eb00d80cd207",
+    "working/extended_baselines/confirmation/highway_lqr_acc_seed0_delay1000.json": "53569f565072e4c30a644c3356dc7c78a5d1638a90ef2af75b8f8f46717b4347",
+    "working/extended_baselines/confirmation/highway_lqr_acc_seed0_delay1000.jsonl": "555ec773e977aa4213b4d40cd2c2fc4798b22b76b1226f025f95804d4c7fac50",
     "working/extended_baselines/confirmation/highway_lqr_acc_seed0_delay200.json": "4ddf4f1813dbc1b25a30137258e4f0fe5230091ded487ce1104ed70a9004f0ae",
     "working/extended_baselines/confirmation/highway_lqr_acc_seed0_delay200.jsonl": "83a7b4886214ab97741bd51b697835b81bff426e9f12cded9f2f08feabb1a9ea",
     "working/extended_baselines/confirmation/highway_lqr_acc_seed0_delay500.json": "c6272a0a5d0268fdd9e54193df221cb095411400781eb0651e9bce2ff48dc500",
     "working/extended_baselines/confirmation/highway_lqr_acc_seed0_delay500.jsonl": "362dd6f97f97f8f0ba0ce5b52f7ae707962a9850900044d747cf84f0c4db5b8f",
+    "working/extended_baselines/confirmation/highway_lqr_acc_seed0_delay700.json": "7541ed6b7adb170c3b13e5b2144ca335c65a9f290cd389a5968c7c5485c63d71",
+    "working/extended_baselines/confirmation/highway_lqr_acc_seed0_delay700.jsonl": "2364dfa07ad08685ae008f1a842d8df7a02dc8538c0982b46dd30ffa837873dc",
     "working/extended_baselines/confirmation/highway_lqr_seed0_delay0.json": "2f0d18eafc706d796594e1012ff75047c110586a0909e35cdbb641a26abaa44d",
     "working/extended_baselines/confirmation/highway_lqr_seed0_delay0.jsonl": "c2787171bfd3c4e3776a167bd04f2c6409aee889d10871815e1687192b4bd2cc",
     "working/extended_baselines/confirmation/highway_lqr_seed0_delay1000.json": "4697e18d469bb591b1ae8634c039c81f5ef4d9a5e20f59c81bf8cc3dc4116dbf",
@@ -422,6 +426,8 @@
     "working/extended_baselines/confirmation/merge_lans_seed44_delay500.jsonl": "bd72bcf3aea43020067b1d445441ec636fd6db984d4beb0d930e2012a57466bf",
     "working/extended_baselines/confirmation/merge_lans_seed44_delay700.json": "9f8397cfabaa926ab3317d4f791bacb2f81c4272c3e6ee884f9b7beecdaf8fd0",
     "working/extended_baselines/confirmation/merge_lans_seed44_delay700.jsonl": "cad8cdea295943405e04dd77b4560f30f482918b151cccc15b54bd3504c4ec17",
+    "working/extended_baselines/confirmation/merge_lqr_acc_seed0_delay0.json": "eab12ce8bec69355db8afddafbc00cd5e7cd560dd9e1ceeab0d2879638caa628",
+    "working/extended_baselines/confirmation/merge_lqr_acc_seed0_delay0.jsonl": "bd4d10039aa8afe7bcb7f1e509c7567264b74024ea1c32bb0ee40e3914396dec",
     "working/extended_baselines/confirmation/merge_lqr_seed0_delay0.json": "2f692d4229c4036bfe6100d9bfe1a9ac2fe24a3ba1ac33c11cef049190cfb1ec",
     "working/extended_baselines/confirmation/merge_lqr_seed0_delay0.jsonl": "bfb2fc9ccc50b5cf1555dc9d148677092da0844c941af336863543a14292f0d1",
     "working/extended_baselines/confirmation/merge_lqr_seed0_delay1000.json": "9dd3742de9476decedab7d96de531fa48dcfe44a5464c7eb350becb6b904d4ee",
