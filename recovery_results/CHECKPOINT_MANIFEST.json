@@ -1,9 +1,9 @@
 {
-  "time": "2026-10-22T12:46:25.777661+00:00",
+  "time": "2026-10-22T12:46:59.173799+00:00",
   "counts": {
     "extended_baselines/confirmation": 440,
     "stress_study/confirmation": 231,
-    "observation_delay_study/evaluation": 57
+    "observation_delay_study/evaluation": 62
   },
   "sha256": {
     "working/extended_baselines/confirmation/highway_cbf_seed42_delay0.json": "b385b80c0673d3372e6f3c6ed21fea38956bc17f705b2c0452701ab0fe994a83",
@@ -1368,6 +1368,12 @@
     "working/observation_delay_study/evaluation/bimodal_highway_predictor_lqr_0.jsonl": "2e0eacc2af51e5aa65364517a616e2b052b6fa98e48a9ba208d751fa7fd8d70c",
     "working/observation_delay_study/evaluation/bimodal_highway_robust_mpc_0.json": "d6b9ee6bbe72199cf8ce75be827926d16d21d3e841a0f86d04907545329395a8",
     "working/observation_delay_study/evaluation/bimodal_highway_robust_mpc_0.jsonl": "e23b7ff2fbccb621250416a841bb4841d15c2ea2a97727a452bb92eb6c8038d5",
+    "working/observation_delay_study/evaluation/bimodal_intersection_lans_42.json": "dbf1ffe9511ab481278cfff506184c6cf1f73b3b129c511c3e193a4943ac90c1",
+    "working/observation_delay_study/evaluation/bimodal_intersection_lans_42.jsonl": "e23b7ff2fbccb621250416a841bb4841d15c2ea2a97727a452bb92eb6c8038d5",
+    "working/observation_delay_study/evaluation/bimodal_intersection_lans_43.json": "b7394035c702fe26126a826b07f3ae3a795d1b3161d46dc3e15c1ba8d31be0ce",
+    "working/observation_delay_study/evaluation/bimodal_intersection_lans_43.jsonl": "e23b7ff2fbccb621250416a841bb4841d15c2ea2a97727a452bb92eb6c8038d5",
+    "working/observation_delay_study/evaluation/bimodal_intersection_predictor_lqr_0.json": "3061bdcfb6b077e1416dd0b897738044674d81afa2affdb7f9d5ae3a2e514b33",
+    "working/observation_delay_study/evaluation/bimodal_intersection_predictor_lqr_0.jsonl": "b96693d55b8a587d243bea71ff66fb719ba9b4876d5316f8329d6f7f6feba9d4",
     "working/observation_delay_study/evaluation/bimodal_merge_cbf_42.json": "50f34769e2444958570672aed4874ded00ab052a4118518933ed38576287d8af",
     "working/observation_delay_study/evaluation/bimodal_merge_cbf_42.jsonl": "536d474064667fde82a1fb32ed339f231851c75d21ffa74c70c17cf46268698a",
     "working/observation_delay_study/evaluation/bimodal_merge_cbf_43.json": "29790a0388a80bf2750b22b5021d76347e6ad927f63e7639ee1e32c72cca8711",
@@ -1380,6 +1386,10 @@
     "working/observation_delay_study/evaluation/bimodal_merge_lans_43.jsonl": "e86031ce1151c926df935faa4faa1273767e130a41bf19335c1a918a6ca7ab49",
     "working/observation_delay_study/evaluation/bimodal_merge_lans_44.json": "17fe0a28ff060b2b58bd8a993b702e98d5a24d0dd91b5bf1715aefa7c88cf307",
     "working/observation_delay_study/evaluation/bimodal_merge_lans_44.jsonl": "4c5d6e8a331ce294c9983c83824bb8c5671626f11fb26f8921ff0a6820eee254",
+    "working/observation_delay_study/evaluation/bimodal_merge_lqr_acc_0.json": "5070944553c3b2890cbdbdcd7779e28e10a8759f0e11d7056c18cceea99263f8",
+    "working/observation_delay_study/evaluation/bimodal_merge_lqr_acc_0.jsonl": "d25f0ba98317cf11608227fce591660191495cb0672e56904b9ac6d4810771b4",
+    "working/observation_delay_study/evaluation/bimodal_merge_mpc_nominal_0.json": "d3b58d8678bbfd8be1281e1d0de9a662dabf15de23edad27bd754181155df7dd",
+    "working/observation_delay_study/evaluation/bimodal_merge_mpc_nominal_0.jsonl": "9b3396f285cca36583d271dbe83538d1b9f4c90346664a9c13491f11d637c9cf",
     "working/observation_delay_study/evaluation/bimodal_merge_predictor_lqr_0.json": "3391e3596a6715f1ae573b0f383e2b02ca6227b6c5e82bf04f5dbb6500cf6b55",
     "working/observation_delay_study/evaluation/bimodal_merge_predictor_lqr_0.jsonl": "d25f0ba98317cf11608227fce591660191495cb0672e56904b9ac6d4810771b4",
     "working/observation_delay_study/evaluation/uniform_highway_cbf_42.json": "34d6d9e902df747f6b30ba3fb8b44803d863073f89b50e5f392a5788b37e5b7e",
