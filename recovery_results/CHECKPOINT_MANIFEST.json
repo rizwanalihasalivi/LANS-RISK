@@ -1,8 +1,8 @@
 {
-  "time": "2026-10-22T12:33:44.718838+00:00",
+  "time": "2026-10-22T12:34:16.954454+00:00",
   "counts": {
     "extended_baselines/confirmation": 440,
-    "stress_study/confirmation": 211,
+    "stress_study/confirmation": 213,
     "observation_delay_study/evaluation": 0
   },
   "sha256": {
@@ -1044,6 +1044,10 @@
     "working/stress_study/confirmation/denser_traffic_roundabout_predictor_lqr_0_10.jsonl": "ee6ad40a690e110bf1738aa61e59061a2bf8f336797a8e1bee0970743573c41c",
     "working/stress_study/confirmation/denser_traffic_roundabout_predictor_lqr_0_5.json": "062ed68a7e966b6b67b370422a3aa5dd1088dcbee1a7f0c605f261fef1fc9cee",
     "working/stress_study/confirmation/denser_traffic_roundabout_predictor_lqr_0_5.jsonl": "4c3ff5e738558d8e6469118f382469c0e63b40fddfc7e4277bacee0868998c5a",
+    "working/stress_study/confirmation/denser_traffic_roundabout_robust_mpc_0_0.json": "17b20a0d16c6d969e445f3653dad0d7270050b53df1cda8b00e68e2e2c8c8932",
+    "working/stress_study/confirmation/denser_traffic_roundabout_robust_mpc_0_0.jsonl": "d87af433efafd01333f398bba7d810d0296211f6193ef5622bc3e0740a888026",
+    "working/stress_study/confirmation/denser_traffic_roundabout_robust_mpc_0_5.json": "dc1bbc2502b8dd43707943423162b48d597072ee1a6bef81e3c85e6c43797ff2",
+    "working/stress_study/confirmation/denser_traffic_roundabout_robust_mpc_0_5.jsonl": "dc0b60f63af9752b77f737eabbc74336fcb1bd7fa141fbe97f05aacc81692352",
     "working/stress_study/confirmation/weaker_actuation_highway_cbf_42_0.json": "4b3a5d0259807292a8e07067a987c86dd098fe62b871287d39798580baffa93e",
     "working/stress_study/confirmation/weaker_actuation_highway_cbf_42_0.jsonl": "55b3cd5a099ff98f79ae18ebb707ca3edca16b50e694a7e8d16dc410b062da97",
     "working/stress_study/confirmation/weaker_actuation_highway_cbf_42_10.json": "bc63f2b0d58ae2cd861190750974d1ded816e103e223aef6defc24fdff421af7",
