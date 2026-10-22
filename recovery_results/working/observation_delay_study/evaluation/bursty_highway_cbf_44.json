@@ -1,0 +1,13 @@
+{
+  "profile": "bursty",
+  "scenario": "highway",
+  "controller": "cbf",
+  "actor_seed": 44,
+  "count": 20,
+  "first": 181000,
+  "source_hash": "8f39d185b29c9581f13e4e21a90423f26d292cc2ac846891000c1d2723bad60d",
+  "raw_sha256": "6e065efdf45d1078ee0d3ffafac42408ab00dfce0d0b640e38091f15f55a9947",
+  "collision": 0.0,
+  "completion": 85.0,
+  "corridor_completion": 0.0
+}
