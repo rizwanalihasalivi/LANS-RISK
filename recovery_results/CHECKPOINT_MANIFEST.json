@@ -1,7 +1,7 @@
 {
-  "time": "2026-10-22T10:57:16.026352+00:00",
+  "time": "2026-10-22T10:59:49.269472+00:00",
   "counts": {
-    "extended_baselines/confirmation": 356,
+    "extended_baselines/confirmation": 359,
     "stress_study/confirmation": 0,
     "observation_delay_study/evaluation": 0
   },
@@ -538,6 +538,12 @@
     "working/extended_baselines/confirmation/merge_predictor_lqr_seed0_delay700.jsonl": "03a9cea403e20ae68d95f6bbe2b5f90c28e28673876813b74c30361d9974c177",
     "working/extended_baselines/confirmation/merge_robust_lans_seed42_delay0.json": "9aa663145cc3727c22ba424fdd1107f051967fd31e2d2aff3664633b4faf20d0",
     "working/extended_baselines/confirmation/merge_robust_lans_seed42_delay0.jsonl": "16e8b07706a38b9c592bba8d70f6b12a198fbcfc02cfb1ceed28761db28f435a",
+    "working/extended_baselines/confirmation/merge_robust_lans_seed42_delay200.json": "44c628f9f7e3ff3f3ef26c0895b1056dda42d8bf2e4fbb333ac343c2a741d105",
+    "working/extended_baselines/confirmation/merge_robust_lans_seed42_delay200.jsonl": "bafc449ba902bc908bcd8fb8349d7facf00d690d4e6a5143a23e5decd26470e3",
+    "working/extended_baselines/confirmation/merge_robust_lans_seed42_delay500.json": "13ae3bbbb2852929cba858f490ad0a2795a6c81b373c0cf18d19c9519e54ed21",
+    "working/extended_baselines/confirmation/merge_robust_lans_seed42_delay500.jsonl": "97d797452ad893500c18ca52ccbdcd4dc6fedd5e7c3b6f011d7a360cf20ab097",
+    "working/extended_baselines/confirmation/merge_robust_lans_seed42_delay700.json": "ddda0c4e23205598555eb95f0d24a86b364fd2200374faa9ea883ae4941cf812",
+    "working/extended_baselines/confirmation/merge_robust_lans_seed42_delay700.jsonl": "ddb41f939a8545c6b4e0a018e8773f1c8119cc8c70e22e703b258e72b956c33b",
     "working/extended_baselines/confirmation/merge_robust_mpc_seed0_delay0.json": "c54077df8b09f5c875d967f071e0ef8a00b39b0d45f09c8185d6ef8f148f858e",
     "working/extended_baselines/confirmation/merge_robust_mpc_seed0_delay0.jsonl": "11aa2f4e77e5a830a473f821253dfcf4b07777a5cad75bcf2ad4d054fdd0cc66",
     "working/extended_baselines/confirmation/merge_robust_mpc_seed0_delay1000.json": "602e9f3d20e5304147bf6c71dd49abfce5d41552a887062e6f46a94ff5ef3f45",
