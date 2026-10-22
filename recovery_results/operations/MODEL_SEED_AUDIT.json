@@ -1,0 +1,92 @@
+{
+  "models": [
+    {
+      "scenario": "highway",
+      "policy_seed": 42,
+      "model_sha256": "1df2b1da72ef3981dc7799f86b1dad841c80e40d5c99c9f721e85dc9a29d39a5",
+      "embedded_sb3_training_seed": 42,
+      "policy_tensor_sha256": "82085d9b36523e71da8542994eb72735713b8fc204ebdb24725162abd1ddf05c"
+    },
+    {
+      "scenario": "highway",
+      "policy_seed": 43,
+      "model_sha256": "63d38dac8d756ac813a8c38d8bf8c9d89468c7c8d907a5a3251051fa1887328b",
+      "embedded_sb3_training_seed": 43,
+      "policy_tensor_sha256": "18a8e27e02e9dfedb4a86e9abb9c33a9c025cdab9a465a4b38d4bf5d0d6afb71"
+    },
+    {
+      "scenario": "highway",
+      "policy_seed": 44,
+      "model_sha256": "294dcc6d2b89b7c760fb1762e7e2a487779d5793e00207936cc37c78782a1fb3",
+      "embedded_sb3_training_seed": 44,
+      "policy_tensor_sha256": "1399f2f7fe07d1a06e91f64d95a0f0bb3376037bbbad3fdd14c87b652b1f24d9"
+    },
+    {
+      "scenario": "merge",
+      "policy_seed": 42,
+      "model_sha256": "1509810eb8753adf7ba0e706d62257aab475c6959473c59c9e9772a4234426b7",
+      "embedded_sb3_training_seed": 42,
+      "policy_tensor_sha256": "9c19d63ab05514d03731c6baaf0cabc974daa757882774639d9d032c30f3b03b"
+    },
+    {
+      "scenario": "merge",
+      "policy_seed": 43,
+      "model_sha256": "f1c1fdd583f8385a13ce9e2291b6b81a6e154303b28715362f1b112e63b38f91",
+      "embedded_sb3_training_seed": 43,
+      "policy_tensor_sha256": "6dd0f59e94f26948c162a6831d0472b2f94d071e570e176667dbbf273b08868e"
+    },
+    {
+      "scenario": "merge",
+      "policy_seed": 44,
+      "model_sha256": "11b0e946f7f2c15cd26c72c96c81d5dddb35e6a4367f45352c952ceb45344189",
+      "embedded_sb3_training_seed": 44,
+      "policy_tensor_sha256": "d328194c6d0c7b9333bcac1365599269105ba70bea774b818481a35347d595d4"
+    },
+    {
+      "scenario": "intersection",
+      "policy_seed": 42,
+      "model_sha256": "5d401a052dd5d39e27aaea5f912fb4da1867d2ce4cdcbdec3d4e8c0467c3f5a5",
+      "embedded_sb3_training_seed": 42,
+      "policy_tensor_sha256": "31e3127e1933c6d553275d926e36944a9aaa79dd3ea18cebb3c5406a4c35822a"
+    },
+    {
+      "scenario": "intersection",
+      "policy_seed": 43,
+      "model_sha256": "3ad61e9847ebe3294d8469dcb10be776fd01c350a43e61df1a6fd398476c2865",
+      "embedded_sb3_training_seed": 43,
+      "policy_tensor_sha256": "f5f98644d93fc42d3e184fd0b110d7e0ad4cdcba9523350c80e93d58f04a4ab8"
+    },
+    {
+      "scenario": "intersection",
+      "policy_seed": 44,
+      "model_sha256": "3f169925b84c4a06a642235a6f3d5b8a1346762bf688537ec73287865edda55c",
+      "embedded_sb3_training_seed": 44,
+      "policy_tensor_sha256": "ffd857deed83b8f422a82b47e03a8d135d5ce87affae5dde43b2279aadc1467b"
+    },
+    {
+      "scenario": "roundabout",
+      "policy_seed": 42,
+      "model_sha256": "b38a609ac0ac047340074083261aea18c8ee4069290b6d47e4cd38ad841852e8",
+      "embedded_sb3_training_seed": 42,
+      "policy_tensor_sha256": "5585c3dbbee7a1161ec4810b6227deeded77be2595492b3fed98c3691b77e249"
+    },
+    {
+      "scenario": "roundabout",
+      "policy_seed": 43,
+      "model_sha256": "889fda586bca6b33634e9d9f41641f7533b91831151ff1c857ece169286d047b",
+      "embedded_sb3_training_seed": 43,
+      "policy_tensor_sha256": "2a5f844f79c440e40b05330f0b52f192ae5776d6ca2dde13d8f78ed7fe536818"
+    },
+    {
+      "scenario": "roundabout",
+      "policy_seed": 44,
+      "model_sha256": "42606372ad42d3cf17f294432aee892cab72876e54710f1722ece351487acebb",
+      "embedded_sb3_training_seed": 44,
+      "policy_tensor_sha256": "229175e7fb0134019700d9c288067cb2933ee3f863299a97805dcafc9298420d"
+    }
+  ],
+  "unique_model_files": 12,
+  "embedded_training_seeds_match_filenames": true,
+  "interpretation": "Three frozen trained seeds per scenario; repeated traffic cases across actor seeds are paired, not additional independent traffic samples",
+  "unique_policy_tensor_sets": 12
+}
