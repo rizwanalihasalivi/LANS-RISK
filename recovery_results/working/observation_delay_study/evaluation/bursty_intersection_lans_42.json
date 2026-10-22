@@ -1,0 +1,13 @@
+{
+  "profile": "bursty",
+  "scenario": "intersection",
+  "controller": "lans",
+  "actor_seed": 42,
+  "count": 20,
+  "first": 181000,
+  "source_hash": "8f39d185b29c9581f13e4e21a90423f26d292cc2ac846891000c1d2723bad60d",
+  "raw_sha256": "8d13ca22657b32ee55995ea1839cbda847cbe4d2c7d3cf67cb93597c9ff88a6a",
+  "collision": 5.0,
+  "completion": 95.0,
+  "corridor_completion": 0.0
+}

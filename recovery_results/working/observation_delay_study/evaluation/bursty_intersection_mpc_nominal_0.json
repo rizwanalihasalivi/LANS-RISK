@@ -1,0 +1,13 @@
+{
+  "profile": "bursty",
+  "scenario": "intersection",
+  "controller": "mpc_nominal",
+  "actor_seed": 0,
+  "count": 20,
+  "first": 181000,
+  "source_hash": "8f39d185b29c9581f13e4e21a90423f26d292cc2ac846891000c1d2723bad60d",
+  "raw_sha256": "0989dab9babc66a9682c1b3eeb1359c73ea2048a62ed379564f9d571d9f5ae1f",
+  "collision": 0.0,
+  "completion": 95.0,
+  "corridor_completion": 60.0
+}
