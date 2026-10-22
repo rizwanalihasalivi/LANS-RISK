@@ -1,0 +1,13 @@
+{
+  "profile": "triangular",
+  "scenario": "intersection",
+  "controller": "robust_mpc",
+  "actor_seed": 0,
+  "count": 20,
+  "first": 181000,
+  "source_hash": "8f39d185b29c9581f13e4e21a90423f26d292cc2ac846891000c1d2723bad60d",
+  "raw_sha256": "2d7ccf300c85d16634f139c5052d61b8b2612b90cb15bc0e755c43632e9f9b34",
+  "collision": 0.0,
+  "completion": 100.0,
+  "corridor_completion": 15.0
+}

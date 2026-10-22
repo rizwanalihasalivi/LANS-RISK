@@ -1,9 +1,9 @@
 {
-  "time": "2026-10-22T12:54:05.162744+00:00",
+  "time": "2026-10-22T12:54:38.079593+00:00",
   "counts": {
     "extended_baselines/confirmation": 440,
     "stress_study/confirmation": 231,
-    "observation_delay_study/evaluation": 149
+    "observation_delay_study/evaluation": 158
   },
   "sha256": {
     "working/extended_baselines/confirmation/highway_cbf_seed42_delay0.json": "b385b80c0673d3372e6f3c6ed21fea38956bc17f705b2c0452701ab0fe994a83",
@@ -1546,6 +1546,8 @@
     "working/observation_delay_study/evaluation/triangular_intersection_mpc_nominal_0.jsonl": "8aaf62a04133c6c24372e5aa50cea979281a01d9e7cd26b4c162e30c16e267b1",
     "working/observation_delay_study/evaluation/triangular_intersection_predictor_lqr_0.json": "ce14249cc04b6e283bd5bd717bb3c58e9a621c4f725429b22fe6613de2c181f1",
     "working/observation_delay_study/evaluation/triangular_intersection_predictor_lqr_0.jsonl": "8681a5c19f3e7f4103917a23813cb9a785e379075bac967ecf737280b6647d29",
+    "working/observation_delay_study/evaluation/triangular_intersection_robust_mpc_0.json": "512d4779b4a2247d8f0365995e2130c355693b2182bd06a5783c0c1e444152f6",
+    "working/observation_delay_study/evaluation/triangular_intersection_robust_mpc_0.jsonl": "2d7ccf300c85d16634f139c5052d61b8b2612b90cb15bc0e755c43632e9f9b34",
     "working/observation_delay_study/evaluation/triangular_merge_cbf_42.json": "03152736db4b4c1f2fa35635e322fbb2d0abc174cf205e96a302ec68493c419d",
     "working/observation_delay_study/evaluation/triangular_merge_cbf_42.jsonl": "4db83e1b38370e41e2628314bf8c4bc3d4a859058872b72cc834c18c3e783258",
     "working/observation_delay_study/evaluation/triangular_merge_cbf_43.json": "ac4c9ccb242ceef6dcc05688b0f928e703fb32fd9c2156a338d68b1f2ba9fdb7",
@@ -1566,6 +1568,22 @@
     "working/observation_delay_study/evaluation/triangular_merge_predictor_lqr_0.jsonl": "d824c3af0424d433618aee7c8e6c2f0a3f7f1a45e8b49a6defd43819ccf2301b",
     "working/observation_delay_study/evaluation/triangular_merge_robust_mpc_0.json": "13a3e10b2cbfb9dda6844d1477882a352df724794458098131d5e594f9062059",
     "working/observation_delay_study/evaluation/triangular_merge_robust_mpc_0.jsonl": "41e35899026e130377f2d579ce415e950497cb0da8c7b2407a2163f89d94b3df",
+    "working/observation_delay_study/evaluation/triangular_roundabout_cbf_42.json": "89c36db339fdf17bf4d307fd2e826112b5ce6ba000e93a90c6af9589e7a126e2",
+    "working/observation_delay_study/evaluation/triangular_roundabout_cbf_42.jsonl": "73d1a200da8ce6f3de30000d191670e8c40ebf3570047de8033483a6fa161ac1",
+    "working/observation_delay_study/evaluation/triangular_roundabout_cbf_43.json": "61a73093e2d988f7bbb36839b9f847317c84c0cd53a8bff2ad517b71c2b1a047",
+    "working/observation_delay_study/evaluation/triangular_roundabout_cbf_43.jsonl": "3d6c326fe9cd698c090e814b618012aebd9c514cba2d5d9ce02efd64f3b3f99a",
+    "working/observation_delay_study/evaluation/triangular_roundabout_cbf_44.json": "7caea791863557575f769fac6c00b356c347477e30441b48842d36987807b579",
+    "working/observation_delay_study/evaluation/triangular_roundabout_cbf_44.jsonl": "451ce22f954eaec990215ed82c0efe7b46643f340250400e093b4a2c468fa5ad",
+    "working/observation_delay_study/evaluation/triangular_roundabout_lans_42.json": "333f23d4e430663029420ab8f7def4ea1d2d1359556fd4eba04ba72619008b44",
+    "working/observation_delay_study/evaluation/triangular_roundabout_lans_42.jsonl": "1185f2ca0722ecd9c24c99a0669d13496e2a538265c09c2b4a64b2bd1eda5060",
+    "working/observation_delay_study/evaluation/triangular_roundabout_lans_43.json": "01356cb6f92fc82bfd83efaad39eab9d89e86a8a7ab355297632ddde4fbf919f",
+    "working/observation_delay_study/evaluation/triangular_roundabout_lans_43.jsonl": "481ac982575a3df8a09d6dcd208ab1b4d26c17d547b2667d58d4018a188d515f",
+    "working/observation_delay_study/evaluation/triangular_roundabout_lans_44.json": "dad66ba3ba204279e1f6f772a0b3d9ff3ec5c435705694aca2345a52a059d914",
+    "working/observation_delay_study/evaluation/triangular_roundabout_lans_44.jsonl": "cd8d29b3cc0e43f0ec61430c996bcd86de43e5cd3e4820a1d0ae6b6e170448ce",
+    "working/observation_delay_study/evaluation/triangular_roundabout_lqr_acc_0.json": "f4eafb393d3adcc59a5370f66d23d54eee889004e236966f8b13a1e2c337934b",
+    "working/observation_delay_study/evaluation/triangular_roundabout_lqr_acc_0.jsonl": "98fdc9d4b8b46f4f7cacb43e02dae18f89aa81647e95a867281173444d355c3f",
+    "working/observation_delay_study/evaluation/triangular_roundabout_predictor_lqr_0.json": "b0f69f2eeadbe307d0c9062e1c1a375dc70a2e320564dc35e10a227515841a06",
+    "working/observation_delay_study/evaluation/triangular_roundabout_predictor_lqr_0.jsonl": "98fdc9d4b8b46f4f7cacb43e02dae18f89aa81647e95a867281173444d355c3f",
     "working/observation_delay_study/evaluation/uniform_highway_cbf_42.json": "34d6d9e902df747f6b30ba3fb8b44803d863073f89b50e5f392a5788b37e5b7e",
     "working/observation_delay_study/evaluation/uniform_highway_cbf_42.jsonl": "27c3e1038dcae94607d8d4177890492b08a0281a22dbf7137ff0a04164b464f7",
     "working/observation_delay_study/evaluation/uniform_highway_cbf_43.json": "702df4f038836ee01c0b603311a48a4d83c63134a367bca992cc3d4cc6bac06e",
