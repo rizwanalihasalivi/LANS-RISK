@@ -1,9 +1,9 @@
 {
-  "time": "2026-10-22T12:57:22.464550+00:00",
+  "time": "2026-10-22T12:57:55.191458+00:00",
   "counts": {
     "extended_baselines/confirmation": 440,
     "stress_study/confirmation": 231,
-    "observation_delay_study/evaluation": 190
+    "observation_delay_study/evaluation": 199
   },
   "sha256": {
     "working/extended_baselines/confirmation/highway_cbf_seed42_delay0.json": "b385b80c0673d3372e6f3c6ed21fea38956bc17f705b2c0452701ab0fe994a83",
@@ -1568,6 +1568,24 @@
     "working/observation_delay_study/evaluation/exponential_merge_predictor_lqr_0.jsonl": "bae3391e64258396534a83308fd7c9407df88474197f2dc1c9bb96d45e84f1b4",
     "working/observation_delay_study/evaluation/exponential_merge_robust_mpc_0.json": "7395bc2613cd27c94d085143ec87c56a50124f5a194bfa0ef6106b79241c4f29",
     "working/observation_delay_study/evaluation/exponential_merge_robust_mpc_0.jsonl": "ae211ae55e20c252231ed1739d86106187b6adabc43af971e7c5db7852db2cc2",
+    "working/observation_delay_study/evaluation/exponential_roundabout_cbf_42.json": "c5ff5100c8ceac9507eb277f218a85bf5362986686735876686d559d4867f83a",
+    "working/observation_delay_study/evaluation/exponential_roundabout_cbf_42.jsonl": "4f31a655c91d0387f1f16b32efffc77d31631bf80a47a636be95f3118047f730",
+    "working/observation_delay_study/evaluation/exponential_roundabout_cbf_43.json": "5b87f210e122a7785126d198b16df4d3e92b010107f0095787bde3350e276959",
+    "working/observation_delay_study/evaluation/exponential_roundabout_cbf_43.jsonl": "b31ac66a030486d4602298fabcc9d79e4149cea26fe303e8f9838e76a979fbe1",
+    "working/observation_delay_study/evaluation/exponential_roundabout_cbf_44.json": "52c7bddee0f242894c00006ffab326b855a9aa706dd1a0eae28fd7556a86a2c5",
+    "working/observation_delay_study/evaluation/exponential_roundabout_cbf_44.jsonl": "9111196e5164c546d54f89b80f0f1a8eac6fcf4bb5bb4b30353ada1178b3fc50",
+    "working/observation_delay_study/evaluation/exponential_roundabout_lans_42.json": "25f19f85b7ee14b3d9b06d96d83f4d883d83dff442c67938cafe477580cb5718",
+    "working/observation_delay_study/evaluation/exponential_roundabout_lans_42.jsonl": "86ba14bbad2af3fd1d174c5a7a4b0cbce65d9a64c55d3967ab9d3e6b9f08370f",
+    "working/observation_delay_study/evaluation/exponential_roundabout_lans_43.json": "98c2772feeabe8f959beae75c6b226c414812927fa9cb227a8e5465d2aadff65",
+    "working/observation_delay_study/evaluation/exponential_roundabout_lans_43.jsonl": "ff6eb8677ef67cb1e39053c5628497592336386deb7ff55dffa8f49fd622a066",
+    "working/observation_delay_study/evaluation/exponential_roundabout_lans_44.json": "3ee93a59bcc0b98c7a20e4e6c10aef00c0c3e79b7e78d48b3f21ffa31fe0b322",
+    "working/observation_delay_study/evaluation/exponential_roundabout_lans_44.jsonl": "6360d72f409cb0441b7287b8dada42107e64a7a66a50c47ef6af6bd81fb9be10",
+    "working/observation_delay_study/evaluation/exponential_roundabout_lqr_acc_0.json": "2fd242c45a3372f9e4f379c10dae34da737f41a7927bd95f364ac4190b57deef",
+    "working/observation_delay_study/evaluation/exponential_roundabout_lqr_acc_0.jsonl": "29571ac0b406da606c35502665950b16e23e04d313e4919011e5baac26e08f73",
+    "working/observation_delay_study/evaluation/exponential_roundabout_mpc_nominal_0.json": "dc0b42df02bf8346b85d02491fbc16d3b0a3f133c59c7ea63c63455f9a00ba99",
+    "working/observation_delay_study/evaluation/exponential_roundabout_mpc_nominal_0.jsonl": "29571ac0b406da606c35502665950b16e23e04d313e4919011e5baac26e08f73",
+    "working/observation_delay_study/evaluation/exponential_roundabout_predictor_lqr_0.json": "b88f845da7aa85a8f9a8ec9ff11d66fc0f50ca8bdb5556bc4444cd8b9df2fbc4",
+    "working/observation_delay_study/evaluation/exponential_roundabout_predictor_lqr_0.jsonl": "29571ac0b406da606c35502665950b16e23e04d313e4919011e5baac26e08f73",
     "working/observation_delay_study/evaluation/triangular_highway_cbf_42.json": "64db9911634b0d4c7214cbaa86d90f1e0ce0b5afabf16119643386aee193f4ee",
     "working/observation_delay_study/evaluation/triangular_highway_cbf_42.jsonl": "e08eb5f5a0e7b5f8454e293e755cdd06e51dec4e9f14444ee25c8a32e896fbc5",
     "working/observation_delay_study/evaluation/triangular_highway_cbf_43.json": "27fae83a5ee952599ffd1043f34ae2c476c6c6dcac849469c04c905c65c3bb1a",
