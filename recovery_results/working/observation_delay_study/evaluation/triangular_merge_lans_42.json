@@ -1,0 +1,13 @@
+{
+  "profile": "triangular",
+  "scenario": "merge",
+  "controller": "lans",
+  "actor_seed": 42,
+  "count": 20,
+  "first": 181000,
+  "source_hash": "8f39d185b29c9581f13e4e21a90423f26d292cc2ac846891000c1d2723bad60d",
+  "raw_sha256": "49c73ff77a538bd1d15c58d9d864e647fcefe483b5e75b1eaf05881af95cd6d3",
+  "collision": 0.0,
+  "completion": 75.0,
+  "corridor_completion": 0.0
+}
