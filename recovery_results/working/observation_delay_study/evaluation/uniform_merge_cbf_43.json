@@ -1,0 +1,13 @@
+{
+  "profile": "uniform",
+  "scenario": "merge",
+  "controller": "cbf",
+  "actor_seed": 43,
+  "count": 20,
+  "first": 181000,
+  "source_hash": "8f39d185b29c9581f13e4e21a90423f26d292cc2ac846891000c1d2723bad60d",
+  "raw_sha256": "b872d8141bf001f0ca46f628c4be0c269ce2bb335dd2dcd98a38a129fef7c5e2",
+  "collision": 0.0,
+  "completion": 15.0,
+  "corridor_completion": 0.0
+}

@@ -1,9 +1,9 @@
 {
-  "time": "2026-10-22T12:43:09.130498+00:00",
+  "time": "2026-10-22T12:43:42.928262+00:00",
   "counts": {
     "extended_baselines/confirmation": 440,
     "stress_study/confirmation": 231,
-    "observation_delay_study/evaluation": 9
+    "observation_delay_study/evaluation": 16
   },
   "sha256": {
     "working/extended_baselines/confirmation/highway_cbf_seed42_delay0.json": "b385b80c0673d3372e6f3c6ed21fea38956bc17f705b2c0452701ab0fe994a83",
@@ -1365,7 +1365,21 @@
     "working/observation_delay_study/evaluation/uniform_highway_mpc_nominal_0.json": "e1dab474f0e45384d842d83c3093d5650def1b8ceeb09528bc9f63cc7e9af2cd",
     "working/observation_delay_study/evaluation/uniform_highway_mpc_nominal_0.jsonl": "926c72c37ea200d678f4121ced32a19105ed6b1d4d88e88d304a344947aba6fc",
     "working/observation_delay_study/evaluation/uniform_highway_predictor_lqr_0.json": "09d36cf5cd294973eee6c212e55488e22f1dc27a34eedff9df3c77ed979a26d0",
-    "working/observation_delay_study/evaluation/uniform_highway_predictor_lqr_0.jsonl": "3953abf9c90cff72c096796cc6fd423fcf9a3aebaf0d3c621ea0b678e3dd3953"
+    "working/observation_delay_study/evaluation/uniform_highway_predictor_lqr_0.jsonl": "3953abf9c90cff72c096796cc6fd423fcf9a3aebaf0d3c621ea0b678e3dd3953",
+    "working/observation_delay_study/evaluation/uniform_highway_robust_mpc_0.json": "286dfe902fadace232732a85ddc21bc9c78d0da954c2db18d780169a75ec988d",
+    "working/observation_delay_study/evaluation/uniform_highway_robust_mpc_0.jsonl": "926c72c37ea200d678f4121ced32a19105ed6b1d4d88e88d304a344947aba6fc",
+    "working/observation_delay_study/evaluation/uniform_merge_cbf_42.json": "39f334e94fe7d92f69ab0f56e175d5a074eb5e25133072f176de7713148f3ec5",
+    "working/observation_delay_study/evaluation/uniform_merge_cbf_42.jsonl": "514392382f4579d975b2e70dca2e63f75f48509f9a98121211c6d28f20277047",
+    "working/observation_delay_study/evaluation/uniform_merge_cbf_43.json": "c1ee18eaa472fabc7d8d55631ef32ec017e82d2eb473347c14cbaf858b96c259",
+    "working/observation_delay_study/evaluation/uniform_merge_cbf_43.jsonl": "b872d8141bf001f0ca46f628c4be0c269ce2bb335dd2dcd98a38a129fef7c5e2",
+    "working/observation_delay_study/evaluation/uniform_merge_lans_42.json": "afebe335f8162eb14260e2208788d0d8cf156c4184b21a676a33b53e65d45b21",
+    "working/observation_delay_study/evaluation/uniform_merge_lans_42.jsonl": "e7e8dc09d8a11487951515491f47de73b43d35cd41d07f045b54dc5677692b75",
+    "working/observation_delay_study/evaluation/uniform_merge_lans_43.json": "de23fef50ed8c7bfc7a1bef390816f887d1e55609bbda265296474d7179ad968",
+    "working/observation_delay_study/evaluation/uniform_merge_lans_43.jsonl": "0f9e4f3837fd4f686c671819bf6d03aa58fb55ea5804be579afbe49a242650db",
+    "working/observation_delay_study/evaluation/uniform_merge_lans_44.json": "69009ab7af76af4c5d181c7a7ea6f6d55b1d2857d1ef3ca01d38d5db25183aff",
+    "working/observation_delay_study/evaluation/uniform_merge_lans_44.jsonl": "b30579b26ea31022579f48443de76a099cf9e13f2561bee366be98c81285dcc9",
+    "working/observation_delay_study/evaluation/uniform_merge_predictor_lqr_0.json": "52f88d107665325e1f19ac7cc4c09baec6750c6b9deea759fda8c950357814c9",
+    "working/observation_delay_study/evaluation/uniform_merge_predictor_lqr_0.jsonl": "4b0fb75dd7a1c556e60fc6b68ae48307cf377938ac2cfdcc38d955d23023a78c"
   },
   "scope": "Independent local copy on same machine; does not protect against machine/disk loss"
 }
