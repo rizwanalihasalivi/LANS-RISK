@@ -136,6 +136,10 @@ All condition-level estimates retain scenario, delay/profile and actor seed. Tra
   k=row['scenario'],row['controller'],row['delay_ms'];assert k not in seen;seen.add(k)
   assert row['n']==50 and 0<=row['median_ms']<=row['p95_ms']<=row['p99_ms']<=row['max_ms']
   assert 0<=row['exceeded_100ms']<=50
+ raw_runtime=json.loads((OP/'runtime_samples.json').read_text())
+ assert raw_runtime['conditions']==96 and raw_runtime['timed_samples']==4800
+ assert raw_runtime['source_hashes']==runtime['source_hashes']
+ (OUT/'runtime_samples.json').write_text(json.dumps(raw_runtime,indent=2))
  csvout(OUT/'runtime_current_host.csv',runtime['results'])
  fig,axes=plt.subplots(2,2,figsize=(14,9))
  for ax,s in zip(axes.flat,['highway','merge','intersection','roundabout']):
