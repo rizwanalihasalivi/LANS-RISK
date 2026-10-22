@@ -1,7 +1,7 @@
 {
-  "time": "2026-10-22T11:29:21.929376+00:00",
+  "time": "2026-10-22T11:29:54.332540+00:00",
   "counts": {
-    "extended_baselines/confirmation": 394,
+    "extended_baselines/confirmation": 396,
     "stress_study/confirmation": 0,
     "observation_delay_study/evaluation": 0
   },
@@ -778,12 +778,16 @@
     "working/extended_baselines/confirmation/roundabout_robust_lans_seed42_delay700.jsonl": "6c7ce81b16ce5de52efb505e59359753480228e02b1e4fae4f321f4f1ed7ae49",
     "working/extended_baselines/confirmation/roundabout_robust_lans_seed43_delay0.json": "e39eb9569584499e8f6b2cdb496addb7e1940b074324e6a642b0e690b8498797",
     "working/extended_baselines/confirmation/roundabout_robust_lans_seed43_delay0.jsonl": "e924b9dbb55abd298fa897b64afe4afed3e060db1b9dbf723f85678a40936bf6",
+    "working/extended_baselines/confirmation/roundabout_robust_lans_seed43_delay1000.json": "6fa59a1b1af8cccadad8436a4f14b24476310e806c69b2364027e15703181b14",
+    "working/extended_baselines/confirmation/roundabout_robust_lans_seed43_delay1000.jsonl": "94c81f8e860f1adf805fd42481264b9e6d030543bebfa8062a5e55b854a564e6",
     "working/extended_baselines/confirmation/roundabout_robust_lans_seed43_delay200.json": "03e52b5f1d82e21e903a9e1f03f99551e971a909dc181a70c58a0847b33fbdf6",
     "working/extended_baselines/confirmation/roundabout_robust_lans_seed43_delay200.jsonl": "49794d227402841d262318420a2f93a0d7512e2a892c8f5fffd504305dc1a49c",
     "working/extended_baselines/confirmation/roundabout_robust_lans_seed43_delay500.json": "40b7c4b7c28e3c325378368db86563af19c8338540e8e84c55c493f36ca89d71",
     "working/extended_baselines/confirmation/roundabout_robust_lans_seed43_delay500.jsonl": "ab3bf8aaede420a0c20a99b5dc388bb0217dca76739958fb598d2b6482f7910a",
     "working/extended_baselines/confirmation/roundabout_robust_lans_seed43_delay700.json": "364e49ee1744c67961e479de01c9473a52da337e7f4a492fb307c9cba963ae9b",
     "working/extended_baselines/confirmation/roundabout_robust_lans_seed43_delay700.jsonl": "fffcbd1cfacbd3c66c73ada6a7ccbce293b1d9e711e2c9e7175d7e61bd6a4164",
+    "working/extended_baselines/confirmation/roundabout_robust_lans_seed44_delay0.json": "d17e774441536231d4d77fc6b65576326f136a8498117bc470dbe185ab1b680f",
+    "working/extended_baselines/confirmation/roundabout_robust_lans_seed44_delay0.jsonl": "e375796296dcca3cac93cab7daa23d515e8a12b7924de2ef13d32bc0d4f3f6a3",
     "working/extended_baselines/confirmation/roundabout_robust_mpc_seed0_delay0.json": "9a7604245e1c6bb5ae9e1f2959a1566249fffa73b3329450c85d2178cb949962",
     "working/extended_baselines/confirmation/roundabout_robust_mpc_seed0_delay0.jsonl": "725014dc671c5b3e59e6c32c8ff3329c85936a86f3f4f52df7ce874c7028b2b8",
     "working/extended_baselines/confirmation/roundabout_robust_mpc_seed0_delay1000.json": "f7da56b6ff6a4dd8cbf2c0d3c8ef921c62b8491ce85bff8b3a76ab91647d9bf7",
