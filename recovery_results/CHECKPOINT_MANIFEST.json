@@ -1,8 +1,8 @@
 {
-  "time": "2026-10-22T12:24:35.927744+00:00",
+  "time": "2026-10-22T12:25:08.203604+00:00",
   "counts": {
     "extended_baselines/confirmation": 440,
-    "stress_study/confirmation": 149,
+    "stress_study/confirmation": 152,
     "observation_delay_study/evaluation": 0
   },
   "sha256": {
@@ -906,8 +906,14 @@
     "working/stress_study/confirmation/denser_traffic_highway_cbf_44_5.jsonl": "36f0a97a2b2dafda9febb981d96855731645c4218a3fb344f4faaa3f0934a155",
     "working/stress_study/confirmation/denser_traffic_highway_lans_42_0.json": "f0e975288b4a4b9bc8878dbe16e7b6e695c5278ec1dbd0d0374984025c9fdb6f",
     "working/stress_study/confirmation/denser_traffic_highway_lans_42_0.jsonl": "6e1e02275f3e1fbb68acc6edd0fa7c3d9478373626afb238c949acc6824879ef",
+    "working/stress_study/confirmation/denser_traffic_highway_lans_42_10.json": "a4d91b86f286d46fc69830d2cab07915c3d64cb74ee529b7da62bd88e81e6a23",
+    "working/stress_study/confirmation/denser_traffic_highway_lans_42_10.jsonl": "482316865638af33a84612627681508fbc07f4466a9a4f82285ad2a653b56a2c",
     "working/stress_study/confirmation/denser_traffic_highway_lans_42_5.json": "ed2633b254981ffc27ea04bb0f5575b36bb379fa202ef9cdebe033f2bf05507e",
     "working/stress_study/confirmation/denser_traffic_highway_lans_42_5.jsonl": "f26b484c59dba05e7fe5f5936a87183f651cdcf947987fa1f6d4bae4b2437ea0",
+    "working/stress_study/confirmation/denser_traffic_highway_lans_43_0.json": "c84ae6e33d598de5b2180a733c44042bca4d2fd968b32e96b761d92a2b20e1a9",
+    "working/stress_study/confirmation/denser_traffic_highway_lans_43_0.jsonl": "b8f73a5f57e516b5518289cc1bd9b34aea2f7779785874a5425a3245c4d06a5f",
+    "working/stress_study/confirmation/denser_traffic_highway_lans_43_5.json": "6a513544c72d415e6816264d73c52e71914605839755c8997953a2fe15fc150d",
+    "working/stress_study/confirmation/denser_traffic_highway_lans_43_5.jsonl": "baa972129311f4ffad5aef0dc3b0d25c9c1d945ff4c626b8dad60797c0ccf7ea",
     "working/stress_study/confirmation/denser_traffic_highway_predictor_lqr_0_0.json": "4a1bd24b9ab396957373b441079ae7560d455092d3176e9766246165a86dbd19",
     "working/stress_study/confirmation/denser_traffic_highway_predictor_lqr_0_0.jsonl": "a3afa4ad08341cad14adf813d0eb45c75329b17a7ea3fe88fa4be435cd62c674",
     "working/stress_study/confirmation/denser_traffic_highway_predictor_lqr_0_10.json": "0a41c92564323bfababd344a3f2a579a7441ebe27f7988aa978b77f28a390aa0",
