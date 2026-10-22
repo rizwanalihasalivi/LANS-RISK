@@ -1,0 +1,13 @@
+{
+  "profile": "uniform",
+  "scenario": "roundabout",
+  "controller": "cbf",
+  "actor_seed": 42,
+  "count": 20,
+  "first": 181000,
+  "source_hash": "8f39d185b29c9581f13e4e21a90423f26d292cc2ac846891000c1d2723bad60d",
+  "raw_sha256": "dca4e79266d6bf5fcae835f471bd565b8d418ee058a763e3ee7b3250cbce842c",
+  "collision": 20.0,
+  "completion": 25.0,
+  "corridor_completion": 0.0
+}
