@@ -1,0 +1,13 @@
+{
+  "profile": "triangular",
+  "scenario": "merge",
+  "controller": "robust_mpc",
+  "actor_seed": 0,
+  "count": 20,
+  "first": 181000,
+  "source_hash": "8f39d185b29c9581f13e4e21a90423f26d292cc2ac846891000c1d2723bad60d",
+  "raw_sha256": "41e35899026e130377f2d579ce415e950497cb0da8c7b2407a2163f89d94b3df",
+  "collision": 0.0,
+  "completion": 75.0,
+  "corridor_completion": 0.0
+}
