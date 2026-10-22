@@ -1,0 +1,22 @@
+{
+  "scenario": "intersection",
+  "controller": "mpc_nominal",
+  "policy_seed": 0,
+  "delay_ms": 700,
+  "count": 100,
+  "first": 141000,
+  "raw_sha256": "69e7848037c84f208ebff093bcc31e301a23bd91960ec30a4374ad3183dbd948",
+  "source_hash": "0d2ee90f988a699f28e205802cc5f60dbc73d8f75e2bd854ac640b07c2fb0241",
+  "seconds": 84.88233545899993,
+  "collision": 0.0,
+  "completion": 100.0,
+  "corridor_completion": 100.0,
+  "corridor_exceedance": 0.0,
+  "timeout": 0.0,
+  "progress": 2.4899927323502524,
+  "rmse": 0.025863288268730536,
+  "decision_ms_median": 4.75144003,
+  "no_feasible_steps": 0.0,
+  "npc_position_error_cv": 0.002292897346887533,
+  "npc_position_error_accel": 0.0003900767022716831
+}

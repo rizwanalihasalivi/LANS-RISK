@@ -52,7 +52,7 @@ def audit(folder,stage):
  assert seen==expected
  assert len(list((root/stage).glob('*.jsonl')))==len(expected)
  if folder=='extended_baselines' and stage=='confirmation':
-  original=json.loads((R/'resume_operations/20261022T101858Z/PREFLIGHT.json').read_text())
+  original=json.loads((OP/'PREFLIGHT_261.json').read_text())
   for p,h in original['existing_result_hashes'].items():assert sha(R/p)==h,('original batch changed',p)
  out=dict(folder=folder,stage=stage,conditions=len(seen),records=len(unique),frozen_hashes_verified=len(freeze),all_original_261_preserved=folder=='extended_baselines' and stage=='confirmation',all_metrics_recomputed=True,manifest=manifest)
  (OP/f'AUDIT_{folder}_{stage}.json').write_text(json.dumps(out,indent=2))

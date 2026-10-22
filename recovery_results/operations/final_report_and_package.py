@@ -15,7 +15,7 @@ def main():
  for name,h in freeze.items():assert sha(R/'working'/name)==h
  for folder in ['extended_baselines','stress_study','observation_delay_study']:
   for file in ['descriptive_metrics.csv','paired_tests.csv','episodes.jsonl','lans_mpc_summary.csv']:assert (OUT/folder/file).stat().st_size>0
- old=json.loads((R/'resume_operations/20261022T101858Z/PREFLIGHT.json').read_text())
+ old=json.loads((OP/'PREFLIGHT_261.json').read_text())
  for name,h in old['existing_result_hashes'].items():assert sha(R/name)==h
  # Every restored .py, protocol, freeze file and model from the original snapshot must remain unchanged.
  original=json.loads(Path('/workspace/LANS-RISK/SNAPSHOT_MANIFEST.json').read_text());checked=[]
