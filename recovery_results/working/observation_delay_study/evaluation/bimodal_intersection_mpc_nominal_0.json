@@ -1,0 +1,13 @@
+{
+  "profile": "bimodal",
+  "scenario": "intersection",
+  "controller": "mpc_nominal",
+  "actor_seed": 0,
+  "count": 20,
+  "first": 181000,
+  "source_hash": "8f39d185b29c9581f13e4e21a90423f26d292cc2ac846891000c1d2723bad60d",
+  "raw_sha256": "328a058622fe69b8eebb40e96925320d9b41d88bafb45d99a22964ba5aab0254",
+  "collision": 0.0,
+  "completion": 100.0,
+  "corridor_completion": 60.0
+}
