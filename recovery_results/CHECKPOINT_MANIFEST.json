@@ -1,8 +1,8 @@
 {
-  "time": "2026-10-22T12:10:48.865237+00:00",
+  "time": "2026-10-22T12:11:21.157796+00:00",
   "counts": {
     "extended_baselines/confirmation": 440,
-    "stress_study/confirmation": 57,
+    "stress_study/confirmation": 61,
     "observation_delay_study/evaluation": 0
   },
   "sha256": {
@@ -988,6 +988,14 @@
     "working/stress_study/confirmation/weaker_actuation_merge_lans_44_10.jsonl": "a97b4a5a1a9ff48123291176e9a561c3516742885230ab010424991f51e4d8d1",
     "working/stress_study/confirmation/weaker_actuation_merge_lans_44_5.json": "8cce572a67bae614eb9170e9d73f0d5d15532a38d8a3e3c7d8e0cd83d54733fc",
     "working/stress_study/confirmation/weaker_actuation_merge_lans_44_5.jsonl": "169105fd30024ed68a84cc1771d08b3ce33d84c5d807db0e9f8cba09fd988d06",
+    "working/stress_study/confirmation/weaker_actuation_merge_lqr_0_0.json": "13582c491acd037ead2d31302f46d9020b697f33c0cf51b175ff1e38bdf4ab46",
+    "working/stress_study/confirmation/weaker_actuation_merge_lqr_0_0.jsonl": "6b68f81367e76844f569dcef49aec691a3e0e5b9453cacaa6d5178638d50c2ef",
+    "working/stress_study/confirmation/weaker_actuation_merge_lqr_0_10.json": "2dbe98e81bf57f85c98bcdfc402f66e13563c1f070f8d847a232632b1793e5af",
+    "working/stress_study/confirmation/weaker_actuation_merge_lqr_0_10.jsonl": "069d5953b756c0f552ebb3c493fbfe8b48178e948be8a1bb09c9f65d5027d0c3",
+    "working/stress_study/confirmation/weaker_actuation_merge_lqr_0_5.json": "9cd219b44e227b99124dc7b23802b4d00674e9ee971e72d6d21bf346b226cf78",
+    "working/stress_study/confirmation/weaker_actuation_merge_lqr_0_5.jsonl": "d94ea243116b880837ea8c2c422bbf6c0316f95e658c3f412e4f9618c4ebae30",
+    "working/stress_study/confirmation/weaker_actuation_merge_mpc_nominal_0_0.json": "28712b75c8c4b5e434045f14394ade4d7479cd053bf64ef99a7476a2bd83a737",
+    "working/stress_study/confirmation/weaker_actuation_merge_mpc_nominal_0_0.jsonl": "0f2000b40de5afa7a444fdf3223520c70db4e7182bcbd55fbc39bf1011959ff7",
     "working/stress_study/confirmation/weaker_actuation_merge_predictor_lqr_0_0.json": "f2f09e401b0c519028255d7acd42934e15f19740bc2f244cff003314b62c3855",
     "working/stress_study/confirmation/weaker_actuation_merge_predictor_lqr_0_0.jsonl": "ce394c1e80d01113b1d39dace57b70344532e54d07c480fd8caf0f69160e6505",
     "working/stress_study/confirmation/weaker_actuation_merge_predictor_lqr_0_10.json": "6e0be2b62b9d294c56366cfeece7ee046a949fd77b3af2ce50f160c67a92d7ee",
