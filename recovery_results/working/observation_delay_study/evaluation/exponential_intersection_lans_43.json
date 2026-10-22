@@ -1,0 +1,13 @@
+{
+  "profile": "exponential",
+  "scenario": "intersection",
+  "controller": "lans",
+  "actor_seed": 43,
+  "count": 20,
+  "first": 181000,
+  "source_hash": "8f39d185b29c9581f13e4e21a90423f26d292cc2ac846891000c1d2723bad60d",
+  "raw_sha256": "6de5a241b96f3c0aa8fecfd8ed816aa02b6c3df87585b577155acff7f3bcaff7",
+  "collision": 0.0,
+  "completion": 100.0,
+  "corridor_completion": 30.0
+}
