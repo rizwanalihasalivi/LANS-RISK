@@ -1,8 +1,8 @@
 {
-  "time": "2026-10-22T12:04:23.070336+00:00",
+  "time": "2026-10-22T12:04:55.266958+00:00",
   "counts": {
     "extended_baselines/confirmation": 440,
-    "stress_study/confirmation": 20,
+    "stress_study/confirmation": 23,
     "observation_delay_study/evaluation": 0
   },
   "sha256": {
@@ -912,8 +912,14 @@
     "working/stress_study/confirmation/weaker_actuation_highway_lans_42_5.jsonl": "ad9a2500e377bdf7881ffc7d8fa81cb9f8ae44c89fe2634a85b8a0654f26c900",
     "working/stress_study/confirmation/weaker_actuation_highway_lans_43_0.json": "f7567ce12641e4b5eb6882a3a3be202ddc25196cd480214be6f8155888fc62ea",
     "working/stress_study/confirmation/weaker_actuation_highway_lans_43_0.jsonl": "c2939214115710e1d21493b34925019e920307fcec079913e243e6d5bdee0779",
+    "working/stress_study/confirmation/weaker_actuation_highway_lans_43_10.json": "a9e08333a9abffc579e95ca830b1c05f76589199dc245861b8bd1ee65c7718fd",
+    "working/stress_study/confirmation/weaker_actuation_highway_lans_43_10.jsonl": "e83fb49d10d27250cde61a3da90d62c94892bcaadbea27764017d9a03d1e1e76",
     "working/stress_study/confirmation/weaker_actuation_highway_lans_43_5.json": "e51f1a159a536666343da64c3be267d49fe40ad04eef443976a0d2c17b9aed29",
     "working/stress_study/confirmation/weaker_actuation_highway_lans_43_5.jsonl": "0db1b5879e56994f73feca74fcbf76ce40a25678f971728200e09515c55c3ca6",
+    "working/stress_study/confirmation/weaker_actuation_highway_lans_44_0.json": "6fa5ad0c041bf0287d27de9f4e8b5ef83f5efbeef1f584d3e55aba9f1718e7dd",
+    "working/stress_study/confirmation/weaker_actuation_highway_lans_44_0.jsonl": "8e9445f604bbf1ddf99753c16acbf81eefed60d7b4861d0e3fffd379b0bca748",
+    "working/stress_study/confirmation/weaker_actuation_highway_lans_44_5.json": "7d22e479cbfb062b0f4bd22b9de6fd35bd6c7b34ad57e6ebcf2f353c5850c53c",
+    "working/stress_study/confirmation/weaker_actuation_highway_lans_44_5.jsonl": "b265c70e2da1a3e7325ef27e40a126805f932293e35c1dbe72854679ee9ac81b",
     "working/stress_study/confirmation/weaker_actuation_highway_predictor_lqr_0_0.json": "495e0db862f4b0869f2d8acced3df701aa8d3c61e6dd3d5ff8e15c1ecabbe068",
     "working/stress_study/confirmation/weaker_actuation_highway_predictor_lqr_0_0.jsonl": "a3afa4ad08341cad14adf813d0eb45c75329b17a7ea3fe88fa4be435cd62c674",
     "working/stress_study/confirmation/weaker_actuation_highway_predictor_lqr_0_10.json": "88e1a8ee1d93c71ad1b4783c7ce57426bdd83500e743380bf6975bf53f23293d",
