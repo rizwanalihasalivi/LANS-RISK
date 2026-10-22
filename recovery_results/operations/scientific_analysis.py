@@ -194,7 +194,7 @@ All condition-level estimates retain scenario, delay/profile and actor seed. Tra
      elif row%2==0:cell.set_facecolor('#f4f6f8')
     n=100 if folder=='extended_baselines' else (50 if folder=='stress_study' else 20)
     fig.text(.5,.04,f'n={n} paired traffic cases per condition. Repeated actor seeds share traffic cases; intervals are marginal Wilson95%.\nMPC is run once per condition. RMSE SD describes episode variability; paired tests are in paired_tests.csv.',ha='center',fontsize=9)
-    fig.tight_layout(rect=(.02,.09,.98,.96));pdf.savefig(fig);plt.close(fig)
+    fig.tight_layout(rect=(.02,.09,.98,.96));pdf.savefig(fig);fig.savefig(OUT/folder/('publication_table_'+scenario+'.png'),dpi=300);plt.close(fig)
   tex.extend([r'\bottomrule',r'\end{longtable}'])
   (OUT/folder/'publication_tables.tex').write_text('\n'.join(tex)+'\n')
  with (OUT/'FIGURE_CAPTIONS.md').open('a') as f:f.write('\n- `publication_tables.pdf`/`.tex` in each study: per-scenario LANS actors42/43/44 and actor-free nominal MPC tables. Each row retains its own paired traffic sample, n=100/50/20 for main/robustness/observation studies. Binary rates use marginal Wilson95% intervals. RMSE is mean (sample SD) when present; no RMSE is invented for observation delay. LaTeX requires booktabs/longtable. Tables preserve failures and do not pool actor repetitions.\n')
