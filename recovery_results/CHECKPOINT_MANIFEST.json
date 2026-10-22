@@ -1,7 +1,7 @@
 {
-  "time": "2026-10-22T10:34:28.082945+00:00",
+  "time": "2026-10-22T10:35:30.537153+00:00",
   "counts": {
-    "extended_baselines/confirmation": 282,
+    "extended_baselines/confirmation": 285,
     "stress_study/confirmation": 0,
     "observation_delay_study/evaluation": 0
   },
@@ -98,8 +98,14 @@
     "working/extended_baselines/confirmation/highway_lans_seed44_delay700.jsonl": "4e0500505d8626cce9033fc2b931269568f46c960f69515401cb6c232f6d6ac0",
     "working/extended_baselines/confirmation/highway_mpc_nominal_seed0_delay0.json": "32eccb7e08c48a65f6447fd47a5cde271a8064f95f94e25be00db6514cf609eb",
     "working/extended_baselines/confirmation/highway_mpc_nominal_seed0_delay0.jsonl": "8ab74fd9e288a1f45b46ece80361edd9fb25daf55c9eddc50370a73847f43654",
+    "working/extended_baselines/confirmation/highway_mpc_nominal_seed0_delay1000.json": "eed6dac7489a15d990f42a51ac31fd9b669572f78fccb72b2e3fc0e8f126a075",
+    "working/extended_baselines/confirmation/highway_mpc_nominal_seed0_delay1000.jsonl": "6bc138a5ed49d3369eb608b9bc51d2fdd156193f9068710487df7c158848fa36",
     "working/extended_baselines/confirmation/highway_mpc_nominal_seed0_delay200.json": "37858c454654606171ba80730d3f818f8d49a82e9b09ad78c1b5c408f877afb0",
     "working/extended_baselines/confirmation/highway_mpc_nominal_seed0_delay200.jsonl": "e375c1b4335e434a23b91974ff40a74b90584fc13fc9957eeba1301680ed996f",
+    "working/extended_baselines/confirmation/highway_mpc_nominal_seed0_delay500.json": "a907e87010f3e073a0a4a378f0a14db8cfbbef3feffa2d108b836c478040af5c",
+    "working/extended_baselines/confirmation/highway_mpc_nominal_seed0_delay500.jsonl": "d670be10db495b789211db8c545629093605269b99c34e24e370565b8c82f202",
+    "working/extended_baselines/confirmation/highway_mpc_nominal_seed0_delay700.json": "95809c2be83cd966ad4372c753c85c6ea6f2615a9d01b17ca9a36b3ec90aaf47",
+    "working/extended_baselines/confirmation/highway_mpc_nominal_seed0_delay700.jsonl": "1084b4fd017a7729b5a929650d5fc8903a7e61d6b8952046478f7438c8e78042",
     "working/extended_baselines/confirmation/highway_ppo_only_seed42_delay0.json": "09d311319b3d0d0df74d738bf9ec08698becc7110a224f3113092c2bf84a839b",
     "working/extended_baselines/confirmation/highway_ppo_only_seed42_delay0.jsonl": "3ee568c80e7ff12b549d6896407d0ad6e9f273fb093b6a63b84e2c942a15a6c3",
     "working/extended_baselines/confirmation/highway_ppo_only_seed42_delay1000.json": "cb9106d287eee5b03bd5ddade9ef0820da91a660eb5376253b4533e5d84e4705",

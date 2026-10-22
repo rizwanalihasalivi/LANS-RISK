@@ -111,6 +111,16 @@ The archive is self-contained for scientific artifacts; dependencies must be ins
  with zipfile.ZipFile(pending,'w',zipfile.ZIP_DEFLATED,compresslevel=6) as z:
   for name,p in sorted(paths):
    b=p.read_bytes();z.writestr(name,b);manifest[name]=dict(bytes=len(b),sha256=hashlib.sha256(b).hexdigest())
+  intro=b'''# Verified LANS-RISK results package
+Start with results/FINAL_SCIENTIFIC_REPORT.md, results/FINAL_VERIFIED.json and results/FIGURE_CAPTIONS.md.
+results/ contains new independently audited tables, statistical methods and publication figures.
+project/ contains the complete restored research project, all frozen code/models/configurations, raw data, historical studies/checkpoints and logs.
+operations/ contains recovery, checkpointing, independent audit/analysis/packaging scripts and execution logs.
+backup_provenance/ records the original verified GitHub snapshot and restoration procedure.
+Historical manuscript drafts and status files under project/ describe their original stages; use results/FINAL_SCIENTIFIC_REPORT.md for the current scientific findings and limitations.
+Verify PACKAGE_MANIFEST.json and the delivered ZIP SHA256 sidecar before use. Read results/REPRODUCIBILITY.md before replaying experiments. No live process or platform persistence guarantee is implied.
+'''
+  z.writestr('README.md',intro);manifest['README.md']=dict(bytes=len(intro),sha256=hashlib.sha256(intro).hexdigest())
   z.writestr('PACKAGE_MANIFEST.json',json.dumps(manifest,indent=2))
   z.writestr('PACKAGE_EXCLUSIONS.json',json.dumps(dict(excluded_regenerable_files=exclusions,third_party_environment='Excluded; installed-packages.txt and setup instructions provided',outer_git_chunks='Already reassembled/verified; full restored content included instead'),indent=2))
  with zipfile.ZipFile(pending) as z:
