@@ -1,7 +1,7 @@
 {
-  "time": "2026-10-22T10:51:07.903491+00:00",
+  "time": "2026-10-22T10:54:10.947208+00:00",
   "counts": {
-    "extended_baselines/confirmation": 348,
+    "extended_baselines/confirmation": 352,
     "stress_study/confirmation": 0,
     "observation_delay_study/evaluation": 0
   },
@@ -178,10 +178,18 @@
     "working/extended_baselines/confirmation/highway_robust_lans_seed42_delay700.jsonl": "7eed79f636b7f921e2f92eb49bc8403103a149ae82716f2fd0549da676f60aff",
     "working/extended_baselines/confirmation/highway_robust_lans_seed43_delay0.json": "0d51bfa47378800c6a5298128917c5f9fa5d7cac02fe32aabdbbda1a58d4f837",
     "working/extended_baselines/confirmation/highway_robust_lans_seed43_delay0.jsonl": "7e8b3c0071d007f813a359b2200d22de9a95a1dea16ef837bd57f0faa1533f77",
+    "working/extended_baselines/confirmation/highway_robust_lans_seed43_delay1000.json": "0896e03aa5d213c444606b392ba56c844fce85c78b8c7266d0730dc1789168d4",
+    "working/extended_baselines/confirmation/highway_robust_lans_seed43_delay1000.jsonl": "2a04545c1a21a0be4ed204a5dd09cf4d8b1d6d2faaf9f94a3cb20d3ce01a9f3c",
     "working/extended_baselines/confirmation/highway_robust_lans_seed43_delay200.json": "caccd1486aa8dce6dd42cb60c70166d643bfb31c3e1de243a34684e76edda0da",
     "working/extended_baselines/confirmation/highway_robust_lans_seed43_delay200.jsonl": "b2284cca578759361e5cc5c797df8f86e5e957eb7c8d4e7e0eb1ad82aec7cb36",
     "working/extended_baselines/confirmation/highway_robust_lans_seed43_delay500.json": "ed173dd813f11107c44edbf0974cac60163f757909e387e7ac0dba750fbc9b78",
     "working/extended_baselines/confirmation/highway_robust_lans_seed43_delay500.jsonl": "5766c4728dbe5a45fc4415d0e05db7d57defe1a96abacae5096921a5f226492c",
+    "working/extended_baselines/confirmation/highway_robust_lans_seed43_delay700.json": "a5165e76d20b33de753f3ab60fdeccb1b1faafa6997b6f7f11657731da90f15e",
+    "working/extended_baselines/confirmation/highway_robust_lans_seed43_delay700.jsonl": "d294be542860c1d3566c9423b108b0ae4f4e4a3e52becdce19f4c85d455b67cc",
+    "working/extended_baselines/confirmation/highway_robust_lans_seed44_delay0.json": "390147554b5080c9852fe15e756449bfa04d25cfddfc633491bfd3286c6ae9d1",
+    "working/extended_baselines/confirmation/highway_robust_lans_seed44_delay0.jsonl": "7a9550b23b8616c9e1d4375b813cf472b460c457624acf09cc3cf9d823909278",
+    "working/extended_baselines/confirmation/highway_robust_lans_seed44_delay200.json": "41e2535f8fa260d373eeeb0e9cb7a10b47b956c27ec92bafd1a54765e20b3011",
+    "working/extended_baselines/confirmation/highway_robust_lans_seed44_delay200.jsonl": "918046213b70f20d5f18358c389e0e5a6b9ebae6bcb6a471012df0b09105c2aa",
     "working/extended_baselines/confirmation/highway_robust_mpc_seed0_delay0.json": "3fb049ea568e322aae521be64d886d1e9959e775b3feea85df42a5e760bb3f8d",
     "working/extended_baselines/confirmation/highway_robust_mpc_seed0_delay0.jsonl": "8904f9a01c14b508523e1d688b150714a66641c192f9a41c2c25018f2779466c",
     "working/extended_baselines/confirmation/highway_robust_mpc_seed0_delay1000.json": "c33073be817f47a897c3ccb4f8034fb1d77e238c3df685e8285636761d589337",
