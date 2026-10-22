@@ -1,7 +1,7 @@
 {
-  "time": "2026-10-22T10:37:03.347656+00:00",
+  "time": "2026-10-22T10:38:05.947242+00:00",
   "counts": {
-    "extended_baselines/confirmation": 286,
+    "extended_baselines/confirmation": 289,
     "stress_study/confirmation": 0,
     "observation_delay_study/evaluation": 0
   },
@@ -388,6 +388,12 @@
     "working/extended_baselines/confirmation/merge_lans_seed44_delay700.jsonl": "cad8cdea295943405e04dd77b4560f30f482918b151cccc15b54bd3504c4ec17",
     "working/extended_baselines/confirmation/merge_mpc_nominal_seed0_delay0.json": "bb1016c410603940c482a11550e0405be14138094d4bede10e15e549fb847f15",
     "working/extended_baselines/confirmation/merge_mpc_nominal_seed0_delay0.jsonl": "a55c168641010a53503657d555907b5081b3ad79ede1208bed94225081d5307a",
+    "working/extended_baselines/confirmation/merge_mpc_nominal_seed0_delay200.json": "70a5d68707cd96ea6a1a8f602fb2e78d00784dde55ad22796fb3514d4850fd0b",
+    "working/extended_baselines/confirmation/merge_mpc_nominal_seed0_delay200.jsonl": "2430b5713d3083daadef84fa4d6d65ed1c50f9fa7813650d1480d0dbf5b4faac",
+    "working/extended_baselines/confirmation/merge_mpc_nominal_seed0_delay500.json": "0fa92dfb5891a6ac2790dd981adad025c9b4b80ce24d3c7bee490a09a53403b9",
+    "working/extended_baselines/confirmation/merge_mpc_nominal_seed0_delay500.jsonl": "16dccf16321998c1f2d6c5eb5bd6ab2677da10ebbd14e333a61948ebbc0b356e",
+    "working/extended_baselines/confirmation/merge_mpc_nominal_seed0_delay700.json": "2175c6318ee38e76c4751eb1a008cf611a2c8f24aaf90ca93e7a5c01f8b731a9",
+    "working/extended_baselines/confirmation/merge_mpc_nominal_seed0_delay700.jsonl": "63d01c6295e83aedf6c8f41b7d44ce72a077ff6c7fc6822f177abdb14c105b3d",
     "working/extended_baselines/confirmation/merge_ppo_only_seed42_delay0.json": "d88fc70adaf9a701bfa0abf5eacb3e4366e9eb974bd013623acc200948de02ab",
     "working/extended_baselines/confirmation/merge_ppo_only_seed42_delay0.jsonl": "17a5189aa8e2c50dab4d46b1d0552786bb94438300e7804734a793c144645415",
     "working/extended_baselines/confirmation/merge_ppo_only_seed42_delay1000.json": "b8ebb8636228ed6770d5e73d91022be51477483a592957c7c7ee274d7fa17ec0",

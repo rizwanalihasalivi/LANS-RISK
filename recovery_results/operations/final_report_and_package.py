@@ -1,6 +1,6 @@
 """Final report + complete immutable archive; requires every independent audit."""
 from pathlib import Path
-import json,csv,hashlib,zipfile,datetime,shutil,sys,fcntl
+import json,csv,hashlib,zipfile,datetime,shutil,sys,fcntl,subprocess
 from zoneinfo import ZoneInfo
 from audit_stage import audit,R,OP
 OUT=OP/'verified_results'
@@ -30,6 +30,7 @@ def main():
  # Wait for our final incremental mirror to finish before archiving its logs.
  with (OP/'remote-checkpoint.lock').open('a') as lock:
   fcntl.flock(lock,fcntl.LOCK_EX)
+ subprocess.run([sys.executable,str(OP/'verify_remote.py')],check=True)
  summary=csvread(OUT/'extended_baselines/lans_mpc_summary.csv')
  # Compute empirical tolerance independently, requiring every lower tested delay to pass.
  data={}
