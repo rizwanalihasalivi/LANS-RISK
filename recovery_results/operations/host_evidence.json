@@ -1,0 +1,13 @@
+{
+  "time_utc": "2026-10-22T10:24:29.329780+00:00",
+  "python": "3.12.14",
+  "platform": "Linux-6.18.55-x86_64-with-glibc2.41",
+  "visible_cpus": 5,
+  "cpu_quota": "400000 100000",
+  "memory_limit": "34359738368",
+  "memory_events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0\n",
+  "pid1_name": "tail",
+  "pid1_stat": "1 (tail) S 0 1 1 0 -1 4194560 1168 0 0 0 1 1 0 0 20 0 1 0 27 3129344 160 18446744073709551615 1 1 0 0 0 0 0 0 0 0 0 0 17 3 0 0 0 0 0 0 0 0 0 0 0 0 0\n",
+  "uptime": "466.56 996.41\n",
+  "limitation": "No platform eviction/idle-shutdown control or persistent non-preemptible host guarantee available through exposed tools. No kernel termination cause established."
+}

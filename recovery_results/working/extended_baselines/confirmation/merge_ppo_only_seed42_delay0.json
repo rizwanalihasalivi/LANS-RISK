@@ -1,0 +1,22 @@
+{
+  "scenario": "merge",
+  "controller": "ppo_only",
+  "policy_seed": 42,
+  "delay_ms": 0,
+  "count": 100,
+  "first": 141000,
+  "raw_sha256": "17a5189aa8e2c50dab4d46b1d0552786bb94438300e7804734a793c144645415",
+  "source_hash": "0d2ee90f988a699f28e205802cc5f60dbc73d8f75e2bd854ac640b07c2fb0241",
+  "seconds": 23.057856181003444,
+  "collision": 0.0,
+  "completion": 100.0,
+  "corridor_completion": 100.0,
+  "corridor_exceedance": 0.0,
+  "timeout": 0.0,
+  "progress": 2.1846260885221556,
+  "rmse": 0.1424375856252998,
+  "decision_ms_median": 0.22658059000000005,
+  "no_feasible_steps": 0.0,
+  "npc_position_error_cv": 0.003720680916635178,
+  "npc_position_error_accel": 0.0004359092921592011
+}
