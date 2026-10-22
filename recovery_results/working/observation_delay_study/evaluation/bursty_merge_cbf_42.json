@@ -1,0 +1,13 @@
+{
+  "profile": "bursty",
+  "scenario": "merge",
+  "controller": "cbf",
+  "actor_seed": 42,
+  "count": 20,
+  "first": 181000,
+  "source_hash": "8f39d185b29c9581f13e4e21a90423f26d292cc2ac846891000c1d2723bad60d",
+  "raw_sha256": "19218a399e85c485c92e719678ed986d80ea0330c45f96e60117fd8dca29834e",
+  "collision": 0.0,
+  "completion": 85.0,
+  "corridor_completion": 15.0
+}
