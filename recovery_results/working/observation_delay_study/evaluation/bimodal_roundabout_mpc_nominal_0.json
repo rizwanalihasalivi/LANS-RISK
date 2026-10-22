@@ -1,0 +1,13 @@
+{
+  "profile": "bimodal",
+  "scenario": "roundabout",
+  "controller": "mpc_nominal",
+  "actor_seed": 0,
+  "count": 20,
+  "first": 181000,
+  "source_hash": "8f39d185b29c9581f13e4e21a90423f26d292cc2ac846891000c1d2723bad60d",
+  "raw_sha256": "564dec87b848b4612505da546a300394bbe3932289ee96a6a9a6bbf468d9ca5f",
+  "collision": 0.0,
+  "completion": 100.0,
+  "corridor_completion": 90.0
+}

@@ -1,9 +1,9 @@
 {
-  "time": "2026-10-22T12:48:05.673356+00:00",
+  "time": "2026-10-22T12:48:38.747384+00:00",
   "counts": {
     "extended_baselines/confirmation": 440,
     "stress_study/confirmation": 231,
-    "observation_delay_study/evaluation": 74
+    "observation_delay_study/evaluation": 79
   },
   "sha256": {
     "working/extended_baselines/confirmation/highway_cbf_seed42_delay0.json": "b385b80c0673d3372e6f3c6ed21fea38956bc17f705b2c0452701ab0fe994a83",
@@ -1408,12 +1408,22 @@
     "working/observation_delay_study/evaluation/bimodal_merge_predictor_lqr_0.jsonl": "d25f0ba98317cf11608227fce591660191495cb0672e56904b9ac6d4810771b4",
     "working/observation_delay_study/evaluation/bimodal_merge_robust_mpc_0.json": "f0c0eb22043e5f8cdaa2cbd3e4350f66decf1ffd4fa881b8b940f1ef56d87240",
     "working/observation_delay_study/evaluation/bimodal_merge_robust_mpc_0.jsonl": "e23b7ff2fbccb621250416a841bb4841d15c2ea2a97727a452bb92eb6c8038d5",
+    "working/observation_delay_study/evaluation/bimodal_roundabout_cbf_42.json": "a2babc79e80a98d6a48e1f71b594207a434aadc0ca0a2df99a1af9e78d1f4bb2",
+    "working/observation_delay_study/evaluation/bimodal_roundabout_cbf_42.jsonl": "5235da19dd8413ab9ed4d352943119f36428b71b43f281c34cf995ccc42d8b7f",
+    "working/observation_delay_study/evaluation/bimodal_roundabout_cbf_43.json": "58ffbdc32c8a97076db86f3a87b8e9fb9221234fa1062cce819e5779028e8909",
+    "working/observation_delay_study/evaluation/bimodal_roundabout_cbf_43.jsonl": "fa33e3cf453c100f1f85f992b0f5e115dbfd9c79f64a114d5d82043acd2b1105",
+    "working/observation_delay_study/evaluation/bimodal_roundabout_cbf_44.json": "e5a8882b0442d976d38d6119081dac9ffab22531bbd2132654e98844fc68fa8c",
+    "working/observation_delay_study/evaluation/bimodal_roundabout_cbf_44.jsonl": "9c7eef974db4fe59c505e5e3f631dc02a4d8b9c077687c4481700aa37819a3ba",
     "working/observation_delay_study/evaluation/bimodal_roundabout_lans_42.json": "751223c32e4247ab3aeb09b731b3c0b32f58f9836989455f9854d2eb308592da",
     "working/observation_delay_study/evaluation/bimodal_roundabout_lans_42.jsonl": "0b23b8f827329169f16001068a4fdc7229c78dc433e4389765f321a2e3b882b4",
     "working/observation_delay_study/evaluation/bimodal_roundabout_lans_43.json": "abbf8e9d82863c06d6e672800327ec3f90e6cd0d965f1a4c7ae41695206f08cd",
     "working/observation_delay_study/evaluation/bimodal_roundabout_lans_43.jsonl": "a64c2214ffadb9e8563a37f14a658b146833f2136d92d5e2db6c65aec9851e14",
     "working/observation_delay_study/evaluation/bimodal_roundabout_lans_44.json": "79608e9b3db537a36ce908c84551ea59fccadd06c0f6c789d34b40e6e4f25b5d",
     "working/observation_delay_study/evaluation/bimodal_roundabout_lans_44.jsonl": "1d9de6d3b7dd08a773b5a0cda21c7c38fc7b61abe58f5b09d7687808881b9410",
+    "working/observation_delay_study/evaluation/bimodal_roundabout_lqr_acc_0.json": "40725ee7a8a8149abefd0b13e349f56ad35cec39d6d2a133103937fb4de25cbf",
+    "working/observation_delay_study/evaluation/bimodal_roundabout_lqr_acc_0.jsonl": "2e0eacc2af51e5aa65364517a616e2b052b6fa98e48a9ba208d751fa7fd8d70c",
+    "working/observation_delay_study/evaluation/bimodal_roundabout_mpc_nominal_0.json": "2aa92fd6f4405337bbba9243e87508219e3ac2ee4e0879edb055821a900a2c7c",
+    "working/observation_delay_study/evaluation/bimodal_roundabout_mpc_nominal_0.jsonl": "564dec87b848b4612505da546a300394bbe3932289ee96a6a9a6bbf468d9ca5f",
     "working/observation_delay_study/evaluation/bimodal_roundabout_predictor_lqr_0.json": "31f1f53aa56c82bc3d8a3361aa38e94f17f17f68135b395625031cb59f33fa61",
     "working/observation_delay_study/evaluation/bimodal_roundabout_predictor_lqr_0.jsonl": "2e0eacc2af51e5aa65364517a616e2b052b6fa98e48a9ba208d751fa7fd8d70c",
     "working/observation_delay_study/evaluation/uniform_highway_cbf_42.json": "34d6d9e902df747f6b30ba3fb8b44803d863073f89b50e5f392a5788b37e5b7e",
