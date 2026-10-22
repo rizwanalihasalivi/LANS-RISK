@@ -9,7 +9,7 @@ with (OP/'remote-checkpoint.lock').open('w') as lock:
  previous=-1;failures=0
  while True:
   x=mirror();count=sum(x['counts'].values());done=(OP/'FINAL_VERIFIED.json').exists()
-  if count>=previous+10 or (done and count!=previous):
+  if count>=previous+1 or (done and count!=previous):
    try:
     assert git('branch','--show-current')==BRANCH
     # Copy only immutable verified pairs; every preserved hash must agree.

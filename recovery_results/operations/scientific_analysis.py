@@ -1,6 +1,8 @@
 """Supplementary independent, seed-specific descriptive and paired analyses."""
 from pathlib import Path
-import json,csv,hashlib,sys
+import json,csv,hashlib,sys,os
+os.environ.setdefault("XDG_CACHE_HOME","/workspace/recovery/cache")
+Path(os.environ["XDG_CACHE_HOME"]).mkdir(parents=True,exist_ok=True)
 import numpy as np
 from scipy.stats import binomtest,wilcoxon
 from audit_stage import audit,R,OP,FREE
@@ -35,7 +37,7 @@ def analyze(folder,stage):
   for metric in sorted(set.intersection(*(set(r) for r in rr))-{'episode_seed'}):
    vals=np.array([r[metric] for r in rr],float);binary=isinstance(rr[0][metric],bool)
    lo,hi=wilson(int(vals.sum()),len(vals)) if binary else bootmean(vals)
-   table.append(dict(**labels,metric=metric,n=len(vals),unit='fraction' if binary else ('ms' if '_ms' in metric else ('m' if metric=='rmse' else 'native')),mean=float(vals.mean()),sample_sd=float(vals.std(ddof=1)),minimum=float(vals.min()),maximum=float(vals.max()),p05=float(np.quantile(vals,.05)),median=float(np.median(vals)),p95=float(np.quantile(vals,.95)),ci95_low=float(lo),ci95_high=float(hi),ci_method='Wilson' if binary else 'percentile bootstrap mean 5000 paired-traffic draws',worst_observed=float(vals.min() if metric in ['completion','corridor_completion','progress'] else vals.max())))
+   table.append(dict(**labels,metric=metric,n=len(vals),unit='fraction' if binary else ('ms' if '_ms' in metric else ('m' if metric=='rmse' else 'native')),mean=float(vals.mean()),sample_sd=float(vals.std(ddof=1)),minimum=float(vals.min()),maximum=float(vals.max()),p05=float(np.quantile(vals,.05)),median=float(np.median(vals)),p95=float(np.quantile(vals,.95)),ci95_low=float(lo),ci95_high=float(hi),ci_method='Wilson' if binary else 'percentile bootstrap mean 5000 traffic-case draws',worst_observed=float(vals.min() if metric in ['completion','corridor_completion','progress'] else vals.max())))
  for key,ra in data.items():
   profile,s,c,k,d=key
   if c!='lans':continue
@@ -92,11 +94,11 @@ def figures(folder,data):
       means_seed=[100*np.mean([r[m] for r in rr]) for key,rr in data.items() if (key[0],key[1],key[2],key[4])==(profile,s,c,d)]
       means.append(np.mean(means_seed));mins.append(min(means_seed));maxs.append(max(means_seed))
      line=ax.plot(dd,means,'o-',label=c,markersize=3)[0];ax.fill_between(dd,mins,maxs,color=line.get_color(),alpha=.12)
-    ax.set_title(s);ax.set_ylim(-3,103);ax.grid(alpha=.2)
+    ax.set_title(s);ax.set_ylim(-3,103);ax.grid(alpha=.2);ax.set_xticks(dd)
     if i==0:ax.set_ylabel(m.replace('_',' ')+' (%)')
     if j==1:ax.set_xlabel('Command delay (ms)' if folder!='observation_delay_study' else 'Command delay = 0 ms')
   h,l=axes[0,0].get_legend_handles_labels();fig.legend(h,l,loc='lower center',ncol=3)
-  fig.suptitle(folder+' / '+profile+' — seed means and ranges')
+  fig.suptitle(folder+' / '+profile+' — '+('exploratory evaluation' if folder=='observation_delay_study' else 'confirmation')+'; seed means and ranges')
   fig.tight_layout(rect=(0,.09,1,.94))
   fig.savefig(out/(profile+'.pdf'));fig.savefig(out/(profile+'.png'),dpi=300);plt.close(fig)
 
