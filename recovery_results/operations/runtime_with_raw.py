@@ -3,8 +3,12 @@ The hook operates only on the final median reduction, outside the timed calls.
 """
 from pathlib import Path
 import sys,runpy,json,datetime,os
+for name in ['OMP_NUM_THREADS','OPENBLAS_NUM_THREADS','MKL_NUM_THREADS']:os.environ[name]='1'
 import numpy as np
 R=Path('/workspace/recovery/restored/LANS-RISK');OP=Path('/workspace/recovery/operations')
+# Initialize numerical-library registrations before the post-processing hook.
+sys.path.insert(0,str(R/'working/extended_baselines'))
+import experiment
 profile=R/'working/publication_tools/runtime_profile.py';original=np.median;samples=[]
 partial=(OP/('runtime_samples_'+datetime.datetime.now(datetime.timezone.utc).strftime('%Y%m%dT%H%M%SZ')+'_'+str(os.getpid())+'.jsonl')).open('x')
 def retain(a,*args,**kwargs):
