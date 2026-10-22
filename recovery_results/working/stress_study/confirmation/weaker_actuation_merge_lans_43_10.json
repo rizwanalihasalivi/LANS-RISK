@@ -1,0 +1,14 @@
+{
+  "profile": "weaker_actuation",
+  "scenario": "merge",
+  "controller": "lans",
+  "actor_seed": 43,
+  "delay_ms": 1000,
+  "count": 50,
+  "first": 161000,
+  "source_hash": "d12640874e71e62de7b3b36caedc203c61d2e56a75154025f3a08a6bfd7b4d4e",
+  "raw_sha256": "a4ccb59ddaffebabab826899a3363561f09d24752a72f2486f59b1cd0cb9222a",
+  "collision": 20.0,
+  "completion": 80.0,
+  "corridor_completion": 28.000000000000004
+}
