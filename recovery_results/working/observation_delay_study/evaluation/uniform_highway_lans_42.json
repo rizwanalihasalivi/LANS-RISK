@@ -1,0 +1,13 @@
+{
+  "profile": "uniform",
+  "scenario": "highway",
+  "controller": "lans",
+  "actor_seed": 42,
+  "count": 20,
+  "first": 181000,
+  "source_hash": "8f39d185b29c9581f13e4e21a90423f26d292cc2ac846891000c1d2723bad60d",
+  "raw_sha256": "926c72c37ea200d678f4121ced32a19105ed6b1d4d88e88d304a344947aba6fc",
+  "collision": 0.0,
+  "completion": 10.0,
+  "corridor_completion": 0.0
+}

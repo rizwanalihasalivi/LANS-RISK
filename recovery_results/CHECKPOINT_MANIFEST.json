@@ -1,9 +1,9 @@
 {
-  "time": "2026-10-22T12:39:01.885922+00:00",
+  "time": "2026-10-22T12:42:36.023195+00:00",
   "counts": {
     "extended_baselines/confirmation": 440,
     "stress_study/confirmation": 231,
-    "observation_delay_study/evaluation": 0
+    "observation_delay_study/evaluation": 5
   },
   "sha256": {
     "working/extended_baselines/confirmation/highway_cbf_seed42_delay0.json": "b385b80c0673d3372e6f3c6ed21fea38956bc17f705b2c0452701ab0fe994a83",
@@ -1347,7 +1347,17 @@
     "working/stress_study/confirmation/weaker_actuation_roundabout_robust_mpc_0_10.json": "ef579c6d3bea12e6451c82d16e2fadb2746781bc1e1a331a06f48801caaf7149",
     "working/stress_study/confirmation/weaker_actuation_roundabout_robust_mpc_0_10.jsonl": "e3b3de5e5760c1b426c94ef03a6d8134b8be259899021b9b00ef10861cc09f4c",
     "working/stress_study/confirmation/weaker_actuation_roundabout_robust_mpc_0_5.json": "ce298fa2dd56295c53805dc6e0fbb268a4160cb8164aff03d84084abc9151344",
-    "working/stress_study/confirmation/weaker_actuation_roundabout_robust_mpc_0_5.jsonl": "5e32147fc5e1ec01dece4ebfa880944b2aa42fbc5d867b1228f9bc340d7fa3da"
+    "working/stress_study/confirmation/weaker_actuation_roundabout_robust_mpc_0_5.jsonl": "5e32147fc5e1ec01dece4ebfa880944b2aa42fbc5d867b1228f9bc340d7fa3da",
+    "working/observation_delay_study/evaluation/uniform_highway_lans_42.json": "fd09870a8a4633b700e184a3bd45ebf654476a5fd695c498dd79fbc420e5ae86",
+    "working/observation_delay_study/evaluation/uniform_highway_lans_42.jsonl": "926c72c37ea200d678f4121ced32a19105ed6b1d4d88e88d304a344947aba6fc",
+    "working/observation_delay_study/evaluation/uniform_highway_lans_43.json": "43006cd08cb9aeae23b95c21450bb3d1fc5519e22dde118ce08d239834d5fa6a",
+    "working/observation_delay_study/evaluation/uniform_highway_lans_43.jsonl": "6d0d09afefc9f8618757ebe738896aaafba30d068e0e2d53aeecbe84461a275d",
+    "working/observation_delay_study/evaluation/uniform_highway_lans_44.json": "72a3e719ed7d4745849e03c3030ca995384460c2e6ea8050d2a6b276f831a1eb",
+    "working/observation_delay_study/evaluation/uniform_highway_lans_44.jsonl": "c19ceb87fd2ba8eea76635b1b9b56ec77a3f26d8ee24a2d7e0f6637625443061",
+    "working/observation_delay_study/evaluation/uniform_highway_mpc_nominal_0.json": "e1dab474f0e45384d842d83c3093d5650def1b8ceeb09528bc9f63cc7e9af2cd",
+    "working/observation_delay_study/evaluation/uniform_highway_mpc_nominal_0.jsonl": "926c72c37ea200d678f4121ced32a19105ed6b1d4d88e88d304a344947aba6fc",
+    "working/observation_delay_study/evaluation/uniform_highway_predictor_lqr_0.json": "09d36cf5cd294973eee6c212e55488e22f1dc27a34eedff9df3c77ed979a26d0",
+    "working/observation_delay_study/evaluation/uniform_highway_predictor_lqr_0.jsonl": "3953abf9c90cff72c096796cc6fd423fcf9a3aebaf0d3c621ea0b678e3dd3953"
   },
   "scope": "Independent local copy on same machine; does not protect against machine/disk loss"
 }
