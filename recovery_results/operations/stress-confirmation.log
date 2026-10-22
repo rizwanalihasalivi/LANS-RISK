@@ -160,3 +160,41 @@
 {"profile": "denser_traffic", "scenario": "highway", "controller": "lqr_acc", "actor_seed": 0, "delay_ms": 0, "count": 50, "first": 161000, "source_hash": "d12640874e71e62de7b3b36caedc203c61d2e56a75154025f3a08a6bfd7b4d4e", "raw_sha256": "a3afa4ad08341cad14adf813d0eb45c75329b17a7ea3fe88fa4be435cd62c674", "collision": 0.0, "completion": 100.0, "corridor_completion": 100.0}
 {"profile": "denser_traffic", "scenario": "highway", "controller": "lqr_acc", "actor_seed": 0, "delay_ms": 500, "count": 50, "first": 161000, "source_hash": "d12640874e71e62de7b3b36caedc203c61d2e56a75154025f3a08a6bfd7b4d4e", "raw_sha256": "a3afa4ad08341cad14adf813d0eb45c75329b17a7ea3fe88fa4be435cd62c674", "collision": 0.0, "completion": 100.0, "corridor_completion": 100.0}
 {"profile": "denser_traffic", "scenario": "highway", "controller": "lqr_acc", "actor_seed": 0, "delay_ms": 1000, "count": 50, "first": 161000, "source_hash": "d12640874e71e62de7b3b36caedc203c61d2e56a75154025f3a08a6bfd7b4d4e", "raw_sha256": "a3afa4ad08341cad14adf813d0eb45c75329b17a7ea3fe88fa4be435cd62c674", "collision": 0.0, "completion": 100.0, "corridor_completion": 100.0}
+concurrent.futures.process._RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/concurrent/futures/process.py", line 264, in _process_worker
+    r = call_item.fn(*call_item.args, **call_item.kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/recovery/restored/LANS-RISK/working/stress_study/experiment.py", line 55, in evaluate
+    env=StressEnv(s,d,profile);obs,_=env.reset(seed=case);controller=base.make_controller(c,s,case);observer=base.AccelerationObserver()
+                                     ^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/recovery/restored/LANS-RISK/working/submission_study/extended_suite.py", line 54, in reset
+    return super().reset(**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/recovery/restored/LANS-RISK/working/submission_study/lans_env_scenario.py", line 502, in reset
+    self._reset_state()
+  File "/workspace/recovery/restored/LANS-RISK/working/submission_study/lans_env_scenario.py", line 494, in _reset_state
+    self._spawn_vehicles()
+  File "/workspace/recovery/restored/LANS-RISK/working/stress_study/experiment.py", line 21, in _spawn_vehicles
+    super()._spawn_vehicles()
+  File "/workspace/recovery/restored/LANS-RISK/working/traffic_v2/benchmark.py", line 39, in _spawn_vehicles
+    raise RuntimeError('No collision-free initial traffic sample')
+RuntimeError: No collision-free initial traffic sample
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/workspace/recovery/restored/LANS-RISK/working/stress_study/experiment.py", line 87, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/workspace/recovery/restored/LANS-RISK/working/stress_study/experiment.py", line 85, in main
+    r=future.result();results.append(r);print(json.dumps(r),flush=True)
+      ^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+RuntimeError: No collision-free initial traffic sample
