@@ -1,9 +1,9 @@
 {
-  "time": "2026-10-22T12:50:49.221091+00:00",
+  "time": "2026-10-22T12:51:21.859663+00:00",
   "counts": {
     "extended_baselines/confirmation": 440,
     "stress_study/confirmation": 231,
-    "observation_delay_study/evaluation": 109
+    "observation_delay_study/evaluation": 115
   },
   "sha256": {
     "working/extended_baselines/confirmation/highway_cbf_seed42_delay0.json": "b385b80c0673d3372e6f3c6ed21fea38956bc17f705b2c0452701ab0fe994a83",
@@ -1466,6 +1466,8 @@
     "working/observation_delay_study/evaluation/bursty_intersection_mpc_nominal_0.jsonl": "0989dab9babc66a9682c1b3eeb1359c73ea2048a62ed379564f9d571d9f5ae1f",
     "working/observation_delay_study/evaluation/bursty_intersection_predictor_lqr_0.json": "aa4cbc08cac802f069f3bfc475cc1d85a602886a18501be1f5fa206ada136185",
     "working/observation_delay_study/evaluation/bursty_intersection_predictor_lqr_0.jsonl": "126898591b1fbd6814c0b91a339597a64dd9a6069f701a68eb093fcca98d97b9",
+    "working/observation_delay_study/evaluation/bursty_intersection_robust_mpc_0.json": "011843703513a6be4d5234e5d471653b6a050f689918a7719819bccc22678d3c",
+    "working/observation_delay_study/evaluation/bursty_intersection_robust_mpc_0.jsonl": "396c6cf1ff57b2414c7d1cdd7b83a3ad4431419ecd335c700ee69d72b9ddf5e6",
     "working/observation_delay_study/evaluation/bursty_merge_cbf_42.json": "c1a8a9cd6842d68fbe24f5e3fe0a0b989ff46539b8ad60d1257d2082a84572fe",
     "working/observation_delay_study/evaluation/bursty_merge_cbf_42.jsonl": "19218a399e85c485c92e719678ed986d80ea0330c45f96e60117fd8dca29834e",
     "working/observation_delay_study/evaluation/bursty_merge_cbf_43.json": "d2dc58d28c4c04c020aa165a3e57c05e9f6e01e88278cb4eb1264f73abd571bb",
@@ -1486,6 +1488,16 @@
     "working/observation_delay_study/evaluation/bursty_merge_predictor_lqr_0.jsonl": "6b32c48136c377a87b6634fcab35832d530d3e5f9b195d0a9aaaa8fb76f8ecad",
     "working/observation_delay_study/evaluation/bursty_merge_robust_mpc_0.json": "f420cb8a6957fc21ff220675df080916d6be5bc233dabdf8262b636ec94b7b2b",
     "working/observation_delay_study/evaluation/bursty_merge_robust_mpc_0.jsonl": "a59e275b79a251bca800ea914fd575f6bee3c0017c0e6ce9f438b9de9f290a06",
+    "working/observation_delay_study/evaluation/bursty_roundabout_cbf_42.json": "177b577d20f68c5f287bbf34e690e2673aad437e8dc620fb6783c908b84a8b23",
+    "working/observation_delay_study/evaluation/bursty_roundabout_cbf_42.jsonl": "a7107e74b217dd50d7f2c88394cf4ab7c63a38995913ea6f12056c86167d3a15",
+    "working/observation_delay_study/evaluation/bursty_roundabout_lans_42.json": "e78390c0a2e3799b763f18018e8b37f38943016893dcfe1badd219b77b7f94bf",
+    "working/observation_delay_study/evaluation/bursty_roundabout_lans_42.jsonl": "598e60b218caaa9e1e1ef8dc384720749801fab99fcf16957208ec85dacbd6d0",
+    "working/observation_delay_study/evaluation/bursty_roundabout_lans_43.json": "da29d970c62b6ef79e89a3e02b4054d280d7fb2b4afd02b51ad5ffd925d721cf",
+    "working/observation_delay_study/evaluation/bursty_roundabout_lans_43.jsonl": "a856592d6c3d79c591a03580f7e670dd6751a2d37f50f9053fb02aaa270dc0cc",
+    "working/observation_delay_study/evaluation/bursty_roundabout_lans_44.json": "6846034a8d02a4ba5aa29f94dbf9504051df59a4ba488f84052ad8db44c2ac2b",
+    "working/observation_delay_study/evaluation/bursty_roundabout_lans_44.jsonl": "afa7c532deaa283a9b9c013cec59a532fea3aa0cc7109a0a77f30b26817b6370",
+    "working/observation_delay_study/evaluation/bursty_roundabout_predictor_lqr_0.json": "7ce3e8c625737d3485edc1e89b4214ca21029bc1dc0b5f8d6c2ea4fefbd7cec3",
+    "working/observation_delay_study/evaluation/bursty_roundabout_predictor_lqr_0.jsonl": "752d5882dbb2f23570e1762891571c6de67109822a986a172405df422e925d5c",
     "working/observation_delay_study/evaluation/uniform_highway_cbf_42.json": "34d6d9e902df747f6b30ba3fb8b44803d863073f89b50e5f392a5788b37e5b7e",
     "working/observation_delay_study/evaluation/uniform_highway_cbf_42.jsonl": "27c3e1038dcae94607d8d4177890492b08a0281a22dbf7137ff0a04164b464f7",
     "working/observation_delay_study/evaluation/uniform_highway_cbf_43.json": "702df4f038836ee01c0b603311a48a4d83c63134a367bca992cc3d4cc6bac06e",
