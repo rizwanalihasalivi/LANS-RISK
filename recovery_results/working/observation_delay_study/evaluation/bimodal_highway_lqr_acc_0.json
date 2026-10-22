@@ -1,0 +1,13 @@
+{
+  "profile": "bimodal",
+  "scenario": "highway",
+  "controller": "lqr_acc",
+  "actor_seed": 0,
+  "count": 20,
+  "first": 181000,
+  "source_hash": "8f39d185b29c9581f13e4e21a90423f26d292cc2ac846891000c1d2723bad60d",
+  "raw_sha256": "2e0eacc2af51e5aa65364517a616e2b052b6fa98e48a9ba208d751fa7fd8d70c",
+  "collision": 0.0,
+  "completion": 100.0,
+  "corridor_completion": 100.0
+}

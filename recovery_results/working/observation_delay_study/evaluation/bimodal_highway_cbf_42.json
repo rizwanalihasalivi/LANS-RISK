@@ -1,0 +1,13 @@
+{
+  "profile": "bimodal",
+  "scenario": "highway",
+  "controller": "cbf",
+  "actor_seed": 42,
+  "count": 20,
+  "first": 181000,
+  "source_hash": "8f39d185b29c9581f13e4e21a90423f26d292cc2ac846891000c1d2723bad60d",
+  "raw_sha256": "6d069f15151cbc46667388895199ffcaa2775525569317b2e7f5dc9c4d22a5e7",
+  "collision": 0.0,
+  "completion": 95.0,
+  "corridor_completion": 0.0
+}

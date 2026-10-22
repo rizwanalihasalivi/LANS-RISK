@@ -1,0 +1,13 @@
+{
+  "profile": "uniform",
+  "scenario": "roundabout",
+  "controller": "robust_mpc",
+  "actor_seed": 0,
+  "count": 20,
+  "first": 181000,
+  "source_hash": "8f39d185b29c9581f13e4e21a90423f26d292cc2ac846891000c1d2723bad60d",
+  "raw_sha256": "32ae6f932a85b0fc01a392b9212adaa01eb07cb0255a055004bd3e02153b33be",
+  "collision": 95.0,
+  "completion": 0.0,
+  "corridor_completion": 0.0
+}
