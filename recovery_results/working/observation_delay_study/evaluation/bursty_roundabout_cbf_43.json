@@ -1,0 +1,13 @@
+{
+  "profile": "bursty",
+  "scenario": "roundabout",
+  "controller": "cbf",
+  "actor_seed": 43,
+  "count": 20,
+  "first": 181000,
+  "source_hash": "8f39d185b29c9581f13e4e21a90423f26d292cc2ac846891000c1d2723bad60d",
+  "raw_sha256": "9d95c26e965c25a5431d703c4802b3e85ef5c9eefc3163cc093b54078096f2ae",
+  "collision": 30.0,
+  "completion": 40.0,
+  "corridor_completion": 0.0
+}
