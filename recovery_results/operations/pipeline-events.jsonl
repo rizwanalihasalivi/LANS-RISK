@@ -9,3 +9,5 @@
 {"time": "2026-10-22T12:41:55.120076+00:00", "stage": "observation-smoke", "status": "start", "command": ["working/observation_delay_study/run_study.py", "--stage", "smoke", "--workers", "1"]}
 {"time": "2026-10-22T12:41:57.665910+00:00", "stage": "observation-smoke", "status": "exit", "exit_code": 0}
 {"time": "2026-10-22T12:41:57.665990+00:00", "stage": "observation-evaluation", "status": "start", "command": ["working/observation_delay_study/run_study.py", "--stage", "evaluation", "--workers", "4"]}
+{"time": "2026-10-22T12:58:26.295020+00:00", "stage": "observation-evaluation", "status": "exit", "exit_code": 0}
+{"time": "2026-10-22T12:58:26.339640+00:00", "status": "independent_stages_complete_stress_blocker_pending"}
