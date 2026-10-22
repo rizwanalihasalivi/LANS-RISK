@@ -1,0 +1,22 @@
+{
+  "scenario": "highway",
+  "controller": "lans",
+  "policy_seed": 42,
+  "delay_ms": 200,
+  "count": 100,
+  "first": 141000,
+  "raw_sha256": "97f7c94554e06d35d2e6a11285d931e3a1c01a9e7e53a8296cc307db7900936a",
+  "source_hash": "0d2ee90f988a699f28e205802cc5f60dbc73d8f75e2bd854ac640b07c2fb0241",
+  "seconds": 144.45970323499932,
+  "collision": 0.0,
+  "completion": 100.0,
+  "corridor_completion": 100.0,
+  "corridor_exceedance": 0.0,
+  "timeout": 0.0,
+  "progress": 2.1204711616685956,
+  "rmse": 0.07801413103811969,
+  "decision_ms_median": 7.85534394,
+  "no_feasible_steps": 0.0,
+  "npc_position_error_cv": 0.0030092209124002044,
+  "npc_position_error_accel": 0.00024111249925390997
+}

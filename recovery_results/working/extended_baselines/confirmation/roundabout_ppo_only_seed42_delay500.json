@@ -1,0 +1,22 @@
+{
+  "scenario": "roundabout",
+  "controller": "ppo_only",
+  "policy_seed": 42,
+  "delay_ms": 500,
+  "count": 100,
+  "first": 141000,
+  "raw_sha256": "b37c86da35fb766ced7ec4f310e5a2fdf5f41ccf30ddf579f65f482782cec572",
+  "source_hash": "0d2ee90f988a699f28e205802cc5f60dbc73d8f75e2bd854ac640b07c2fb0241",
+  "seconds": 20.767559037994943,
+  "collision": 16.0,
+  "completion": 82.0,
+  "corridor_completion": 5.0,
+  "corridor_exceedance": 95.0,
+  "timeout": 2.0,
+  "progress": 1.4727417131593277,
+  "rmse": 3.2500691191273035,
+  "decision_ms_median": 0.388061845,
+  "no_feasible_steps": 0.0,
+  "npc_position_error_cv": 0.0028801909957493427,
+  "npc_position_error_accel": 0.0006241234546770176
+}
