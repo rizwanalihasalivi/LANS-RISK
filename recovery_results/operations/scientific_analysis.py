@@ -167,10 +167,11 @@ All condition-level estimates retain scenario, delay/profile and actor seed. Tra
   rowkeys=sorted({k[:-1] for k in lookup})
   has_rmse=any(x['metric']=='rmse' for x in selected)
   columns=['Profile / FIFO (ms)','Controller / actor','Collision % [95% CI]','Corridor completion % [95% CI]']+(['RMSE m: mean (SD)'] if has_rmse else [])
-  tex=['% Requires booktabs and longtable. Rates and confidence intervals in percent; n per condition shown in caption.',r'\begin{longtable}{llcc'+('c' if has_rmse else '')+'}',r'\caption{'+folder.replace('_',' ')+': paired-case LANS and nominal MPC, per actor seed. Wilson95\% intervals; RMSE reports sample SD.}'+r'\\',r'\toprule',' & '.join(x.replace('%',r'\%') for x in columns)+r' \\',r'\midrule']
+  tex=['% Requires booktabs and longtable. Rates and confidence intervals in percent; n per condition shown in caption.',r'\begin{longtable}{llcc'+('c' if has_rmse else '')+'}',r'\caption{'+folder.replace('_',' ')+r': paired-case LANS and nominal MPC, per actor seed. Wilson95\% intervals; RMSE reports sample SD.}'+r'\\',r'\toprule',' & '.join(x.replace('%',r'\%') for x in columns)+r' \\',r'\midrule']
   with PdfPages(OUT/folder/'publication_tables.pdf') as pdf:
    for scenario in ['highway','merge','intersection','roundabout']:
     table=[]
+    tex.append(r'\multicolumn{'+str(len(columns))+r'}{l}{\textbf{'+scenario+r'}} \\')
     for profile,s,c,k,d in rowkeys:
      if s!=scenario:continue
      metric=lambda m:lookup[profile,s,c,k,d,m]
@@ -181,7 +182,7 @@ All condition-level estimates retain scenario, delay/profile and actor seed. Tra
      table.append(row);tex.append(' & '.join(row)+r' \\')
     fig,ax=plt.subplots(figsize=(13,8));ax.axis('off')
     ax.set_title(folder.replace('_',' ')+' — '+scenario+'; per-seed estimates',fontsize=13,pad=18)
-    t=ax.table(cellText=table,colLabels=columns,cellLoc='center',loc='center',colWidths=([.22,.17,.23,.25,.18] if has_rmse else [.27,.22,.25,.3]))
+    t=ax.table(cellText=table,colLabels=columns,cellLoc='center',loc='center',colWidths=([.21,.16,.21,.26,.16] if has_rmse else [.27,.21,.23,.29]))
     t.auto_set_font_size(False);t.set_fontsize(8);t.scale(1,1.65)
     for (row,col),cell in t.get_celld().items():
      cell.set_linewidth(.25)
