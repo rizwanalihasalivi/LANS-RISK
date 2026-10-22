@@ -1,8 +1,8 @@
 {
-  "time": "2026-10-22T12:19:49.406914+00:00",
+  "time": "2026-10-22T12:20:52.111889+00:00",
   "counts": {
     "extended_baselines/confirmation": 440,
-    "stress_study/confirmation": 119,
+    "stress_study/confirmation": 120,
     "observation_delay_study/evaluation": 0
   },
   "sha256": {
@@ -1110,6 +1110,8 @@
     "working/stress_study/confirmation/weaker_actuation_roundabout_lans_42_5.jsonl": "9b5941089afeff310b373f6f915740f9c4b8538d52534880830e58ccde8048a9",
     "working/stress_study/confirmation/weaker_actuation_roundabout_lans_43_0.json": "c94a5e2c293b9dd1c5e7167fd69a1a23b00cd814cbed7c52b44c006b50e25921",
     "working/stress_study/confirmation/weaker_actuation_roundabout_lans_43_0.jsonl": "435273544be93a22e89a912cfa1fef5b51c230e44515e7d587a2861a0252b11b",
+    "working/stress_study/confirmation/weaker_actuation_roundabout_lans_43_10.json": "448ace36a2b435b36b0ac9d61ac6b1c938df00b92ebbe1c54b5200f26002b292",
+    "working/stress_study/confirmation/weaker_actuation_roundabout_lans_43_10.jsonl": "a7648348092067ce1b36535e3624adfc37415e514d467abcafb1b87647f8ae28",
     "working/stress_study/confirmation/weaker_actuation_roundabout_lans_43_5.json": "7f29c09eb3864090b95130a602903f3e5cf0d2f08df384de789403eec2d81a8a",
     "working/stress_study/confirmation/weaker_actuation_roundabout_lans_43_5.jsonl": "3835e0bb8e5c5fc9a0d6e0b30506b87689b1b63a5cbf6072c609e8706240659a",
     "working/stress_study/confirmation/weaker_actuation_roundabout_predictor_lqr_0_0.json": "252179ebf798d08af944e2970093f2a293d6f2dd96399310bc54edc0b6e96dd8",
