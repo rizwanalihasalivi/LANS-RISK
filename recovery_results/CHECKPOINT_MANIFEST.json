@@ -1,9 +1,9 @@
 {
-  "time": "2026-10-22T12:49:11.116144+00:00",
+  "time": "2026-10-22T12:49:43.634440+00:00",
   "counts": {
     "extended_baselines/confirmation": 440,
     "stress_study/confirmation": 231,
-    "observation_delay_study/evaluation": 87
+    "observation_delay_study/evaluation": 90
   },
   "sha256": {
     "working/extended_baselines/confirmation/highway_cbf_seed42_delay0.json": "b385b80c0673d3372e6f3c6ed21fea38956bc17f705b2c0452701ab0fe994a83",
@@ -1426,6 +1426,8 @@
     "working/observation_delay_study/evaluation/bimodal_roundabout_mpc_nominal_0.jsonl": "564dec87b848b4612505da546a300394bbe3932289ee96a6a9a6bbf468d9ca5f",
     "working/observation_delay_study/evaluation/bimodal_roundabout_predictor_lqr_0.json": "31f1f53aa56c82bc3d8a3361aa38e94f17f17f68135b395625031cb59f33fa61",
     "working/observation_delay_study/evaluation/bimodal_roundabout_predictor_lqr_0.jsonl": "2e0eacc2af51e5aa65364517a616e2b052b6fa98e48a9ba208d751fa7fd8d70c",
+    "working/observation_delay_study/evaluation/bimodal_roundabout_robust_mpc_0.json": "a4c1f66116a6d3727c8d7f7eb9d590ef3e9656d831d6fca2a2e521a215944a15",
+    "working/observation_delay_study/evaluation/bimodal_roundabout_robust_mpc_0.jsonl": "2e0eacc2af51e5aa65364517a616e2b052b6fa98e48a9ba208d751fa7fd8d70c",
     "working/observation_delay_study/evaluation/bursty_highway_cbf_42.json": "3b0c9539780accc6fc7699ace39cc85f9e381e8d6b59a05e006f7b129fdc32f5",
     "working/observation_delay_study/evaluation/bursty_highway_cbf_42.jsonl": "bc4228b1edc143a772ea57ce09e89fba0609fd8a41e14e99b0ca72da06b3b3da",
     "working/observation_delay_study/evaluation/bursty_highway_cbf_43.json": "0bcfbd83397410fb3544f5666ecbdfdd5916e6c81503a6fe186492f774e35983",
@@ -1438,10 +1440,14 @@
     "working/observation_delay_study/evaluation/bursty_highway_lans_43.jsonl": "1630f8270983a89a0ab0eabe25761a534f0e89994656d931db810460fec62fcf",
     "working/observation_delay_study/evaluation/bursty_highway_lans_44.json": "cf52281723f241cd4768536703f68c755733c96cfea0f21890779e980200fe39",
     "working/observation_delay_study/evaluation/bursty_highway_lans_44.jsonl": "ffccc77731654a2aea4f5a3717e78378ae93cde8dfe17cc223a7f8be268242d9",
+    "working/observation_delay_study/evaluation/bursty_highway_lqr_acc_0.json": "8e443924f73384f762a57c84b7e1a9bc361bdb6e6ebc2dfe3ed1cea2308a1d54",
+    "working/observation_delay_study/evaluation/bursty_highway_lqr_acc_0.jsonl": "25e9c44156e4511fdf77b33a6be1e66bfbf6e1542dd49d9f325b717011170b46",
     "working/observation_delay_study/evaluation/bursty_highway_mpc_nominal_0.json": "482f538e68a991528fef4ab191777c6377b7fd7985ccc6e46d4199def9bc8d13",
     "working/observation_delay_study/evaluation/bursty_highway_mpc_nominal_0.jsonl": "a59e275b79a251bca800ea914fd575f6bee3c0017c0e6ce9f438b9de9f290a06",
     "working/observation_delay_study/evaluation/bursty_highway_predictor_lqr_0.json": "32c992b3f0299015ea7fc46ac87242459538a958b3e24a6b3a79a33e89ee1e98",
     "working/observation_delay_study/evaluation/bursty_highway_predictor_lqr_0.jsonl": "25e9c44156e4511fdf77b33a6be1e66bfbf6e1542dd49d9f325b717011170b46",
+    "working/observation_delay_study/evaluation/bursty_highway_robust_mpc_0.json": "4691a23f2d12de81bcebd25fbf85388a867749ee2833804d05b35b22cac82e26",
+    "working/observation_delay_study/evaluation/bursty_highway_robust_mpc_0.jsonl": "9447d65da55508f7ccd30f0b38d4f16db2f700a292a7b5b30141629a5ed45566",
     "working/observation_delay_study/evaluation/uniform_highway_cbf_42.json": "34d6d9e902df747f6b30ba3fb8b44803d863073f89b50e5f392a5788b37e5b7e",
     "working/observation_delay_study/evaluation/uniform_highway_cbf_42.jsonl": "27c3e1038dcae94607d8d4177890492b08a0281a22dbf7137ff0a04164b464f7",
     "working/observation_delay_study/evaluation/uniform_highway_cbf_43.json": "702df4f038836ee01c0b603311a48a4d83c63134a367bca992cc3d4cc6bac06e",
