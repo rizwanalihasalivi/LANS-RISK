@@ -1,8 +1,8 @@
 {
-  "time": "2026-10-22T12:07:04.899198+00:00",
+  "time": "2026-10-22T12:08:07.553450+00:00",
   "counts": {
     "extended_baselines/confirmation": 440,
-    "stress_study/confirmation": 45,
+    "stress_study/confirmation": 48,
     "observation_delay_study/evaluation": 0
   },
   "sha256": {
@@ -970,12 +970,18 @@
     "working/stress_study/confirmation/weaker_actuation_merge_cbf_44_10.jsonl": "27197704a891e07cd3849a034a0d4bbde48988b266fe0892c37bf232f85e0456",
     "working/stress_study/confirmation/weaker_actuation_merge_cbf_44_5.json": "fa0bebabb3d04649bf5926cc98219fdb46fec6427169045646bf6ecbf72546f8",
     "working/stress_study/confirmation/weaker_actuation_merge_cbf_44_5.jsonl": "e938f313a6bb8f95ccb1b3911457ed5d65ece13f4be7ba66399caf66b7dd8916",
+    "working/stress_study/confirmation/weaker_actuation_merge_lans_42_0.json": "a35057db8d751284dfb7980fc1fe53cbcb25dc33017c50be9ed4a3389cc66857",
+    "working/stress_study/confirmation/weaker_actuation_merge_lans_42_0.jsonl": "f5efe75ef67bf7cb8efa36f52344029ee2f8579698412198112fdec9857fce05",
     "working/stress_study/confirmation/weaker_actuation_merge_predictor_lqr_0_0.json": "f2f09e401b0c519028255d7acd42934e15f19740bc2f244cff003314b62c3855",
     "working/stress_study/confirmation/weaker_actuation_merge_predictor_lqr_0_0.jsonl": "ce394c1e80d01113b1d39dace57b70344532e54d07c480fd8caf0f69160e6505",
     "working/stress_study/confirmation/weaker_actuation_merge_predictor_lqr_0_10.json": "6e0be2b62b9d294c56366cfeece7ee046a949fd77b3af2ce50f160c67a92d7ee",
     "working/stress_study/confirmation/weaker_actuation_merge_predictor_lqr_0_10.jsonl": "793ba9cc670737a9b5bbb5b7550b5e07a099d94e227abcc123a2ee7400353158",
     "working/stress_study/confirmation/weaker_actuation_merge_predictor_lqr_0_5.json": "58ee19365964101b1ad22a547e9c7e536bf8f75930a6e34a23179869c405efe7",
-    "working/stress_study/confirmation/weaker_actuation_merge_predictor_lqr_0_5.jsonl": "af04965ed0034b5df0ea568d9cf2d0a077493816fcbb822b1c0c17afb9dbe1b4"
+    "working/stress_study/confirmation/weaker_actuation_merge_predictor_lqr_0_5.jsonl": "af04965ed0034b5df0ea568d9cf2d0a077493816fcbb822b1c0c17afb9dbe1b4",
+    "working/stress_study/confirmation/weaker_actuation_merge_robust_mpc_0_0.json": "16a38c68733850680cb3ab0336010daeca939ce992c13161b7cda80067795e7c",
+    "working/stress_study/confirmation/weaker_actuation_merge_robust_mpc_0_0.jsonl": "d6db9c9ffd944c92a9b66c15e3399711825325f6eff21d15b958f45163924594",
+    "working/stress_study/confirmation/weaker_actuation_merge_robust_mpc_0_5.json": "a63834a46b12f0257c47f627d6b14c09b1be2f8e3c80e446b328540bc5babc2e",
+    "working/stress_study/confirmation/weaker_actuation_merge_robust_mpc_0_5.jsonl": "d79f54f776b68a6247bbaedf75f2096cf78b5a4dbd07b18c35b1ddf9732a534f"
   },
   "scope": "Independent local copy on same machine; does not protect against machine/disk loss"
 }
