@@ -1,8 +1,8 @@
 {
-  "time": "2026-10-22T12:12:26.426230+00:00",
+  "time": "2026-10-22T12:13:29.606912+00:00",
   "counts": {
     "extended_baselines/confirmation": 440,
-    "stress_study/confirmation": 78,
+    "stress_study/confirmation": 82,
     "observation_delay_study/evaluation": 0
   },
   "sha256": {
@@ -970,12 +970,20 @@
     "working/stress_study/confirmation/weaker_actuation_intersection_cbf_44_10.jsonl": "eadd82c754fb572eeeb411ef5c792103196bb5b8cc3a0836d6dce14f5e3a99c4",
     "working/stress_study/confirmation/weaker_actuation_intersection_cbf_44_5.json": "dea1e89330558ecc09b3d3449467bdb2fa39c640f5a689a2441205bb87d3cafa",
     "working/stress_study/confirmation/weaker_actuation_intersection_cbf_44_5.jsonl": "a9d15ac3b7151769613eec758d9be115a41e75934ed88d526afbc58373017294",
+    "working/stress_study/confirmation/weaker_actuation_intersection_lans_42_0.json": "576d6183b9024602f25c6f8097628e3dae1645919d7be69ec71918e03c7980dc",
+    "working/stress_study/confirmation/weaker_actuation_intersection_lans_42_0.jsonl": "aff09c28caa72e3cd300b5e7a8806b1a978a037a00dc8acbc3e66dd10e859e6d",
     "working/stress_study/confirmation/weaker_actuation_intersection_predictor_lqr_0_0.json": "696651e5e077563270e5e24cbd7c015329c069cc43a3039589bca3d4b6660066",
     "working/stress_study/confirmation/weaker_actuation_intersection_predictor_lqr_0_0.jsonl": "4459c978c11769064220ae7434713b649335442de802fcea92bab9e747ac9c04",
     "working/stress_study/confirmation/weaker_actuation_intersection_predictor_lqr_0_10.json": "a8d6975f5e2e510ec45ca6089739d650bd11462aa1a4a582c9bbe2899977c13b",
     "working/stress_study/confirmation/weaker_actuation_intersection_predictor_lqr_0_10.jsonl": "9814bfa494d32dec06b5f5434cc1de0534b03dfd9f3a538fb00cf473dbaacebd",
     "working/stress_study/confirmation/weaker_actuation_intersection_predictor_lqr_0_5.json": "53ede60e776d7c871c27e37753d3fce3bf5b092571909ac15cdb1133bc8c258c",
     "working/stress_study/confirmation/weaker_actuation_intersection_predictor_lqr_0_5.jsonl": "f6f9dac5d25eaeb97205059ceb266463df64120a5e4abd6db1c60d5df77f8c78",
+    "working/stress_study/confirmation/weaker_actuation_intersection_robust_mpc_0_0.json": "e7504f76658ac4aeee35a2f2a2fa14aac813788991586b2f4eae111bcc4d5a17",
+    "working/stress_study/confirmation/weaker_actuation_intersection_robust_mpc_0_0.jsonl": "7ef3284a390820f7e80037d371f1bb7457effe2887ba9f4660cde9b92fd5d517",
+    "working/stress_study/confirmation/weaker_actuation_intersection_robust_mpc_0_10.json": "e118ec1f5504d6e83b36547db123c0f8acfcddf8de56fd36359446749fa4c8a8",
+    "working/stress_study/confirmation/weaker_actuation_intersection_robust_mpc_0_10.jsonl": "512a83eb06ae6cbe1e22c580ba358f8954bd15fefa25656d6bcfeb205c6e815d",
+    "working/stress_study/confirmation/weaker_actuation_intersection_robust_mpc_0_5.json": "a85a6496dc80956c6f85a65ee01c59e7b516aed070714e4d0f40c51052c2cfa3",
+    "working/stress_study/confirmation/weaker_actuation_intersection_robust_mpc_0_5.jsonl": "58c2dd8b8311011c291f7f5f3270fc9afb7db981baaa1406aea3f86f99017212",
     "working/stress_study/confirmation/weaker_actuation_merge_cbf_42_0.json": "068e59b857595593f1f953739d337082f0373b0ee6865d9a0bad08d1e4fc1fe3",
     "working/stress_study/confirmation/weaker_actuation_merge_cbf_42_0.jsonl": "76544df6c80fe356db462d86bfb31e2485e62c022c0eb335ee2b72c838ffdeb8",
     "working/stress_study/confirmation/weaker_actuation_merge_cbf_42_10.json": "aea974f761eb0c7ec89dc7e9b860711535a2d81bf553a46576ba98d380bc0b7f",
