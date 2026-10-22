@@ -1,7 +1,7 @@
 {
-  "time": "2026-10-22T11:55:28.821493+00:00",
+  "time": "2026-10-22T11:56:00.722310+00:00",
   "counts": {
-    "extended_baselines/confirmation": 432,
+    "extended_baselines/confirmation": 435,
     "stress_study/confirmation": 0,
     "observation_delay_study/evaluation": 0
   },
@@ -258,8 +258,14 @@
     "working/extended_baselines/confirmation/intersection_cbf_seed44_delay700.jsonl": "166c23ebd8bc4577558fee244e307cef29b573a9ec264c2f6bf21f5a5f5aef9a",
     "working/extended_baselines/confirmation/intersection_lans_no_actor_seed0_delay0.json": "c1329b5b73e906cea6288b84c72ee20f3bd5f244de3d394ede130ad50d01ce4c",
     "working/extended_baselines/confirmation/intersection_lans_no_actor_seed0_delay0.jsonl": "69525abb52fd69a3fdfa80614e868c0e0852ffdeaa5fd1366c156dbdf4bb870f",
+    "working/extended_baselines/confirmation/intersection_lans_no_actor_seed0_delay1000.json": "1634b0393763a4462771abeb58d577e9e5482ac83c24e19e355044acc7ae1fe4",
+    "working/extended_baselines/confirmation/intersection_lans_no_actor_seed0_delay1000.jsonl": "b1e226645854f538d24dc03e0c0c896b60c103c5c41aad8eb510ff9c016bc45b",
     "working/extended_baselines/confirmation/intersection_lans_no_actor_seed0_delay200.json": "e67e2b16909e12c91045835209dc74e0a3d2a01784a25f767d80676e275a6526",
     "working/extended_baselines/confirmation/intersection_lans_no_actor_seed0_delay200.jsonl": "a0c9c185612abc19aa8b3125e059f722f86e5061938d29f746208fe8d98ad08a",
+    "working/extended_baselines/confirmation/intersection_lans_no_actor_seed0_delay500.json": "f66d65f80782ea255662054982eaee27fdf068c74a0ad8882682164b4018c671",
+    "working/extended_baselines/confirmation/intersection_lans_no_actor_seed0_delay500.jsonl": "94901331fcc5c82c472c5900315d40643ce1a4cf56d7162d3eba6d40333db06c",
+    "working/extended_baselines/confirmation/intersection_lans_no_actor_seed0_delay700.json": "5cf40b1cc4e339fcf60f5d24eda9889c8d0efc64180dfa62b4230cb7a7d19051",
+    "working/extended_baselines/confirmation/intersection_lans_no_actor_seed0_delay700.jsonl": "e700164f69ed77e964b28154bf1696266bbed3d214fce0c79cba39dcc2f5db65",
     "working/extended_baselines/confirmation/intersection_lans_no_prediction_seed42_delay0.json": "2fbc2941e846a73daf34a4511ee77cf683883cc593cedd8e7fe0bd00d92a86c3",
     "working/extended_baselines/confirmation/intersection_lans_no_prediction_seed42_delay0.jsonl": "32c6ee288f306193efdd59178323459f49225b6cb16962be5850338cdb97f0bf",
     "working/extended_baselines/confirmation/intersection_lans_no_prediction_seed42_delay1000.json": "642fefc013322945adbd8ecb708ed0a3632fb1c6b9bfe459d4414f94bddd7576",
