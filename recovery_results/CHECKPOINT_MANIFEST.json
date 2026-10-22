@@ -1,8 +1,8 @@
 {
-  "time": "2026-10-22T12:02:45.925305+00:00",
+  "time": "2026-10-22T12:03:18.268462+00:00",
   "counts": {
     "extended_baselines/confirmation": 440,
-    "stress_study/confirmation": 13,
+    "stress_study/confirmation": 16,
     "observation_delay_study/evaluation": 0
   },
   "sha256": {
@@ -911,7 +911,13 @@
     "working/stress_study/confirmation/weaker_actuation_highway_predictor_lqr_0_10.json": "88e1a8ee1d93c71ad1b4783c7ce57426bdd83500e743380bf6975bf53f23293d",
     "working/stress_study/confirmation/weaker_actuation_highway_predictor_lqr_0_10.jsonl": "5ed97637458f49bd4b1b8125a8e8fbd1396c05f5f8c5e5a6e729bc60302bc614",
     "working/stress_study/confirmation/weaker_actuation_highway_predictor_lqr_0_5.json": "b05cc479d2f562c48a1c1be050bb735ce73c04333189acc40374eb2490861838",
-    "working/stress_study/confirmation/weaker_actuation_highway_predictor_lqr_0_5.jsonl": "a3afa4ad08341cad14adf813d0eb45c75329b17a7ea3fe88fa4be435cd62c674"
+    "working/stress_study/confirmation/weaker_actuation_highway_predictor_lqr_0_5.jsonl": "a3afa4ad08341cad14adf813d0eb45c75329b17a7ea3fe88fa4be435cd62c674",
+    "working/stress_study/confirmation/weaker_actuation_highway_robust_mpc_0_0.json": "9ab3ac06fcbcd72f79f768dd7bc1c403749651ecbc164c0bcbe0f6e79e085a28",
+    "working/stress_study/confirmation/weaker_actuation_highway_robust_mpc_0_0.jsonl": "1d29f22fcba37eb9cbedab7eee071cfe4e8d7ab659be215c27fcb8c91e5920d6",
+    "working/stress_study/confirmation/weaker_actuation_highway_robust_mpc_0_10.json": "e77ba9e26af68794f35199e7e5778dbdb08aeefa4a8eba789d33977f7a5897d5",
+    "working/stress_study/confirmation/weaker_actuation_highway_robust_mpc_0_10.jsonl": "1130c7eba3470cd9aa9fb3e3e04730183dd729f6ebee5c303769546861466d06",
+    "working/stress_study/confirmation/weaker_actuation_highway_robust_mpc_0_5.json": "f9d8d87a6b9bd6117fb57c798e9662bfe6e5bd0d212baca56d2063c5c4cb4a8a",
+    "working/stress_study/confirmation/weaker_actuation_highway_robust_mpc_0_5.jsonl": "400f86c4e38b73bb830b212b90e4266f6feded054f1d54321fdd6308ba06688e"
   },
   "scope": "Independent local copy on same machine; does not protect against machine/disk loss"
 }

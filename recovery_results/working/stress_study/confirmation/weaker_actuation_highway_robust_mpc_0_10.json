@@ -1,0 +1,14 @@
+{
+  "profile": "weaker_actuation",
+  "scenario": "highway",
+  "controller": "robust_mpc",
+  "actor_seed": 0,
+  "delay_ms": 1000,
+  "count": 50,
+  "first": 161000,
+  "source_hash": "d12640874e71e62de7b3b36caedc203c61d2e56a75154025f3a08a6bfd7b4d4e",
+  "raw_sha256": "1130c7eba3470cd9aa9fb3e3e04730183dd729f6ebee5c303769546861466d06",
+  "collision": 0.0,
+  "completion": 100.0,
+  "corridor_completion": 98.0
+}
