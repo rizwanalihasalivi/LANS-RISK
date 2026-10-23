@@ -1,0 +1,13 @@
+{
+  "profile": "exponential",
+  "scenario": "roundabout",
+  "controller": "cbf",
+  "actor_seed": 44,
+  "count": 20,
+  "first": 181000,
+  "source_hash": "8f39d185b29c9581f13e4e21a90423f26d292cc2ac846891000c1d2723bad60d",
+  "raw_sha256": "9111196e5164c546d54f89b80f0f1a8eac6fcf4bb5bb4b30353ada1178b3fc50",
+  "collision": 0.0,
+  "completion": 80.0,
+  "corridor_completion": 10.0
+}

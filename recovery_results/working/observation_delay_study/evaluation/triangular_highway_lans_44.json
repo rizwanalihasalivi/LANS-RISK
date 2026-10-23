@@ -1,0 +1,13 @@
+{
+  "profile": "triangular",
+  "scenario": "highway",
+  "controller": "lans",
+  "actor_seed": 44,
+  "count": 20,
+  "first": 181000,
+  "source_hash": "8f39d185b29c9581f13e4e21a90423f26d292cc2ac846891000c1d2723bad60d",
+  "raw_sha256": "befc0bdeb51c28485bf8b2592aa65d0af1170c493a3450ddd240a8e1fb5e301c",
+  "collision": 0.0,
+  "completion": 50.0,
+  "corridor_completion": 0.0
+}

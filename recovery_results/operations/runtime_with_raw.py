@@ -35,4 +35,6 @@ for s in samples:
  assert int((a>100).sum())==r['exceeded_100ms']
 assert seen=={(s,c,d) for s in SC for c in METHODS for d in [0,1000]}
 out=dict(time_utc=datetime.datetime.now(datetime.timezone.utc).isoformat(),scope='50 warmed samples per condition from the unchanged runtime_profile.py. Retained at its post-loop median reduction; no clock, controller, model, seed, or timing-loop changes.',conditions=96,timed_samples=4800,source_hashes=result['source_hashes'],samples=samples)
-(OP/'runtime_samples.json').write_text(json.dumps(out,indent=2));print('PASS: all4800raw timing samples retained; every runtime statistic recomputed exactly')
+(OP/'runtime_samples.json').write_text(json.dumps(out,indent=2))
+(OP/'runtime_profile.json').write_bytes((R/'deliverables/publication_results/runtime_profile.json').read_bytes())
+print('PASS: all4800raw timing samples retained; every runtime statistic recomputed exactly')

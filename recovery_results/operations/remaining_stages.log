@@ -1,1 +1,9 @@
 AUDIT PASS extended_baselines confirmation 440 44000
+Traceback (most recent call last):
+  File "/workspace/recovery/operations/remaining_stages.py", line 22, in <module>
+    run('stress-confirmation',['working/stress_study/experiment.py','--stage','confirmation','--workers','4'])
+  File "/workspace/recovery/operations/remaining_stages.py", line 14, in run
+    result.check_returncode()
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/subprocess.py", line 502, in check_returncode
+    raise CalledProcessError(self.returncode, self.args, self.stdout,
+subprocess.CalledProcessError: Command '['/workspace/recovery/venv/bin/python', 'working/stress_study/experiment.py', '--stage', 'confirmation', '--workers', '4']' returned non-zero exit status 1.

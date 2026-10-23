@@ -1,0 +1,274 @@
+{
+  "study": {
+    "all_requested_experiments_complete": false,
+    "amendment_executed": false,
+    "approval_pending": true,
+    "main_confirmation": {
+      "conditions": 440,
+      "records": 44000,
+      "complete": true,
+      "original_261_preserved": true
+    },
+    "robustness": {
+      "verified_conditions": 231,
+      "expected_conditions": 264,
+      "records": 11550,
+      "expected_records": 13200,
+      "complete": false,
+      "blocked_conditions": [
+        [
+          "denser_traffic",
+          "merge",
+          "cbf",
+          42,
+          0
+        ],
+        [
+          "denser_traffic",
+          "merge",
+          "cbf",
+          42,
+          500
+        ],
+        [
+          "denser_traffic",
+          "merge",
+          "cbf",
+          42,
+          1000
+        ],
+        [
+          "denser_traffic",
+          "merge",
+          "cbf",
+          43,
+          0
+        ],
+        [
+          "denser_traffic",
+          "merge",
+          "cbf",
+          43,
+          500
+        ],
+        [
+          "denser_traffic",
+          "merge",
+          "cbf",
+          43,
+          1000
+        ],
+        [
+          "denser_traffic",
+          "merge",
+          "cbf",
+          44,
+          0
+        ],
+        [
+          "denser_traffic",
+          "merge",
+          "cbf",
+          44,
+          500
+        ],
+        [
+          "denser_traffic",
+          "merge",
+          "cbf",
+          44,
+          1000
+        ],
+        [
+          "denser_traffic",
+          "merge",
+          "lans",
+          42,
+          0
+        ],
+        [
+          "denser_traffic",
+          "merge",
+          "lans",
+          42,
+          500
+        ],
+        [
+          "denser_traffic",
+          "merge",
+          "lans",
+          42,
+          1000
+        ],
+        [
+          "denser_traffic",
+          "merge",
+          "lans",
+          43,
+          0
+        ],
+        [
+          "denser_traffic",
+          "merge",
+          "lans",
+          43,
+          500
+        ],
+        [
+          "denser_traffic",
+          "merge",
+          "lans",
+          43,
+          1000
+        ],
+        [
+          "denser_traffic",
+          "merge",
+          "lans",
+          44,
+          0
+        ],
+        [
+          "denser_traffic",
+          "merge",
+          "lans",
+          44,
+          500
+        ],
+        [
+          "denser_traffic",
+          "merge",
+          "lans",
+          44,
+          1000
+        ],
+        [
+          "denser_traffic",
+          "merge",
+          "lqr",
+          0,
+          0
+        ],
+        [
+          "denser_traffic",
+          "merge",
+          "lqr",
+          0,
+          500
+        ],
+        [
+          "denser_traffic",
+          "merge",
+          "lqr",
+          0,
+          1000
+        ],
+        [
+          "denser_traffic",
+          "merge",
+          "lqr_acc",
+          0,
+          0
+        ],
+        [
+          "denser_traffic",
+          "merge",
+          "lqr_acc",
+          0,
+          500
+        ],
+        [
+          "denser_traffic",
+          "merge",
+          "lqr_acc",
+          0,
+          1000
+        ],
+        [
+          "denser_traffic",
+          "merge",
+          "mpc_nominal",
+          0,
+          0
+        ],
+        [
+          "denser_traffic",
+          "merge",
+          "mpc_nominal",
+          0,
+          500
+        ],
+        [
+          "denser_traffic",
+          "merge",
+          "mpc_nominal",
+          0,
+          1000
+        ],
+        [
+          "denser_traffic",
+          "merge",
+          "predictor_lqr",
+          0,
+          0
+        ],
+        [
+          "denser_traffic",
+          "merge",
+          "predictor_lqr",
+          0,
+          500
+        ],
+        [
+          "denser_traffic",
+          "merge",
+          "predictor_lqr",
+          0,
+          1000
+        ],
+        [
+          "denser_traffic",
+          "merge",
+          "robust_mpc",
+          0,
+          0
+        ],
+        [
+          "denser_traffic",
+          "merge",
+          "robust_mpc",
+          0,
+          500
+        ],
+        [
+          "denser_traffic",
+          "merge",
+          "robust_mpc",
+          0,
+          1000
+        ]
+      ]
+    },
+    "observation_delay": {
+      "conditions": 200,
+      "records": 4000,
+      "complete": true
+    },
+    "runtime": {
+      "conditions": 96,
+      "raw_samples": 4800,
+      "complete": true
+    },
+    "development": {
+      "conditions": 240,
+      "records": 4800,
+      "complete": true
+    },
+    "blocker": "Original frozen dense-Merge initialization cap fails for15/50seeds. Separate tested amendment requires user approval; original264-condition robustness plan is not complete.",
+    "reporting_status": "All available-condition figures/tables generated; dense-Merge amendment remains approval-pending"
+  },
+  "next_action": "Request explicit approval for separate dense-Merge sampler amendment; no experiment starts from this adapter.",
+  "external_model_review": "NOT_RUN",
+  "runtime_root": "Restore using recovery_results/operations/install_environment.sh; consult START_HERE_ENVIRONMENT.md. Existing host: /workspace/recovery/restored/LANS-RISK.",
+  "note": "Saved study status; run verify to validate the preserved evidence bytes."
+}

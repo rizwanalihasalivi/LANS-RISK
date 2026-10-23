@@ -1,0 +1,13 @@
+{
+  "profile": "triangular",
+  "scenario": "merge",
+  "controller": "cbf",
+  "actor_seed": 42,
+  "count": 20,
+  "first": 181000,
+  "source_hash": "8f39d185b29c9581f13e4e21a90423f26d292cc2ac846891000c1d2723bad60d",
+  "raw_sha256": "4db83e1b38370e41e2628314bf8c4bc3d4a859058872b72cc834c18c3e783258",
+  "collision": 0.0,
+  "completion": 85.0,
+  "corridor_completion": 5.0
+}

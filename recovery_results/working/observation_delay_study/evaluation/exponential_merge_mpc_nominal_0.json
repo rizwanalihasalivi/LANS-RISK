@@ -1,0 +1,13 @@
+{
+  "profile": "exponential",
+  "scenario": "merge",
+  "controller": "mpc_nominal",
+  "actor_seed": 0,
+  "count": 20,
+  "first": 181000,
+  "source_hash": "8f39d185b29c9581f13e4e21a90423f26d292cc2ac846891000c1d2723bad60d",
+  "raw_sha256": "46a8449cac7e153bb03effdff5a1b49128912e1a7bf9a7131ce106b343bdfe3b",
+  "collision": 0.0,
+  "completion": 100.0,
+  "corridor_completion": 65.0
+}

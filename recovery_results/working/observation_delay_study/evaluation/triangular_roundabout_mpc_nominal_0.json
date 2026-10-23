@@ -1,0 +1,13 @@
+{
+  "profile": "triangular",
+  "scenario": "roundabout",
+  "controller": "mpc_nominal",
+  "actor_seed": 0,
+  "count": 20,
+  "first": 181000,
+  "source_hash": "8f39d185b29c9581f13e4e21a90423f26d292cc2ac846891000c1d2723bad60d",
+  "raw_sha256": "5cfa36b5142e795c30699da4c2aaaa2d31828180041fcd4cb32525676fb1be64",
+  "collision": 35.0,
+  "completion": 65.0,
+  "corridor_completion": 30.0
+}

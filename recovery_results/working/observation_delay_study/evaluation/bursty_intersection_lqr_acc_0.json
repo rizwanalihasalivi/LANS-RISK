@@ -1,0 +1,13 @@
+{
+  "profile": "bursty",
+  "scenario": "intersection",
+  "controller": "lqr_acc",
+  "actor_seed": 0,
+  "count": 20,
+  "first": 181000,
+  "source_hash": "8f39d185b29c9581f13e4e21a90423f26d292cc2ac846891000c1d2723bad60d",
+  "raw_sha256": "126898591b1fbd6814c0b91a339597a64dd9a6069f701a68eb093fcca98d97b9",
+  "collision": 20.0,
+  "completion": 80.0,
+  "corridor_completion": 80.0
+}

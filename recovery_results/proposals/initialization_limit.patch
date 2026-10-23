@@ -1,0 +1,11 @@
+--- original/traffic_v2/benchmark.py
++++ amended/traffic_v2/benchmark.py
+@@ -15,7 +15,7 @@
+ 
+     def _spawn_vehicles(self):
+         # Rejection sampling preserves original straight-road distributions.
+-        for attempt in range(10000):
++        for attempt in range(200000):
+             super()._spawn_vehicles()
+             if self.scenario=='roundabout':
+                 theta=self.roundabout_start_angle

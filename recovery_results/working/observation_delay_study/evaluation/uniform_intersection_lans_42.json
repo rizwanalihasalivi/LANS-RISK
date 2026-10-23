@@ -1,0 +1,13 @@
+{
+  "profile": "uniform",
+  "scenario": "intersection",
+  "controller": "lans",
+  "actor_seed": 42,
+  "count": 20,
+  "first": 181000,
+  "source_hash": "8f39d185b29c9581f13e4e21a90423f26d292cc2ac846891000c1d2723bad60d",
+  "raw_sha256": "7125f5549d0859fb5399a7ad27f3352f55e361afd64a1fd69d02cdd040354a0f",
+  "collision": 30.0,
+  "completion": 30.0,
+  "corridor_completion": 0.0
+}

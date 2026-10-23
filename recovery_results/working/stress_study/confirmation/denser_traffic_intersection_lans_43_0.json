@@ -1,0 +1,14 @@
+{
+  "profile": "denser_traffic",
+  "scenario": "intersection",
+  "controller": "lans",
+  "actor_seed": 43,
+  "delay_ms": 0,
+  "count": 50,
+  "first": 161000,
+  "source_hash": "d12640874e71e62de7b3b36caedc203c61d2e56a75154025f3a08a6bfd7b4d4e",
+  "raw_sha256": "205b9819784a469a8d8108a325b42f8b01d39be0ea60624c1e0d20f441e69f94",
+  "collision": 0.0,
+  "completion": 100.0,
+  "corridor_completion": 100.0
+}

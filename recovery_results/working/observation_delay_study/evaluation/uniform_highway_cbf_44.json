@@ -1,0 +1,13 @@
+{
+  "profile": "uniform",
+  "scenario": "highway",
+  "controller": "cbf",
+  "actor_seed": 44,
+  "count": 20,
+  "first": 181000,
+  "source_hash": "8f39d185b29c9581f13e4e21a90423f26d292cc2ac846891000c1d2723bad60d",
+  "raw_sha256": "cf523a61d8d451c5b36776cfd4e12f6f99450aa470f1b4e135ee324d1f874af8",
+  "collision": 0.0,
+  "completion": 35.0,
+  "corridor_completion": 0.0
+}

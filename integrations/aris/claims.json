@@ -1,0 +1,17 @@
+[
+  {
+    "id": "main_confirmation_records",
+    "value": 44000,
+    "source": "recovery_results/results/STUDY_COMPLETENESS.json"
+  },
+  {
+    "id": "robustness_verified_conditions",
+    "value": 231,
+    "source": "recovery_results/results/STUDY_COMPLETENESS.json"
+  },
+  {
+    "id": "observation_delay_records",
+    "value": 4000,
+    "source": "recovery_results/results/STUDY_COMPLETENESS.json"
+  }
+]

@@ -5,7 +5,7 @@
   "records": 4800,
   "frozen_hashes_verified": 51,
   "all_original_261_preserved": false,
-  "all_metrics_recomputed": true,
+  "saved_outcome_aggregates_recomputed": true,
   "manifest": {
     "working/extended_baselines/development/intersection_cbf_seed42_delay500.json": "618fb3a5a4c6ef3fc76e7a518dcb00dbf926277135d4c1a1806640bdf6bd728f",
     "working/extended_baselines/development/intersection_cbf_seed42_delay500.jsonl": "22b7283bd30398c2b5382d64fe573e602b17872c1ec3a10f16bbe66ce612f9cb",

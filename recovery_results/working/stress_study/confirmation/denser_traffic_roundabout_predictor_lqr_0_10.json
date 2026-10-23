@@ -1,0 +1,14 @@
+{
+  "profile": "denser_traffic",
+  "scenario": "roundabout",
+  "controller": "predictor_lqr",
+  "actor_seed": 0,
+  "delay_ms": 1000,
+  "count": 50,
+  "first": 161000,
+  "source_hash": "d12640874e71e62de7b3b36caedc203c61d2e56a75154025f3a08a6bfd7b4d4e",
+  "raw_sha256": "ee6ad40a690e110bf1738aa61e59061a2bf8f336797a8e1bee0970743573c41c",
+  "collision": 0.0,
+  "completion": 100.0,
+  "corridor_completion": 0.0
+}

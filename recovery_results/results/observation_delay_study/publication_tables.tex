@@ -1,0 +1,92 @@
+% Requires booktabs and longtable. Rates and confidence intervals in percent; n per condition shown in caption.
+\begin{longtable}{llcc}
+\caption{observation delay study: paired-case LANS and nominal MPC, per actor seed. Wilson95\% intervals; RMSE reports sample SD.}\\
+\toprule
+Profile / FIFO (ms) & Controller / actor & Collision \% [95\% CI] & Corridor completion \% [95\% CI] \\
+\midrule
+\multicolumn{4}{l}{\textbf{highway}} \\
+bimodal / 0 & LANS / 42 & 0.0 [0.0, 16.1] & 0.0 [0.0, 16.1] \\
+bimodal / 0 & LANS / 43 & 0.0 [0.0, 16.1] & 0.0 [0.0, 16.1] \\
+bimodal / 0 & LANS / 44 & 0.0 [0.0, 16.1] & 0.0 [0.0, 16.1] \\
+bimodal / 0 & MPC / actor-free & 0.0 [0.0, 16.1] & 0.0 [0.0, 16.1] \\
+bursty / 0 & LANS / 42 & 0.0 [0.0, 16.1] & 0.0 [0.0, 16.1] \\
+bursty / 0 & LANS / 43 & 0.0 [0.0, 16.1] & 0.0 [0.0, 16.1] \\
+bursty / 0 & LANS / 44 & 0.0 [0.0, 16.1] & 0.0 [0.0, 16.1] \\
+bursty / 0 & MPC / actor-free & 0.0 [0.0, 16.1] & 0.0 [0.0, 16.1] \\
+exponential / 0 & LANS / 42 & 0.0 [0.0, 16.1] & 0.0 [0.0, 16.1] \\
+exponential / 0 & LANS / 43 & 0.0 [0.0, 16.1] & 0.0 [0.0, 16.1] \\
+exponential / 0 & LANS / 44 & 0.0 [0.0, 16.1] & 0.0 [0.0, 16.1] \\
+exponential / 0 & MPC / actor-free & 0.0 [0.0, 16.1] & 10.0 [2.8, 30.1] \\
+triangular / 0 & LANS / 42 & 0.0 [0.0, 16.1] & 0.0 [0.0, 16.1] \\
+triangular / 0 & LANS / 43 & 0.0 [0.0, 16.1] & 0.0 [0.0, 16.1] \\
+triangular / 0 & LANS / 44 & 0.0 [0.0, 16.1] & 0.0 [0.0, 16.1] \\
+triangular / 0 & MPC / actor-free & 0.0 [0.0, 16.1] & 0.0 [0.0, 16.1] \\
+uniform / 0 & LANS / 42 & 0.0 [0.0, 16.1] & 0.0 [0.0, 16.1] \\
+uniform / 0 & LANS / 43 & 0.0 [0.0, 16.1] & 0.0 [0.0, 16.1] \\
+uniform / 0 & LANS / 44 & 0.0 [0.0, 16.1] & 0.0 [0.0, 16.1] \\
+uniform / 0 & MPC / actor-free & 0.0 [0.0, 16.1] & 0.0 [0.0, 16.1] \\
+\multicolumn{4}{l}{\textbf{merge}} \\
+bimodal / 0 & LANS / 42 & 10.0 [2.8, 30.1] & 0.0 [0.0, 16.1] \\
+bimodal / 0 & LANS / 43 & 5.0 [0.9, 23.6] & 0.0 [0.0, 16.1] \\
+bimodal / 0 & LANS / 44 & 10.0 [2.8, 30.1] & 0.0 [0.0, 16.1] \\
+bimodal / 0 & MPC / actor-free & 0.0 [0.0, 16.1] & 5.0 [0.9, 23.6] \\
+bursty / 0 & LANS / 42 & 0.0 [0.0, 16.1] & 0.0 [0.0, 16.1] \\
+bursty / 0 & LANS / 43 & 0.0 [0.0, 16.1] & 0.0 [0.0, 16.1] \\
+bursty / 0 & LANS / 44 & 0.0 [0.0, 16.1] & 0.0 [0.0, 16.1] \\
+bursty / 0 & MPC / actor-free & 0.0 [0.0, 16.1] & 5.0 [0.9, 23.6] \\
+exponential / 0 & LANS / 42 & 10.0 [2.8, 30.1] & 0.0 [0.0, 16.1] \\
+exponential / 0 & LANS / 43 & 0.0 [0.0, 16.1] & 0.0 [0.0, 16.1] \\
+exponential / 0 & LANS / 44 & 10.0 [2.8, 30.1] & 0.0 [0.0, 16.1] \\
+exponential / 0 & MPC / actor-free & 0.0 [0.0, 16.1] & 65.0 [43.3, 81.9] \\
+triangular / 0 & LANS / 42 & 0.0 [0.0, 16.1] & 0.0 [0.0, 16.1] \\
+triangular / 0 & LANS / 43 & 0.0 [0.0, 16.1] & 0.0 [0.0, 16.1] \\
+triangular / 0 & LANS / 44 & 0.0 [0.0, 16.1] & 0.0 [0.0, 16.1] \\
+triangular / 0 & MPC / actor-free & 0.0 [0.0, 16.1] & 0.0 [0.0, 16.1] \\
+uniform / 0 & LANS / 42 & 0.0 [0.0, 16.1] & 0.0 [0.0, 16.1] \\
+uniform / 0 & LANS / 43 & 0.0 [0.0, 16.1] & 0.0 [0.0, 16.1] \\
+uniform / 0 & LANS / 44 & 0.0 [0.0, 16.1] & 0.0 [0.0, 16.1] \\
+uniform / 0 & MPC / actor-free & 0.0 [0.0, 16.1] & 0.0 [0.0, 16.1] \\
+\multicolumn{4}{l}{\textbf{intersection}} \\
+bimodal / 0 & LANS / 42 & 0.0 [0.0, 16.1] & 0.0 [0.0, 16.1] \\
+bimodal / 0 & LANS / 43 & 0.0 [0.0, 16.1] & 0.0 [0.0, 16.1] \\
+bimodal / 0 & LANS / 44 & 0.0 [0.0, 16.1] & 0.0 [0.0, 16.1] \\
+bimodal / 0 & MPC / actor-free & 0.0 [0.0, 16.1] & 60.0 [38.7, 78.1] \\
+bursty / 0 & LANS / 42 & 5.0 [0.9, 23.6] & 0.0 [0.0, 16.1] \\
+bursty / 0 & LANS / 43 & 5.0 [0.9, 23.6] & 0.0 [0.0, 16.1] \\
+bursty / 0 & LANS / 44 & 0.0 [0.0, 16.1] & 5.0 [0.9, 23.6] \\
+bursty / 0 & MPC / actor-free & 0.0 [0.0, 16.1] & 60.0 [38.7, 78.1] \\
+exponential / 0 & LANS / 42 & 0.0 [0.0, 16.1] & 40.0 [21.9, 61.3] \\
+exponential / 0 & LANS / 43 & 0.0 [0.0, 16.1] & 30.0 [14.5, 51.9] \\
+exponential / 0 & LANS / 44 & 0.0 [0.0, 16.1] & 55.0 [34.2, 74.2] \\
+exponential / 0 & MPC / actor-free & 0.0 [0.0, 16.1] & 100.0 [83.9, 100.0] \\
+triangular / 0 & LANS / 42 & 5.0 [0.9, 23.6] & 0.0 [0.0, 16.1] \\
+triangular / 0 & LANS / 43 & 5.0 [0.9, 23.6] & 0.0 [0.0, 16.1] \\
+triangular / 0 & LANS / 44 & 5.0 [0.9, 23.6] & 0.0 [0.0, 16.1] \\
+triangular / 0 & MPC / actor-free & 0.0 [0.0, 16.1] & 25.0 [11.2, 46.9] \\
+uniform / 0 & LANS / 42 & 30.0 [14.5, 51.9] & 0.0 [0.0, 16.1] \\
+uniform / 0 & LANS / 43 & 20.0 [8.1, 41.6] & 0.0 [0.0, 16.1] \\
+uniform / 0 & LANS / 44 & 20.0 [8.1, 41.6] & 0.0 [0.0, 16.1] \\
+uniform / 0 & MPC / actor-free & 0.0 [0.0, 16.1] & 0.0 [0.0, 16.1] \\
+\multicolumn{4}{l}{\textbf{roundabout}} \\
+bimodal / 0 & LANS / 42 & 40.0 [21.9, 61.3] & 40.0 [21.9, 61.3] \\
+bimodal / 0 & LANS / 43 & 45.0 [25.8, 65.8] & 45.0 [25.8, 65.8] \\
+bimodal / 0 & LANS / 44 & 35.0 [18.1, 56.7] & 50.0 [29.9, 70.1] \\
+bimodal / 0 & MPC / actor-free & 0.0 [0.0, 16.1] & 90.0 [69.9, 97.2] \\
+bursty / 0 & LANS / 42 & 45.0 [25.8, 65.8] & 10.0 [2.8, 30.1] \\
+bursty / 0 & LANS / 43 & 55.0 [34.2, 74.2] & 15.0 [5.2, 36.0] \\
+bursty / 0 & LANS / 44 & 85.0 [64.0, 94.8] & 5.0 [0.9, 23.6] \\
+bursty / 0 & MPC / actor-free & 20.0 [8.1, 41.6] & 45.0 [25.8, 65.8] \\
+exponential / 0 & LANS / 42 & 0.0 [0.0, 16.1] & 80.0 [58.4, 91.9] \\
+exponential / 0 & LANS / 43 & 10.0 [2.8, 30.1] & 65.0 [43.3, 81.9] \\
+exponential / 0 & LANS / 44 & 0.0 [0.0, 16.1] & 85.0 [64.0, 94.8] \\
+exponential / 0 & MPC / actor-free & 0.0 [0.0, 16.1] & 100.0 [83.9, 100.0] \\
+triangular / 0 & LANS / 42 & 80.0 [58.4, 91.9] & 5.0 [0.9, 23.6] \\
+triangular / 0 & LANS / 43 & 70.0 [48.1, 85.5] & 10.0 [2.8, 30.1] \\
+triangular / 0 & LANS / 44 & 95.0 [76.4, 99.1] & 5.0 [0.9, 23.6] \\
+triangular / 0 & MPC / actor-free & 35.0 [18.1, 56.7] & 30.0 [14.5, 51.9] \\
+uniform / 0 & LANS / 42 & 100.0 [83.9, 100.0] & 0.0 [0.0, 16.1] \\
+uniform / 0 & LANS / 43 & 90.0 [69.9, 97.2] & 0.0 [0.0, 16.1] \\
+uniform / 0 & LANS / 44 & 85.0 [64.0, 94.8] & 0.0 [0.0, 16.1] \\
+uniform / 0 & MPC / actor-free & 95.0 [76.4, 99.1] & 0.0 [0.0, 16.1] \\
+\bottomrule
+\end{longtable}

@@ -1,0 +1,13 @@
+{
+  "profile": "bimodal",
+  "scenario": "roundabout",
+  "controller": "lans",
+  "actor_seed": 44,
+  "count": 20,
+  "first": 181000,
+  "source_hash": "8f39d185b29c9581f13e4e21a90423f26d292cc2ac846891000c1d2723bad60d",
+  "raw_sha256": "1d9de6d3b7dd08a773b5a0cda21c7c38fc7b61abe58f5b09d7687808881b9410",
+  "collision": 35.0,
+  "completion": 65.0,
+  "corridor_completion": 50.0
+}

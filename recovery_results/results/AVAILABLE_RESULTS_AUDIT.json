@@ -1,0 +1,19 @@
+{
+  "prepared_at_asia_shanghai": "2026-10-22T21:11:23.521145+08:00",
+  "all_available_data_verified": true,
+  "all_requested_experiments_complete": false,
+  "main_confirmation_records": 44000,
+  "original_batches_preserved": 261,
+  "remaining_main_batches_computed": 179,
+  "robustness_records": 11550,
+  "robustness_missing_conditions": 33,
+  "robustness_unrun_records": 1650,
+  "observation_records": 4000,
+  "runtime_conditions": 96,
+  "raw_timing_samples": 4800,
+  "development_records": 4800,
+  "models_with_verified_distinct_tensor_content": 12,
+  "original_scientific_artifacts_rechecked": 848,
+  "amendment_executed": false,
+  "required_decision": "Explicit permission for the separate sampler amendment, or retain frozen-code incompleteness"
+}

@@ -1,0 +1,7 @@
+AUDIT PASS extended_baselines confirmation 440 44000
+PASS:231complete frozen-source conditions/11550records; exactly33dense-Merge conditions blocked
+AUDIT PASS observation_delay_study evaluation 200 4000
+COMPLETE independent analysis of available data; consult completeness audit for blocked conditions
+AUDIT PASS observation_delay_study evaluation 200 4000
+COMPLETE figures/runtime validation
+COMPLETE publication tables

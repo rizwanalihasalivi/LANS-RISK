@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/workspace/recovery/operations/finish_delivery.py", line 10, in <module>
+    assert events[-1].get('status')=='all_planned_experiments_complete',events[-1]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: {'time': '2026-10-22T12:38:54.402472+00:00', 'stage': 'stress-confirmation', 'status': 'exit', 'exit_code': 1}

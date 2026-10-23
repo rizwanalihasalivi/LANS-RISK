@@ -1,0 +1,92 @@
+[
+  {
+    "scenario": "merge",
+    "seed": 161000,
+    "error": "RuntimeError",
+    "message": "No collision-free initial traffic sample"
+  },
+  {
+    "scenario": "merge",
+    "seed": 161003,
+    "error": "RuntimeError",
+    "message": "No collision-free initial traffic sample"
+  },
+  {
+    "scenario": "merge",
+    "seed": 161004,
+    "error": "RuntimeError",
+    "message": "No collision-free initial traffic sample"
+  },
+  {
+    "scenario": "merge",
+    "seed": 161009,
+    "error": "RuntimeError",
+    "message": "No collision-free initial traffic sample"
+  },
+  {
+    "scenario": "merge",
+    "seed": 161015,
+    "error": "RuntimeError",
+    "message": "No collision-free initial traffic sample"
+  },
+  {
+    "scenario": "merge",
+    "seed": 161017,
+    "error": "RuntimeError",
+    "message": "No collision-free initial traffic sample"
+  },
+  {
+    "scenario": "merge",
+    "seed": 161019,
+    "error": "RuntimeError",
+    "message": "No collision-free initial traffic sample"
+  },
+  {
+    "scenario": "merge",
+    "seed": 161022,
+    "error": "RuntimeError",
+    "message": "No collision-free initial traffic sample"
+  },
+  {
+    "scenario": "merge",
+    "seed": 161026,
+    "error": "RuntimeError",
+    "message": "No collision-free initial traffic sample"
+  },
+  {
+    "scenario": "merge",
+    "seed": 161028,
+    "error": "RuntimeError",
+    "message": "No collision-free initial traffic sample"
+  },
+  {
+    "scenario": "merge",
+    "seed": 161030,
+    "error": "RuntimeError",
+    "message": "No collision-free initial traffic sample"
+  },
+  {
+    "scenario": "merge",
+    "seed": 161032,
+    "error": "RuntimeError",
+    "message": "No collision-free initial traffic sample"
+  },
+  {
+    "scenario": "merge",
+    "seed": 161043,
+    "error": "RuntimeError",
+    "message": "No collision-free initial traffic sample"
+  },
+  {
+    "scenario": "merge",
+    "seed": 161045,
+    "error": "RuntimeError",
+    "message": "No collision-free initial traffic sample"
+  },
+  {
+    "scenario": "merge",
+    "seed": 161046,
+    "error": "RuntimeError",
+    "message": "No collision-free initial traffic sample"
+  }
+]

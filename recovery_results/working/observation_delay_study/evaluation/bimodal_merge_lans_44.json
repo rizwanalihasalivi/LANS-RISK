@@ -1,0 +1,13 @@
+{
+  "profile": "bimodal",
+  "scenario": "merge",
+  "controller": "lans",
+  "actor_seed": 44,
+  "count": 20,
+  "first": 181000,
+  "source_hash": "8f39d185b29c9581f13e4e21a90423f26d292cc2ac846891000c1d2723bad60d",
+  "raw_sha256": "4c5d6e8a331ce294c9983c83824bb8c5671626f11fb26f8921ff0a6820eee254",
+  "collision": 10.0,
+  "completion": 90.0,
+  "corridor_completion": 0.0
+}

@@ -1,0 +1,6 @@
+{
+  "status": "proposal_only_not_applied_to_experiments",
+  "original_sha256": "2b4c33461e18e1bb893398da0ccc7ab8459de52186b1d93e500f058227abcdbf",
+  "candidate_sha256": "e31d446b0c301aa89bb837bd59e0582346f7b2d5db501816e123aa0814bfc890",
+  "change": "Raise initialization rejection-attempt limit from10000 to200000 in a separate amended copy; identical seeds, density, safety predicates and controller/model settings. Original files/results stay unchanged."
+}

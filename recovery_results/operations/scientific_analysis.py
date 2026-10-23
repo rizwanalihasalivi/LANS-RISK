@@ -8,6 +8,7 @@ from scipy.stats import binomtest,wilcoxon
 from audit_stage import audit,R,OP,FREE
 OUT=OP/'verified_results';OUT.mkdir(exist_ok=True)
 RNG=np.random.default_rng(20261022)
+FEAS_LOGGED={'cbf','robust_mpc','lans_no_prediction','lans','robust_lans','robust_no_actor','lans_no_actor'}
 def csvout(path,rows):
  assert rows
  with path.open('w',newline='') as f:
@@ -19,7 +20,10 @@ def wilson(k,n):
 def bootmean(a):
  return np.quantile(a[RNG.integers(0,len(a),(5000,len(a)))].mean(axis=1),[.025,.975])
 def load(folder,stage):
- audit(folder,stage)
+ if folder=='stress_study' and not (R/'working'/folder/(stage+'_SUMMARY.json')).exists():
+  import subprocess
+  subprocess.run([sys.executable,str(OP/'audit_partial_stress.py')],check=True)
+ else:audit(folder,stage)
  data={}
  for p in sorted((R/'working'/folder/stage).glob('*.json')):
   x=json.loads(p.read_text());rows=[json.loads(v) for v in p.with_suffix('.jsonl').read_text().splitlines()]
@@ -29,15 +33,27 @@ def load(folder,stage):
 
 def analyze(folder,stage):
  data=load(folder,stage);out=OUT/folder;out.mkdir(exist_ok=True)
+ stage_status='incomplete_frozen_stage' if folder=='stress_study' and not (R/'working'/folder/(stage+'_SUMMARY.json')).exists() else 'complete'
  table=[];long=[];pairs=[]
  for key,rr in data.items():
   profile,scenario,method,seed,delay=key
-  labels=dict(study=folder,stage=stage,profile=profile,scenario=scenario,controller=method,actor_seed=seed,delay_ms=delay)
-  long.extend(dict(**labels,**r) for r in rr)
+  labels=dict(study=folder,stage=stage,stage_status=stage_status,source_version='original_frozen',profile=profile,scenario=scenario,controller=method,actor_seed=seed,delay_ms=delay)
+  for r in rr:
+   enriched=dict(**labels,**r)
+   if 'no_feasible_steps' in r:enriched['no_feasible_steps_available']=method in FEAS_LOGGED
+   long.append(enriched)
   for metric in sorted(set.intersection(*(set(r) for r in rr))-{'episode_seed'}):
    vals=np.array([r[metric] for r in rr],float);binary=isinstance(rr[0][metric],bool)
    lo,hi=wilson(int(vals.sum()),len(vals)) if binary else bootmean(vals)
    table.append(dict(**labels,metric=metric,n=len(vals),unit='fraction' if binary else ('ms' if '_ms' in metric else ('m' if metric in ['rmse','npc_position_error_cv','npc_position_error_accel'] else ('steps' if metric in ['steps','no_feasible_steps'] else 'native'))),mean=float(vals.mean()),sample_sd=float(vals.std(ddof=1)),minimum=float(vals.min()),maximum=float(vals.max()),p05=float(np.quantile(vals,.05)),median=float(np.median(vals)),p95=float(np.quantile(vals,.95)),ci95_low=float(lo),ci95_high=float(hi),ci_method='Wilson' if binary else 'percentile bootstrap mean 5000 traffic-case draws',worst_observed=float(vals.min() if metric in ['completion','corridor_completion','progress'] else vals.max())))
+   record=table[-1];record.update(raw_episode_records=len(rr),available=True,recording_note='Saved episode metric')
+   if metric in ['decision_ms_median','decision_ms_max']:
+    record.update(ci95_low=None,ci95_high=None,ci_method='Not inferred: shared execution timing; use sequential diagnostic sample',recording_note='Per-episode timing under shared execution sessions; descriptive variability only')
+   if metric=='no_feasible_steps':
+    if method in FEAS_LOGGED:record['recording_note']='Controller-specific logged flag; CBF and sampled-plan feasibility have different semantics'
+    else:
+     record.update(n=0,available=False,recording_note='Runner default or fixed zero; no applicable feasibility measurement',ci_method='Not estimated: unavailable diagnostic')
+     for field in ['mean','sample_sd','minimum','maximum','p05','median','p95','ci95_low','ci95_high','worst_observed']:record[field]=None
  for key,ra in data.items():
   profile,s,c,k,d=key
   baselines=sorted({kk[2] for kk in data if kk[2]!='lans'}) if c=='lans' else {'predictor_lqr':['lqr_acc'],'cbf':['ppo_only'],'robust_lans':['robust_no_actor','robust_mpc']}.get(c,[])
@@ -54,7 +70,7 @@ def analyze(folder,stage):
     else:
      p=float(wilcoxon(delta,zero_method='wilcox',alternative='two-sided',method='auto').pvalue) if np.any(delta) else 1.
      plus=minus=discord=None;test='two-sided Wilcoxon signed-rank (symmetry assumption; scipy auto)'
-    pairs.append(dict(study=folder,profile=profile,scenario=s,a=c,b=baseline,actor_seed=k,delay_ms=d,metric=m,n=len(delta),mean_difference_a_minus_b=float(delta.mean()),paired_bootstrap95_low=float(lo),paired_bootstrap95_high=float(hi),discordant_a_true=plus,discordant_b_true=minus,test=test,p_raw=p,p_holm=0.))
+    pairs.append(dict(study=folder,stage_status=stage_status,profile=profile,scenario=s,a=c,b=baseline,actor_seed=k,delay_ms=d,metric=m,n=len(delta),mean_difference_a_minus_b=float(delta.mean()),paired_bootstrap95_low=float(lo),paired_bootstrap95_high=float(hi),discordant_a_true=plus,discordant_b_true=minus,test=test,p_raw=p,p_holm=0.))
  # One explicitly defined multiplicity family: all listed contrasts/metrics in each study, including planned ablations.
  order=np.argsort([r['p_raw'] for r in pairs]);prev=0.
  for rank,idx in enumerate(order):
@@ -68,7 +84,7 @@ def analyze(folder,stage):
   for c in ['lans','mpc_nominal','robust_mpc']:
    rr=[r for key,rows in data.items() if (key[0],key[1],key[2],key[4])==(profile,s,c,d) for r in [rows]]
    if not rr:continue
-   v=dict(profile=profile,scenario=s,delay_ms=d,controller=c,actor_seed_conditions=len(rr),traffic_cases_per_actor=len(rr[0]))
+   v=dict(stage_status=stage_status,profile=profile,scenario=s,delay_ms=d,controller=c,actor_seed_conditions=len(rr),traffic_cases_per_actor=len(rr[0]))
    for m in ['collision','completion','corridor_completion','rmse']:
     if m in rr[0][0]:v[m+'_seed_mean']=float(np.mean([np.mean([a[m] for a in row]) for row in rr]))
    compare.append(v)
@@ -86,6 +102,7 @@ def figures(folder,data):
   for i,s in enumerate(['highway','merge','intersection','roundabout']):
    for j,m in enumerate(['collision','corridor_completion']):
     ax=axes[j,i]
+    if not any(k[:2]==(profile,s) for k in data):ax.text(.5,.5,'NOT EVALUATED\ninitialization limit exhausted',transform=ax.transAxes,ha='center',va='center',fontsize=9)
     for c in ['lans','mpc_nominal','predictor_lqr','cbf','robust_mpc','lqr_acc']:
      dd=sorted({k[4] for k in data if k[:3]==(profile,s,c)})
      if not dd:continue
@@ -98,7 +115,7 @@ def figures(folder,data):
     if i==0:ax.set_ylabel(m.replace('_',' ')+' (%)')
     if j==1:ax.set_xlabel('Command delay (ms)' if folder!='observation_delay_study' else 'Command delay = 0 ms')
   h,l=axes[0,0].get_legend_handles_labels();fig.legend(h,l,loc='lower center',ncol=3)
-  fig.suptitle(folder+' / '+profile+' — '+('exploratory evaluation' if folder=='observation_delay_study' else 'confirmation')+'; seed means and ranges')
+  fig.suptitle(folder+' / '+profile+' — '+('exploratory evaluation' if folder=='observation_delay_study' else ('PARTIAL frozen confirmation' if folder=='stress_study' and not (R/'working'/folder/'confirmation_SUMMARY.json').exists() else 'confirmation'))+'; seed means and ranges')
   fig.tight_layout(rect=(0,.09,1,.94))
   fig.savefig(out/(profile+'.pdf'));fig.savefig(out/(profile+'.png'),dpi=300);plt.close(fig)
 
@@ -106,8 +123,8 @@ if __name__=='__main__':
  for folder,stage in [('extended_baselines','confirmation'),('stress_study','confirmation'),('observation_delay_study','evaluation')]:
   data=analyze(folder,stage);figures(folder,data)
  (OUT/'STATISTICAL_METHODS.md').write_text('''# Statistical methods and interpretation
-All condition-level estimates retain scenario, delay/profile and actor seed. Traffic seeds are paired across methods. Actor repetitions are not additional independent traffic cases; actor-free baselines are run once. Binary means/SD/CIs are fractions in descriptive_metrics.csv. The sample SD describes episode outcomes, not the standard error. Wilson 95% intervals describe each event rate; no observed collisions does not imply zero true risk. Continuous-mean and paired-difference intervals use5000 percentile bootstrap draws of traffic cases with deterministic analysis seed20261022. These intervals are marginal and not simultaneous; degenerate intervals at zero discordance do not prove equivalence. Exact paired-discordance tests apply to binary outcomes. RMSE uses two-sided Wilcoxon signed-rank tests, which require a symmetric distribution of paired differences for a location interpretation. Ties/zeros are handled by SciPy auto/wilcox; all-zero differences receive p=1. Holm correction covers all listed contrasts and outcomes within each study (LANS versus each comparator plus predictor-LQR/LQR+ACC, CBF/PPO-only and robust-LANS/actor-free or robust-MPC where available); it does not combine the historical studies or bootstrap interval coverage. Positive a-minus-b differences favor method a for completion, and favor method b for collisions/RMSE. Descriptive seed means are not extra statistical samples. Worst values are observed episode extremes, not safety bounds or WCET. Metrics absent from saved raw data (including RMSE in the observation-delay study and unrecorded near-miss/jerk metrics) are unavailable and are never fabricated. Runtime mean/SD are descriptive over50consecutive evolving-state calls; no independent-replicate confidence interval is inferred for that timing sample. Runtime values are host-dependent diagnostics; old and new confirmation timings are from different execution sessions and must not be treated as a controlled speed comparison. Sequential runtime_profile.json is the current-machine timing evidence.\n''')
- print('COMPLETE independent scientific analysis',flush=True)
+All condition-level estimates retain scenario, delay/profile and actor seed. Traffic seeds are paired across methods. Actor repetitions are not additional independent traffic cases; actor-free baselines are run once. Binary means/SD/CIs are fractions in descriptive_metrics.csv. Missing dense-Merge robustness conditions have no performance estimates or tests. Any partial-stage analysis uses only complete50-case conditions and does not claim the original264-condition plan completed. The sample SD describes episode outcomes, not the standard error. Wilson 95% intervals describe each event rate; no observed collisions does not imply zero true risk. Continuous non-timing outcome means and paired-difference intervals use5000 percentile bootstrap draws of traffic cases with deterministic analysis seed20261022. These intervals are marginal and not simultaneous; degenerate intervals at zero discordance do not prove equivalence. Exact paired-discordance tests apply to binary outcomes. RMSE uses two-sided Wilcoxon signed-rank tests, which require a symmetric distribution of paired differences for a location interpretation. Ties/zeros are handled by SciPy auto/wilcox; all-zero differences receive p=1. Holm correction covers all listed contrasts and outcomes within each study (LANS versus each comparator plus predictor-LQR/LQR+ACC, CBF/PPO-only and robust-LANS/actor-free or robust-MPC where available); it does not combine the historical studies or bootstrap interval coverage. Positive a-minus-b differences favor method a for completion, and favor method b for collisions/RMSE. Descriptive seed means are not extra statistical samples. Worst values are observed episode extremes, not safety bounds or WCET. The raw no_feasible_steps field is meaningful only for CBF and the nominal/robust sampled-plan LANS variants (including robust_mpc). MPC nominal, PPO-only and plain LQR methods have no such recorded flag; predictor LQR hardcodes it false. Their runner-default zeros are marked unavailable in processed descriptive tables and with a coverage flag in enriched episode files. Feasibility-flag semantics also differ between CBF and finite candidate planners, so these counts do not establish solver feasibility or support a cross-method infeasibility ranking. Metrics absent from saved raw data (including RMSE in the observation-delay study and unrecorded near-miss/jerk metrics) are unavailable and are never fabricated. Main-study per-episode timing means/SD are descriptive and their confidence intervals are not inferred under shared execution sessions. Runtime mean/SD are descriptive over50consecutive evolving-state calls; no independent-replicate confidence interval is inferred for that timing sample. Runtime values are host-dependent diagnostics; old and new confirmation timings are from different execution sessions and must not be treated as a controlled speed comparison. Sequential runtime_profile.json is the current-machine timing evidence.\n''')
+ print('COMPLETE independent analysis of available data; consult completeness audit for blocked conditions',flush=True)
  # Additional observation figure compares the five distribution profiles at zero command delay.
  import matplotlib.pyplot as plt
  obs=load('observation_delay_study','evaluation')
@@ -162,7 +179,7 @@ All condition-level estimates retain scenario, delay/profile and actor seed. Tra
 - `observation_profiles.pdf`: Exploratory full-state stochastic sensor-delay evaluation with20 new traffic cases per condition and five explicit synthetic distributions. Physical command delay is zero. Lines show seed means and shaded seed ranges. The initial state is known; subsequent observed state may be stale. This is separate from the fixed command-delay study and is not a DAROM reproduction. See per-seed rate intervals; small samples and zero events do not prove zero risk.
 - `runtime.pdf`: Sequential warmed decision-time diagnostics on this cloud CPU, actor42 where needed,20 warmup then50 timed calls per condition. Bars show median and black ticks p99; the dashed100ms line is the simulator step duration. Timing affects neither the frozen FIFO nor plant dynamics. Samples span evolving states and resets, not repeated identical states; p99 with50 calls is an empirical upper quantile, not a hard deadline or WCET guarantee.
 - Historical/legacy `main_latency` and `ablations_latency` figures under `project/deliverables/publication_results/confirmation/` show the complete12-controller confirmation including the prespecified ablations. Seed-range shading is descriptive. Tables retain all losses and ties. No universal controller winner is assumed.
-- `descriptive_metrics.csv`: Per condition and metric, count, sample SD, observed extrema/quantiles, mean and marginal95% interval. Binary quantities use fractions, not percentages. No actor-seed pooling is used for inference. Additional inherited analyses under project use their own documented bootstrap seeds and contrast/multiplicity families; their Monte Carlo intervals or adjusted p values can differ. Use results/ as the authoritative new analysis and do not interchange those inference definitions. `paired_tests.csv` reports paired a-minus-b effects for the listed baseline and ablation contrasts, bootstrap intervals, raw p values and Holm p values within each study. `lans_mpc_summary.csv` averages actor-seed condition means only for display.
+- `descriptive_metrics.csv`: Per condition and metric, count, sample SD, observed extrema/quantiles, mean and marginal95% interval where supported; unavailable logger diagnostics and timing intervals are flagged explicitly. Binary quantities use fractions, not percentages. No actor-seed pooling is used for inference. Additional inherited analyses under project use their own documented bootstrap seeds and contrast/multiplicity families; their Monte Carlo intervals or adjusted p values can differ. Use results/ as the authoritative new analysis and do not interchange those inference definitions. `paired_tests.csv` reports paired a-minus-b effects for the listed baseline and ablation contrasts, bootstrap intervals, raw p values and Holm p values within each study. `lans_mpc_summary.csv` averages actor-seed condition means only for display.
 ''')
  print('COMPLETE figures/runtime validation',flush=True)
  # Publication tables retain every LANS actor separately beside the actor-free MPC baseline.
@@ -189,7 +206,7 @@ All condition-level estimates retain scenario, delay/profile and actor seed. Tra
       rmse=metric('rmse');row.append(f"{float(rmse['mean']):.3f} ({float(rmse['sample_sd']):.3f})")
      table.append(row);tex.append(' & '.join(row)+r' \\')
     fig,ax=plt.subplots(figsize=(13,8));ax.axis('off')
-    ax.set_title(folder.replace('_',' ')+' — '+scenario+'; per-seed estimates',fontsize=13,pad=18)
+    ax.set_title(folder.replace('_',' ')+' — '+scenario+'; per-seed estimates'+(' — PARTIAL: dense Merge blocked' if folder=='stress_study' and scenario=='merge' and not (R/'working'/folder/'confirmation_SUMMARY.json').exists() else ''),fontsize=13,pad=18)
     t=ax.table(cellText=table,colLabels=columns,cellLoc='center',loc='center',colWidths=([.21,.16,.21,.26,.16] if has_rmse else [.27,.21,.23,.29]))
     t.auto_set_font_size(False);t.set_fontsize(8);t.scale(1,1.65)
     for (row,col),cell in t.get_celld().items():

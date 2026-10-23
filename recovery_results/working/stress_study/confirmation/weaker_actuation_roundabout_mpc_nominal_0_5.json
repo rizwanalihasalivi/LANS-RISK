@@ -1,0 +1,14 @@
+{
+  "profile": "weaker_actuation",
+  "scenario": "roundabout",
+  "controller": "mpc_nominal",
+  "actor_seed": 0,
+  "delay_ms": 500,
+  "count": 50,
+  "first": 161000,
+  "source_hash": "d12640874e71e62de7b3b36caedc203c61d2e56a75154025f3a08a6bfd7b4d4e",
+  "raw_sha256": "07b13c4aa15d97bbf48f3bd336ecb1c6127d9c2f24c194ab8375ba1b6526ba5b",
+  "collision": 0.0,
+  "completion": 100.0,
+  "corridor_completion": 100.0
+}

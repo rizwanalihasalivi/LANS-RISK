@@ -1,0 +1,13 @@
+{
+  "profile": "exponential",
+  "scenario": "highway",
+  "controller": "cbf",
+  "actor_seed": 42,
+  "count": 20,
+  "first": 181000,
+  "source_hash": "8f39d185b29c9581f13e4e21a90423f26d292cc2ac846891000c1d2723bad60d",
+  "raw_sha256": "514d4e384b58926655b6f8cc2dcd3d8b4a103fa6656fb320a41e26a483d0f7c5",
+  "collision": 0.0,
+  "completion": 95.0,
+  "corridor_completion": 25.0
+}
