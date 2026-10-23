@@ -1,0 +1,6 @@
+AUDIT PASS extended_baselines development 240 4800
+AUDIT PASS extended_baselines confirmation 440 44000
+AUDIT PASS observation_delay_study evaluation 200 4000
+PASS:231complete frozen-source conditions/11550records; exactly33dense-Merge conditions blocked
+AUDIT PASS robustness:231original+33amended,13200records,originals unchanged
+FINAL REPORT READY: all required conditions verified under approved amendment

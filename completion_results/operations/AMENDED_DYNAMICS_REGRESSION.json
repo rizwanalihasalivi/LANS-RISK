@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "original_success_seeds": [
+    161001,
+    161002,
+    161005
+  ],
+  "delays_in_steps": [
+    0,
+    5,
+    10
+  ],
+  "paired_initializations": 9,
+  "identical_step_transitions": 180,
+  "scope_guards_passed": 2,
+  "scope": "Diagnostic equivalence of original and amended wrappers on original-accepted states; not new experiment evidence"
+}

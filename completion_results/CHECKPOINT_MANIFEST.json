@@ -1,10 +1,10 @@
 {
-  "time_utc": "2026-10-23T06:44:56.516867+00:00",
+  "time_utc": "2026-10-23T06:47:23.442254+00:00",
   "amended_conditions": 33,
   "amended_records": 1650,
   "original_conditions": 231,
   "combined_conditions": 264,
-  "complete": false,
+  "complete": true,
   "sha256": {
     "working/stress_study/amended_dense_merge_confirmation/denser_traffic_merge_cbf_42_0.json": "d179f2570bbd34d1e82a057e848e6c513aeaf57b24098b419df81291f3a787c2",
     "working/stress_study/amended_dense_merge_confirmation/denser_traffic_merge_cbf_42_0.jsonl": "dab83c05ef85fd4b1bdc63be6efa6e7e644cc2eb1fe01b9b1d0d9018f1b8e171",

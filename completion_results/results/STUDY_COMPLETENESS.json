@@ -1,0 +1,47 @@
+{
+  "all_requested_experiments_complete": true,
+  "completion_scope": "Required documented plan with explicit approved dense-Merge initialization amendment",
+  "original_unamended_robustness_complete": false,
+  "amendment_executed": true,
+  "approval_pending": false,
+  "main_confirmation": {
+    "conditions": 440,
+    "records": 44000,
+    "complete": true,
+    "original_261_preserved": true
+  },
+  "robustness": {
+    "conditions": 264,
+    "records": 13200,
+    "complete_under_approved_amendment": true,
+    "original_conditions": 231,
+    "amended_conditions": 33,
+    "amended_records": 1650,
+    "missing_conditions": []
+  },
+  "observation_delay": {
+    "conditions": 200,
+    "records": 4000,
+    "complete": true
+  },
+  "runtime": {
+    "conditions": 96,
+    "raw_samples": 4800,
+    "complete": true
+  },
+  "development": {
+    "conditions": 240,
+    "records": 4800,
+    "complete": true
+  },
+  "primary_episode_records": 61200,
+  "including_development_episode_records": 66000,
+  "external_model_review": "NOT_RUN",
+  "limitations": [
+    "Approved initialization cap amendment for dense Merge",
+    "Synthetic benchmark and finite case sets",
+    "No sensor-study RMSE recorded",
+    "No saved full trajectories for independent per-step replay of reported episode errors",
+    "Consecutive runtime samples do not support independent-replicate confidence intervals or WCET"
+  ]
+}

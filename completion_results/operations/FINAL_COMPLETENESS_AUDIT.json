@@ -1,0 +1,18 @@
+{
+  "prepared_at_asia_shanghai": "2026-10-23T14:47:11.660370+08:00",
+  "all_required_conditions_verified": true,
+  "all_requested_experiments_complete": true,
+  "amendment_disclosed": true,
+  "original_unamended_robustness_complete": false,
+  "original_batches_preserved": 261,
+  "remaining_main_batches_computed": 179,
+  "original_scientific_artifacts_rechecked": 848,
+  "original_robustness_conditions_preserved": 231,
+  "amended_conditions": 33,
+  "amended_records": 1650,
+  "primary_episode_records": 61200,
+  "including_development_episode_records": 66000,
+  "models_with_distinct_tensor_content": 12,
+  "raw_timing_samples": 4800,
+  "semantic_tests_passed": 13
+}

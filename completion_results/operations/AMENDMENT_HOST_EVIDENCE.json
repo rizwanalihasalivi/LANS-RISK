@@ -1,0 +1,8 @@
+{
+  "recorded_at_utc": "2026-10-23T06:41:25.935379+00:00",
+  "python": "3.12.14",
+  "platform": "Linux-6.18.55-x86_64-with-glibc2.41",
+  "cpu.max": "400000 100000\n",
+  "memory.max": "34359738368\n",
+  "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0\n"
+}
