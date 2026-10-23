@@ -1,3 +1,5 @@
+**Latest revision:** [V2 — 8-page paper with expanded references, methods, tables and figures](v2/README.md).
+
 # Conference paper downloads
 
 Download the PDF, editable Word document, or complete manuscript ZIP below. On a file page, use **Download raw file**. This is the five-page conference manuscript draft, not a submitted or accepted paper. The ZIP includes supporting evidence, figures, tables, sources and scope notes.
