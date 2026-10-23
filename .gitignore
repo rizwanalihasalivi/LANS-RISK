@@ -1,0 +1,3 @@
+# ARIS review-tracing privacy: retain prompts and full call traces locally.
+.aris/traces/
+.aris/meta/events.jsonl
