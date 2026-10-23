@@ -1,3 +1,5 @@
+**Latest revision:** [V3 — 7-page paper, all-controller delay table and black-and-white framework](v3/README.md).
+
 **Latest revision:** [V2 — 8-page paper with expanded references, methods, tables and figures](v2/README.md).
 
 # Conference paper downloads
