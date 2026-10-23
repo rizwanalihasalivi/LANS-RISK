@@ -10,9 +10,13 @@ new ablations, reviewer suggestions, and paper acceptance defaults:
 - Preserve frozen code, model tensors, seeds, settings, original 261 batches,
   and all subsequent verified results. Never overwrite historical evidence.
 - All 440 main confirmation batches are done. Do not run them again.
-- Dense-Merge robustness has 33 blocked conditions. Changing initialization
-  attempts from 10,000 to 200,000 requires explicit user approval of that
-  separate amended study. Installing ARIS does not grant that approval.
+- The user approved the separate dense-Merge initialization cap amendment
+  from 10,000 to 200,000. All 33 amended conditions are now complete and verified.
+  Approval is recorded in completion_results/operations/AMENDMENT_APPROVAL.json.
+  Keep the original 231 robustness conditions separate from those 33 amended
+  conditions. No further experiments are required by the completed plan.
+  Current final results live in completion_results/results; recovery_results
+  preserves the earlier checkpoint and blocked reports as historical evidence.
 - No paid infrastructure or new charges. Do not launch external model APIs,
   cloud rentals, notification integrations, or an unattended paid review loop.
 - No fabricated results, citations or significance. A deterministic checksum

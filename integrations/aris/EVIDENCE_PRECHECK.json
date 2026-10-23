@@ -3,23 +3,23 @@
     {
       "id": "main_confirmation_records",
       "value": "44000",
-      "source": "/workspace/LANS-RISK/recovery_results/results/STUDY_COMPLETENESS.json",
+      "source": "/workspace/LANS-RISK/completion_results/results/STUDY_COMPLETENESS.json",
       "status": "verified",
-      "detail": "'44000' found in /workspace/LANS-RISK/recovery_results/results/STUDY_COMPLETENESS.json"
+      "detail": "'44000' found in /workspace/LANS-RISK/completion_results/results/STUDY_COMPLETENESS.json"
     },
     {
       "id": "robustness_verified_conditions",
-      "value": "231",
-      "source": "/workspace/LANS-RISK/recovery_results/results/STUDY_COMPLETENESS.json",
+      "value": "264",
+      "source": "/workspace/LANS-RISK/completion_results/results/STUDY_COMPLETENESS.json",
       "status": "verified",
-      "detail": "'231' found in /workspace/LANS-RISK/recovery_results/results/STUDY_COMPLETENESS.json"
+      "detail": "'264' found in /workspace/LANS-RISK/completion_results/results/STUDY_COMPLETENESS.json"
     },
     {
       "id": "observation_delay_records",
       "value": "4000",
-      "source": "/workspace/LANS-RISK/recovery_results/results/STUDY_COMPLETENESS.json",
+      "source": "/workspace/LANS-RISK/completion_results/results/STUDY_COMPLETENESS.json",
       "status": "verified",
-      "detail": "'4000' found in /workspace/LANS-RISK/recovery_results/results/STUDY_COMPLETENESS.json"
+      "detail": "'4000' found in /workspace/LANS-RISK/completion_results/results/STUDY_COMPLETENESS.json"
     }
   ],
   "summary": {

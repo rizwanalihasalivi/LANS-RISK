@@ -7,12 +7,13 @@ description: Resume LANS-RISK from preserved evidence using the installed ARIS w
 2. Run `python integrations/aris/lans_risk.py verify`. Stop dependent work if any
    protected or checkpoint hash fails. Preserve evidence; diagnose differences.
 3. Run `python integrations/aris/lans_risk.py status` and read
-   recovery_results/results/SCIENTIFIC_REPORT.md and STUDY_COMPLETENESS.json.
+   completion_results/results/SCIENTIFIC_REPORT.md and STUDY_COMPLETENESS.json.
 4. Run `python integrations/aris/lans_risk.py evidence` for the factual count
    evidence precheck. This proves cited values exist, not scientific validity.
 5. Continue from existing operations checkpoints. Skip completed conditions.
-   The dense-Merge amendment requires explicit approval; inspect the proposal
-   and preflight under recovery_results/proposals before any authorized run.
+   The dense-Merge amendment has explicit recorded approval and all33conditions
+   are verified complete. Read completion_results/results and the approval
+   record; do not restart completed experiments. Retain original/amended labels.
 6. For a requested ARIS review, read the relevant installed experiment-audit,
    result-to-claim or paper-writing skill and its referenced contracts first.
    Resolve helper paths under integrations/aris/upstream/tools. Respect user

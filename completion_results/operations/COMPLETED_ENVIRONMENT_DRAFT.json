@@ -1,0 +1,8 @@
+{
+  "draft_id": "4f30b505-ca82-404f-8715-8c0f464cdb3b~cecfgdraft_6ad9e336c8e8819187114a2e4f6b7b8b",
+  "status": "saved",
+  "requires_publish": true,
+  "scope": "Updated tested install and start scripts only; repository membership, network and credentials preserved",
+  "current_instance_repeatability": "PASS:1808result files,zero conflicts,no experiment launched",
+  "fresh_task_restoration_verified": false
+}

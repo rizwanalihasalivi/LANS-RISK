@@ -2,6 +2,6 @@
   "integration_integrity_passed": true,
   "upstream_commit": "23745b69a14880b5716d1773e5d20f5f1e6ab1d6",
   "protected_files_checked": 1890,
-  "checkpoint_files_checked": 1742,
+  "checkpoint_files_checked": 1808,
   "failures": []
 }
