@@ -1,0 +1,39 @@
+{
+  "status": "pass",
+  "numbered_main_tables": 6,
+  "restored_endpoint_ablation_values_checked": 72,
+  "restored_threshold_cells_checked": 20,
+  "equations_unchanged_from_v4": true,
+  "primary_evidence_unchanged_from_v4": true,
+  "delay_table_cells_checked": 300,
+  "controllers_in_main_table": 12,
+  "tested_delays_ms": [
+    0,
+    200,
+    500,
+    700,
+    1000
+  ],
+  "episode_records": 44000,
+  "conditions": 440,
+  "case_seeds_per_condition": 100,
+  "independently_recomputed_metric_means": 1320,
+  "independently_recomputed_delay_endpoints": 88,
+  "paired_corridor_comparisons_checked": 240,
+  "cited_unique_references": 20,
+  "unique_uploaded_literature_sources": 5,
+  "pdf_pages": 8,
+  "editable_table_blocks": 7,
+  "embedded_main_figures": 4,
+  "all_controller_scenario_supplement": true,
+  "word_math_objects": 83,
+  "word_reference_labels": 20,
+  "latex_overfull_or_undefined_warnings": false,
+  "limitations": [
+    "Literature table is qualitative; cited external algorithms were not rerun.",
+    "Recent 2024\u20132026 sources and foundational references coexist; no exhaustive latest-literature claim.",
+    "Source access/verification levels are detailed in LITERATURE_REVIEW_NOTES.md.",
+    "Actuation-delay endpoints are not execution-time measurements.",
+    "Existing episode-level data reused; no new experiment or peer-review claim."
+  ]
+}
