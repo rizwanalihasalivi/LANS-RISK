@@ -19,7 +19,7 @@ def checkpoint(final=False):
   n+=1
  ops=DEST/'operations';ops.mkdir(parents=True,exist_ok=True)
  names=['AMENDMENT_APPROVAL.json','DENSE_MERGE_AMENDMENT.json','STRESS_ORIGINAL_231_HASHES.json','amended-dense-merge.log','audit_completed_robustness.py','scientific_analysis_completed.py','checkpoint_completion.py']
- if final:names += ['AUDIT_COMPLETED_ROBUSTNESS.json','ROBUSTNESS_COMBINED_SUMMARY.json','FINAL_COMPLETENESS_AUDIT.json','independent_final_validation.py','FINAL_INDEPENDENT_VALIDATION.json','prepare_completed_report.py','package_completed_results.py','final-analysis.log','final-validation.log','final-independent-validation.log']
+ if final:names += ['AUDIT_COMPLETED_ROBUSTNESS.json','ROBUSTNESS_COMBINED_SUMMARY.json','FINAL_COMPLETENESS_AUDIT.json','independent_final_validation.py','FINAL_INDEPENDENT_VALIDATION.json','prepare_completed_report.py','package_completed_results.py','final-analysis.log','final-validation.log','final-independent-validation.log','restore_completed_checkpoint.py','verify_completed_remote.py','finish_approved_plan.py']
  for name in names:
   p=OP/name
   if p.exists():shutil.copyfile(p,ops/name)

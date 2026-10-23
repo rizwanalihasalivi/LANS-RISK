@@ -1,9 +1,9 @@
 {
-  "time_utc": "2026-10-23T06:34:59.419877+00:00",
-  "amended_conditions": 12,
-  "amended_records": 600,
+  "time_utc": "2026-10-23T06:39:23.746876+00:00",
+  "amended_conditions": 20,
+  "amended_records": 1000,
   "original_conditions": 231,
-  "combined_conditions": 243,
+  "combined_conditions": 251,
   "complete": false,
   "sha256": {
     "working/stress_study/amended_dense_merge_confirmation/denser_traffic_merge_cbf_42_0.json": "d179f2570bbd34d1e82a057e848e6c513aeaf57b24098b419df81291f3a787c2",
@@ -24,11 +24,27 @@
     "working/stress_study/amended_dense_merge_confirmation/denser_traffic_merge_cbf_44_10.jsonl": "25276e9f4b052bee3cf9a9ee2b71c4d80de3b12794afb9d7b8e67801a7a74222",
     "working/stress_study/amended_dense_merge_confirmation/denser_traffic_merge_cbf_44_5.json": "01d6d253ec354603ac73ed27f1c89b66c9a529b825ec81840f108c902c42c813",
     "working/stress_study/amended_dense_merge_confirmation/denser_traffic_merge_cbf_44_5.jsonl": "8099ff86b041bd200d3e5a77900714d9ea6e4689a95a0fd9046053dca849e4c5",
+    "working/stress_study/amended_dense_merge_confirmation/denser_traffic_merge_lans_42_0.json": "bd30b668419cca1bf5fc5a7ef5fbff9ca965bffd68c8af228153c6d16d4bfd33",
+    "working/stress_study/amended_dense_merge_confirmation/denser_traffic_merge_lans_42_0.jsonl": "d0a2ecedc964e9c3c573acc0084bdf4dcecfdf67a2f087c59247681c12580c4b",
+    "working/stress_study/amended_dense_merge_confirmation/denser_traffic_merge_lans_42_10.json": "76b5af6c7faf189bb89c51ef74eeea4c7712d27cddece69552bd95719c4c0224",
+    "working/stress_study/amended_dense_merge_confirmation/denser_traffic_merge_lans_42_10.jsonl": "28097073bba26e3d5d17fd57907614c41961dada9e43b3598df2da6c02294ebd",
+    "working/stress_study/amended_dense_merge_confirmation/denser_traffic_merge_lans_42_5.json": "4a29c71ff7971d020a09cde5fcde191a4e831c7f3720311efed4c39d96861f66",
+    "working/stress_study/amended_dense_merge_confirmation/denser_traffic_merge_lans_42_5.jsonl": "f29e7356596ecbaf2de07e8588854330d6cf653bd1935fc92b67bdddebc26501",
+    "working/stress_study/amended_dense_merge_confirmation/denser_traffic_merge_lans_43_0.json": "6e0a264c78b715680436ca4313178f149be9637094482fc731d6cd13356c2fc2",
+    "working/stress_study/amended_dense_merge_confirmation/denser_traffic_merge_lans_43_0.jsonl": "acf1bd2a5209cfdd21dc77b98ec295ea966d5ff1b3c5be6c4e96c4a7ba876138",
+    "working/stress_study/amended_dense_merge_confirmation/denser_traffic_merge_lans_43_5.json": "8b786fa6553d2ce8b74f4ad968d0ff530ca43c2082c756a23ba0b18362e6090f",
+    "working/stress_study/amended_dense_merge_confirmation/denser_traffic_merge_lans_43_5.jsonl": "d2466e5bc7d01119e55c25708c329ab4853056a4eded51c5acf57475d7959abc",
     "working/stress_study/amended_dense_merge_confirmation/denser_traffic_merge_predictor_lqr_0_0.json": "60d232697f1a838defa4030f01740107b8cd894c0262118916d93871b2bad66a",
     "working/stress_study/amended_dense_merge_confirmation/denser_traffic_merge_predictor_lqr_0_0.jsonl": "b8e7a99b1630d7a9d0f05049f57296e921290f5433466fe16733539709ac10a5",
     "working/stress_study/amended_dense_merge_confirmation/denser_traffic_merge_predictor_lqr_0_10.json": "7a380e68574212d328178572dd078c128022bd1614c14b99c98ab1d09f2f07ad",
     "working/stress_study/amended_dense_merge_confirmation/denser_traffic_merge_predictor_lqr_0_10.jsonl": "efacf543aadcddc1f3580cfd831a1b29ca8dcdf7337be0aed7ba93aceb55614b",
     "working/stress_study/amended_dense_merge_confirmation/denser_traffic_merge_predictor_lqr_0_5.json": "ad07b708fca6f60bab1c4765b26d10f16395d316ed3187f7ca11644f384a9975",
-    "working/stress_study/amended_dense_merge_confirmation/denser_traffic_merge_predictor_lqr_0_5.jsonl": "946f64fc13416749dcbaadb8211e19a833a8cc17b5c33379b23a66351bcdddef"
+    "working/stress_study/amended_dense_merge_confirmation/denser_traffic_merge_predictor_lqr_0_5.jsonl": "946f64fc13416749dcbaadb8211e19a833a8cc17b5c33379b23a66351bcdddef",
+    "working/stress_study/amended_dense_merge_confirmation/denser_traffic_merge_robust_mpc_0_0.json": "8387c90b66a69fc6728ee9fec0dc8df2542b2bd4bd434bf31b11a2eca41d5224",
+    "working/stress_study/amended_dense_merge_confirmation/denser_traffic_merge_robust_mpc_0_0.jsonl": "3361fe2b210b840f5f8ae24407a326f6052d7a7d8afab457d073525b1516ff30",
+    "working/stress_study/amended_dense_merge_confirmation/denser_traffic_merge_robust_mpc_0_10.json": "76ea96bf75249b809c30d69092a8b76734e6a70e8f929b0c5cf36925d8c0ac71",
+    "working/stress_study/amended_dense_merge_confirmation/denser_traffic_merge_robust_mpc_0_10.jsonl": "bf9d3fdc9ef1c7fd4554b672797082e07549e264f77b9e8ec3c7ddaa882fcaaf",
+    "working/stress_study/amended_dense_merge_confirmation/denser_traffic_merge_robust_mpc_0_5.json": "681d1c32828f564be88229c18e50aead220c22a023244a8d208df6af35ebf5b8",
+    "working/stress_study/amended_dense_merge_confirmation/denser_traffic_merge_robust_mpc_0_5.jsonl": "6a3444f45323dbc91e8a006d024a07b9ba99cf5e654cb2b5f9e3b4cdb569591f"
   }
 }

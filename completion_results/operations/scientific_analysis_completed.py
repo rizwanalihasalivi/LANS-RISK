@@ -42,7 +42,7 @@ def analyze(folder,stage):
  table=[];long=[];pairs=[]
  for key,rr in data.items():
   profile,scenario,method,seed,delay=key
-  labels=dict(study=folder,stage=stage,stage_status=stage_status,source_version=source_version(folder,key),profile=profile,scenario=scenario,controller=method,actor_seed=seed,delay_ms=delay)
+  labels=dict(study=folder,stage=('amended_dense_merge_confirmation' if source_version(folder,key)=='approved_initialization_amendment' else stage),stage_status=stage_status,source_version=source_version(folder,key),profile=profile,scenario=scenario,controller=method,actor_seed=seed,delay_ms=delay)
   for r in rr:
    enriched=dict(**labels,**r)
    if 'no_feasible_steps' in r:enriched['no_feasible_steps_available']=method in FEAS_LOGGED
