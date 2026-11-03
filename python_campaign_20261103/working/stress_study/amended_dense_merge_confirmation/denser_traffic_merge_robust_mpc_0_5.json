@@ -1,0 +1,14 @@
+{
+  "profile": "denser_traffic",
+  "scenario": "merge",
+  "controller": "robust_mpc",
+  "actor_seed": 0,
+  "delay_ms": 500,
+  "count": 50,
+  "first": 161000,
+  "source_hash": "004ba8ff93e84405f537c8491a7c07c7ab8a4e5437b208aa930780d090031ce9",
+  "raw_sha256": "6a3444f45323dbc91e8a006d024a07b9ba99cf5e654cb2b5f9e3b4cdb569591f",
+  "collision": 0.0,
+  "completion": 100.0,
+  "corridor_completion": 96.0
+}

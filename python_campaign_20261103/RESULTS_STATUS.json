@@ -1,0 +1,40 @@
+{
+  "status": "COMPLETE_WITH_DISCLOSED_APPROVED_INITIALIZATION_AMENDMENT",
+  "main_confirmation": {
+    "conditions": 440,
+    "records": 44000,
+    "complete": true
+  },
+  "robustness": {
+    "conditions": 264,
+    "records": 13200,
+    "original_conditions": 231,
+    "amended_conditions": 33,
+    "complete_under_disclosed_amendment": true,
+    "original_unamended_stage_complete": false
+  },
+  "observation_delay": {
+    "conditions": 200,
+    "records": 4000,
+    "complete": true
+  },
+  "development": {
+    "conditions": 240,
+    "records": 4800,
+    "complete": true
+  },
+  "runtime": {
+    "conditions": 96,
+    "samples": 4800,
+    "previously_completed_not_remeasured": true
+  },
+  "newly_computed_this_task": {
+    "amended_conditions": 29,
+    "episodes": 1450
+  },
+  "total_episode_records_including_development": 66000,
+  "original_261_preserved": true,
+  "original_231_robustness_preserved": true,
+  "scope": "historical LANS-RISK synthetic traffic benchmark; distinct from new unified bicycle campaigns",
+  "audited": true
+}

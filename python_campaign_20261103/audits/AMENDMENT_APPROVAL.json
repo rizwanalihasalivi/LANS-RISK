@@ -1,0 +1,7 @@
+{
+  "recorded_at_utc": "2026-10-23T06:30:59.734469+00:00",
+  "approval_question": "Do you approve changing the initialization-attempt limit from 10,000 to 200,000 in a separately documented study for the remaining 33 dense-Merge conditions?",
+  "user_response": "yes please",
+  "scope": "Only separate dense-Merge initialization cap. Preserve original results/models/seeds/controllers/files. Complete validation and final ZIP.",
+  "approved": true
+}
